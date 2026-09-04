@@ -1,0 +1,1594 @@
+[
+  {
+    "code": "AF",
+    "nameZh": "阿富汗",
+    "nameEn": "Afghanistan",
+    "flag": "🇦🇫",
+    "region": "亚洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "AL",
+    "nameZh": "阿尔巴尼亚",
+    "nameEn": "Albania",
+    "flag": "🇦🇱",
+    "region": "欧洲",
+    "cuisineTier": "niche"
+  },
+  {
+    "code": "DZ",
+    "nameZh": "阿尔及利亚",
+    "nameEn": "Algeria",
+    "flag": "🇩🇿",
+    "region": "非洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "AD",
+    "nameZh": "安道尔",
+    "nameEn": "Andorra",
+    "flag": "🇦🇩",
+    "region": "欧洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "AO",
+    "nameZh": "安哥拉",
+    "nameEn": "Angola",
+    "flag": "🇦🇴",
+    "region": "非洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "AG",
+    "nameZh": "安提瓜和巴布达",
+    "nameEn": "Antigua and Barbuda",
+    "flag": "🇦🇬",
+    "region": "加勒比 / 拉美",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "AR",
+    "nameZh": "阿根廷",
+    "nameEn": "Argentina",
+    "flag": "🇦🇷",
+    "region": "加勒比 / 拉美",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "AM",
+    "nameZh": "亚美尼亚",
+    "nameEn": "Armenia",
+    "flag": "🇦🇲",
+    "region": "欧洲",
+    "cuisineTier": "niche"
+  },
+  {
+    "code": "AU",
+    "nameZh": "澳大利亚",
+    "nameEn": "Australia",
+    "flag": "🇦🇺",
+    "region": "大洋洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "AT",
+    "nameZh": "奥地利",
+    "nameEn": "Austria",
+    "flag": "🇦🇹",
+    "region": "欧洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "AZ",
+    "nameZh": "阿塞拜疆",
+    "nameEn": "Azerbaijan",
+    "flag": "🇦🇿",
+    "region": "欧洲",
+    "cuisineTier": "niche"
+  },
+  {
+    "code": "BS",
+    "nameZh": "巴哈马",
+    "nameEn": "Bahamas",
+    "flag": "🇧🇸",
+    "region": "加勒比 / 拉美",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "BH",
+    "nameZh": "巴林",
+    "nameEn": "Bahrain",
+    "flag": "🇧🇭",
+    "region": "亚洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "BD",
+    "nameZh": "孟加拉国",
+    "nameEn": "Bangladesh",
+    "flag": "🇧🇩",
+    "region": "亚洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "BB",
+    "nameZh": "巴巴多斯",
+    "nameEn": "Barbados",
+    "flag": "🇧🇧",
+    "region": "加勒比 / 拉美",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "BY",
+    "nameZh": "白俄罗斯",
+    "nameEn": "Belarus",
+    "flag": "🇧🇾",
+    "region": "欧洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "BE",
+    "nameZh": "比利时",
+    "nameEn": "Belgium",
+    "flag": "🇧🇪",
+    "region": "欧洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "BZ",
+    "nameZh": "伯利兹",
+    "nameEn": "Belize",
+    "flag": "🇧🇿",
+    "region": "加勒比 / 拉美",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "BJ",
+    "nameZh": "贝宁",
+    "nameEn": "Benin",
+    "flag": "🇧🇯",
+    "region": "非洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "BT",
+    "nameZh": "不丹",
+    "nameEn": "Bhutan",
+    "flag": "🇧🇹",
+    "region": "亚洲",
+    "cuisineTier": "niche"
+  },
+  {
+    "code": "BO",
+    "nameZh": "玻利维亚",
+    "nameEn": "Bolivia",
+    "flag": "🇧🇴",
+    "region": "加勒比 / 拉美",
+    "cuisineTier": "niche"
+  },
+  {
+    "code": "BA",
+    "nameZh": "波斯尼亚",
+    "nameEn": "Bosnia and Herzegovina",
+    "flag": "🇧🇦",
+    "region": "欧洲",
+    "cuisineTier": "niche"
+  },
+  {
+    "code": "BW",
+    "nameZh": "博茨瓦纳",
+    "nameEn": "Botswana",
+    "flag": "🇧🇼",
+    "region": "非洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "BR",
+    "nameZh": "巴西",
+    "nameEn": "Brazil",
+    "flag": "🇧🇷",
+    "region": "加勒比 / 拉美",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "BN",
+    "nameZh": "文莱",
+    "nameEn": "Brunei",
+    "flag": "🇧🇳",
+    "region": "亚洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "BG",
+    "nameZh": "保加利亚",
+    "nameEn": "Bulgaria",
+    "flag": "🇧🇬",
+    "region": "欧洲",
+    "cuisineTier": "niche"
+  },
+  {
+    "code": "BF",
+    "nameZh": "布基纳法索",
+    "nameEn": "Burkina Faso",
+    "flag": "🇧🇫",
+    "region": "非洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "BI",
+    "nameZh": "布隆迪",
+    "nameEn": "Burundi",
+    "flag": "🇧🇮",
+    "region": "非洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "CV",
+    "nameZh": "佛得角",
+    "nameEn": "Cabo Verde",
+    "flag": "🇨🇻",
+    "region": "非洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "KH",
+    "nameZh": "柬埔寨",
+    "nameEn": "Cambodia",
+    "flag": "🇰🇭",
+    "region": "亚洲",
+    "cuisineTier": "niche"
+  },
+  {
+    "code": "CM",
+    "nameZh": "喀麦隆",
+    "nameEn": "Cameroon",
+    "flag": "🇨🇲",
+    "region": "非洲",
+    "cuisineTier": "niche"
+  },
+  {
+    "code": "CA",
+    "nameZh": "加拿大",
+    "nameEn": "Canada",
+    "flag": "🇨🇦",
+    "region": "北美",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "CF",
+    "nameZh": "中非",
+    "nameEn": "Central African Republic",
+    "flag": "🇨🇫",
+    "region": "非洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "TD",
+    "nameZh": "乍得",
+    "nameEn": "Chad",
+    "flag": "🇹🇩",
+    "region": "非洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "CL",
+    "nameZh": "智利",
+    "nameEn": "Chile",
+    "flag": "🇨🇱",
+    "region": "加勒比 / 拉美",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "CN",
+    "nameZh": "中国大陆",
+    "nameEn": "China",
+    "flag": "🇨🇳",
+    "region": "亚洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "CO",
+    "nameZh": "哥伦比亚",
+    "nameEn": "Colombia",
+    "flag": "🇨🇴",
+    "region": "加勒比 / 拉美",
+    "cuisineTier": "niche"
+  },
+  {
+    "code": "KM",
+    "nameZh": "科摩罗",
+    "nameEn": "Comoros",
+    "flag": "🇰🇲",
+    "region": "非洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "CG",
+    "nameZh": "刚果（布）",
+    "nameEn": "Congo",
+    "flag": "🇨🇬",
+    "region": "非洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "CD",
+    "nameZh": "刚果（金）",
+    "nameEn": "Democratic Republic of the Congo",
+    "flag": "🇨🇩",
+    "region": "非洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "CR",
+    "nameZh": "哥斯达黎加",
+    "nameEn": "Costa Rica",
+    "flag": "🇨🇷",
+    "region": "加勒比 / 拉美",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "CI",
+    "nameZh": "科特迪瓦",
+    "nameEn": "Côte d'Ivoire",
+    "flag": "🇨🇮",
+    "region": "非洲",
+    "cuisineTier": "niche"
+  },
+  {
+    "code": "HR",
+    "nameZh": "克罗地亚",
+    "nameEn": "Croatia",
+    "flag": "🇭🇷",
+    "region": "欧洲",
+    "cuisineTier": "niche"
+  },
+  {
+    "code": "CU",
+    "nameZh": "古巴",
+    "nameEn": "Cuba",
+    "flag": "🇨🇺",
+    "region": "加勒比 / 拉美",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "CY",
+    "nameZh": "塞浦路斯",
+    "nameEn": "Cyprus",
+    "flag": "🇨🇾",
+    "region": "欧洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "CZ",
+    "nameZh": "捷克",
+    "nameEn": "Czechia",
+    "flag": "🇨🇿",
+    "region": "欧洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "DK",
+    "nameZh": "丹麦",
+    "nameEn": "Denmark",
+    "flag": "🇩🇰",
+    "region": "欧洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "DJ",
+    "nameZh": "吉布提",
+    "nameEn": "Djibouti",
+    "flag": "🇩🇯",
+    "region": "非洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "DM",
+    "nameZh": "多米尼克",
+    "nameEn": "Dominica",
+    "flag": "🇩🇲",
+    "region": "加勒比 / 拉美",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "DO",
+    "nameZh": "多米尼加",
+    "nameEn": "Dominican Republic",
+    "flag": "🇩🇴",
+    "region": "加勒比 / 拉美",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "EC",
+    "nameZh": "厄瓜多尔",
+    "nameEn": "Ecuador",
+    "flag": "🇪🇨",
+    "region": "加勒比 / 拉美",
+    "cuisineTier": "niche"
+  },
+  {
+    "code": "EG",
+    "nameZh": "埃及",
+    "nameEn": "Egypt",
+    "flag": "🇪🇬",
+    "region": "非洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "SV",
+    "nameZh": "萨尔瓦多",
+    "nameEn": "El Salvador",
+    "flag": "🇸🇻",
+    "region": "加勒比 / 拉美",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "GQ",
+    "nameZh": "赤道几内亚",
+    "nameEn": "Equatorial Guinea",
+    "flag": "🇬🇶",
+    "region": "非洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "ER",
+    "nameZh": "厄立特里亚",
+    "nameEn": "Eritrea",
+    "flag": "🇪🇷",
+    "region": "非洲",
+    "cuisineTier": "niche"
+  },
+  {
+    "code": "EE",
+    "nameZh": "爱沙尼亚",
+    "nameEn": "Estonia",
+    "flag": "🇪🇪",
+    "region": "欧洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "SZ",
+    "nameZh": "斯威士兰",
+    "nameEn": "Eswatini",
+    "flag": "🇸🇿",
+    "region": "非洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "ET",
+    "nameZh": "埃塞俄比亚",
+    "nameEn": "Ethiopia",
+    "flag": "🇪🇹",
+    "region": "非洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "FJ",
+    "nameZh": "斐济",
+    "nameEn": "Fiji",
+    "flag": "🇫🇯",
+    "region": "大洋洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "FI",
+    "nameZh": "芬兰",
+    "nameEn": "Finland",
+    "flag": "🇫🇮",
+    "region": "欧洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "FR",
+    "nameZh": "法国",
+    "nameEn": "France",
+    "flag": "🇫🇷",
+    "region": "欧洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "GA",
+    "nameZh": "加蓬",
+    "nameEn": "Gabon",
+    "flag": "🇬🇦",
+    "region": "非洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "GM",
+    "nameZh": "冈比亚",
+    "nameEn": "Gambia",
+    "flag": "🇬🇲",
+    "region": "非洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "GE",
+    "nameZh": "格鲁吉亚",
+    "nameEn": "Georgia",
+    "flag": "🇬🇪",
+    "region": "欧洲",
+    "cuisineTier": "niche"
+  },
+  {
+    "code": "DE",
+    "nameZh": "德国",
+    "nameEn": "Germany",
+    "flag": "🇩🇪",
+    "region": "欧洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "GH",
+    "nameZh": "加纳",
+    "nameEn": "Ghana",
+    "flag": "🇬🇭",
+    "region": "非洲",
+    "cuisineTier": "niche"
+  },
+  {
+    "code": "GR",
+    "nameZh": "希腊",
+    "nameEn": "Greece",
+    "flag": "🇬🇷",
+    "region": "欧洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "GD",
+    "nameZh": "格林纳达",
+    "nameEn": "Grenada",
+    "flag": "🇬🇩",
+    "region": "加勒比 / 拉美",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "GT",
+    "nameZh": "危地马拉",
+    "nameEn": "Guatemala",
+    "flag": "🇬🇹",
+    "region": "加勒比 / 拉美",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "GN",
+    "nameZh": "几内亚",
+    "nameEn": "Guinea",
+    "flag": "🇬🇳",
+    "region": "非洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "GW",
+    "nameZh": "几内亚比绍",
+    "nameEn": "Guinea-Bissau",
+    "flag": "🇬🇼",
+    "region": "非洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "GY",
+    "nameZh": "圭亚那",
+    "nameEn": "Guyana",
+    "flag": "🇬🇾",
+    "region": "加勒比 / 拉美",
+    "cuisineTier": "niche"
+  },
+  {
+    "code": "HT",
+    "nameZh": "海地",
+    "nameEn": "Haiti",
+    "flag": "🇭🇹",
+    "region": "加勒比 / 拉美",
+    "cuisineTier": "niche"
+  },
+  {
+    "code": "HN",
+    "nameZh": "洪都拉斯",
+    "nameEn": "Honduras",
+    "flag": "🇭🇳",
+    "region": "加勒比 / 拉美",
+    "cuisineTier": "niche"
+  },
+  {
+    "code": "HU",
+    "nameZh": "匈牙利",
+    "nameEn": "Hungary",
+    "flag": "🇭🇺",
+    "region": "欧洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "IS",
+    "nameZh": "冰岛",
+    "nameEn": "Iceland",
+    "flag": "🇮🇸",
+    "region": "欧洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "IN",
+    "nameZh": "印度",
+    "nameEn": "India",
+    "flag": "🇮🇳",
+    "region": "亚洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "ID",
+    "nameZh": "印度尼西亚",
+    "nameEn": "Indonesia",
+    "flag": "🇮🇩",
+    "region": "亚洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "IR",
+    "nameZh": "伊朗",
+    "nameEn": "Iran",
+    "flag": "🇮🇷",
+    "region": "亚洲",
+    "cuisineTier": "niche"
+  },
+  {
+    "code": "IQ",
+    "nameZh": "伊拉克",
+    "nameEn": "Iraq",
+    "flag": "🇮🇶",
+    "region": "亚洲",
+    "cuisineTier": "niche"
+  },
+  {
+    "code": "IE",
+    "nameZh": "爱尔兰",
+    "nameEn": "Ireland",
+    "flag": "🇮🇪",
+    "region": "欧洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "IL",
+    "nameZh": "以色列",
+    "nameEn": "Israel",
+    "flag": "🇮🇱",
+    "region": "亚洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "IT",
+    "nameZh": "意大利",
+    "nameEn": "Italy",
+    "flag": "🇮🇹",
+    "region": "欧洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "JM",
+    "nameZh": "牙买加",
+    "nameEn": "Jamaica",
+    "flag": "🇯🇲",
+    "region": "加勒比 / 拉美",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "JP",
+    "nameZh": "日本",
+    "nameEn": "Japan",
+    "flag": "🇯🇵",
+    "region": "亚洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "JO",
+    "nameZh": "约旦",
+    "nameEn": "Jordan",
+    "flag": "🇯🇴",
+    "region": "亚洲",
+    "cuisineTier": "niche"
+  },
+  {
+    "code": "KZ",
+    "nameZh": "哈萨克斯坦",
+    "nameEn": "Kazakhstan",
+    "flag": "🇰🇿",
+    "region": "亚洲",
+    "cuisineTier": "niche"
+  },
+  {
+    "code": "KE",
+    "nameZh": "肯尼亚",
+    "nameEn": "Kenya",
+    "flag": "🇰🇪",
+    "region": "非洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "KI",
+    "nameZh": "基里巴斯",
+    "nameEn": "Kiribati",
+    "flag": "🇰🇮",
+    "region": "大洋洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "KP",
+    "nameZh": "朝鲜",
+    "nameEn": "North Korea",
+    "flag": "🇰🇵",
+    "region": "亚洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "KR",
+    "nameZh": "韩国",
+    "nameEn": "South Korea",
+    "flag": "🇰🇷",
+    "region": "亚洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "KW",
+    "nameZh": "科威特",
+    "nameEn": "Kuwait",
+    "flag": "🇰🇼",
+    "region": "亚洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "KG",
+    "nameZh": "吉尔吉斯斯坦",
+    "nameEn": "Kyrgyzstan",
+    "flag": "🇰🇬",
+    "region": "亚洲",
+    "cuisineTier": "niche"
+  },
+  {
+    "code": "LA",
+    "nameZh": "老挝",
+    "nameEn": "Laos",
+    "flag": "🇱🇦",
+    "region": "亚洲",
+    "cuisineTier": "niche"
+  },
+  {
+    "code": "LV",
+    "nameZh": "拉脱维亚",
+    "nameEn": "Latvia",
+    "flag": "🇱🇻",
+    "region": "欧洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "LB",
+    "nameZh": "黎巴嫩",
+    "nameEn": "Lebanon",
+    "flag": "🇱🇧",
+    "region": "亚洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "LS",
+    "nameZh": "莱索托",
+    "nameEn": "Lesotho",
+    "flag": "🇱🇸",
+    "region": "非洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "LR",
+    "nameZh": "利比里亚",
+    "nameEn": "Liberia",
+    "flag": "🇱🇷",
+    "region": "非洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "LY",
+    "nameZh": "利比亚",
+    "nameEn": "Libya",
+    "flag": "🇱🇾",
+    "region": "非洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "LI",
+    "nameZh": "列支敦士登",
+    "nameEn": "Liechtenstein",
+    "flag": "🇱🇮",
+    "region": "欧洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "LT",
+    "nameZh": "立陶宛",
+    "nameEn": "Lithuania",
+    "flag": "🇱🇹",
+    "region": "欧洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "LU",
+    "nameZh": "卢森堡",
+    "nameEn": "Luxembourg",
+    "flag": "🇱🇺",
+    "region": "欧洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "MG",
+    "nameZh": "马达加斯加",
+    "nameEn": "Madagascar",
+    "flag": "🇲🇬",
+    "region": "非洲",
+    "cuisineTier": "niche"
+  },
+  {
+    "code": "MW",
+    "nameZh": "马拉维",
+    "nameEn": "Malawi",
+    "flag": "🇲🇼",
+    "region": "非洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "MY",
+    "nameZh": "马来西亚",
+    "nameEn": "Malaysia",
+    "flag": "🇲🇾",
+    "region": "亚洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "MV",
+    "nameZh": "马尔代夫",
+    "nameEn": "Maldives",
+    "flag": "🇲🇻",
+    "region": "亚洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "ML",
+    "nameZh": "马里",
+    "nameEn": "Mali",
+    "flag": "🇲🇱",
+    "region": "非洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "MT",
+    "nameZh": "马耳他",
+    "nameEn": "Malta",
+    "flag": "🇲🇹",
+    "region": "欧洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "MH",
+    "nameZh": "马绍尔群岛",
+    "nameEn": "Marshall Islands",
+    "flag": "🇲🇭",
+    "region": "大洋洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "MR",
+    "nameZh": "毛里塔尼亚",
+    "nameEn": "Mauritania",
+    "flag": "🇲🇷",
+    "region": "非洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "MU",
+    "nameZh": "毛里求斯",
+    "nameEn": "Mauritius",
+    "flag": "🇲🇺",
+    "region": "非洲",
+    "cuisineTier": "niche"
+  },
+  {
+    "code": "MX",
+    "nameZh": "墨西哥",
+    "nameEn": "Mexico",
+    "flag": "🇲🇽",
+    "region": "加勒比 / 拉美",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "FM",
+    "nameZh": "密克罗尼西亚",
+    "nameEn": "Micronesia",
+    "flag": "🇫🇲",
+    "region": "大洋洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "MD",
+    "nameZh": "摩尔多瓦",
+    "nameEn": "Moldova",
+    "flag": "🇲🇩",
+    "region": "欧洲",
+    "cuisineTier": "niche"
+  },
+  {
+    "code": "MC",
+    "nameZh": "摩纳哥",
+    "nameEn": "Monaco",
+    "flag": "🇲🇨",
+    "region": "欧洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "MN",
+    "nameZh": "蒙古",
+    "nameEn": "Mongolia",
+    "flag": "🇲🇳",
+    "region": "亚洲",
+    "cuisineTier": "niche"
+  },
+  {
+    "code": "ME",
+    "nameZh": "黑山",
+    "nameEn": "Montenegro",
+    "flag": "🇲🇪",
+    "region": "欧洲",
+    "cuisineTier": "niche"
+  },
+  {
+    "code": "MA",
+    "nameZh": "摩洛哥",
+    "nameEn": "Morocco",
+    "flag": "🇲🇦",
+    "region": "非洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "MZ",
+    "nameZh": "莫桑比克",
+    "nameEn": "Mozambique",
+    "flag": "🇲🇿",
+    "region": "非洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "MM",
+    "nameZh": "缅甸",
+    "nameEn": "Myanmar",
+    "flag": "🇲🇲",
+    "region": "亚洲",
+    "cuisineTier": "niche"
+  },
+  {
+    "code": "NA",
+    "nameZh": "纳米比亚",
+    "nameEn": "Namibia",
+    "flag": "🇳🇦",
+    "region": "非洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "NR",
+    "nameZh": "瑙鲁",
+    "nameEn": "Nauru",
+    "flag": "🇳🇷",
+    "region": "大洋洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "NP",
+    "nameZh": "尼泊尔",
+    "nameEn": "Nepal",
+    "flag": "🇳🇵",
+    "region": "亚洲",
+    "cuisineTier": "niche"
+  },
+  {
+    "code": "NL",
+    "nameZh": "荷兰",
+    "nameEn": "Netherlands",
+    "flag": "🇳🇱",
+    "region": "欧洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "NZ",
+    "nameZh": "新西兰",
+    "nameEn": "New Zealand",
+    "flag": "🇳🇿",
+    "region": "大洋洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "NI",
+    "nameZh": "尼加拉瓜",
+    "nameEn": "Nicaragua",
+    "flag": "🇳🇮",
+    "region": "加勒比 / 拉美",
+    "cuisineTier": "niche"
+  },
+  {
+    "code": "NE",
+    "nameZh": "尼日尔",
+    "nameEn": "Niger",
+    "flag": "🇳🇪",
+    "region": "非洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "NG",
+    "nameZh": "尼日利亚",
+    "nameEn": "Nigeria",
+    "flag": "🇳🇬",
+    "region": "非洲",
+    "cuisineTier": "niche"
+  },
+  {
+    "code": "MK",
+    "nameZh": "北马其顿",
+    "nameEn": "North Macedonia",
+    "flag": "🇲🇰",
+    "region": "欧洲",
+    "cuisineTier": "niche"
+  },
+  {
+    "code": "NO",
+    "nameZh": "挪威",
+    "nameEn": "Norway",
+    "flag": "🇳🇴",
+    "region": "欧洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "OM",
+    "nameZh": "阿曼",
+    "nameEn": "Oman",
+    "flag": "🇴🇲",
+    "region": "亚洲",
+    "cuisineTier": "niche"
+  },
+  {
+    "code": "PK",
+    "nameZh": "巴基斯坦",
+    "nameEn": "Pakistan",
+    "flag": "🇵🇰",
+    "region": "亚洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "PW",
+    "nameZh": "帕劳",
+    "nameEn": "Palau",
+    "flag": "🇵🇼",
+    "region": "大洋洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "PS",
+    "nameZh": "巴勒斯坦",
+    "nameEn": "Palestine",
+    "flag": "🇵🇸",
+    "region": "亚洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "PA",
+    "nameZh": "巴拿马",
+    "nameEn": "Panama",
+    "flag": "🇵🇦",
+    "region": "加勒比 / 拉美",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "PG",
+    "nameZh": "巴布亚新几内亚",
+    "nameEn": "Papua New Guinea",
+    "flag": "🇵🇬",
+    "region": "大洋洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "PY",
+    "nameZh": "巴拉圭",
+    "nameEn": "Paraguay",
+    "flag": "🇵🇾",
+    "region": "加勒比 / 拉美",
+    "cuisineTier": "niche"
+  },
+  {
+    "code": "PE",
+    "nameZh": "秘鲁",
+    "nameEn": "Peru",
+    "flag": "🇵🇪",
+    "region": "加勒比 / 拉美",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "PH",
+    "nameZh": "菲律宾",
+    "nameEn": "Philippines",
+    "flag": "🇵🇭",
+    "region": "亚洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "PL",
+    "nameZh": "波兰",
+    "nameEn": "Poland",
+    "flag": "🇵🇱",
+    "region": "欧洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "PT",
+    "nameZh": "葡萄牙",
+    "nameEn": "Portugal",
+    "flag": "🇵🇹",
+    "region": "欧洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "QA",
+    "nameZh": "卡塔尔",
+    "nameEn": "Qatar",
+    "flag": "🇶🇦",
+    "region": "亚洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "RO",
+    "nameZh": "罗马尼亚",
+    "nameEn": "Romania",
+    "flag": "🇷🇴",
+    "region": "欧洲",
+    "cuisineTier": "niche"
+  },
+  {
+    "code": "RU",
+    "nameZh": "俄罗斯",
+    "nameEn": "Russia",
+    "flag": "🇷🇺",
+    "region": "欧洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "RW",
+    "nameZh": "卢旺达",
+    "nameEn": "Rwanda",
+    "flag": "🇷🇼",
+    "region": "非洲",
+    "cuisineTier": "niche"
+  },
+  {
+    "code": "KN",
+    "nameZh": "圣基茨和尼维斯",
+    "nameEn": "Saint Kitts and Nevis",
+    "flag": "🇰🇳",
+    "region": "加勒比 / 拉美",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "LC",
+    "nameZh": "圣卢西亚",
+    "nameEn": "Saint Lucia",
+    "flag": "🇱🇨",
+    "region": "加勒比 / 拉美",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "VC",
+    "nameZh": "圣文森特和格林纳丁斯",
+    "nameEn": "Saint Vincent and the Grenadines",
+    "flag": "🇻🇨",
+    "region": "加勒比 / 拉美",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "WS",
+    "nameZh": "萨摩亚",
+    "nameEn": "Samoa",
+    "flag": "🇼🇸",
+    "region": "大洋洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "SM",
+    "nameZh": "圣马力诺",
+    "nameEn": "San Marino",
+    "flag": "🇸🇲",
+    "region": "欧洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "ST",
+    "nameZh": "圣多美和普林西比",
+    "nameEn": "Sao Tome and Principe",
+    "flag": "🇸🇹",
+    "region": "非洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "SA",
+    "nameZh": "沙特阿拉伯",
+    "nameEn": "Saudi Arabia",
+    "flag": "🇸🇦",
+    "region": "亚洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "SN",
+    "nameZh": "塞内加尔",
+    "nameEn": "Senegal",
+    "flag": "🇸🇳",
+    "region": "非洲",
+    "cuisineTier": "niche"
+  },
+  {
+    "code": "RS",
+    "nameZh": "塞尔维亚",
+    "nameEn": "Serbia",
+    "flag": "🇷🇸",
+    "region": "欧洲",
+    "cuisineTier": "niche"
+  },
+  {
+    "code": "SC",
+    "nameZh": "塞舌尔",
+    "nameEn": "Seychelles",
+    "flag": "🇸🇨",
+    "region": "非洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "SL",
+    "nameZh": "塞拉利昂",
+    "nameEn": "Sierra Leone",
+    "flag": "🇸🇱",
+    "region": "非洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "SG",
+    "nameZh": "新加坡",
+    "nameEn": "Singapore",
+    "flag": "🇸🇬",
+    "region": "亚洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "SK",
+    "nameZh": "斯洛伐克",
+    "nameEn": "Slovakia",
+    "flag": "🇸🇰",
+    "region": "欧洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "SI",
+    "nameZh": "斯洛文尼亚",
+    "nameEn": "Slovenia",
+    "flag": "🇸🇮",
+    "region": "欧洲",
+    "cuisineTier": "niche"
+  },
+  {
+    "code": "SB",
+    "nameZh": "所罗门群岛",
+    "nameEn": "Solomon Islands",
+    "flag": "🇸🇧",
+    "region": "大洋洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "SO",
+    "nameZh": "索马里",
+    "nameEn": "Somalia",
+    "flag": "🇸🇴",
+    "region": "非洲",
+    "cuisineTier": "niche"
+  },
+  {
+    "code": "ZA",
+    "nameZh": "南非",
+    "nameEn": "South Africa",
+    "flag": "🇿🇦",
+    "region": "非洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "SS",
+    "nameZh": "南苏丹",
+    "nameEn": "South Sudan",
+    "flag": "🇸🇸",
+    "region": "非洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "ES",
+    "nameZh": "西班牙",
+    "nameEn": "Spain",
+    "flag": "🇪🇸",
+    "region": "欧洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "LK",
+    "nameZh": "斯里兰卡",
+    "nameEn": "Sri Lanka",
+    "flag": "🇱🇰",
+    "region": "亚洲",
+    "cuisineTier": "niche"
+  },
+  {
+    "code": "SD",
+    "nameZh": "苏丹",
+    "nameEn": "Sudan",
+    "flag": "🇸🇩",
+    "region": "非洲",
+    "cuisineTier": "niche"
+  },
+  {
+    "code": "SR",
+    "nameZh": "苏里南",
+    "nameEn": "Suriname",
+    "flag": "🇸🇷",
+    "region": "加勒比 / 拉美",
+    "cuisineTier": "niche"
+  },
+  {
+    "code": "SE",
+    "nameZh": "瑞典",
+    "nameEn": "Sweden",
+    "flag": "🇸🇪",
+    "region": "欧洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "CH",
+    "nameZh": "瑞士",
+    "nameEn": "Switzerland",
+    "flag": "🇨🇭",
+    "region": "欧洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "SY",
+    "nameZh": "叙利亚",
+    "nameEn": "Syria",
+    "flag": "🇸🇾",
+    "region": "亚洲",
+    "cuisineTier": "niche"
+  },
+  {
+    "code": "TW",
+    "nameZh": "台湾",
+    "nameEn": "Taiwan",
+    "flag": "🇹🇼",
+    "region": "亚洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "TJ",
+    "nameZh": "塔吉克斯坦",
+    "nameEn": "Tajikistan",
+    "flag": "🇹🇯",
+    "region": "亚洲",
+    "cuisineTier": "niche"
+  },
+  {
+    "code": "TZ",
+    "nameZh": "坦桑尼亚",
+    "nameEn": "Tanzania",
+    "flag": "🇹🇿",
+    "region": "非洲",
+    "cuisineTier": "niche"
+  },
+  {
+    "code": "TH",
+    "nameZh": "泰国",
+    "nameEn": "Thailand",
+    "flag": "🇹🇭",
+    "region": "亚洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "TL",
+    "nameZh": "东帝汶",
+    "nameEn": "Timor-Leste",
+    "flag": "🇹🇱",
+    "region": "亚洲",
+    "cuisineTier": "niche"
+  },
+  {
+    "code": "TG",
+    "nameZh": "多哥",
+    "nameEn": "Togo",
+    "flag": "🇹🇬",
+    "region": "非洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "TO",
+    "nameZh": "汤加",
+    "nameEn": "Tonga",
+    "flag": "🇹🇴",
+    "region": "大洋洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "TT",
+    "nameZh": "特立尼达和多巴哥",
+    "nameEn": "Trinidad and Tobago",
+    "flag": "🇹🇹",
+    "region": "加勒比 / 拉美",
+    "cuisineTier": "niche"
+  },
+  {
+    "code": "TN",
+    "nameZh": "突尼斯",
+    "nameEn": "Tunisia",
+    "flag": "🇹🇳",
+    "region": "非洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "TR",
+    "nameZh": "土耳其",
+    "nameEn": "Turkey",
+    "flag": "🇹🇷",
+    "region": "亚洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "TM",
+    "nameZh": "土库曼斯坦",
+    "nameEn": "Turkmenistan",
+    "flag": "🇹🇲",
+    "region": "亚洲",
+    "cuisineTier": "niche"
+  },
+  {
+    "code": "TV",
+    "nameZh": "图瓦卢",
+    "nameEn": "Tuvalu",
+    "flag": "🇹🇻",
+    "region": "大洋洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "UG",
+    "nameZh": "乌干达",
+    "nameEn": "Uganda",
+    "flag": "🇺🇬",
+    "region": "非洲",
+    "cuisineTier": "niche"
+  },
+  {
+    "code": "UA",
+    "nameZh": "乌克兰",
+    "nameEn": "Ukraine",
+    "flag": "🇺🇦",
+    "region": "欧洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "AE",
+    "nameZh": "阿联酋",
+    "nameEn": "United Arab Emirates",
+    "flag": "🇦🇪",
+    "region": "亚洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "GB",
+    "nameZh": "英国",
+    "nameEn": "United Kingdom",
+    "flag": "🇬🇧",
+    "region": "欧洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "US",
+    "nameZh": "美国",
+    "nameEn": "United States",
+    "flag": "🇺🇸",
+    "region": "北美",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "UY",
+    "nameZh": "乌拉圭",
+    "nameEn": "Uruguay",
+    "flag": "🇺🇾",
+    "region": "加勒比 / 拉美",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "UZ",
+    "nameZh": "乌兹别克斯坦",
+    "nameEn": "Uzbekistan",
+    "flag": "🇺🇿",
+    "region": "亚洲",
+    "cuisineTier": "niche"
+  },
+  {
+    "code": "VU",
+    "nameZh": "瓦努阿图",
+    "nameEn": "Vanuatu",
+    "flag": "🇻🇺",
+    "region": "大洋洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "VA",
+    "nameZh": "梵蒂冈",
+    "nameEn": "Vatican City",
+    "flag": "🇻🇦",
+    "region": "欧洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "VE",
+    "nameZh": "委内瑞拉",
+    "nameEn": "Venezuela",
+    "flag": "🇻🇪",
+    "region": "加勒比 / 拉美",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "VN",
+    "nameZh": "越南",
+    "nameEn": "Vietnam",
+    "flag": "🇻🇳",
+    "region": "亚洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "YE",
+    "nameZh": "也门",
+    "nameEn": "Yemen",
+    "flag": "🇾🇪",
+    "region": "亚洲",
+    "cuisineTier": "niche"
+  },
+  {
+    "code": "ZM",
+    "nameZh": "赞比亚",
+    "nameEn": "Zambia",
+    "flag": "🇿🇲",
+    "region": "非洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "ZW",
+    "nameZh": "津巴布韦",
+    "nameEn": "Zimbabwe",
+    "flag": "🇿🇼",
+    "region": "非洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "XK",
+    "nameZh": "科索沃",
+    "nameEn": "Kosovo",
+    "flag": "🇽🇰",
+    "region": "欧洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "HK",
+    "nameZh": "香港特别行政区",
+    "nameEn": "Hong Kong",
+    "flag": "🇭🇰",
+    "region": "亚洲",
+    "cuisineTier": "mainstream"
+  },
+  {
+    "code": "MO",
+    "nameZh": "澳门特别行政区",
+    "nameEn": "Macao",
+    "flag": "🇲🇴",
+    "region": "亚洲",
+    "cuisineTier": "mainstream"
+  }
+]

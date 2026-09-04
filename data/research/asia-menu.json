@@ -1,0 +1,1174 @@
+{
+  "generatedAt": "2026-09-03",
+  "scope": {
+    "geography": "New York City five boroughs",
+    "asiaDefinition": "UN M49 Asia sovereign states plus Taiwan as a separate culinary geography; Russia excluded because UN M49 places it in Europe",
+    "countryCount": 49,
+    "rankingRule": "Within the visible and manually verified Google Maps candidate pool, sort by score descending, then review count descending; return no more than three restaurants",
+    "importantLimitation": "Google Maps does not expose a complete auditable citywide ranking API. These are the highest-ranked qualifying restaurants among the candidate listings reviewed on the checked date, not a mathematical guarantee over every listing in NYC.",
+    "ratingsSource": "Google Maps",
+    "checkedAt": "2026-09-03"
+  },
+  "countries": [
+    {
+      "countryCode": "AF",
+      "countryZh": "阿富汗",
+      "countryEn": "Afghanistan",
+      "restaurants": [
+        {
+          "name": "Dunya Kabab House",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.7,
+          "scale": 5,
+          "reviewCount": 555,
+          "addressText": "696 Coney Island Ave"
+        },
+        {
+          "name": "Kebab Express | Halal Grill Bleecker Street",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.6,
+          "scale": 5,
+          "reviewCount": 792,
+          "addressText": "235 Bleecker St"
+        },
+        {
+          "name": "Sami's Kabab House",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.4,
+          "scale": 5,
+          "reviewCount": 2214,
+          "addressText": "35-57 Crescent St"
+        }
+      ]
+    },
+    {
+      "countryCode": "AM",
+      "countryZh": "亚美尼亚",
+      "countryEn": "Armenia",
+      "restaurants": [
+        {
+          "name": "Little Armenia Cafe",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.9,
+          "scale": 5,
+          "reviewCount": 385,
+          "addressText": "1035 Manhattan Ave"
+        },
+        {
+          "name": "Mr. Week Armenian Restaurant",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.7,
+          "scale": 5,
+          "reviewCount": 163,
+          "addressText": "128 Sand Ln"
+        },
+        {
+          "name": "Sevan Restaurant & Catering",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.6,
+          "scale": 5,
+          "reviewCount": 228,
+          "addressText": "216-07 Horace Harding Expy"
+        }
+      ]
+    },
+    {
+      "countryCode": "AZ",
+      "countryZh": "阿塞拜疆",
+      "countryEn": "Azerbaijan",
+      "restaurants": [
+        {
+          "name": "Baku Nights",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.7,
+          "scale": 5,
+          "reviewCount": 278,
+          "addressText": "712 Avenue U"
+        },
+        {
+          "name": "The Lights of Baku",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.5,
+          "scale": 5,
+          "reviewCount": 242,
+          "addressText": "2707 86th St"
+        },
+        {
+          "name": "Village Cafe",
+          "classification": "regional",
+          "status": "open",
+          "score": 4.4,
+          "scale": 5,
+          "reviewCount": 827,
+          "addressText": "1968 Coney Island Ave",
+          "note": "高加索及阿塞拜疆菜兼营。"
+        }
+      ]
+    },
+    {
+      "countryCode": "BH",
+      "countryZh": "巴林",
+      "countryEn": "Bahrain",
+      "restaurants": [],
+      "noResultReason": "未找到可可靠确认为巴林菜专门店或明确兼营店的五大区餐厅；泛海湾或泛中东餐厅未计入。"
+    },
+    {
+      "countryCode": "BD",
+      "countryZh": "孟加拉国",
+      "countryEn": "Bangladesh",
+      "restaurants": [
+        {
+          "name": "Dhakaya Restaurant",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.7,
+          "scale": 5,
+          "reviewCount": 117,
+          "addressText": "39-44 21st St"
+        },
+        {
+          "name": "Fuskahouse_NYC",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.5,
+          "scale": 5,
+          "reviewCount": 801,
+          "addressText": "73-01 37th Ave"
+        },
+        {
+          "name": "Hello Bangladesh Restaurant",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.4,
+          "scale": 5,
+          "reviewCount": 961,
+          "addressText": "30-05 36th Ave"
+        }
+      ]
+    },
+    {
+      "countryCode": "BT",
+      "countryZh": "不丹",
+      "countryEn": "Bhutan",
+      "restaurants": [
+        {
+          "name": "The Weekender",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.6,
+          "scale": 5,
+          "reviewCount": 182,
+          "addressText": "41-46 54th St",
+          "note": "Google Maps 类别较宽泛，但菜单与近期评论支持不丹菜判断。"
+        }
+      ],
+      "exclusions": [
+        "Zhego NYC：Google Maps 标注永久停业。"
+      ]
+    },
+    {
+      "countryCode": "BN",
+      "countryZh": "文莱",
+      "countryEn": "Brunei",
+      "restaurants": [],
+      "noResultReason": "检索结果均为马来西亚或印度尼西亚餐厅，未用邻近菜系替代。"
+    },
+    {
+      "countryCode": "KH",
+      "countryZh": "柬埔寨",
+      "countryEn": "Cambodia",
+      "restaurants": [
+        {
+          "name": "Bong",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.5,
+          "scale": 5,
+          "reviewCount": 219,
+          "addressText": "724 Sterling Pl"
+        },
+        {
+          "name": "Lula Mae",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.4,
+          "scale": 5,
+          "reviewCount": 283,
+          "addressText": "472 Myrtle Ave"
+        }
+      ],
+      "exclusions": [
+        "Bayon：已于 2026-08-03 关闭。",
+        "Love Mama：泛东南亚餐厅，未计作柬埔寨专门店。"
+      ]
+    },
+    {
+      "countryCode": "CN",
+      "countryZh": "中国",
+      "countryEn": "China",
+      "restaurants": [
+        {
+          "name": "The Best Sichuan",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.8,
+          "scale": 5,
+          "reviewCount": 3145,
+          "addressText": "7 E 47th St"
+        },
+        {
+          "name": "Jiang Nan NYC",
+          "classification": "regional",
+          "status": "open",
+          "score": 4.8,
+          "scale": 5,
+          "reviewCount": 2152,
+          "addressText": "103 Bowery"
+        },
+        {
+          "name": "Mountain House Times Square",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.8,
+          "scale": 5,
+          "reviewCount": 1006,
+          "addressText": "353 W 46th St"
+        }
+      ]
+    },
+    {
+      "countryCode": "CY",
+      "countryZh": "塞浦路斯",
+      "countryEn": "Cyprus",
+      "restaurants": [
+        {
+          "name": "Aliada",
+          "classification": "regional",
+          "status": "open",
+          "score": 4.5,
+          "scale": 5,
+          "reviewCount": 1147,
+          "addressText": "29-19 Broadway",
+          "note": "希腊与塞浦路斯菜兼营。"
+        }
+      ]
+    },
+    {
+      "countryCode": "GE",
+      "countryZh": "格鲁吉亚",
+      "countryEn": "Georgia",
+      "restaurants": [
+        {
+          "name": "Aragvi",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.9,
+          "scale": 5,
+          "reviewCount": 3621,
+          "addressText": "230 E 44th St"
+        },
+        {
+          "name": "SAPERAVI",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.9,
+          "scale": 5,
+          "reviewCount": 3554,
+          "addressText": "245 E 14th St"
+        },
+        {
+          "name": "Ubani Midtown",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.9,
+          "scale": 5,
+          "reviewCount": 1331,
+          "addressText": "937 2nd Ave"
+        }
+      ]
+    },
+    {
+      "countryCode": "IN",
+      "countryZh": "印度",
+      "countryEn": "India",
+      "restaurants": [
+        {
+          "name": "Cloves Indian Cuisine",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.8,
+          "scale": 5,
+          "reviewCount": 2048,
+          "addressText": "66 Madison Ave Store B"
+        },
+        {
+          "name": "Red Onion Royal Kitchen To Table",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.8,
+          "scale": 5,
+          "reviewCount": 1216,
+          "addressText": "277 E 10th St"
+        },
+        {
+          "name": "AANGARA INDIAN CUISINE 2",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.8,
+          "scale": 5,
+          "reviewCount": 334,
+          "addressText": "205 W 29th St"
+        }
+      ]
+    },
+    {
+      "countryCode": "ID",
+      "countryZh": "印度尼西亚",
+      "countryEn": "Indonesia",
+      "restaurants": [
+        {
+          "name": "Sumatera Restaurant NYC",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.8,
+          "scale": 5,
+          "reviewCount": 891,
+          "addressText": "86-20 Whitney Ave"
+        },
+        {
+          "name": "Indo Mix",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.8,
+          "scale": 5,
+          "reviewCount": 171,
+          "addressText": "466 Grand Ave"
+        },
+        {
+          "name": "Jakarta Munch at Hungry Pearl",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.8,
+          "scale": 5,
+          "reviewCount": 49,
+          "addressText": "70 Water St"
+        }
+      ]
+    },
+    {
+      "countryCode": "IR",
+      "countryZh": "伊朗",
+      "countryEn": "Iran",
+      "restaurants": [
+        {
+          "name": "Shiraz Kitchen & Wine Bar",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.6,
+          "scale": 5,
+          "reviewCount": 1102,
+          "addressText": "111 W 17th St"
+        },
+        {
+          "name": "Eyval",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.6,
+          "scale": 5,
+          "reviewCount": 1049,
+          "addressText": "25 Bogart St"
+        },
+        {
+          "name": "Taftoon Persian Restaurant NYC",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.5,
+          "scale": 5,
+          "reviewCount": 127,
+          "addressText": "388 3rd Ave"
+        }
+      ]
+    },
+    {
+      "countryCode": "IQ",
+      "countryZh": "伊拉克",
+      "countryEn": "Iraq",
+      "restaurants": [
+        {
+          "name": "Kubeh",
+          "classification": "regional",
+          "status": "open",
+          "score": 4.3,
+          "scale": 5,
+          "reviewCount": 977,
+          "addressText": "464 6th Ave",
+          "note": "菜单覆盖伊拉克、叙利亚及库尔德地区菜。"
+        }
+      ]
+    },
+    {
+      "countryCode": "IL",
+      "countryZh": "以色列",
+      "countryEn": "Israel",
+      "restaurants": [
+        {
+          "name": "PitaBar",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.9,
+          "scale": 5,
+          "reviewCount": 1128,
+          "addressText": "11 Delancey St"
+        },
+        {
+          "name": "19 Cleveland",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.6,
+          "scale": 5,
+          "reviewCount": 1557,
+          "addressText": "19 Cleveland Pl"
+        },
+        {
+          "name": "ZiZi",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.6,
+          "scale": 5,
+          "reviewCount": 986,
+          "addressText": "182 8th Ave"
+        }
+      ]
+    },
+    {
+      "countryCode": "JP",
+      "countryZh": "日本",
+      "countryEn": "Japan",
+      "restaurants": [
+        {
+          "name": "Showa era Izakaya Ramen Sushi",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.9,
+          "scale": 5,
+          "reviewCount": 5194,
+          "addressText": "767 9th Ave"
+        },
+        {
+          "name": "Sozai Japanese Restaurant",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.9,
+          "scale": 5,
+          "reviewCount": 4530,
+          "addressText": "19 W 45th St"
+        },
+        {
+          "name": "Manhatto",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.9,
+          "scale": 5,
+          "reviewCount": 1971,
+          "addressText": "783 9th Ave"
+        }
+      ]
+    },
+    {
+      "countryCode": "JO",
+      "countryZh": "约旦",
+      "countryEn": "Jordan",
+      "restaurants": [],
+      "noResultReason": "未找到可可靠确认为约旦菜专门店或明确兼营店的五大区餐厅；泛黎凡特餐厅未替代。"
+    },
+    {
+      "countryCode": "KZ",
+      "countryZh": "哈萨克斯坦",
+      "countryEn": "Kazakhstan",
+      "restaurants": [
+        {
+          "name": "Farida",
+          "classification": "regional",
+          "status": "open",
+          "score": 4.6,
+          "scale": 5,
+          "reviewCount": 2524,
+          "addressText": "32 Cedar St",
+          "note": "中亚区域餐厅，Google Maps 在不同检索中显示哈萨克/乌兹别克菜标签。"
+        }
+      ]
+    },
+    {
+      "countryCode": "KW",
+      "countryZh": "科威特",
+      "countryEn": "Kuwait",
+      "restaurants": [],
+      "noResultReason": "未找到可可靠确认为科威特菜的五大区餐厅；泛海湾餐厅未计入。"
+    },
+    {
+      "countryCode": "KG",
+      "countryZh": "吉尔吉斯斯坦",
+      "countryEn": "Kyrgyzstan",
+      "restaurants": [],
+      "noResultReason": "未找到可可靠确认为吉尔吉斯菜的五大区餐厅；未以乌兹别克餐厅替代。"
+    },
+    {
+      "countryCode": "LA",
+      "countryZh": "老挝",
+      "countryEn": "Laos",
+      "restaurants": [],
+      "noResultReason": "未找到当前可可靠核验、仍营业的老挝菜专门店；泰国或泛东南亚餐厅未计入。"
+    },
+    {
+      "countryCode": "LB",
+      "countryZh": "黎巴嫩",
+      "countryEn": "Lebanon",
+      "restaurants": [
+        {
+          "name": "Fattoush",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.9,
+          "scale": 5,
+          "reviewCount": 360,
+          "addressText": "221 1st Ave"
+        },
+        {
+          "name": "Zesty Tabbouleh",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.9,
+          "scale": 5,
+          "reviewCount": 225,
+          "addressText": "82 2nd Ave"
+        },
+        {
+          "name": "Salma",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.6,
+          "scale": 5,
+          "reviewCount": 1261,
+          "addressText": "351 E 12th St"
+        }
+      ]
+    },
+    {
+      "countryCode": "MY",
+      "countryZh": "马来西亚",
+      "countryEn": "Malaysia",
+      "restaurants": [
+        {
+          "name": "Curry House",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.7,
+          "scale": 5,
+          "reviewCount": 547,
+          "addressText": "9 Pell St"
+        },
+        {
+          "name": "Kuih Cafe",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.7,
+          "scale": 5,
+          "reviewCount": 237,
+          "addressText": "46 Eldridge St"
+        },
+        {
+          "name": "West New Malaysia",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.5,
+          "scale": 5,
+          "reviewCount": 625,
+          "addressText": "69 Bayard St"
+        }
+      ]
+    },
+    {
+      "countryCode": "MV",
+      "countryZh": "马尔代夫",
+      "countryEn": "Maldives",
+      "restaurants": [],
+      "noResultReason": "未找到可可靠确认为马尔代夫菜的五大区餐厅；斯里兰卡或南亚餐厅未替代。"
+    },
+    {
+      "countryCode": "MN",
+      "countryZh": "蒙古国",
+      "countryEn": "Mongolia",
+      "restaurants": [
+        {
+          "name": "Mongolian Momo King",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.8,
+          "scale": 5,
+          "reviewCount": 129,
+          "addressText": "327 E 12th St"
+        }
+      ]
+    },
+    {
+      "countryCode": "MM",
+      "countryZh": "缅甸",
+      "countryEn": "Myanmar",
+      "restaurants": [
+        {
+          "name": "Little Myanmar",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4,
+          "scale": 5,
+          "reviewCount": 332,
+          "addressText": "150 E 2nd St, New York, NY 10009"
+        }
+      ],
+      "exclusions": [
+        "Amayar Kitchen：4.9/571，但地址为 111 E Passaic St, Maywood, NJ 07607，不在纽约市五大区。"
+      ]
+    },
+    {
+      "countryCode": "NP",
+      "countryZh": "尼泊尔",
+      "countryEn": "Nepal",
+      "restaurants": [
+        {
+          "name": "Darjeeling Kitchen & Café",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.8,
+          "scale": 5,
+          "reviewCount": 444,
+          "addressText": "31-12 36th Ave"
+        },
+        {
+          "name": "Timur Cafe & Bar",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.8,
+          "scale": 5,
+          "reviewCount": 145,
+          "addressText": "39-04 64th St"
+        },
+        {
+          "name": "Cafe Himalaya",
+          "classification": "regional",
+          "status": "open",
+          "score": 4.7,
+          "scale": 5,
+          "reviewCount": 959,
+          "addressText": "78 E 1st St"
+        }
+      ]
+    },
+    {
+      "countryCode": "KP",
+      "countryZh": "朝鲜",
+      "countryEn": "North Korea",
+      "restaurants": [],
+      "noResultReason": "未找到朝鲜菜专门店；普通韩国餐厅未计入。"
+    },
+    {
+      "countryCode": "OM",
+      "countryZh": "阿曼",
+      "countryEn": "Oman",
+      "restaurants": [],
+      "noResultReason": "未找到可可靠确认为阿曼菜的五大区餐厅；也门或泛海湾餐厅未替代。"
+    },
+    {
+      "countryCode": "PK",
+      "countryZh": "巴基斯坦",
+      "countryEn": "Pakistan",
+      "restaurants": [
+        {
+          "name": "BK Jani at Dekalb Market Hall",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.6,
+          "scale": 5,
+          "reviewCount": 706,
+          "addressText": "445 Albee Square W"
+        },
+        {
+          "name": "Nishaan",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.6,
+          "scale": 5,
+          "reviewCount": 542,
+          "addressText": "160 1st Ave"
+        },
+        {
+          "name": "Kolachi",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.6,
+          "scale": 5,
+          "reviewCount": 439,
+          "addressText": "130 1st Ave"
+        }
+      ]
+    },
+    {
+      "countryCode": "PS",
+      "countryZh": "巴勒斯坦",
+      "countryEn": "Palestine",
+      "restaurants": [
+        {
+          "name": "Soul of Palestine NYC",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.8,
+          "scale": 5,
+          "reviewCount": 503,
+          "addressText": "7626 5th Ave"
+        },
+        {
+          "name": "al Badawi",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.7,
+          "scale": 5,
+          "reviewCount": 2523,
+          "addressText": "151 Atlantic Ave"
+        },
+        {
+          "name": "Ayat Hinds Hall",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.7,
+          "scale": 5,
+          "reviewCount": 268,
+          "addressText": "941 Amsterdam Ave"
+        }
+      ]
+    },
+    {
+      "countryCode": "PH",
+      "countryZh": "菲律宾",
+      "countryEn": "Philippines",
+      "restaurants": [
+        {
+          "name": "Kalye",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.8,
+          "scale": 5,
+          "reviewCount": 896
+        },
+        {
+          "name": "Tradicionale",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.8,
+          "scale": 5,
+          "reviewCount": 189
+        },
+        {
+          "name": "Naks",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.7,
+          "scale": 5,
+          "reviewCount": 734
+        }
+      ]
+    },
+    {
+      "countryCode": "QA",
+      "countryZh": "卡塔尔",
+      "countryEn": "Qatar",
+      "restaurants": [],
+      "noResultReason": "未找到可可靠确认为卡塔尔菜的五大区餐厅；泛海湾餐厅未计入。"
+    },
+    {
+      "countryCode": "SA",
+      "countryZh": "沙特阿拉伯",
+      "countryEn": "Saudi Arabia",
+      "restaurants": [],
+      "noResultReason": "未找到可可靠确认为沙特菜的五大区餐厅；泛中东餐厅未计入。"
+    },
+    {
+      "countryCode": "SG",
+      "countryZh": "新加坡",
+      "countryEn": "Singapore",
+      "restaurants": [
+        {
+          "name": "Native Noodles",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.6,
+          "scale": 5,
+          "reviewCount": 397,
+          "addressText": "2129 Amsterdam Ave"
+        },
+        {
+          "name": "Uncle Ray’s Chicken Rice",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.5,
+          "scale": 5,
+          "reviewCount": 210,
+          "addressText": "790 9th Ave"
+        },
+        {
+          "name": "Singapore Social",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.4,
+          "scale": 5,
+          "reviewCount": 139,
+          "addressText": "15 Avenue A"
+        }
+      ]
+    },
+    {
+      "countryCode": "KR",
+      "countryZh": "韩国",
+      "countryEn": "South Korea",
+      "restaurants": [
+        {
+          "name": "KJUN",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.8,
+          "scale": 5,
+          "reviewCount": 2449,
+          "addressText": "334 Lexington Ave"
+        },
+        {
+          "name": "miss KOREA BBQ",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.7,
+          "scale": 5,
+          "reviewCount": 19251,
+          "addressText": "10 W 32nd St"
+        },
+        {
+          "name": "Yori and Sool",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.7,
+          "scale": 5,
+          "reviewCount": 521,
+          "addressText": "517 2nd Ave"
+        }
+      ]
+    },
+    {
+      "countryCode": "LK",
+      "countryZh": "斯里兰卡",
+      "countryEn": "Sri Lanka",
+      "restaurants": [
+        {
+          "name": "AA Lankan’s Cafe",
+          "classification": "specialist",
+          "status": "open",
+          "score": 5,
+          "scale": 5,
+          "reviewCount": 12,
+          "addressText": "98 Victory Blvd",
+          "note": "严格按评分优先，因此评论样本很小的 5.0 门店排在首位。"
+        },
+        {
+          "name": "Spicy Lanka",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.8,
+          "scale": 5,
+          "reviewCount": 677,
+          "addressText": "117-03 Hillside Ave"
+        },
+        {
+          "name": "New Asha Sri Lanka Restaurant",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.7,
+          "scale": 5,
+          "reviewCount": 472,
+          "addressText": "322 Victory Blvd"
+        }
+      ]
+    },
+    {
+      "countryCode": "SY",
+      "countryZh": "叙利亚",
+      "countryEn": "Syria",
+      "restaurants": [
+        {
+          "name": "SYKO",
+          "classification": "regional",
+          "status": "open",
+          "score": 4.7,
+          "scale": 5,
+          "reviewCount": 642,
+          "addressText": "214a Prospect Park W",
+          "note": "叙利亚与韩国菜的明确双菜系餐厅。"
+        },
+        {
+          "name": "Kubeh",
+          "classification": "regional",
+          "status": "open",
+          "score": 4.3,
+          "scale": 5,
+          "reviewCount": 977,
+          "addressText": "464 6th Ave",
+          "note": "菜单覆盖叙利亚、伊拉克及库尔德地区菜。"
+        }
+      ]
+    },
+    {
+      "countryCode": "TW",
+      "countryZh": "台湾",
+      "countryEn": "Taiwan",
+      "restaurants": [
+        {
+          "name": "Yumpling Midtown",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.9,
+          "scale": 5,
+          "reviewCount": 372,
+          "addressText": "16 E 52nd St"
+        },
+        {
+          "name": "Gulp",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.8,
+          "scale": 5,
+          "reviewCount": 488,
+          "addressText": "56 E 41st St"
+        },
+        {
+          "name": "Taiwan Bear House",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.6,
+          "scale": 5,
+          "reviewCount": 481,
+          "addressText": "11 Pell St"
+        }
+      ]
+    },
+    {
+      "countryCode": "TJ",
+      "countryZh": "塔吉克斯坦",
+      "countryEn": "Tajikistan",
+      "restaurants": [
+        {
+          "name": "Karavan Kebab LLC",
+          "classification": "regional",
+          "status": "unverified",
+          "score": 4.4,
+          "scale": 5,
+          "reviewCount": 887,
+          "addressText": "1311 Avenue U",
+          "note": "近期评论支持塔吉克菜判断，但 Google Maps 主类别仅为 Halal；保留为待进一步菜单核验的区域兼营候选。"
+        }
+      ]
+    },
+    {
+      "countryCode": "TH",
+      "countryZh": "泰国",
+      "countryEn": "Thailand",
+      "restaurants": [
+        {
+          "name": "Mitr Thai",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.9,
+          "scale": 5,
+          "reviewCount": 10230,
+          "addressText": "37 W 46th St"
+        },
+        {
+          "name": "Thai Pavilion NYC",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.9,
+          "scale": 5,
+          "reviewCount": 970,
+          "addressText": "24 W 56th St"
+        },
+        {
+          "name": "Wanglang NYC",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.9,
+          "scale": 5,
+          "reviewCount": 360,
+          "addressText": "49 W 24th St"
+        }
+      ]
+    },
+    {
+      "countryCode": "TL",
+      "countryZh": "东帝汶",
+      "countryEn": "Timor-Leste",
+      "restaurants": [],
+      "noResultReason": "未找到可可靠确认为东帝汶菜的五大区餐厅；印度尼西亚餐厅未替代。"
+    },
+    {
+      "countryCode": "TR",
+      "countryZh": "土耳其",
+      "countryEn": "Turkey",
+      "restaurants": [
+        {
+          "name": "NAR",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.7,
+          "scale": 5,
+          "reviewCount": 866,
+          "addressText": "34 E 20th St #3"
+        },
+        {
+          "name": "Zara Terrace",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.7,
+          "scale": 5,
+          "reviewCount": 246,
+          "addressText": "862 2nd Ave"
+        },
+        {
+          "name": "Sahara’s Turkish Cuisine",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.6,
+          "scale": 5,
+          "reviewCount": 1190,
+          "addressText": "513 2nd Ave"
+        }
+      ]
+    },
+    {
+      "countryCode": "TM",
+      "countryZh": "土库曼斯坦",
+      "countryEn": "Turkmenistan",
+      "restaurants": [],
+      "noResultReason": "未找到可可靠确认为土库曼菜的五大区餐厅；其他中亚餐厅未替代。"
+    },
+    {
+      "countryCode": "AE",
+      "countryZh": "阿拉伯联合酋长国",
+      "countryEn": "United Arab Emirates",
+      "restaurants": [],
+      "noResultReason": "未找到可可靠确认为阿联酋菜的五大区餐厅；泛海湾或泛中东餐厅未计入。"
+    },
+    {
+      "countryCode": "UZ",
+      "countryZh": "乌兹别克斯坦",
+      "countryEn": "Uzbekistan",
+      "restaurants": [
+        {
+          "name": "Registan Kitchen",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.9,
+          "scale": 5,
+          "reviewCount": 12,
+          "addressText": "63-24 99th St",
+          "note": "严格按评分优先，因此评论样本很小的 4.9 门店排在首位。"
+        },
+        {
+          "name": "Samarkand Nights",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.7,
+          "scale": 5,
+          "reviewCount": 267,
+          "addressText": "6001 Strickland Ave"
+        },
+        {
+          "name": "Ansor Halal Uzbek Restaurant",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.7,
+          "scale": 5,
+          "reviewCount": 58,
+          "addressText": "94-03 63rd Dr"
+        }
+      ]
+    },
+    {
+      "countryCode": "VN",
+      "countryZh": "越南",
+      "countryEn": "Vietnam",
+      "restaurants": [
+        {
+          "name": "La Dong",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.9,
+          "scale": 5,
+          "reviewCount": 4087,
+          "addressText": "11 E 17th St"
+        },
+        {
+          "name": "Ngon Vietnamese Kitchen",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.9,
+          "scale": 5,
+          "reviewCount": 79,
+          "addressText": "85 2nd Ave"
+        },
+        {
+          "name": "Sen Saigon",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.8,
+          "scale": 5,
+          "reviewCount": 371
+        }
+      ]
+    },
+    {
+      "countryCode": "YE",
+      "countryZh": "也门",
+      "countryEn": "Yemen",
+      "restaurants": [
+        {
+          "name": "Yemen Cafe & Restaurant — Staten Island",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.6,
+          "scale": 5,
+          "reviewCount": 374,
+          "addressText": "1816 Hylan Blvd, Staten Island, NY 10305"
+        },
+        {
+          "name": "Yemen Café & Restaurant — Atlantic Ave",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.5,
+          "scale": 5,
+          "reviewCount": 3658,
+          "addressText": "176 Atlantic Ave, Brooklyn, NY 11201"
+        },
+        {
+          "name": "Yemen Café & Restaurant — 5th Ave",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.5,
+          "scale": 5,
+          "reviewCount": 1787,
+          "addressText": "7317 5th Ave, Brooklyn, NY 11209"
+        }
+      ]
+    }
+  ]
+}

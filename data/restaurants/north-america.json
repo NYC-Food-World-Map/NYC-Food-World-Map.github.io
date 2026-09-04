@@ -1,0 +1,196 @@
+[
+  {
+    "id": "the-canuck-202-9th-ave-new-york-ny",
+    "countryCodes": [
+      "CA"
+    ],
+    "name": "The Canuck",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "Chelsea",
+    "address": "202 9th Ave, New York, NY",
+    "descriptionZh": "加拿大菜在纽约 Manhattan 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.6,
+        "scale": 5,
+        "reviewCount": 461,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/place/The+Canuck/data=!4m7!3m6!1s0x89c259cc2553d2d9:0xdc339202b9781bde!8m2!3d40.7459659!4d-74.0014391!16s%2Fg%2F11pkj8v_x2!19sChIJ2dJTJcxZwokR3ht4uQKSM9w?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/place/The+Canuck/data=!4m7!3m6!1s0x89c259cc2553d2d9:0xdc339202b9781bde!8m2!3d40.7459659!4d-74.0014391!16s%2Fg%2F11pkj8v_x2!19sChIJ2dJTJcxZwokR3ht4uQKSM9w?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "the-canuck-true-north-330-7th-ave-new-york-ny",
+    "countryCodes": [
+      "CA"
+    ],
+    "name": "The Canuck True North",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "Chelsea",
+    "address": "330 7th Ave, New York, NY",
+    "descriptionZh": "加拿大菜在纽约 Manhattan 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.5,
+        "scale": 5,
+        "reviewCount": 44,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/place/The+Canuck+True+North/data=!4m7!3m6!1s0x89c25900505d92f9:0x249ac01e28d67d1!8m2!3d40.7477871!4d-73.993184!16s%2Fg%2F11zkvw6mp5!19sChIJ-ZJdUABZwokR0WeN4gGsSQI?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/place/The+Canuck+True+North/data=!4m7!3m6!1s0x89c25900505d92f9:0x249ac01e28d67d1!8m2!3d40.7477871!4d-73.993184!16s%2Fg%2F11zkvw6mp5!19sChIJ-ZJdUABZwokR0WeN4gGsSQI?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "mile-end-deli-97-hoyt-st-brooklyn-ny",
+    "countryCodes": [
+      "CA"
+    ],
+    "name": "Mile End Deli",
+    "classification": "regional",
+    "classificationNote": "以蒙特利尔烟熏肉和poutine等魁北克风味为主。",
+    "status": "open",
+    "borough": "Brooklyn",
+    "neighborhood": "Boerum Hill",
+    "address": "97 Hoyt St, Brooklyn, NY",
+    "descriptionZh": "加拿大菜在纽约 Brooklyn 的区域兼营店。以蒙特利尔烟熏肉和poutine等魁北克风味为主。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.4,
+        "scale": 5,
+        "reviewCount": 1440,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/place/Mile+End+Deli/data=!4m7!3m6!1s0x89c25a4d946fbf2d:0x347ae99c7b26852f!8m2!3d40.6874457!4d-73.9870445!16s%2Fg%2F11cm13vn0t!19sChIJLb9vlE1awokRL4Ume5zpejQ?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/place/Mile+End+Deli/data=!4m7!3m6!1s0x89c25a4d946fbf2d:0x347ae99c7b26852f!8m2!3d40.6874457!4d-73.9870445!16s%2Fg%2F11cm13vn0t!19sChIJLb9vlE1awokRL4Ume5zpejQ?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "diner-24-nyc-283-3rd-ave-new-york-ny",
+    "countryCodes": [
+      "US"
+    ],
+    "name": "Diner 24 NYC",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "Gramercy",
+    "address": "283 3rd Ave, New York, NY",
+    "descriptionZh": "美国菜在纽约 Manhattan 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.8,
+        "scale": 5,
+        "reviewCount": 9477,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/place/Diner+24+NYC/data=!4m7!3m6!1s0x89c259a5828af9e1:0x4786cc62fb0f1597!8m2!3d40.7381558!4d-73.98336!16s%2Fg%2F11y3r46tcg!19sChIJ4fmKgqVZwokRlxUP-2LMhkc?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/place/Diner+24+NYC/data=!4m7!3m6!1s0x89c259a5828af9e1:0x4786cc62fb0f1597!8m2!3d40.7381558!4d-73.98336!16s%2Fg%2F11y3r46tcg!19sChIJ4fmKgqVZwokRlxUP-2LMhkc?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "au-cheval-33-cortlandt-alley-new-york-ny",
+    "countryCodes": [
+      "US"
+    ],
+    "name": "Au Cheval",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "Tribeca",
+    "address": "33 Cortlandt Alley, New York, NY",
+    "descriptionZh": "美国菜在纽约 Manhattan 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.7,
+        "scale": 5,
+        "reviewCount": 6983,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/place/Au+Cheval/data=!4m7!3m6!1s0x89c25bb44ec0f1b7:0x4cfe753b3a1f111!8m2!3d40.7181205!4d-74.0017942!16s%2Fg%2F11gyc6jp6q!19sChIJt_HATrRbwokREfGhs1PnzwQ?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/place/Au+Cheval/data=!4m7!3m6!1s0x89c25bb44ec0f1b7:0x4cfe753b3a1f111!8m2!3d40.7181205!4d-74.0017942!16s%2Fg%2F11gyc6jp6q!19sChIJt_HATrRbwokREfGhs1PnzwQ?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "parker-quinn-64-w-39th-st-new-york-ny",
+    "countryCodes": [
+      "US"
+    ],
+    "name": "Parker & Quinn",
+    "classification": "specialist",
+    "classificationNote": "美国菜范围很宽，本文件将传统diner与现代美式餐厅作为代表。",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "Midtown",
+    "address": "64 W 39th St, New York, NY",
+    "descriptionZh": "美国菜在纽约 Manhattan 的专门店。美国菜范围很宽，本文件将传统diner与现代美式餐厅作为代表。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.6,
+        "scale": 5,
+        "reviewCount": 3338,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/place/Parker+%26+Quinn/data=!4m7!3m6!1s0x89c259aa5a27970f:0x1de24deba8b21df2!8m2!3d40.7525862!4d-73.9850713!16s%2Fg%2F12ht_6j2p!19sChIJD5cnWqpZwokR8h2yqOtN4h0?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/place/Parker+%26+Quinn/data=!4m7!3m6!1s0x89c259aa5a27970f:0x1de24deba8b21df2!8m2!3d40.7525862!4d-73.9850713!16s%2Fg%2F12ht_6j2p!19sChIJD5cnWqpZwokR8h2yqOtN4h0?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  }
+]

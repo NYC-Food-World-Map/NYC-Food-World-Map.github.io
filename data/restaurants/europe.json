@@ -1,0 +1,2485 @@
+[
+  {
+    "id": "arberia-2325-65th-st",
+    "countryCodes": [
+      "AL"
+    ],
+    "name": "Arberia",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Brooklyn",
+    "neighborhood": "待核验",
+    "address": "2325 65th St, Brooklyn, NY",
+    "descriptionZh": "阿尔巴尼亚菜在纽约 Brooklyn 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.9,
+        "scale": 5,
+        "reviewCount": 249,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Arberia%202325%2065th%20St%2C%20Brooklyn%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Arberia%202325%2065th%20St%2C%20Brooklyn%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "cka-ka-qellu-bronx-2321-hughes-ave",
+    "countryCodes": [
+      "AL",
+      "XK"
+    ],
+    "name": "Çka Ka Qëllu — Bronx",
+    "classification": "specialist",
+    "classificationNote": "官网明确定位为阿尔巴尼亚与科索沃菜。",
+    "status": "open",
+    "borough": "Bronx",
+    "neighborhood": "待核验",
+    "address": "2321 Hughes Ave, Bronx, NY",
+    "descriptionZh": "阿尔巴尼亚菜在纽约 Bronx 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.8,
+        "scale": 5,
+        "reviewCount": 1514,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=%C3%87ka%20Ka%20Q%C3%ABllu%20%E2%80%94%20Bronx%202321%20Hughes%20Ave%2C%20Bronx%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=%C3%87ka%20Ka%20Q%C3%ABllu%20%E2%80%94%20Bronx%202321%20Hughes%20Ave%2C%20Bronx%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "cka-ka-qellue-manhattan-118-e-31st-st",
+    "countryCodes": [
+      "AL",
+      "XK"
+    ],
+    "name": "Çka Ka Qëllue — Manhattan",
+    "classification": "specialist",
+    "classificationNote": "官网明确定位为阿尔巴尼亚与科索沃菜。",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "118 E 31st St, New York, NY",
+    "descriptionZh": "阿尔巴尼亚菜在纽约 Manhattan 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.7,
+        "scale": 5,
+        "reviewCount": 1894,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=%C3%87ka%20Ka%20Q%C3%ABllue%20%E2%80%94%20Manhattan%20118%20E%2031st%20St%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=%C3%87ka%20Ka%20Q%C3%ABllue%20%E2%80%94%20Manhattan%20118%20E%2031st%20St%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "cafe-katja-79-orchard-st",
+    "countryCodes": [
+      "AT"
+    ],
+    "name": "Cafe Katja",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "79 Orchard St, New York, NY",
+    "descriptionZh": "奥地利菜在纽约 Manhattan 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.7,
+        "scale": 5,
+        "reviewCount": 935,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Cafe%20Katja%2079%20Orchard%20St%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Cafe%20Katja%2079%20Orchard%20St%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "werkstatt-509-coney-island-ave",
+    "countryCodes": [
+      "AT"
+    ],
+    "name": "Werkstatt",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Brooklyn",
+    "neighborhood": "待核验",
+    "address": "509 Coney Island Ave, Brooklyn, NY",
+    "descriptionZh": "奥地利菜在纽约 Brooklyn 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.6,
+        "scale": 5,
+        "reviewCount": 922,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Werkstatt%20509%20Coney%20Island%20Ave%2C%20Brooklyn%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Werkstatt%20509%20Coney%20Island%20Ave%2C%20Brooklyn%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "wallse-344-w-11th-st",
+    "countryCodes": [
+      "AT"
+    ],
+    "name": "Wallsé",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "344 W 11th St, New York, NY",
+    "descriptionZh": "奥地利菜在纽约 Manhattan 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.4,
+        "scale": 5,
+        "reviewCount": 526,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Walls%C3%A9%20344%20W%2011th%20St%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Walls%C3%A9%20344%20W%2011th%20St%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "cafe-d-anvers-1567-lexington-ave",
+    "countryCodes": [
+      "BE"
+    ],
+    "name": "Café D'Anvers",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "1567 Lexington Ave, New York, NY",
+    "descriptionZh": "比利时菜在纽约 Manhattan 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.7,
+        "scale": 5,
+        "reviewCount": 104,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20D'Anvers%201567%20Lexington%20Ave%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20D'Anvers%201567%20Lexington%20Ave%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "pommes-frites-128-macdougal-st",
+    "countryCodes": [
+      "BE"
+    ],
+    "name": "Pommes Frites",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "128 MacDougal St, New York, NY",
+    "descriptionZh": "比利时菜在纽约 Manhattan 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.6,
+        "scale": 5,
+        "reviewCount": 3708,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Pommes%20Frites%20128%20MacDougal%20St%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Pommes%20Frites%20128%20MacDougal%20St%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "le-bistroquet-50-w-22nd-st",
+    "countryCodes": [
+      "BE"
+    ],
+    "name": "Le Bistroquet",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "50 W 22nd St, New York, NY",
+    "descriptionZh": "比利时菜在纽约 Manhattan 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.6,
+        "scale": 5,
+        "reviewCount": 938,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Le%20Bistroquet%2050%20W%2022nd%20St%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Le%20Bistroquet%2050%20W%2022nd%20St%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "sarajevo-grill-37-18-34th-ave",
+    "countryCodes": [
+      "BA"
+    ],
+    "name": "Sarajevo Grill",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Queens",
+    "neighborhood": "待核验",
+    "address": "37-18 34th Ave, Queens, NY",
+    "descriptionZh": "波斯尼亚和黑塞哥维那菜在纽约 Queens 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.8,
+        "scale": 5,
+        "reviewCount": 1087,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Sarajevo%20Grill%2037-18%2034th%20Ave%2C%20Queens%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Sarajevo%20Grill%2037-18%2034th%20Ave%2C%20Queens%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "balkan-kitchen-66-31-myrtle-ave",
+    "countryCodes": [
+      "BA"
+    ],
+    "name": "Balkan Kitchen",
+    "classification": "regional",
+    "classificationNote": "波斯尼亚及巴尔干菜兼营。",
+    "status": "open",
+    "borough": "Queens",
+    "neighborhood": "待核验",
+    "address": "66-31 Myrtle Ave, Queens, NY",
+    "descriptionZh": "波斯尼亚和黑塞哥维那菜在纽约 Queens 的区域兼营店。波斯尼亚及巴尔干菜兼营。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.8,
+        "scale": 5,
+        "reviewCount": 75,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Balkan%20Kitchen%2066-31%20Myrtle%20Ave%2C%20Queens%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Balkan%20Kitchen%2066-31%20Myrtle%20Ave%2C%20Queens%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "bosna-express-7-91-fairview-ave",
+    "countryCodes": [
+      "BA"
+    ],
+    "name": "Bosna Express",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Queens",
+    "neighborhood": "待核验",
+    "address": "7-91 Fairview Ave, Queens, NY",
+    "descriptionZh": "波斯尼亚和黑塞哥维那菜在纽约 Queens 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.3,
+        "scale": 5,
+        "reviewCount": 226,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Bosna%20Express%207-91%20Fairview%20Ave%2C%20Queens%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Bosna%20Express%207-91%20Fairview%20Ave%2C%20Queens%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "mehanata-bulgarian-bar-113-ludlow-st",
+    "countryCodes": [
+      "BG"
+    ],
+    "name": "Mehanata Bulgarian Bar",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "113 Ludlow St, New York, NY",
+    "descriptionZh": "保加利亚菜在纽约 Manhattan 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.1,
+        "scale": 5,
+        "reviewCount": 435,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Mehanata%20Bulgarian%20Bar%20113%20Ludlow%20St%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Mehanata%20Bulgarian%20Bar%20113%20Ludlow%20St%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "rudar-club-34-01-45th-st",
+    "countryCodes": [
+      "HR"
+    ],
+    "name": "Rudar Club",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Queens",
+    "neighborhood": "待核验",
+    "address": "34-01 45th St, Queens, NY",
+    "descriptionZh": "克罗地亚菜在纽约 Queens 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.7,
+        "scale": 5,
+        "reviewCount": 146,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Rudar%20Club%2034-01%2045th%20St%2C%20Queens%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Rudar%20Club%2034-01%2045th%20St%2C%20Queens%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "koliba-31-11-23rd-ave",
+    "countryCodes": [
+      "CZ",
+      "SK"
+    ],
+    "name": "Koliba",
+    "classification": "regional",
+    "classificationNote": "捷克与斯洛伐克菜兼营。",
+    "status": "open",
+    "borough": "Queens",
+    "neighborhood": "待核验",
+    "address": "31-11 23rd Ave, Queens, NY",
+    "descriptionZh": "捷克菜在纽约 Queens 的区域兼营店。捷克与斯洛伐克菜兼营。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.7,
+        "scale": 5,
+        "reviewCount": 502,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Koliba%2031-11%2023rd%20Ave%2C%20Queens%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Koliba%2031-11%2023rd%20Ave%2C%20Queens%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "bohemian-spirit-321-e-73rd-st",
+    "countryCodes": [
+      "CZ"
+    ],
+    "name": "Bohemian Spirit",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "321 E 73rd St, New York, NY",
+    "descriptionZh": "捷克菜在纽约 Manhattan 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.5,
+        "scale": 5,
+        "reviewCount": 713,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Bohemian%20Spirit%20321%20E%2073rd%20St%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Bohemian%20Spirit%20321%20E%2073rd%20St%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "sm-r-east-village-441-e-12th-st",
+    "countryCodes": [
+      "DK"
+    ],
+    "name": "Smør — East Village",
+    "classification": "regional",
+    "classificationNote": "以丹麦成长经历和丹麦开放式三明治为核心的北欧餐厅。",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "441 E 12th St, New York, NY",
+    "descriptionZh": "丹麦菜在纽约 Manhattan 的区域兼营店。以丹麦成长经历和丹麦开放式三明治为核心的北欧餐厅。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.6,
+        "scale": 5,
+        "reviewCount": 507,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Sm%C3%B8r%20%E2%80%94%20East%20Village%20441%20E%2012th%20St%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Sm%C3%B8r%20%E2%80%94%20East%20Village%20441%20E%2012th%20St%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "sm-r-bakery-437-e-12th-st",
+    "countryCodes": [
+      "DK"
+    ],
+    "name": "Smør Bakery",
+    "classification": "regional",
+    "classificationNote": "Smør 的北欧烘焙门店。",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "437 E 12th St, New York, NY",
+    "descriptionZh": "丹麦菜在纽约 Manhattan 的区域兼营店。Smør 的北欧烘焙门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.6,
+        "scale": 5,
+        "reviewCount": 265,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Sm%C3%B8r%20Bakery%20437%20E%2012th%20St%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Sm%C3%B8r%20Bakery%20437%20E%2012th%20St%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "sm-r-clinton-hill-26-putnam-ave",
+    "countryCodes": [
+      "DK"
+    ],
+    "name": "Smør — Clinton Hill",
+    "classification": "regional",
+    "classificationNote": "菜单包含丹麦热狗等丹麦菜品。",
+    "status": "open",
+    "borough": "Brooklyn",
+    "neighborhood": "待核验",
+    "address": "26 Putnam Ave, Brooklyn, NY",
+    "descriptionZh": "丹麦菜在纽约 Brooklyn 的区域兼营店。菜单包含丹麦热狗等丹麦菜品。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.6,
+        "scale": 5,
+        "reviewCount": 238,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Sm%C3%B8r%20%E2%80%94%20Clinton%20Hill%2026%20Putnam%20Ave%2C%20Brooklyn%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Sm%C3%B8r%20%E2%80%94%20Clinton%20Hill%2026%20Putnam%20Ave%2C%20Brooklyn%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "loulou-176-8th-ave",
+    "countryCodes": [
+      "FR"
+    ],
+    "name": "LOULOU",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "176 8th Ave, New York, NY",
+    "descriptionZh": "法国菜在纽约 Manhattan 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.7,
+        "scale": 5,
+        "reviewCount": 4485,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=LOULOU%20176%208th%20Ave%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=LOULOU%20176%208th%20Ave%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "le-gratin-5-beekman-st",
+    "countryCodes": [
+      "FR"
+    ],
+    "name": "Le Gratin",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "5 Beekman St, New York, NY",
+    "descriptionZh": "法国菜在纽约 Manhattan 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.7,
+        "scale": 5,
+        "reviewCount": 788,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Le%20Gratin%205%20Beekman%20St%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Le%20Gratin%205%20Beekman%20St%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "le-petit-village-173-7th-ave-s",
+    "countryCodes": [
+      "FR"
+    ],
+    "name": "Le Petit Village",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "173 7th Ave S, New York, NY",
+    "descriptionZh": "法国菜在纽约 Manhattan 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.7,
+        "scale": 5,
+        "reviewCount": 773,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Le%20Petit%20Village%20173%207th%20Ave%20S%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Le%20Petit%20Village%20173%207th%20Ave%20S%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "zum-stammtisch-69-46-myrtle-ave",
+    "countryCodes": [
+      "DE"
+    ],
+    "name": "Zum Stammtisch",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Queens",
+    "neighborhood": "待核验",
+    "address": "69-46 Myrtle Ave, Queens, NY",
+    "descriptionZh": "德国菜在纽约 Queens 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.7,
+        "scale": 5,
+        "reviewCount": 2567,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Zum%20Stammtisch%2069-46%20Myrtle%20Ave%2C%20Queens%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Zum%20Stammtisch%2069-46%20Myrtle%20Ave%2C%20Queens%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "max-bratwurst-und-bier-47-02-30th-ave",
+    "countryCodes": [
+      "DE"
+    ],
+    "name": "Max Bratwurst und Bier",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Queens",
+    "neighborhood": "待核验",
+    "address": "47-02 30th Ave, Queens, NY",
+    "descriptionZh": "德国菜在纽约 Queens 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.7,
+        "scale": 5,
+        "reviewCount": 1129,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Max%20Bratwurst%20und%20Bier%2047-02%2030th%20Ave%2C%20Queens%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Max%20Bratwurst%20und%20Bier%2047-02%2030th%20Ave%2C%20Queens%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "reichenbach-hall-5-w-37th-st",
+    "countryCodes": [
+      "DE"
+    ],
+    "name": "Reichenbach Hall",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "5 W 37th St, New York, NY",
+    "descriptionZh": "德国菜在纽约 Manhattan 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.6,
+        "scale": 5,
+        "reviewCount": 7689,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Reichenbach%20Hall%205%20W%2037th%20St%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Reichenbach%20Hall%205%20W%2037th%20St%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "nostos-ny-420-e-59th-st",
+    "countryCodes": [
+      "GR"
+    ],
+    "name": "Nostos NY",
+    "classification": "specialist",
+    "classificationNote": "严格按评分优先，因此评论样本较小的 4.9 门店排在首位。",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "420 E 59th St, New York, NY",
+    "descriptionZh": "希腊菜在纽约 Manhattan 的专门店。严格按评分优先，因此评论样本较小的 4.9 门店排在首位。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.9,
+        "scale": 5,
+        "reviewCount": 39,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Nostos%20NY%20420%20E%2059th%20St%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Nostos%20NY%20420%20E%2059th%20St%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "ambrosia-garden-29-11-23rd-ave",
+    "countryCodes": [
+      "GR"
+    ],
+    "name": "Ambrosia Garden",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Queens",
+    "neighborhood": "待核验",
+    "address": "29-11 23rd Ave, Queens, NY",
+    "descriptionZh": "希腊菜在纽约 Queens 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.8,
+        "scale": 5,
+        "reviewCount": 434,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Ambrosia%20Garden%2029-11%2023rd%20Ave%2C%20Queens%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Ambrosia%20Garden%2029-11%2023rd%20Ave%2C%20Queens%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "elea-217-w-85th-st",
+    "countryCodes": [
+      "GR"
+    ],
+    "name": "Elea",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "217 W 85th St, New York, NY",
+    "descriptionZh": "希腊菜在纽约 Manhattan 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.7,
+        "scale": 5,
+        "reviewCount": 1183,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Elea%20217%20W%2085th%20St%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Elea%20217%20W%2085th%20St%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "hungarian-kosher-cuisine-5009-16th-ave",
+    "countryCodes": [
+      "HU"
+    ],
+    "name": "Hungarian Kosher Cuisine",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Brooklyn",
+    "neighborhood": "待核验",
+    "address": "5009 16th Ave, Brooklyn, NY",
+    "descriptionZh": "匈牙利菜在纽约 Brooklyn 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.9,
+        "scale": 5,
+        "reviewCount": 108,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Hungarian%20Kosher%20Cuisine%205009%2016th%20Ave%2C%20Brooklyn%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Hungarian%20Kosher%20Cuisine%205009%2016th%20Ave%2C%20Brooklyn%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "the-hungarian-pastry-shop-1030-amsterdam-ave",
+    "countryCodes": [
+      "HU"
+    ],
+    "name": "The Hungarian Pastry Shop",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "1030 Amsterdam Ave, New York, NY",
+    "descriptionZh": "匈牙利菜在纽约 Manhattan 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.6,
+        "scale": 5,
+        "reviewCount": 2548,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=The%20Hungarian%20Pastry%20Shop%201030%20Amsterdam%20Ave%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=The%20Hungarian%20Pastry%20Shop%201030%20Amsterdam%20Ave%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "budapest-cafe-1631-2nd-ave",
+    "countryCodes": [
+      "HU"
+    ],
+    "name": "Budapest Cafe",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "1631 2nd Ave, New York, NY",
+    "descriptionZh": "匈牙利菜在纽约 Manhattan 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.1,
+        "scale": 5,
+        "reviewCount": 660,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Budapest%20Cafe%201631%202nd%20Ave%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Budapest%20Cafe%201631%202nd%20Ave%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "molly-s-shebeen-bar-restaurant-287-3rd-ave",
+    "countryCodes": [
+      "IE"
+    ],
+    "name": "Molly's Shebeen Bar + Restaurant",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "287 3rd Ave, New York, NY",
+    "descriptionZh": "爱尔兰菜在纽约 Manhattan 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.6,
+        "scale": 5,
+        "reviewCount": 1194,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Molly's%20Shebeen%20Bar%20%2B%20Restaurant%20287%203rd%20Ave%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Molly's%20Shebeen%20Bar%20%2B%20Restaurant%20287%203rd%20Ave%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "malone-s-irish-bar-restaurant-692-3rd-ave",
+    "countryCodes": [
+      "IE"
+    ],
+    "name": "Malone's Irish Bar & Restaurant",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "692 3rd Ave, New York, NY",
+    "descriptionZh": "爱尔兰菜在纽约 Manhattan 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.6,
+        "scale": 5,
+        "reviewCount": 461,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Malone's%20Irish%20Bar%20%26%20Restaurant%20692%203rd%20Ave%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Malone's%20Irish%20Bar%20%26%20Restaurant%20692%203rd%20Ave%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "garvey-s-irish-pub-206-w-41st-st",
+    "countryCodes": [
+      "IE"
+    ],
+    "name": "Garvey's Irish Pub",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "206 W 41st St, New York, NY",
+    "descriptionZh": "爱尔兰菜在纽约 Manhattan 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.6,
+        "scale": 5,
+        "reviewCount": 416,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Garvey's%20Irish%20Pub%20206%20W%2041st%20St%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Garvey's%20Irish%20Pub%20206%20W%2041st%20St%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "osteria-la-baia-129-w-52nd-st",
+    "countryCodes": [
+      "IT"
+    ],
+    "name": "Osteria La Baia",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "129 W 52nd St, New York, NY",
+    "descriptionZh": "意大利菜在纽约 Manhattan 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.9,
+        "scale": 5,
+        "reviewCount": 7849,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Osteria%20La%20Baia%20129%20W%2052nd%20St%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Osteria%20La%20Baia%20129%20W%2052nd%20St%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "la-pecora-bianca-soho-54-prince-st",
+    "countryCodes": [
+      "IT"
+    ],
+    "name": "La Pecora Bianca SoHo",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "54 Prince St, New York, NY",
+    "descriptionZh": "意大利菜在纽约 Manhattan 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.8,
+        "scale": 5,
+        "reviewCount": 7738,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=La%20Pecora%20Bianca%20SoHo%2054%20Prince%20St%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=La%20Pecora%20Bianca%20SoHo%2054%20Prince%20St%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "osteria-nonnino-637-hudson-st",
+    "countryCodes": [
+      "IT"
+    ],
+    "name": "Osteria Nonnino",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "637 Hudson St, New York, NY",
+    "descriptionZh": "意大利菜在纽约 Manhattan 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.8,
+        "scale": 5,
+        "reviewCount": 5135,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Osteria%20Nonnino%20637%20Hudson%20St%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Osteria%20Nonnino%20637%20Hudson%20St%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "dukagjini-burek-758-lydig-ave",
+    "countryCodes": [
+      "XK"
+    ],
+    "name": "Dukagjini Burek",
+    "classification": "regional",
+    "classificationNote": "以科索沃—阿尔巴尼亚传统烤馅饼为主。",
+    "status": "open",
+    "borough": "Bronx",
+    "neighborhood": "待核验",
+    "address": "758 Lydig Ave, Bronx, NY",
+    "descriptionZh": "科索沃菜在纽约 Bronx 的区域兼营店。以科索沃—阿尔巴尼亚传统烤馅饼为主。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.8,
+        "scale": 5,
+        "reviewCount": 614,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Dukagjini%20Burek%20758%20Lydig%20Ave%2C%20Bronx%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Dukagjini%20Burek%20758%20Lydig%20Ave%2C%20Bronx%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "the-avenue-restaurant-bar-71-22-myrtle-ave",
+    "countryCodes": [
+      "LT"
+    ],
+    "name": "The Avenue Restaurant & Bar",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Queens",
+    "neighborhood": "待核验",
+    "address": "71-22 Myrtle Ave, Queens, NY",
+    "descriptionZh": "立陶宛菜在纽约 Queens 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.4,
+        "scale": 5,
+        "reviewCount": 430,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=The%20Avenue%20Restaurant%20%26%20Bar%2071-22%20Myrtle%20Ave%2C%20Queens%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=The%20Avenue%20Restaurant%20%26%20Bar%2071-22%20Myrtle%20Ave%2C%20Queens%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "moldova-restaurant-1827-coney-island-ave-brooklyn-ny-11230",
+    "countryCodes": [
+      "MD"
+    ],
+    "name": "Moldova Restaurant",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Brooklyn",
+    "neighborhood": "待核验",
+    "address": "1827 Coney Island Ave, Brooklyn, NY 11230",
+    "descriptionZh": "摩尔多瓦菜在纽约 Brooklyn 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.4,
+        "scale": 5,
+        "reviewCount": 852,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Moldova%20Restaurant%201827%20Coney%20Island%20Ave%2C%20Brooklyn%2C%20NY%2011230"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Moldova%20Restaurant%201827%20Coney%20Island%20Ave%2C%20Brooklyn%2C%20NY%2011230",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "cakor-632-e-186th-st",
+    "countryCodes": [
+      "ME"
+    ],
+    "name": "Cakor",
+    "classification": "regional",
+    "classificationNote": "店主来自黑山，菜单含黑山及周边巴尔干菜。",
+    "status": "open",
+    "borough": "Bronx",
+    "neighborhood": "待核验",
+    "address": "632 E 186th St, Bronx, NY",
+    "descriptionZh": "黑山菜在纽约 Bronx 的区域兼营店。店主来自黑山，菜单含黑山及周边巴尔干菜。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.5,
+        "scale": 5,
+        "reviewCount": 325,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Cakor%20632%20E%20186th%20St%2C%20Bronx%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Cakor%20632%20E%20186th%20St%2C%20Bronx%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "old-traditional-polish-cuisine-55-old-slip",
+    "countryCodes": [
+      "PL"
+    ],
+    "name": "Old Traditional Polish Cuisine",
+    "classification": "specialist",
+    "classificationNote": "严格按评分优先，因此评论样本很小的 5.0 门店排在首位。",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "55 Old Slip, New York, NY",
+    "descriptionZh": "波兰菜在纽约 Manhattan 的专门店。严格按评分优先，因此评论样本很小的 5.0 门店排在首位。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 5,
+        "scale": 5,
+        "reviewCount": 8,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Old%20Traditional%20Polish%20Cuisine%2055%20Old%20Slip%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Old%20Traditional%20Polish%20Cuisine%2055%20Old%20Slip%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "restaurant-relax-68a-newel-st",
+    "countryCodes": [
+      "PL"
+    ],
+    "name": "Restaurant Relax",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Brooklyn",
+    "neighborhood": "待核验",
+    "address": "68A Newel St, Brooklyn, NY",
+    "descriptionZh": "波兰菜在纽约 Brooklyn 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.9,
+        "scale": 5,
+        "reviewCount": 446,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Restaurant%20Relax%2068A%20Newel%20St%2C%20Brooklyn%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Restaurant%20Relax%2068A%20Newel%20St%2C%20Brooklyn%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "pierozek-592-manhattan-ave",
+    "countryCodes": [
+      "PL"
+    ],
+    "name": "Pierozek",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Brooklyn",
+    "neighborhood": "待核验",
+    "address": "592 Manhattan Ave, Brooklyn, NY",
+    "descriptionZh": "波兰菜在纽约 Brooklyn 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.8,
+        "scale": 5,
+        "reviewCount": 1210,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Pierozek%20592%20Manhattan%20Ave%2C%20Brooklyn%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Pierozek%20592%20Manhattan%20Ave%2C%20Brooklyn%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "joey-bats-cafe-at-the-essex-market-88-essex-st-spc-36",
+    "countryCodes": [
+      "PT"
+    ],
+    "name": "Joey Bats Café at The Essex Market",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "88 Essex St Spc 36, New York, NY",
+    "descriptionZh": "葡萄牙菜在纽约 Manhattan 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.8,
+        "scale": 5,
+        "reviewCount": 567,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Joey%20Bats%20Caf%C3%A9%20at%20The%20Essex%20Market%2088%20Essex%20St%20Spc%2036%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Joey%20Bats%20Caf%C3%A9%20at%20The%20Essex%20Market%2088%20Essex%20St%20Spc%2036%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "leitao-547-hudson-st",
+    "countryCodes": [
+      "PT"
+    ],
+    "name": "Leitao",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "547 Hudson St, New York, NY",
+    "descriptionZh": "葡萄牙菜在纽约 Manhattan 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.7,
+        "scale": 5,
+        "reviewCount": 1692,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Leitao%20547%20Hudson%20St%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Leitao%20547%20Hudson%20St%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "o-lavrador-138-40-101st-ave",
+    "countryCodes": [
+      "PT"
+    ],
+    "name": "O Lavrador",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Queens",
+    "neighborhood": "待核验",
+    "address": "138-40 101st Ave, Queens, NY",
+    "descriptionZh": "葡萄牙菜在纽约 Queens 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.5,
+        "scale": 5,
+        "reviewCount": 1604,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=O%20Lavrador%20138-40%20101st%20Ave%2C%20Queens%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=O%20Lavrador%20138-40%20101st%20Ave%2C%20Queens%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "danubius-traditional-romanian-restaurant-47-57-41st-st",
+    "countryCodes": [
+      "RO"
+    ],
+    "name": "Danubius Traditional Romanian Restaurant",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Queens",
+    "neighborhood": "待核验",
+    "address": "47-57 41st St, Queens, NY",
+    "descriptionZh": "罗马尼亚菜在纽约 Queens 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.8,
+        "scale": 5,
+        "reviewCount": 335,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Danubius%20Traditional%20Romanian%20Restaurant%2047-57%2041st%20St%2C%20Queens%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Danubius%20Traditional%20Romanian%20Restaurant%2047-57%2041st%20St%2C%20Queens%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "romanian-garden-43-06-43rd-ave",
+    "countryCodes": [
+      "RO"
+    ],
+    "name": "Romanian Garden",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Queens",
+    "neighborhood": "待核验",
+    "address": "43-06 43rd Ave, Queens, NY",
+    "descriptionZh": "罗马尼亚菜在纽约 Queens 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.3,
+        "scale": 5,
+        "reviewCount": 706,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Romanian%20Garden%2043-06%2043rd%20Ave%2C%20Queens%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Romanian%20Garden%2043-06%2043rd%20Ave%2C%20Queens%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "mari-vanna-41-e-20th-st",
+    "countryCodes": [
+      "RU"
+    ],
+    "name": "Mari Vanna",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "41 E 20th St, New York, NY",
+    "descriptionZh": "俄罗斯菜在纽约 Manhattan 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.5,
+        "scale": 5,
+        "reviewCount": 2088,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Mari%20Vanna%2041%20E%2020th%20St%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Mari%20Vanna%2041%20E%2020th%20St%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "russian-vodka-room-265-w-52nd-st",
+    "countryCodes": [
+      "RU"
+    ],
+    "name": "Russian Vodka Room",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "265 W 52nd St, New York, NY",
+    "descriptionZh": "俄罗斯菜在纽约 Manhattan 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.5,
+        "scale": 5,
+        "reviewCount": 1064,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Russian%20Vodka%20Room%20265%20W%2052nd%20St%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Russian%20Vodka%20Room%20265%20W%2052nd%20St%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "russian-samovar-restaurant-and-piano-bar-256-w-52nd-st",
+    "countryCodes": [
+      "RU"
+    ],
+    "name": "Russian Samovar Restaurant and Piano Bar",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "256 W 52nd St, New York, NY",
+    "descriptionZh": "俄罗斯菜在纽约 Manhattan 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.2,
+        "scale": 5,
+        "reviewCount": 1341,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Russian%20Samovar%20Restaurant%20and%20Piano%20Bar%20256%20W%2052nd%20St%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Russian%20Samovar%20Restaurant%20and%20Piano%20Bar%20256%20W%2052nd%20St%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "kafana-116-avenue-c-new-york-ny-10009",
+    "countryCodes": [
+      "RS"
+    ],
+    "name": "Kafana",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "116 Avenue C, New York, NY 10009",
+    "descriptionZh": "塞尔维亚菜在纽约 Manhattan 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.4,
+        "scale": 5,
+        "reviewCount": 1244,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Kafana%20116%20Avenue%20C%2C%20New%20York%2C%20NY%2010009"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Kafana%20116%20Avenue%20C%2C%20New%20York%2C%20NY%2010009",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "ez-paella-tapas-744-9th-ave",
+    "countryCodes": [
+      "ES"
+    ],
+    "name": "EZ Paella & Tapas",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "744 9th Ave, New York, NY",
+    "descriptionZh": "西班牙菜在纽约 Manhattan 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.8,
+        "scale": 5,
+        "reviewCount": 3727,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=EZ%20Paella%20%26%20Tapas%20744%209th%20Ave%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=EZ%20Paella%20%26%20Tapas%20744%209th%20Ave%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "salinas-restaurant-136-9th-ave",
+    "countryCodes": [
+      "ES"
+    ],
+    "name": "Salinas Restaurant",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "136 9th Ave, New York, NY",
+    "descriptionZh": "西班牙菜在纽约 Manhattan 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.8,
+        "scale": 5,
+        "reviewCount": 2914,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Salinas%20Restaurant%20136%209th%20Ave%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Salinas%20Restaurant%20136%209th%20Ave%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "boqueria-w40th-260-w-40th-st",
+    "countryCodes": [
+      "ES"
+    ],
+    "name": "Boqueria W40th",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "260 W 40th St, New York, NY",
+    "descriptionZh": "西班牙菜在纽约 Manhattan 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.6,
+        "scale": 5,
+        "reviewCount": 4349,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Boqueria%20W40th%20260%20W%2040th%20St%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Boqueria%20W40th%20260%20W%2040th%20St%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "aquavit-65-e-55th-st",
+    "countryCodes": [
+      "SE"
+    ],
+    "name": "Aquavit",
+    "classification": "regional",
+    "classificationNote": "以瑞典传统为根基的北欧餐厅，Google Maps 标为 Swedish。",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "65 E 55th St, New York, NY",
+    "descriptionZh": "瑞典菜在纽约 Manhattan 的区域兼营店。以瑞典传统为根基的北欧餐厅，Google Maps 标为 Swedish。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.6,
+        "scale": 5,
+        "reviewCount": 1327,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Aquavit%2065%20E%2055th%20St%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Aquavit%2065%20E%2055th%20St%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "swedish-restaurant-1-beard-st",
+    "countryCodes": [
+      "SE"
+    ],
+    "name": "Swedish Restaurant",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Brooklyn",
+    "neighborhood": "待核验",
+    "address": "1 Beard St, Brooklyn, NY",
+    "descriptionZh": "瑞典菜在纽约 Brooklyn 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 3.8,
+        "scale": 5,
+        "reviewCount": 12,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Swedish%20Restaurant%201%20Beard%20St%2C%20Brooklyn%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Swedish%20Restaurant%201%20Beard%20St%2C%20Brooklyn%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "the-lavaux-630-hudson-st",
+    "countryCodes": [
+      "CH"
+    ],
+    "name": "The Lavaux",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "630 Hudson St, New York, NY",
+    "descriptionZh": "瑞士菜在纽约 Manhattan 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.7,
+        "scale": 5,
+        "reviewCount": 440,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=The%20Lavaux%20630%20Hudson%20St%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=The%20Lavaux%20630%20Hudson%20St%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "taureau-558-broome-st",
+    "countryCodes": [
+      "CH"
+    ],
+    "name": "Taureau",
+    "classification": "regional",
+    "classificationNote": "法国餐厅定位，但以瑞士式芝士火锅为核心。",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "558 Broome St, New York, NY",
+    "descriptionZh": "瑞士菜在纽约 Manhattan 的区域兼营店。法国餐厅定位，但以瑞士式芝士火锅为核心。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.3,
+        "scale": 5,
+        "reviewCount": 228,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Taureau%20558%20Broome%20St%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Taureau%20558%20Broome%20St%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "cafe-select-212-lafayette-st",
+    "countryCodes": [
+      "CH"
+    ],
+    "name": "Cafe Select",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "212 Lafayette St, New York, NY",
+    "descriptionZh": "瑞士菜在纽约 Manhattan 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4,
+        "scale": 5,
+        "reviewCount": 1146,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Cafe%20Select%20212%20Lafayette%20St%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Cafe%20Select%20212%20Lafayette%20St%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "varenyk-house-ready-to-eat-frozen-food-67-14-fresh-pond-rd",
+    "countryCodes": [
+      "UA"
+    ],
+    "name": "Varenyk House - Ready to Eat & Frozen Food",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Queens",
+    "neighborhood": "待核验",
+    "address": "67-14 Fresh Pond Rd, Queens, NY",
+    "descriptionZh": "乌克兰菜在纽约 Queens 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.9,
+        "scale": 5,
+        "reviewCount": 292,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Varenyk%20House%20-%20Ready%20to%20Eat%20%26%20Frozen%20Food%2067-14%20Fresh%20Pond%20Rd%2C%20Queens%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Varenyk%20House%20-%20Ready%20to%20Eat%20%26%20Frozen%20Food%2067-14%20Fresh%20Pond%20Rd%2C%20Queens%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "streecha-33-e-7th-st",
+    "countryCodes": [
+      "UA"
+    ],
+    "name": "Streecha",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "33 E 7th St, New York, NY",
+    "descriptionZh": "乌克兰菜在纽约 Manhattan 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.7,
+        "scale": 5,
+        "reviewCount": 700,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Streecha%2033%20E%207th%20St%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Streecha%2033%20E%207th%20St%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "veselka-grand-central-terminal-dining-concourse-west-side-89-e-42nd-st",
+    "countryCodes": [
+      "UA"
+    ],
+    "name": "Veselka Grand Central Terminal",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "Dining Concourse, West Side, 89 E 42nd St, New York, NY",
+    "descriptionZh": "乌克兰菜在纽约 Manhattan 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.7,
+        "scale": 5,
+        "reviewCount": 414,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Veselka%20Grand%20Central%20Terminal%20Dining%20Concourse%2C%20West%20Side%2C%2089%20E%2042nd%20St%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Veselka%20Grand%20Central%20Terminal%20Dining%20Concourse%2C%20West%20Side%2C%2089%20E%2042nd%20St%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "oscar-s-place-466-hudson-st",
+    "countryCodes": [
+      "GB"
+    ],
+    "name": "Oscar's Place",
+    "classification": "regional",
+    "classificationNote": "英国与比利时菜兼营。",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "466 Hudson St, New York, NY",
+    "descriptionZh": "英国菜在纽约 Manhattan 的区域兼营店。英国与比利时菜兼营。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.6,
+        "scale": 5,
+        "reviewCount": 381,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Oscar's%20Place%20466%20Hudson%20St%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Oscar's%20Place%20466%20Hudson%20St%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "lord-s-506-laguardia-pl",
+    "countryCodes": [
+      "GB"
+    ],
+    "name": "Lord’s",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "506 LaGuardia Pl, New York, NY",
+    "descriptionZh": "英国菜在纽约 Manhattan 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.5,
+        "scale": 5,
+        "reviewCount": 483,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Lord%E2%80%99s%20506%20LaGuardia%20Pl%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Lord%E2%80%99s%20506%20LaGuardia%20Pl%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "the-shakespeare-24-e-39th-st",
+    "countryCodes": [
+      "GB"
+    ],
+    "name": "The Shakespeare",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "24 E 39th St, New York, NY",
+    "descriptionZh": "英国菜在纽约 Manhattan 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.4,
+        "scale": 5,
+        "reviewCount": 692,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=The%20Shakespeare%2024%20E%2039th%20St%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=The%20Shakespeare%2024%20E%2039th%20St%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "little-armenia-cafe-1035-manhattan-ave",
+    "countryCodes": [
+      "AM"
+    ],
+    "name": "Little Armenia Cafe",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Brooklyn",
+    "neighborhood": "待核验",
+    "address": "1035 Manhattan Ave, Brooklyn, NY",
+    "descriptionZh": "亚美尼亚菜在纽约 Brooklyn 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.9,
+        "scale": 5,
+        "reviewCount": 385,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Little%20Armenia%20Cafe%201035%20Manhattan%20Ave%2C%20Brooklyn%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Little%20Armenia%20Cafe%201035%20Manhattan%20Ave%2C%20Brooklyn%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "mr-week-armenian-restaurant-128-sand-ln",
+    "countryCodes": [
+      "AM"
+    ],
+    "name": "Mr. Week Armenian Restaurant",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Staten Island",
+    "neighborhood": "待核验",
+    "address": "128 Sand Ln, Staten Island, NY",
+    "descriptionZh": "亚美尼亚菜在纽约 Staten Island 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.7,
+        "scale": 5,
+        "reviewCount": 163,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Mr.%20Week%20Armenian%20Restaurant%20128%20Sand%20Ln%2C%20Staten%20Island%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Mr.%20Week%20Armenian%20Restaurant%20128%20Sand%20Ln%2C%20Staten%20Island%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "sevan-restaurant-catering-216-07-horace-harding-expy",
+    "countryCodes": [
+      "AM"
+    ],
+    "name": "Sevan Restaurant & Catering",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Queens",
+    "neighborhood": "待核验",
+    "address": "216-07 Horace Harding Expy, Queens, NY",
+    "descriptionZh": "亚美尼亚菜在纽约 Queens 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.6,
+        "scale": 5,
+        "reviewCount": 228,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Sevan%20Restaurant%20%26%20Catering%20216-07%20Horace%20Harding%20Expy%2C%20Queens%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Sevan%20Restaurant%20%26%20Catering%20216-07%20Horace%20Harding%20Expy%2C%20Queens%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "baku-nights-712-avenue-u",
+    "countryCodes": [
+      "AZ"
+    ],
+    "name": "Baku Nights",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Brooklyn",
+    "neighborhood": "待核验",
+    "address": "712 Avenue U, Brooklyn, NY",
+    "descriptionZh": "阿塞拜疆菜在纽约 Brooklyn 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.7,
+        "scale": 5,
+        "reviewCount": 278,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Baku%20Nights%20712%20Avenue%20U%2C%20Brooklyn%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Baku%20Nights%20712%20Avenue%20U%2C%20Brooklyn%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "the-lights-of-baku-2707-86th-st",
+    "countryCodes": [
+      "AZ"
+    ],
+    "name": "The Lights of Baku",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Brooklyn",
+    "neighborhood": "待核验",
+    "address": "2707 86th St, Brooklyn, NY",
+    "descriptionZh": "阿塞拜疆菜在纽约 Brooklyn 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.5,
+        "scale": 5,
+        "reviewCount": 242,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=The%20Lights%20of%20Baku%202707%2086th%20St%2C%20Brooklyn%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=The%20Lights%20of%20Baku%202707%2086th%20St%2C%20Brooklyn%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "village-cafe-1968-coney-island-ave",
+    "countryCodes": [
+      "AZ"
+    ],
+    "name": "Village Cafe",
+    "classification": "regional",
+    "classificationNote": "高加索及阿塞拜疆菜兼营。",
+    "status": "open",
+    "borough": "Brooklyn",
+    "neighborhood": "待核验",
+    "address": "1968 Coney Island Ave, Brooklyn, NY",
+    "descriptionZh": "阿塞拜疆菜在纽约 Brooklyn 的区域兼营店。高加索及阿塞拜疆菜兼营。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.4,
+        "scale": 5,
+        "reviewCount": 827,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Village%20Cafe%201968%20Coney%20Island%20Ave%2C%20Brooklyn%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Village%20Cafe%201968%20Coney%20Island%20Ave%2C%20Brooklyn%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "aliada-29-19-broadway",
+    "countryCodes": [
+      "CY"
+    ],
+    "name": "Aliada",
+    "classification": "regional",
+    "classificationNote": "希腊与塞浦路斯菜兼营。",
+    "status": "open",
+    "borough": "Queens",
+    "neighborhood": "待核验",
+    "address": "29-19 Broadway, Queens, NY",
+    "descriptionZh": "塞浦路斯菜在纽约 Queens 的区域兼营店。希腊与塞浦路斯菜兼营。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.5,
+        "scale": 5,
+        "reviewCount": 1147,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Aliada%2029-19%20Broadway%2C%20Queens%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Aliada%2029-19%20Broadway%2C%20Queens%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "aragvi-230-e-44th-st",
+    "countryCodes": [
+      "GE"
+    ],
+    "name": "Aragvi",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "230 E 44th St, New York, NY",
+    "descriptionZh": "格鲁吉亚菜在纽约 Manhattan 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.9,
+        "scale": 5,
+        "reviewCount": 3621,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Aragvi%20230%20E%2044th%20St%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Aragvi%20230%20E%2044th%20St%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "saperavi-245-e-14th-st",
+    "countryCodes": [
+      "GE"
+    ],
+    "name": "SAPERAVI",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "245 E 14th St, New York, NY",
+    "descriptionZh": "格鲁吉亚菜在纽约 Manhattan 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.9,
+        "scale": 5,
+        "reviewCount": 3554,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=SAPERAVI%20245%20E%2014th%20St%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=SAPERAVI%20245%20E%2014th%20St%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "ubani-midtown-937-2nd-ave",
+    "countryCodes": [
+      "GE"
+    ],
+    "name": "Ubani Midtown",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "937 2nd Ave, New York, NY",
+    "descriptionZh": "格鲁吉亚菜在纽约 Manhattan 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.9,
+        "scale": 5,
+        "reviewCount": 1331,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Ubani%20Midtown%20937%202nd%20Ave%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Ubani%20Midtown%20937%202nd%20Ave%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  }
+]

@@ -1,0 +1,41 @@
+{
+  "note": "本文件记录来源类型约定，不是跨平台综合评分。餐厅级来源写在 data/restaurants/{continent}.json 的 sources 字段中。",
+  "sourceTypes": [
+    {
+      "type": "official",
+      "labelZh": "官网 / 官方声明",
+      "requiresUrl": true
+    },
+    {
+      "type": "google_maps",
+      "labelZh": "Google Maps 条目",
+      "requiresUrl": true
+    },
+    {
+      "type": "yelp",
+      "labelZh": "Yelp 条目",
+      "requiresUrl": true
+    },
+    {
+      "type": "reservation",
+      "labelZh": "订餐或预订平台",
+      "requiresUrl": true
+    },
+    {
+      "type": "media",
+      "labelZh": "新闻、杂志或可靠媒体",
+      "requiresUrl": true
+    },
+    {
+      "type": "other",
+      "labelZh": "其他可核验来源",
+      "requiresUrl": true
+    }
+  ],
+  "rules": [
+    "不允许只保存一个没有来源的综合评分。",
+    "不同平台评分必须分条保存，不计算平均分。",
+    "每条来源必须包含 URL 和 YYYY-MM-DD 核验日期。",
+    "缺少可靠地址或营业状态时使用 unverified，不要猜测。"
+  ]
+}

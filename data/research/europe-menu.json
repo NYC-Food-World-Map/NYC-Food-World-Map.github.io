@@ -1,0 +1,990 @@
+{
+  "generatedAt": "2026-09-03",
+  "scope": {
+    "geography": "New York City five boroughs",
+    "europeDefinition": "UN M49 Europe sovereign states plus Kosovo as a separate culinary geography",
+    "countryCount": 45,
+    "exclusionsFromEuropeScope": "Cyprus, Turkey, Armenia, Azerbaijan and Georgia were included in the preceding Asia dataset; Russia is included here under UN M49 Europe.",
+    "rankingRule": "Within the visible and manually verified Google Maps candidate pool, sort by score descending, then review count descending; return no more than three qualifying restaurants.",
+    "importantLimitation": "Google Maps does not expose a complete auditable citywide ranking API. Results are the highest-ranked qualifying restaurants among the candidate listings reviewed on the checked date, not a mathematical guarantee over every NYC listing.",
+    "ratingsSource": "Google Maps",
+    "checkedAt": "2026-09-03"
+  },
+  "countries": [
+    {
+      "countryCode": "AD",
+      "countryZh": "安道尔",
+      "countryEn": "Andorra",
+      "restaurants": [],
+      "noResultReason": "未找到可可靠确认为安道尔菜的纽约五大区餐厅；西班牙、法国或泛地中海餐厅未替代。"
+    },
+    {
+      "countryCode": "AL",
+      "countryZh": "阿尔巴尼亚",
+      "countryEn": "Albania",
+      "restaurants": [
+        {
+          "name": "Arberia",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.9,
+          "scale": 5,
+          "reviewCount": 249,
+          "addressText": "2325 65th St"
+        },
+        {
+          "name": "Çka Ka Qëllu — Bronx",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.8,
+          "scale": 5,
+          "reviewCount": 1514,
+          "addressText": "2321 Hughes Ave"
+        },
+        {
+          "name": "Çka Ka Qëllue — Manhattan",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.7,
+          "scale": 5,
+          "reviewCount": 1894,
+          "addressText": "118 E 31st St"
+        }
+      ]
+    },
+    {
+      "countryCode": "AT",
+      "countryZh": "奥地利",
+      "countryEn": "Austria",
+      "restaurants": [
+        {
+          "name": "Cafe Katja",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.7,
+          "scale": 5,
+          "reviewCount": 935,
+          "addressText": "79 Orchard St"
+        },
+        {
+          "name": "Werkstatt",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.6,
+          "scale": 5,
+          "reviewCount": 922,
+          "addressText": "509 Coney Island Ave"
+        },
+        {
+          "name": "Wallsé",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.4,
+          "scale": 5,
+          "reviewCount": 526,
+          "addressText": "344 W 11th St"
+        }
+      ],
+      "exclusions": [
+        "Café Sabarsky：Google Maps 标注暂时关闭。"
+      ]
+    },
+    {
+      "countryCode": "BY",
+      "countryZh": "白俄罗斯",
+      "countryEn": "Belarus",
+      "restaurants": [],
+      "noResultReason": "未找到可可靠确认为白俄罗斯菜的纽约五大区餐厅；俄罗斯或泛东欧餐厅未替代。"
+    },
+    {
+      "countryCode": "BE",
+      "countryZh": "比利时",
+      "countryEn": "Belgium",
+      "restaurants": [
+        {
+          "name": "Café D'Anvers",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.7,
+          "scale": 5,
+          "reviewCount": 104,
+          "addressText": "1567 Lexington Ave"
+        },
+        {
+          "name": "Pommes Frites",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.6,
+          "scale": 5,
+          "reviewCount": 3708,
+          "addressText": "128 MacDougal St"
+        },
+        {
+          "name": "Le Bistroquet",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.6,
+          "scale": 5,
+          "reviewCount": 938,
+          "addressText": "50 W 22nd St"
+        }
+      ]
+    },
+    {
+      "countryCode": "BA",
+      "countryZh": "波斯尼亚和黑塞哥维那",
+      "countryEn": "Bosnia and Herzegovina",
+      "restaurants": [
+        {
+          "name": "Sarajevo Grill",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.8,
+          "scale": 5,
+          "reviewCount": 1087,
+          "addressText": "37-18 34th Ave"
+        },
+        {
+          "name": "Balkan Kitchen",
+          "classification": "regional",
+          "status": "open",
+          "score": 4.8,
+          "scale": 5,
+          "reviewCount": 75,
+          "addressText": "66-31 Myrtle Ave",
+          "note": "波斯尼亚及巴尔干菜兼营。"
+        },
+        {
+          "name": "Bosna Express",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.3,
+          "scale": 5,
+          "reviewCount": 226,
+          "addressText": "7-91 Fairview Ave"
+        }
+      ]
+    },
+    {
+      "countryCode": "BG",
+      "countryZh": "保加利亚",
+      "countryEn": "Bulgaria",
+      "restaurants": [
+        {
+          "name": "Mehanata Bulgarian Bar",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.1,
+          "scale": 5,
+          "reviewCount": 435,
+          "addressText": "113 Ludlow St"
+        }
+      ]
+    },
+    {
+      "countryCode": "HR",
+      "countryZh": "克罗地亚",
+      "countryEn": "Croatia",
+      "restaurants": [
+        {
+          "name": "Rudar Club",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.7,
+          "scale": 5,
+          "reviewCount": 146,
+          "addressText": "34-01 45th St"
+        }
+      ],
+      "exclusions": [
+        "Dubrovnik：4.7/1,122，但位于 New Rochelle，不属于纽约市五大区。"
+      ]
+    },
+    {
+      "countryCode": "CZ",
+      "countryZh": "捷克",
+      "countryEn": "Czechia",
+      "restaurants": [
+        {
+          "name": "Koliba",
+          "classification": "regional",
+          "status": "open",
+          "score": 4.7,
+          "scale": 5,
+          "reviewCount": 502,
+          "addressText": "31-11 23rd Ave",
+          "note": "捷克与斯洛伐克菜兼营。"
+        },
+        {
+          "name": "Bohemian Spirit",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.5,
+          "scale": 5,
+          "reviewCount": 713,
+          "addressText": "321 E 73rd St"
+        }
+      ]
+    },
+    {
+      "countryCode": "DK",
+      "countryZh": "丹麦",
+      "countryEn": "Denmark",
+      "restaurants": [
+        {
+          "name": "Smør — East Village",
+          "classification": "regional",
+          "status": "open",
+          "score": 4.6,
+          "scale": 5,
+          "reviewCount": 507,
+          "addressText": "441 E 12th St",
+          "note": "以丹麦成长经历和丹麦开放式三明治为核心的北欧餐厅。"
+        },
+        {
+          "name": "Smør Bakery",
+          "classification": "regional",
+          "status": "open",
+          "score": 4.6,
+          "scale": 5,
+          "reviewCount": 265,
+          "addressText": "437 E 12th St",
+          "note": "Smør 的北欧烘焙门店。"
+        },
+        {
+          "name": "Smør — Clinton Hill",
+          "classification": "regional",
+          "status": "open",
+          "score": 4.6,
+          "scale": 5,
+          "reviewCount": 238,
+          "addressText": "26 Putnam Ave",
+          "note": "菜单包含丹麦热狗等丹麦菜品。"
+        }
+      ]
+    },
+    {
+      "countryCode": "EE",
+      "countryZh": "爱沙尼亚",
+      "countryEn": "Estonia",
+      "restaurants": [],
+      "noResultReason": "未找到可可靠确认为爱沙尼亚菜的纽约五大区餐厅；泛波罗的海或东欧餐厅未替代。"
+    },
+    {
+      "countryCode": "FI",
+      "countryZh": "芬兰",
+      "countryEn": "Finland",
+      "restaurants": [],
+      "noResultReason": "未找到持续营业的芬兰菜专门店；短期快闪活动及泛北欧餐厅未计入。"
+    },
+    {
+      "countryCode": "FR",
+      "countryZh": "法国",
+      "countryEn": "France",
+      "restaurants": [
+        {
+          "name": "LOULOU",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.7,
+          "scale": 5,
+          "reviewCount": 4485,
+          "addressText": "176 8th Ave"
+        },
+        {
+          "name": "Le Gratin",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.7,
+          "scale": 5,
+          "reviewCount": 788,
+          "addressText": "5 Beekman St"
+        },
+        {
+          "name": "Le Petit Village",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.7,
+          "scale": 5,
+          "reviewCount": 773,
+          "addressText": "173 7th Ave S"
+        }
+      ]
+    },
+    {
+      "countryCode": "DE",
+      "countryZh": "德国",
+      "countryEn": "Germany",
+      "restaurants": [
+        {
+          "name": "Zum Stammtisch",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.7,
+          "scale": 5,
+          "reviewCount": 2567,
+          "addressText": "69-46 Myrtle Ave"
+        },
+        {
+          "name": "Max Bratwurst und Bier",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.7,
+          "scale": 5,
+          "reviewCount": 1129,
+          "addressText": "47-02 30th Ave"
+        },
+        {
+          "name": "Reichenbach Hall",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.6,
+          "scale": 5,
+          "reviewCount": 7689,
+          "addressText": "5 W 37th St"
+        }
+      ]
+    },
+    {
+      "countryCode": "GR",
+      "countryZh": "希腊",
+      "countryEn": "Greece",
+      "restaurants": [
+        {
+          "name": "Nostos NY",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.9,
+          "scale": 5,
+          "reviewCount": 39,
+          "addressText": "420 E 59th St",
+          "note": "严格按评分优先，因此评论样本较小的 4.9 门店排在首位。"
+        },
+        {
+          "name": "Ambrosia Garden",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.8,
+          "scale": 5,
+          "reviewCount": 434,
+          "addressText": "29-11 23rd Ave"
+        },
+        {
+          "name": "Elea",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.7,
+          "scale": 5,
+          "reviewCount": 1183,
+          "addressText": "217 W 85th St"
+        }
+      ]
+    },
+    {
+      "countryCode": "HU",
+      "countryZh": "匈牙利",
+      "countryEn": "Hungary",
+      "restaurants": [
+        {
+          "name": "Hungarian Kosher Cuisine",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.9,
+          "scale": 5,
+          "reviewCount": 108,
+          "addressText": "5009 16th Ave"
+        },
+        {
+          "name": "The Hungarian Pastry Shop",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.6,
+          "scale": 5,
+          "reviewCount": 2548,
+          "addressText": "1030 Amsterdam Ave"
+        },
+        {
+          "name": "Budapest Cafe",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.1,
+          "scale": 5,
+          "reviewCount": 660,
+          "addressText": "1631 2nd Ave"
+        }
+      ]
+    },
+    {
+      "countryCode": "IS",
+      "countryZh": "冰岛",
+      "countryEn": "Iceland",
+      "restaurants": [],
+      "noResultReason": "未找到冰岛菜餐厅；食品制造商、泛北欧餐厅及名字中含 Island 的无关门店未计入。"
+    },
+    {
+      "countryCode": "IE",
+      "countryZh": "爱尔兰",
+      "countryEn": "Ireland",
+      "restaurants": [
+        {
+          "name": "Molly's Shebeen Bar + Restaurant",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.6,
+          "scale": 5,
+          "reviewCount": 1194,
+          "addressText": "287 3rd Ave"
+        },
+        {
+          "name": "Malone's Irish Bar & Restaurant",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.6,
+          "scale": 5,
+          "reviewCount": 461,
+          "addressText": "692 3rd Ave"
+        },
+        {
+          "name": "Garvey's Irish Pub",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.6,
+          "scale": 5,
+          "reviewCount": 416,
+          "addressText": "206 W 41st St"
+        }
+      ]
+    },
+    {
+      "countryCode": "IT",
+      "countryZh": "意大利",
+      "countryEn": "Italy",
+      "restaurants": [
+        {
+          "name": "Osteria La Baia",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.9,
+          "scale": 5,
+          "reviewCount": 7849,
+          "addressText": "129 W 52nd St"
+        },
+        {
+          "name": "La Pecora Bianca SoHo",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.8,
+          "scale": 5,
+          "reviewCount": 7738,
+          "addressText": "54 Prince St"
+        },
+        {
+          "name": "Osteria Nonnino",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.8,
+          "scale": 5,
+          "reviewCount": 5135,
+          "addressText": "637 Hudson St"
+        }
+      ]
+    },
+    {
+      "countryCode": "XK",
+      "countryZh": "科索沃",
+      "countryEn": "Kosovo",
+      "restaurants": [
+        {
+          "name": "Çka Ka Qëllu — Bronx",
+          "classification": "regional",
+          "status": "open",
+          "score": 4.8,
+          "scale": 5,
+          "reviewCount": 1514,
+          "addressText": "2321 Hughes Ave",
+          "note": "官网明确定位为阿尔巴尼亚与科索沃菜。"
+        },
+        {
+          "name": "Dukagjini Burek",
+          "classification": "regional",
+          "status": "open",
+          "score": 4.8,
+          "scale": 5,
+          "reviewCount": 614,
+          "addressText": "758 Lydig Ave",
+          "note": "以科索沃—阿尔巴尼亚传统烤馅饼为主。"
+        },
+        {
+          "name": "Çka Ka Qëllue — Manhattan",
+          "classification": "regional",
+          "status": "open",
+          "score": 4.7,
+          "scale": 5,
+          "reviewCount": 1894,
+          "addressText": "118 E 31st St",
+          "note": "官网明确定位为阿尔巴尼亚与科索沃菜。"
+        }
+      ]
+    },
+    {
+      "countryCode": "LV",
+      "countryZh": "拉脱维亚",
+      "countryEn": "Latvia",
+      "restaurants": [],
+      "noResultReason": "未找到可可靠确认为拉脱维亚菜的纽约五大区餐厅；乌克兰、俄罗斯或波兰餐厅未替代。"
+    },
+    {
+      "countryCode": "LI",
+      "countryZh": "列支敦士登",
+      "countryEn": "Liechtenstein",
+      "restaurants": [],
+      "noResultReason": "未找到列支敦士登菜餐厅；瑞士、奥地利或法国餐厅未替代。"
+    },
+    {
+      "countryCode": "LT",
+      "countryZh": "立陶宛",
+      "countryEn": "Lithuania",
+      "restaurants": [
+        {
+          "name": "The Avenue Restaurant & Bar",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.4,
+          "scale": 5,
+          "reviewCount": 430,
+          "addressText": "71-22 Myrtle Ave"
+        }
+      ]
+    },
+    {
+      "countryCode": "LU",
+      "countryZh": "卢森堡",
+      "countryEn": "Luxembourg",
+      "restaurants": [],
+      "noResultReason": "未找到卢森堡菜餐厅；名称相似的 Café Luxembourg 属法国/美式餐厅，未计入。"
+    },
+    {
+      "countryCode": "MT",
+      "countryZh": "马耳他",
+      "countryEn": "Malta",
+      "restaurants": [],
+      "noResultReason": "The Maltese Center 是社团会所而非常规餐厅；其余结果与马耳他菜无关。"
+    },
+    {
+      "countryCode": "MD",
+      "countryZh": "摩尔多瓦",
+      "countryEn": "Moldova",
+      "restaurants": [
+        {
+          "name": "Moldova Restaurant",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.4,
+          "scale": 5,
+          "reviewCount": 852,
+          "addressText": "1827 Coney Island Ave, Brooklyn, NY 11230"
+        }
+      ]
+    },
+    {
+      "countryCode": "MC",
+      "countryZh": "摩纳哥",
+      "countryEn": "Monaco",
+      "restaurants": [],
+      "noResultReason": "未找到明确以摩纳哥菜为主的餐厅；源自摩纳哥的品牌或泛法意餐厅未自动计入。"
+    },
+    {
+      "countryCode": "ME",
+      "countryZh": "黑山",
+      "countryEn": "Montenegro",
+      "restaurants": [
+        {
+          "name": "Cakor",
+          "classification": "regional",
+          "status": "open",
+          "score": 4.5,
+          "scale": 5,
+          "reviewCount": 325,
+          "addressText": "632 E 186th St",
+          "note": "店主来自黑山，菜单含黑山及周边巴尔干菜。"
+        }
+      ]
+    },
+    {
+      "countryCode": "NL",
+      "countryZh": "荷兰",
+      "countryEn": "Netherlands",
+      "restaurants": [],
+      "noResultReason": "检索到的 The Dutch 实为美国餐厅；未找到可可靠确认为荷兰菜的五大区餐厅。"
+    },
+    {
+      "countryCode": "MK",
+      "countryZh": "北马其顿",
+      "countryEn": "North Macedonia",
+      "restaurants": [],
+      "noResultReason": "未找到当前仍营业的北马其顿菜专门店；历史候选 Balkanika 已永久关闭。",
+      "exclusions": [
+        "Balkanika：Google Maps 标注永久关闭，历史评分 4.0/40。"
+      ]
+    },
+    {
+      "countryCode": "NO",
+      "countryZh": "挪威",
+      "countryEn": "Norway",
+      "restaurants": [],
+      "noResultReason": "未找到明确以挪威菜为主且仍营业的餐厅；泛 Scandinavian/Nordic 餐厅未直接等同为挪威菜。"
+    },
+    {
+      "countryCode": "PL",
+      "countryZh": "波兰",
+      "countryEn": "Poland",
+      "restaurants": [
+        {
+          "name": "Old Traditional Polish Cuisine",
+          "classification": "specialist",
+          "status": "open",
+          "score": 5,
+          "scale": 5,
+          "reviewCount": 8,
+          "addressText": "55 Old Slip",
+          "note": "严格按评分优先，因此评论样本很小的 5.0 门店排在首位。"
+        },
+        {
+          "name": "Restaurant Relax",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.9,
+          "scale": 5,
+          "reviewCount": 446,
+          "addressText": "68A Newel St"
+        },
+        {
+          "name": "Pierozek",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.8,
+          "scale": 5,
+          "reviewCount": 1210,
+          "addressText": "592 Manhattan Ave"
+        }
+      ]
+    },
+    {
+      "countryCode": "PT",
+      "countryZh": "葡萄牙",
+      "countryEn": "Portugal",
+      "restaurants": [
+        {
+          "name": "Joey Bats Café at The Essex Market",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.8,
+          "scale": 5,
+          "reviewCount": 567,
+          "addressText": "88 Essex St Spc 36"
+        },
+        {
+          "name": "Leitao",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.7,
+          "scale": 5,
+          "reviewCount": 1692,
+          "addressText": "547 Hudson St"
+        },
+        {
+          "name": "O Lavrador",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.5,
+          "scale": 5,
+          "reviewCount": 1604,
+          "addressText": "138-40 101st Ave"
+        }
+      ]
+    },
+    {
+      "countryCode": "RO",
+      "countryZh": "罗马尼亚",
+      "countryEn": "Romania",
+      "restaurants": [
+        {
+          "name": "Danubius Traditional Romanian Restaurant",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.8,
+          "scale": 5,
+          "reviewCount": 335,
+          "addressText": "47-57 41st St"
+        },
+        {
+          "name": "Romanian Garden",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.3,
+          "scale": 5,
+          "reviewCount": 706,
+          "addressText": "43-06 43rd Ave"
+        }
+      ]
+    },
+    {
+      "countryCode": "RU",
+      "countryZh": "俄罗斯",
+      "countryEn": "Russia",
+      "restaurants": [
+        {
+          "name": "Mari Vanna",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.5,
+          "scale": 5,
+          "reviewCount": 2088,
+          "addressText": "41 E 20th St"
+        },
+        {
+          "name": "Russian Vodka Room",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.5,
+          "scale": 5,
+          "reviewCount": 1064,
+          "addressText": "265 W 52nd St"
+        },
+        {
+          "name": "Russian Samovar Restaurant and Piano Bar",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.2,
+          "scale": 5,
+          "reviewCount": 1341,
+          "addressText": "256 W 52nd St"
+        }
+      ]
+    },
+    {
+      "countryCode": "SM",
+      "countryZh": "圣马力诺",
+      "countryEn": "San Marino",
+      "restaurants": [],
+      "noResultReason": "未找到圣马力诺菜餐厅；名称含 San Marino 或普通意大利餐厅未计入。"
+    },
+    {
+      "countryCode": "RS",
+      "countryZh": "塞尔维亚",
+      "countryEn": "Serbia",
+      "restaurants": [
+        {
+          "name": "Kafana",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.4,
+          "scale": 5,
+          "reviewCount": 1244,
+          "addressText": "116 Avenue C, New York, NY 10009"
+        }
+      ],
+      "exclusions": [
+        "Selo：已关闭。"
+      ]
+    },
+    {
+      "countryCode": "SK",
+      "countryZh": "斯洛伐克",
+      "countryEn": "Slovakia",
+      "restaurants": [
+        {
+          "name": "Koliba",
+          "classification": "regional",
+          "status": "open",
+          "score": 4.7,
+          "scale": 5,
+          "reviewCount": 502,
+          "addressText": "31-11 23rd Ave",
+          "note": "捷克与斯洛伐克菜兼营。"
+        }
+      ]
+    },
+    {
+      "countryCode": "SI",
+      "countryZh": "斯洛文尼亚",
+      "countryEn": "Slovenia",
+      "restaurants": [],
+      "noResultReason": "未找到可可靠确认为斯洛文尼亚菜的五大区餐厅；泛巴尔干餐厅未替代。"
+    },
+    {
+      "countryCode": "ES",
+      "countryZh": "西班牙",
+      "countryEn": "Spain",
+      "restaurants": [
+        {
+          "name": "EZ Paella & Tapas",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.8,
+          "scale": 5,
+          "reviewCount": 3727,
+          "addressText": "744 9th Ave"
+        },
+        {
+          "name": "Salinas Restaurant",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.8,
+          "scale": 5,
+          "reviewCount": 2914,
+          "addressText": "136 9th Ave"
+        },
+        {
+          "name": "Boqueria W40th",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.6,
+          "scale": 5,
+          "reviewCount": 4349,
+          "addressText": "260 W 40th St"
+        }
+      ]
+    },
+    {
+      "countryCode": "SE",
+      "countryZh": "瑞典",
+      "countryEn": "Sweden",
+      "restaurants": [
+        {
+          "name": "Aquavit",
+          "classification": "regional",
+          "status": "open",
+          "score": 4.6,
+          "scale": 5,
+          "reviewCount": 1327,
+          "addressText": "65 E 55th St",
+          "note": "以瑞典传统为根基的北欧餐厅，Google Maps 标为 Swedish。"
+        },
+        {
+          "name": "Swedish Restaurant",
+          "classification": "specialist",
+          "status": "open",
+          "score": 3.8,
+          "scale": 5,
+          "reviewCount": 12,
+          "addressText": "1 Beard St"
+        }
+      ]
+    },
+    {
+      "countryCode": "CH",
+      "countryZh": "瑞士",
+      "countryEn": "Switzerland",
+      "restaurants": [
+        {
+          "name": "The Lavaux",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.7,
+          "scale": 5,
+          "reviewCount": 440,
+          "addressText": "630 Hudson St"
+        },
+        {
+          "name": "Taureau",
+          "classification": "regional",
+          "status": "open",
+          "score": 4.3,
+          "scale": 5,
+          "reviewCount": 228,
+          "addressText": "558 Broome St",
+          "note": "法国餐厅定位，但以瑞士式芝士火锅为核心。"
+        },
+        {
+          "name": "Cafe Select",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4,
+          "scale": 5,
+          "reviewCount": 1146,
+          "addressText": "212 Lafayette St"
+        }
+      ],
+      "exclusions": [
+        "Mont Blanc 52：Google Maps 标注永久关闭。"
+      ]
+    },
+    {
+      "countryCode": "UA",
+      "countryZh": "乌克兰",
+      "countryEn": "Ukraine",
+      "restaurants": [
+        {
+          "name": "Varenyk House - Ready to Eat & Frozen Food",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.9,
+          "scale": 5,
+          "reviewCount": 292,
+          "addressText": "67-14 Fresh Pond Rd"
+        },
+        {
+          "name": "Streecha",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.7,
+          "scale": 5,
+          "reviewCount": 700,
+          "addressText": "33 E 7th St"
+        },
+        {
+          "name": "Veselka Grand Central Terminal",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.7,
+          "scale": 5,
+          "reviewCount": 414,
+          "addressText": "Dining Concourse, West Side, 89 E 42nd St"
+        }
+      ]
+    },
+    {
+      "countryCode": "GB",
+      "countryZh": "英国",
+      "countryEn": "United Kingdom",
+      "restaurants": [
+        {
+          "name": "Oscar's Place",
+          "classification": "regional",
+          "status": "open",
+          "score": 4.6,
+          "scale": 5,
+          "reviewCount": 381,
+          "addressText": "466 Hudson St",
+          "note": "英国与比利时菜兼营。"
+        },
+        {
+          "name": "Lord’s",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.5,
+          "scale": 5,
+          "reviewCount": 483,
+          "addressText": "506 LaGuardia Pl"
+        },
+        {
+          "name": "The Shakespeare",
+          "classification": "specialist",
+          "status": "open",
+          "score": 4.4,
+          "scale": 5,
+          "reviewCount": 692,
+          "addressText": "24 E 39th St"
+        }
+      ]
+    },
+    {
+      "countryCode": "VA",
+      "countryZh": "梵蒂冈",
+      "countryEn": "Vatican City",
+      "restaurants": [],
+      "noResultReason": "未找到梵蒂冈菜餐厅；罗马或普通意大利餐厅未计入。"
+    }
+  ]
+}

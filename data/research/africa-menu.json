@@ -1,0 +1,757 @@
+{
+  "generatedAt": "2026-09-03",
+  "scope": {
+    "city": "New York City",
+    "boroughs": [
+      "Manhattan",
+      "Brooklyn",
+      "Queens",
+      "Bronx",
+      "Staten Island"
+    ],
+    "definition": "54个联合国非洲会员国，另列西撒哈拉（争议地区），共55项",
+    "rankingMethod": "对Google Maps当前可见且经菜系归属复核的候选，先按评分降序，再按评论数降序；每项最多3家。候选少于3家则全部列出。",
+    "limitations": "Google Maps的搜索结果会随时间、位置和个性化变化。本文件不把泛非洲餐厅或邻国菜系当作某国专门店；空数组表示本轮未找到足够可靠且仍在纽约营业的对应餐厅。"
+  },
+  "ratingSource": "Google Maps",
+  "countries": [
+    {
+      "code": "DZ",
+      "nameZh": "阿尔及利亚",
+      "nameEn": "Algeria",
+      "restaurants": [
+        {
+          "name": "Merguez and Frites",
+          "classification": "regional",
+          "status": "open",
+          "borough": "Queens",
+          "neighborhood": "Astoria",
+          "address": "40-06 25th Ave, Astoria, NY 11103",
+          "googleMapsRating": 4.6,
+          "googleMapsReviewCount": 349,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Merguez%20and%20Frites%20Astoria%20NY"
+        },
+        {
+          "name": "Simple",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Brooklyn",
+          "neighborhood": "Williamsburg",
+          "address": "346 Bedford Ave, Brooklyn, NY 11249",
+          "googleMapsRating": 4.4,
+          "googleMapsReviewCount": 508,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Simple%20Algerian%20Restaurant%20Brooklyn%20NY"
+        }
+      ],
+      "exclusions": [
+        "The Kasbah Café与Demi Baguette在Google Maps显示暂时关闭，未列入推荐。"
+      ]
+    },
+    {
+      "code": "AO",
+      "nameZh": "安哥拉",
+      "nameEn": "Angola",
+      "restaurants": [],
+      "note": "未找到可靠的安哥拉专门餐厅。"
+    },
+    {
+      "code": "BJ",
+      "nameZh": "贝宁",
+      "nameEn": "Benin",
+      "restaurants": [],
+      "note": "搜索结果为泛西非餐厅，未找到可核实的贝宁专门餐厅。"
+    },
+    {
+      "code": "BW",
+      "nameZh": "博茨瓦纳",
+      "nameEn": "Botswana",
+      "restaurants": [],
+      "note": "未找到可靠结果。"
+    },
+    {
+      "code": "BF",
+      "nameZh": "布基纳法索",
+      "nameEn": "Burkina Faso",
+      "restaurants": [],
+      "note": "未找到可靠结果。"
+    },
+    {
+      "code": "BI",
+      "nameZh": "布隆迪",
+      "nameEn": "Burundi",
+      "restaurants": [],
+      "note": "未找到可靠结果。"
+    },
+    {
+      "code": "CV",
+      "nameZh": "佛得角",
+      "nameEn": "Cabo Verde",
+      "restaurants": [],
+      "note": "搜索结果主要为葡萄牙或泛拉丁餐厅，未作为佛得角菜收录。"
+    },
+    {
+      "code": "CM",
+      "nameZh": "喀麦隆",
+      "nameEn": "Cameroon",
+      "restaurants": [],
+      "note": "未找到可核实的喀麦隆专门餐厅。"
+    },
+    {
+      "code": "CF",
+      "nameZh": "中非共和国",
+      "nameEn": "Central African Republic",
+      "restaurants": [],
+      "note": "未找到可靠结果。"
+    },
+    {
+      "code": "TD",
+      "nameZh": "乍得",
+      "nameEn": "Chad",
+      "restaurants": [],
+      "note": "搜索结果含同名或误匹配商家，未找到乍得菜餐厅。"
+    },
+    {
+      "code": "KM",
+      "nameZh": "科摩罗",
+      "nameEn": "Comoros",
+      "restaurants": [],
+      "note": "未找到可靠结果。"
+    },
+    {
+      "code": "CD",
+      "nameZh": "刚果民主共和国",
+      "nameEn": "Democratic Republic of the Congo",
+      "restaurants": [],
+      "note": "未找到可核实的刚果（金）专门餐厅。"
+    },
+    {
+      "code": "CG",
+      "nameZh": "刚果共和国",
+      "nameEn": "Republic of the Congo",
+      "restaurants": [],
+      "note": "未找到可核实的刚果（布）专门餐厅。"
+    },
+    {
+      "code": "CI",
+      "nameZh": "科特迪瓦",
+      "nameEn": "Côte d’Ivoire",
+      "restaurants": [
+        {
+          "name": "New Ivoire",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Manhattan",
+          "neighborhood": "East Harlem",
+          "address": "76 E 119th St, New York, NY 10035",
+          "googleMapsRating": 4.1,
+          "googleMapsReviewCount": 408,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=New%20Ivoire%2076%20E%20119th%20St%20New%20York"
+        }
+      ],
+      "note": "Sylla等附近西非餐厅的单一国家归属不够明确，未用来补足名额。"
+    },
+    {
+      "code": "DJ",
+      "nameZh": "吉布提",
+      "nameEn": "Djibouti",
+      "restaurants": [],
+      "note": "未找到可靠结果。"
+    },
+    {
+      "code": "EG",
+      "nameZh": "埃及",
+      "nameEn": "Egypt",
+      "restaurants": [
+        {
+          "name": "Akiila",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Queens",
+          "neighborhood": "Astoria",
+          "address": "35-01 30th Ave, Astoria, NY 11103",
+          "googleMapsRating": 4.9,
+          "googleMapsReviewCount": 33,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Akiila%20Astoria%20NY"
+        },
+        {
+          "name": "Mum Feteer",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Queens",
+          "neighborhood": "Astoria",
+          "address": "25-48 Steinway St, Astoria, NY 11103",
+          "googleMapsRating": 4.8,
+          "googleMapsReviewCount": 3259,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Mum%20Feteer%20Astoria%20NY"
+        },
+        {
+          "name": "Ashour Restaurant",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Queens",
+          "neighborhood": "Astoria",
+          "address": "31-51 Steinway St, Astoria, NY 11103",
+          "googleMapsRating": 4.8,
+          "googleMapsReviewCount": 44,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Ashour%20Restaurant%20Astoria%20NY"
+        }
+      ]
+    },
+    {
+      "code": "GQ",
+      "nameZh": "赤道几内亚",
+      "nameEn": "Equatorial Guinea",
+      "restaurants": [],
+      "note": "未找到可靠结果。"
+    },
+    {
+      "code": "ER",
+      "nameZh": "厄立特里亚",
+      "nameEn": "Eritrea",
+      "restaurants": [
+        {
+          "name": "Cafe Massawa",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Manhattan",
+          "neighborhood": "Morningside Heights",
+          "address": "3153 Broadway, New York, NY 10027",
+          "googleMapsRating": 5,
+          "googleMapsReviewCount": 151,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Cafe%20Massawa%203153%20Broadway%20New%20York"
+        },
+        {
+          "name": "MC TO-GO",
+          "classification": "regional",
+          "status": "open",
+          "borough": "Queens",
+          "neighborhood": "Sunnyside",
+          "address": "45-14 48th Ave, Sunnyside, NY 11104",
+          "googleMapsRating": 4.6,
+          "googleMapsReviewCount": 171,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=MC%20TO-GO%20Sunnyside%20NY",
+          "note": "兼做厄立特里亚与埃塞俄比亚菜。"
+        },
+        {
+          "name": "Massawa",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Manhattan",
+          "neighborhood": "Morningside Heights",
+          "address": "1239 Amsterdam Ave, New York, NY 10027",
+          "googleMapsRating": 4.5,
+          "googleMapsReviewCount": 778,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Massawa%201239%20Amsterdam%20Ave%20New%20York"
+        }
+      ]
+    },
+    {
+      "code": "SZ",
+      "nameZh": "斯威士兰",
+      "nameEn": "Eswatini",
+      "restaurants": [],
+      "note": "未找到可靠结果。"
+    },
+    {
+      "code": "ET",
+      "nameZh": "埃塞俄比亚",
+      "nameEn": "Ethiopia",
+      "restaurants": [
+        {
+          "name": "Addey Ababa",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Manhattan",
+          "neighborhood": "Washington Heights",
+          "address": "736 W 181st St, New York, NY 10033",
+          "googleMapsRating": 4.9,
+          "googleMapsReviewCount": 293,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Addey%20Ababa%20736%20W%20181st%20St%20New%20York"
+        },
+        {
+          "name": "Bunna Cafe",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Brooklyn",
+          "neighborhood": "Bushwick",
+          "address": "1084 Flushing Ave, Brooklyn, NY 11237",
+          "googleMapsRating": 4.7,
+          "googleMapsReviewCount": 2006,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Bunna%20Cafe%20Brooklyn%20NY"
+        },
+        {
+          "name": "Awaze",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Manhattan",
+          "neighborhood": "Harlem",
+          "address": "2288 Frederick Douglass Blvd, New York, NY 10027",
+          "googleMapsRating": 4.7,
+          "googleMapsReviewCount": 162,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Awaze%20Ethiopian%20New%20York"
+        }
+      ]
+    },
+    {
+      "code": "GA",
+      "nameZh": "加蓬",
+      "nameEn": "Gabon",
+      "restaurants": [],
+      "note": "未找到可靠结果。"
+    },
+    {
+      "code": "GM",
+      "nameZh": "冈比亚",
+      "nameEn": "The Gambia",
+      "restaurants": [],
+      "note": "搜索结果为泛西非或塞内加尔餐厅，未将其标为冈比亚菜。"
+    },
+    {
+      "code": "GH",
+      "nameZh": "加纳",
+      "nameEn": "Ghana",
+      "restaurants": [
+        {
+          "name": "Accra Express Restaurant",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Manhattan",
+          "neighborhood": "East Harlem",
+          "address": "63 E 125th St, New York, NY 10035",
+          "googleMapsRating": 4.4,
+          "googleMapsReviewCount": 1344,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Accra%20Express%20Restaurant%20New%20York"
+        },
+        {
+          "name": "Akwaaba Restaurant",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Brooklyn",
+          "neighborhood": "Prospect Lefferts Gardens",
+          "address": "604 Parkside Ave, Brooklyn, NY 11226",
+          "googleMapsRating": 4.3,
+          "googleMapsReviewCount": 211,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Akwaaba%20Restaurant%20Brooklyn%20NY"
+        },
+        {
+          "name": "Accra",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Bronx",
+          "neighborhood": "University Heights",
+          "address": "2041 Davidson Ave, Bronx, NY 10453",
+          "googleMapsRating": 4.1,
+          "googleMapsReviewCount": 850,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Accra%202041%20Davidson%20Ave%20Bronx"
+        }
+      ]
+    },
+    {
+      "code": "GN",
+      "nameZh": "几内亚",
+      "nameEn": "Guinea",
+      "restaurants": [
+        {
+          "name": "Jalloh",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Bronx",
+          "neighborhood": "Morrisania",
+          "address": "3396 3rd Ave, Bronx, NY 10456",
+          "googleMapsRating": 4.6,
+          "googleMapsReviewCount": 67,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Jalloh%203396%203rd%20Ave%20Bronx",
+          "cuisineEvidenceUrl": "https://www.sharedbowl.com/new-york/bronx/jalloh"
+        }
+      ]
+    },
+    {
+      "code": "GW",
+      "nameZh": "几内亚比绍",
+      "nameEn": "Guinea-Bissau",
+      "restaurants": [],
+      "note": "未找到可靠结果。"
+    },
+    {
+      "code": "KE",
+      "nameZh": "肯尼亚",
+      "nameEn": "Kenya",
+      "restaurants": [],
+      "note": "纽约搜索结果多为泛东非或索马里餐厅，未找到可核实的肯尼亚专门餐厅。"
+    },
+    {
+      "code": "LS",
+      "nameZh": "莱索托",
+      "nameEn": "Lesotho",
+      "restaurants": [],
+      "note": "未找到可靠结果。"
+    },
+    {
+      "code": "LR",
+      "nameZh": "利比里亚",
+      "nameEn": "Liberia",
+      "restaurants": [],
+      "note": "Maima’s曾是纽约知名利比里亚餐厅，但已有明确关店报道，未列入推荐。",
+      "closureEvidenceUrl": "https://ny.eater.com/2016/6/20/11977928/maimas-liberian-restaurant-closed"
+    },
+    {
+      "code": "LY",
+      "nameZh": "利比亚",
+      "nameEn": "Libya",
+      "restaurants": [],
+      "note": "搜索结果主要为黎巴嫩或泛地中海餐厅，未作为利比亚菜收录。"
+    },
+    {
+      "code": "MG",
+      "nameZh": "马达加斯加",
+      "nameEn": "Madagascar",
+      "restaurants": [],
+      "note": "只找到活动或快闪线索，未找到持续营业的专门餐厅。"
+    },
+    {
+      "code": "MW",
+      "nameZh": "马拉维",
+      "nameEn": "Malawi",
+      "restaurants": [],
+      "note": "未找到可靠结果。"
+    },
+    {
+      "code": "ML",
+      "nameZh": "马里",
+      "nameEn": "Mali",
+      "restaurants": [],
+      "note": "部分泛西非店可能供应马里菜，但单一国家归属不足，未收录。"
+    },
+    {
+      "code": "MR",
+      "nameZh": "毛里塔尼亚",
+      "nameEn": "Mauritania",
+      "restaurants": [],
+      "note": "未找到可靠结果。"
+    },
+    {
+      "code": "MU",
+      "nameZh": "毛里求斯",
+      "nameEn": "Mauritius",
+      "restaurants": [],
+      "note": "未找到可靠结果。"
+    },
+    {
+      "code": "MA",
+      "nameZh": "摩洛哥",
+      "nameEn": "Morocco",
+      "restaurants": [
+        {
+          "name": "Moroccan Bites by Siham",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Queens",
+          "neighborhood": "Astoria",
+          "address": "28-44 Steinway St, Astoria, NY 11103",
+          "googleMapsRating": 4.9,
+          "googleMapsReviewCount": 911,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Moroccan%20Bites%20by%20Siham%20Astoria"
+        },
+        {
+          "name": "Ayah Restaurant",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Manhattan",
+          "neighborhood": "Greenwich Village",
+          "address": "77 W Houston St, New York, NY 10012",
+          "googleMapsRating": 4.7,
+          "googleMapsReviewCount": 1224,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Ayah%20Restaurant%2077%20W%20Houston%20St%20New%20York"
+        },
+        {
+          "name": "Dar Lbahja",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Queens",
+          "neighborhood": "Astoria",
+          "address": "47-12 30th Ave, Astoria, NY 11103",
+          "googleMapsRating": 4.7,
+          "googleMapsReviewCount": 330,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Dar%20Lbahja%20Astoria%20NY"
+        }
+      ]
+    },
+    {
+      "code": "MZ",
+      "nameZh": "莫桑比克",
+      "nameEn": "Mozambique",
+      "restaurants": [],
+      "note": "只找到已结束的2026年临时快闪线索，未列为持续营业餐厅。"
+    },
+    {
+      "code": "NA",
+      "nameZh": "纳米比亚",
+      "nameEn": "Namibia",
+      "restaurants": [],
+      "note": "未找到可靠结果。"
+    },
+    {
+      "code": "NE",
+      "nameZh": "尼日尔",
+      "nameEn": "Niger",
+      "restaurants": [],
+      "note": "搜索常误匹配尼日利亚餐厅，未找到尼日尔专门餐厅。"
+    },
+    {
+      "code": "NG",
+      "nameZh": "尼日利亚",
+      "nameEn": "Nigeria",
+      "restaurants": [
+        {
+          "name": "Káyọ̀dé Restaurant Mirage",
+          "classification": "specialist",
+          "status": "unverified",
+          "borough": "Brooklyn",
+          "neighborhood": "Flatbush",
+          "address": "563 E 26th St, Brooklyn, NY 11210",
+          "googleMapsRating": 4.9,
+          "googleMapsReviewCount": 214,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Kayode%20Restaurant%20Mirage%20Brooklyn",
+          "note": "当前以在线下单/自取为主，实体堂食状态待核验。"
+        },
+        {
+          "name": "DÙNDÚ",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Manhattan",
+          "neighborhood": "Midtown East",
+          "address": "140 E 41st St, New York, NY 10017",
+          "googleMapsRating": 4.6,
+          "googleMapsReviewCount": 453,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=DUNDU%20140%20E%2041st%20St%20New%20York",
+          "cuisineEvidenceUrl": "https://eatdundu.com/"
+        },
+        {
+          "name": "Brooklyn Suya",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Brooklyn",
+          "neighborhood": "Crown Heights",
+          "address": "717 Franklin Ave, Brooklyn, NY 11238",
+          "googleMapsRating": 4.5,
+          "googleMapsReviewCount": 520,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Brooklyn%20Suya%20717%20Franklin%20Ave"
+        }
+      ]
+    },
+    {
+      "code": "RW",
+      "nameZh": "卢旺达",
+      "nameEn": "Rwanda",
+      "restaurants": [],
+      "note": "未找到可靠结果。"
+    },
+    {
+      "code": "ST",
+      "nameZh": "圣多美和普林西比",
+      "nameEn": "São Tomé and Príncipe",
+      "restaurants": [],
+      "note": "搜索结果为泛葡萄牙餐厅，未找到对应专门餐厅。"
+    },
+    {
+      "code": "SN",
+      "nameZh": "塞内加尔",
+      "nameEn": "Senegal",
+      "restaurants": [
+        {
+          "name": "Saint Louis Restaurant Keur Yayou Dara",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Manhattan",
+          "neighborhood": "Harlem",
+          "address": "381 Lenox Ave, New York, NY 10027",
+          "googleMapsRating": 4.7,
+          "googleMapsReviewCount": 122,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Saint%20Louis%20Restaurant%20Keur%20Yayou%20Dara%20Harlem"
+        },
+        {
+          "name": "Teranga Midtown",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Manhattan",
+          "neighborhood": "Midtown East",
+          "address": "601 Lexington Ave, New York, NY 10022",
+          "googleMapsRating": 4.6,
+          "googleMapsReviewCount": 203,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Teranga%20Midtown%20New%20York"
+        },
+        {
+          "name": "Joloff",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Brooklyn",
+          "neighborhood": "Bedford-Stuyvesant",
+          "address": "1168 Bedford Ave, Brooklyn, NY 11216",
+          "googleMapsRating": 4.5,
+          "googleMapsReviewCount": 486,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Joloff%201168%20Bedford%20Ave%20Brooklyn"
+        }
+      ]
+    },
+    {
+      "code": "SC",
+      "nameZh": "塞舌尔",
+      "nameEn": "Seychelles",
+      "restaurants": [],
+      "note": "未找到可靠结果。"
+    },
+    {
+      "code": "SL",
+      "nameZh": "塞拉利昂",
+      "nameEn": "Sierra Leone",
+      "restaurants": [],
+      "note": "搜索结果为泛西非餐厅，未找到可核实的塞拉利昂专门餐厅。"
+    },
+    {
+      "code": "SO",
+      "nameZh": "索马里",
+      "nameEn": "Somalia",
+      "restaurants": [
+        {
+          "name": "Safari",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Manhattan",
+          "neighborhood": "Harlem",
+          "address": "55 St Nicholas Ave, New York, NY 10026",
+          "googleMapsRating": 4.6,
+          "googleMapsReviewCount": 462,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Safari%2055%20St%20Nicholas%20Ave%20New%20York",
+          "cuisineEvidenceUrl": "https://www.nyctourism.com/restaurants/safari/"
+        }
+      ]
+    },
+    {
+      "code": "ZA",
+      "nameZh": "南非",
+      "nameEn": "South Africa",
+      "restaurants": [
+        {
+          "name": "Kaia South African Farmhouse Restaurant",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Manhattan",
+          "neighborhood": "Upper East Side",
+          "address": "1446 1st Ave, New York, NY 10021",
+          "googleMapsRating": 4.5,
+          "googleMapsReviewCount": 695,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Kaia%20South%20African%20Farmhouse%20Restaurant%20NYC"
+        }
+      ]
+    },
+    {
+      "code": "SS",
+      "nameZh": "南苏丹",
+      "nameEn": "South Sudan",
+      "restaurants": [],
+      "note": "未找到可靠结果。"
+    },
+    {
+      "code": "SD",
+      "nameZh": "苏丹",
+      "nameEn": "Sudan",
+      "restaurants": [],
+      "note": "搜索结果为泛东非或误匹配，未找到可核实的苏丹专门餐厅。"
+    },
+    {
+      "code": "TZ",
+      "nameZh": "坦桑尼亚",
+      "nameEn": "Tanzania",
+      "restaurants": [],
+      "note": "搜索结果多为索马里或泛东非餐厅，未将其标作坦桑尼亚菜。"
+    },
+    {
+      "code": "TG",
+      "nameZh": "多哥",
+      "nameEn": "Togo",
+      "restaurants": [],
+      "note": "虽有泛西非餐厅供应相关菜式，但未找到国家归属足够明确的多哥专门餐厅。"
+    },
+    {
+      "code": "TN",
+      "nameZh": "突尼斯",
+      "nameEn": "Tunisia",
+      "restaurants": [],
+      "note": "搜索结果主要为泛地中海餐厅，未找到可核实的突尼斯专门餐厅。"
+    },
+    {
+      "code": "UG",
+      "nameZh": "乌干达",
+      "nameEn": "Uganda",
+      "restaurants": [],
+      "note": "未找到可靠结果。"
+    },
+    {
+      "code": "ZM",
+      "nameZh": "赞比亚",
+      "nameEn": "Zambia",
+      "restaurants": [],
+      "note": "未找到可靠结果。"
+    },
+    {
+      "code": "ZW",
+      "nameZh": "津巴布韦",
+      "nameEn": "Zimbabwe",
+      "restaurants": [],
+      "note": "未找到可靠结果。"
+    },
+    {
+      "code": "EH",
+      "nameZh": "西撒哈拉",
+      "nameEn": "Western Sahara",
+      "kind": "disputed_territory",
+      "restaurants": [],
+      "note": "作为争议地区单列；未找到可靠结果。"
+    }
+  ],
+  "summary": {
+    "countriesOrAreas": 55,
+    "countriesWithResults": 12,
+    "restaurantsListed": 27,
+    "countriesWithoutReliableResults": 43
+  },
+  "methodSources": [
+    {
+      "title": "United Nations M49 — Geographic Regions",
+      "url": "https://unstats.un.org/unsd/methodology/m49/",
+      "checkedAt": "2026-09-03"
+    },
+    {
+      "title": "Eater NY — West African Restaurants in NYC",
+      "url": "https://ny.eater.com/maps/best-west-african-restaurants-nyc",
+      "checkedAt": "2026-09-03"
+    }
+  ]
+}

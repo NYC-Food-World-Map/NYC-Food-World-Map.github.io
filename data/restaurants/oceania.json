@@ -1,0 +1,128 @@
+[
+  {
+    "id": "isla-co-midtown-25-w-38th-st-new-york-ny",
+    "countryCodes": [
+      "AU"
+    ],
+    "name": "Isla & Co. - Midtown",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "Midtown",
+    "address": "25 W 38th St, New York, NY",
+    "descriptionZh": "官网将其定位为现代澳大利亚餐厅，并明确介绍澳大利亚咖啡文化及袋鼠肉等澳洲元素。该店位于曼哈顿中城；在本次合格候选中，它与第二名同为 4.8 分，但评论数更多。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.8,
+        "scale": 5,
+        "reviewCount": 5587,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/place/Isla+%26+Co.+-+Midtown/data=!4m7!3m6!1s0x89c259d65aba8a21:0x4f459b846e6ea776!8m2!3d40.7517724!4d-73.984103!16s%2Fg%2F11r9tp60qb"
+      }
+    ],
+    "sources": [
+      {
+        "type": "official",
+        "title": "Isla & Co. Midtown",
+        "url": "https://www.isla-co.com/midtown",
+        "checkedAt": "2026-09-03"
+      },
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing: Isla & Co. - Midtown",
+        "url": "https://www.google.com/maps/place/Isla+%26+Co.+-+Midtown/data=!4m7!3m6!1s0x89c259d65aba8a21:0x4f459b846e6ea776!8m2!3d40.7517724!4d-73.984103!16s%2Fg%2F11r9tp60qb",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "hole-in-the-wall-flatiron-37-w-24th-st-new-york-ny-10010",
+    "countryCodes": [
+      "AU"
+    ],
+    "name": "Hole In The Wall - Flatiron",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "Flatiron District",
+    "address": "37 W 24th St, New York, NY 10010",
+    "descriptionZh": "官网把 Hole In The Wall 定位为澳大利亚早午餐餐厅，其餐饮集团也明确称自己由澳大利亚人创立。Flatiron 分店位于曼哈顿熨斗区；与第一名同为 4.8 分，但评论数略少。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.8,
+        "scale": 5,
+        "reviewCount": 4528,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/place/Hole+In+The+Wall+-+Flatiron/data=!4m7!3m6!1s0x89c2593373afe043:0x13ed2de68bf71a5!8m2!3d40.7432826!4d-73.9910239!16s%2Fg%2F11jvl7xyg3"
+      }
+    ],
+    "sources": [
+      {
+        "type": "official",
+        "title": "Hole In The Wall - Flatiron",
+        "url": "https://holeinthewallnyc.com/",
+        "checkedAt": "2026-09-03"
+      },
+      {
+        "type": "official",
+        "title": "Flatiron Restaurant - Hole In The Wall",
+        "url": "https://holeinthewallnyc.com/flatiron",
+        "checkedAt": "2026-09-03"
+      },
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing: Hole In The Wall - Flatiron",
+        "url": "https://www.google.com/maps/place/Hole+In+The+Wall+-+Flatiron/data=!4m7!3m6!1s0x89c2593373afe043:0x13ed2de68bf71a5!8m2!3d40.7432826!4d-73.9910239!16s%2Fg%2F11jvl7xyg3",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "good-thanks-374-graham-ave-brooklyn-ny-11211",
+    "countryCodes": [
+      "AU"
+    ],
+    "name": "Good Thanks",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Brooklyn",
+    "neighborhood": "Williamsburg",
+    "address": "374 Graham Ave, Brooklyn, NY 11211",
+    "descriptionZh": "可靠餐饮报道将 Good Thanks 识别为澳大利亚咖啡馆，官网确认 Williamsburg 分店地址与近期营业时间。它在本次合格候选中以 4.7 分排在两家 4.8 分门店之后。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.7,
+        "scale": 5,
+        "reviewCount": 380,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/place/Good+Thanks/data=!4m7!3m6!1s0x89c259cb9eac3163:0x5d6d0b13e2b7c291!8m2!3d40.715581!4d-73.9443287!16s%2Fg%2F11thhtv0rd"
+      }
+    ],
+    "sources": [
+      {
+        "type": "official",
+        "title": "Good Thanks Williamsburg",
+        "url": "https://www.goodthanksnyc.com/location/good-thanks-williamsburg/",
+        "checkedAt": "2026-09-03"
+      },
+      {
+        "type": "media",
+        "title": "Good Thanks - Williamsburg - The Infatuation",
+        "url": "https://www.theinfatuation.com/new-york/reviews/good-thanks-williamsburg",
+        "checkedAt": "2026-09-03"
+      },
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing: Good Thanks",
+        "url": "https://www.google.com/maps/place/Good+Thanks/data=!4m7!3m6!1s0x89c259cb9eac3163:0x5d6d0b13e2b7c291!8m2!3d40.715581!4d-73.9443287!16s%2Fg%2F11thhtv0rd",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  }
+]

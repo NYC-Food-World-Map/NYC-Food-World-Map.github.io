@@ -1,0 +1,296 @@
+{
+  "generatedAt": "2026-09-03",
+  "scope": {
+    "region": "Oceania",
+    "regionZh": "大洋洲",
+    "city": "New York City",
+    "boroughs": [
+      "Manhattan",
+      "Brooklyn",
+      "Queens",
+      "Bronx",
+      "Staten Island"
+    ],
+    "countryDefinition": "14 sovereign states in the UN M49 Oceania region; territories and associated states are excluded",
+    "selectionRule": "At most three currently operating, country-specific restaurants per country. When more than three qualified candidates were found, rank by Google Maps score descending, then review count descending for equal scores.",
+    "checkedAt": "2026-09-03"
+  },
+  "ratingSource": "Google Maps",
+  "countries": [
+    {
+      "countryCode": "AU",
+      "countryName": "Australia",
+      "countryNameZh": "澳大利亚",
+      "restaurants": [
+        {
+          "rank": 1,
+          "name": "Isla & Co. - Midtown",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Manhattan",
+          "neighborhood": "Midtown",
+          "address": "25 W 38th St, New York, NY",
+          "descriptionZh": "官网将其定位为现代澳大利亚餐厅，并明确介绍澳大利亚咖啡文化及袋鼠肉等澳洲元素。该店位于曼哈顿中城；在本次合格候选中，它与第二名同为 4.8 分，但评论数更多。",
+          "ratings": [
+            {
+              "source": "Google Maps",
+              "score": 4.8,
+              "scale": 5,
+              "reviewCount": 5587,
+              "checkedAt": "2026-09-03",
+              "url": "https://www.google.com/maps/place/Isla+%26+Co.+-+Midtown/data=!4m7!3m6!1s0x89c259d65aba8a21:0x4f459b846e6ea776!8m2!3d40.7517724!4d-73.984103!16s%2Fg%2F11r9tp60qb"
+            }
+          ],
+          "sources": [
+            {
+              "type": "official",
+              "title": "Isla & Co. Midtown",
+              "url": "https://www.isla-co.com/midtown",
+              "checkedAt": "2026-09-03"
+            },
+            {
+              "type": "google_maps",
+              "title": "Google Maps listing: Isla & Co. - Midtown",
+              "url": "https://www.google.com/maps/place/Isla+%26+Co.+-+Midtown/data=!4m7!3m6!1s0x89c259d65aba8a21:0x4f459b846e6ea776!8m2!3d40.7517724!4d-73.984103!16s%2Fg%2F11r9tp60qb",
+              "checkedAt": "2026-09-03"
+            }
+          ]
+        },
+        {
+          "rank": 2,
+          "name": "Hole In The Wall - Flatiron",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Manhattan",
+          "neighborhood": "Flatiron District",
+          "address": "37 W 24th St, New York, NY 10010",
+          "descriptionZh": "官网把 Hole In The Wall 定位为澳大利亚早午餐餐厅，其餐饮集团也明确称自己由澳大利亚人创立。Flatiron 分店位于曼哈顿熨斗区；与第一名同为 4.8 分，但评论数略少。",
+          "ratings": [
+            {
+              "source": "Google Maps",
+              "score": 4.8,
+              "scale": 5,
+              "reviewCount": 4528,
+              "checkedAt": "2026-09-03",
+              "url": "https://www.google.com/maps/place/Hole+In+The+Wall+-+Flatiron/data=!4m7!3m6!1s0x89c2593373afe043:0x13ed2de68bf71a5!8m2!3d40.7432826!4d-73.9910239!16s%2Fg%2F11jvl7xyg3"
+            }
+          ],
+          "sources": [
+            {
+              "type": "official",
+              "title": "Hole In The Wall - Flatiron",
+              "url": "https://holeinthewallnyc.com/",
+              "checkedAt": "2026-09-03"
+            },
+            {
+              "type": "official",
+              "title": "Flatiron Restaurant - Hole In The Wall",
+              "url": "https://holeinthewallnyc.com/flatiron",
+              "checkedAt": "2026-09-03"
+            },
+            {
+              "type": "google_maps",
+              "title": "Google Maps listing: Hole In The Wall - Flatiron",
+              "url": "https://www.google.com/maps/place/Hole+In+The+Wall+-+Flatiron/data=!4m7!3m6!1s0x89c2593373afe043:0x13ed2de68bf71a5!8m2!3d40.7432826!4d-73.9910239!16s%2Fg%2F11jvl7xyg3",
+              "checkedAt": "2026-09-03"
+            }
+          ]
+        },
+        {
+          "rank": 3,
+          "name": "Good Thanks",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Brooklyn",
+          "neighborhood": "Williamsburg",
+          "address": "374 Graham Ave, Brooklyn, NY 11211",
+          "descriptionZh": "可靠餐饮报道将 Good Thanks 识别为澳大利亚咖啡馆，官网确认 Williamsburg 分店地址与近期营业时间。它在本次合格候选中以 4.7 分排在两家 4.8 分门店之后。",
+          "ratings": [
+            {
+              "source": "Google Maps",
+              "score": 4.7,
+              "scale": 5,
+              "reviewCount": 380,
+              "checkedAt": "2026-09-03",
+              "url": "https://www.google.com/maps/place/Good+Thanks/data=!4m7!3m6!1s0x89c259cb9eac3163:0x5d6d0b13e2b7c291!8m2!3d40.715581!4d-73.9443287!16s%2Fg%2F11thhtv0rd"
+            }
+          ],
+          "sources": [
+            {
+              "type": "official",
+              "title": "Good Thanks Williamsburg",
+              "url": "https://www.goodthanksnyc.com/location/good-thanks-williamsburg/",
+              "checkedAt": "2026-09-03"
+            },
+            {
+              "type": "media",
+              "title": "Good Thanks - Williamsburg - The Infatuation",
+              "url": "https://www.theinfatuation.com/new-york/reviews/good-thanks-williamsburg",
+              "checkedAt": "2026-09-03"
+            },
+            {
+              "type": "google_maps",
+              "title": "Google Maps listing: Good Thanks",
+              "url": "https://www.google.com/maps/place/Good+Thanks/data=!4m7!3m6!1s0x89c259cb9eac3163:0x5d6d0b13e2b7c291!8m2!3d40.715581!4d-73.9443287!16s%2Fg%2F11thhtv0rd",
+              "checkedAt": "2026-09-03"
+            }
+          ]
+        }
+      ],
+      "excludedCandidates": [
+        {
+          "name": "Sonnyboy",
+          "reasonZh": "符合澳大利亚餐厅定位，但 Google Maps 为 4.5 分、609 条评论，排名低于入选三家。"
+        },
+        {
+          "name": "Old Mates Pub",
+          "reasonZh": "官网明确为澳大利亚酒馆，但 Google Maps 为 4.4 分、558 条评论，排名低于入选三家。"
+        },
+        {
+          "name": "Banter NYC - Murray Hill",
+          "reasonZh": "Google Maps 标注为澳大利亚餐厅，但为 4.4 分、167 条评论，排名低于入选三家。"
+        },
+        {
+          "name": "Little Ruby's West Village",
+          "reasonZh": "官网支持澳大利亚咖啡馆定位，但 Google Maps 为 4.4 分、879 条评论，排名低于入选三家。"
+        }
+      ]
+    },
+    {
+      "countryCode": "FJ",
+      "countryName": "Fiji",
+      "countryNameZh": "斐济",
+      "restaurants": [],
+      "noteZh": "暂无可靠结果。Google Maps 未找到纽约五大区内可核验的斐济菜常设专门餐厅；印度菜、加勒比菜及节庆快闪均未用于填充。"
+    },
+    {
+      "countryCode": "KI",
+      "countryName": "Kiribati",
+      "countryNameZh": "基里巴斯",
+      "restaurants": [],
+      "noteZh": "暂无可靠结果。Google Maps 的结果为格鲁吉亚、日本及其他无关菜系，未发现基里巴斯菜常设专门餐厅。"
+    },
+    {
+      "countryCode": "MH",
+      "countryName": "Marshall Islands",
+      "countryNameZh": "马绍尔群岛",
+      "restaurants": [],
+      "noteZh": "暂无可靠结果。以 Marshall 命名的纽约商户与马绍尔群岛菜无关，未予收录。"
+    },
+    {
+      "countryCode": "FM",
+      "countryName": "Micronesia (Federated States of)",
+      "countryNameZh": "密克罗尼西亚联邦",
+      "restaurants": [],
+      "noteZh": "暂无可靠结果。搜索主要返回夏威夷、日本及马来西亚菜，不能视为密克罗尼西亚联邦菜。"
+    },
+    {
+      "countryCode": "NR",
+      "countryName": "Nauru",
+      "countryNameZh": "瑙鲁",
+      "restaurants": [],
+      "noteZh": "暂无可靠结果。Google Maps 未发现纽约五大区内的瑙鲁菜常设专门餐厅。"
+    },
+    {
+      "countryCode": "NZ",
+      "countryName": "New Zealand",
+      "countryNameZh": "新西兰",
+      "restaurants": [],
+      "noteZh": "暂无可靠的现存新西兰专门餐厅。The Musket Room 历史上以新西兰菜著称，但现任团队的官方菜单已转为跨地域及美国南方风格，故不按当前新西兰专门店收录。",
+      "excludedCandidates": [
+        {
+          "name": "The Musket Room",
+          "reasonZh": "历史关联成立，但当前官方菜单不再支持以新西兰菜为主的判断。"
+        },
+        {
+          "name": "Kiwiana, DUB Pies, Nelson Blue",
+          "reasonZh": "均为历史上的新西兰餐饮场所，现已关闭，不列入当前推荐。"
+        }
+      ]
+    },
+    {
+      "countryCode": "PW",
+      "countryName": "Palau",
+      "countryNameZh": "帕劳",
+      "restaurants": [],
+      "noteZh": "暂无可靠结果。搜索返回马来西亚、印度尼西亚及夏威夷菜等误匹配，未发现帕劳菜常设专门餐厅。"
+    },
+    {
+      "countryCode": "PG",
+      "countryName": "Papua New Guinea",
+      "countryNameZh": "巴布亚新几内亚",
+      "restaurants": [],
+      "noteZh": "暂无可靠结果。Google Maps 返回的是西非几内亚相关结果；巴布亚新几内亚活动餐与家庭烹饪记录不属于常设餐厅。"
+    },
+    {
+      "countryCode": "WS",
+      "countryName": "Samoa",
+      "countryNameZh": "萨摩亚",
+      "restaurants": [],
+      "noteZh": "暂无可靠结果。夏威夷菜、泛波利尼西亚酒吧及临时主题活动未被视为萨摩亚菜专门餐厅。"
+    },
+    {
+      "countryCode": "SB",
+      "countryName": "Solomon Islands",
+      "countryNameZh": "所罗门群岛",
+      "restaurants": [],
+      "noteZh": "暂无可靠结果。以 Solomon 或 Island 命名的商户均与所罗门群岛菜无关。"
+    },
+    {
+      "countryCode": "TO",
+      "countryName": "Tonga",
+      "countryNameZh": "汤加",
+      "restaurants": [],
+      "noteZh": "暂无可靠结果。Google Maps 主要返回夏威夷菜、提基酒吧和无关餐厅，未发现汤加菜常设专门餐厅。"
+    },
+    {
+      "countryCode": "TV",
+      "countryName": "Tuvalu",
+      "countryNameZh": "图瓦卢",
+      "restaurants": [],
+      "noteZh": "暂无可靠结果。Google Maps 的匹配均为名称相似或其他国家菜系，未发现图瓦卢菜常设专门餐厅。"
+    },
+    {
+      "countryCode": "VU",
+      "countryName": "Vanuatu",
+      "countryNameZh": "瓦努阿图",
+      "restaurants": [],
+      "noteZh": "暂无可靠结果。搜索返回墨西哥、欧洲、夏威夷及泛全球菜等误匹配，未发现瓦努阿图菜常设专门餐厅。"
+    }
+  ],
+  "summary": {
+    "countryCount": 14,
+    "restaurantCount": 3,
+    "countriesWithResults": 1,
+    "countriesWithoutReliableResults": 13,
+    "countriesWithoutReliableResultsList": [
+      "FJ",
+      "KI",
+      "MH",
+      "FM",
+      "NR",
+      "NZ",
+      "PW",
+      "PG",
+      "WS",
+      "SB",
+      "TO",
+      "TV",
+      "VU"
+    ]
+  },
+  "methodSources": [
+    {
+      "type": "official",
+      "title": "UN Statistics Division: Standard country or area codes for statistical use (M49)",
+      "url": "https://unstats.un.org/unsd/methodology/m49/",
+      "checkedAt": "2026-09-03"
+    },
+    {
+      "type": "google_maps",
+      "title": "Google Maps restaurant searches for all 14 sovereign states in Oceania within New York City",
+      "url": "https://www.google.com/maps/search/?api=1&query=Oceania+restaurants+New+York+NY",
+      "checkedAt": "2026-09-03"
+    }
+  ]
+}

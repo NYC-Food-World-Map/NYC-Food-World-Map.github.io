@@ -1,0 +1,2378 @@
+[
+  {
+    "id": "dhakaya-restaurant-39-44-21st-st",
+    "countryCodes": [
+      "BD"
+    ],
+    "name": "Dhakaya Restaurant",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Queens",
+    "neighborhood": "待核验",
+    "address": "39-44 21st St, Queens, NY",
+    "descriptionZh": "孟加拉国菜在纽约 Queens的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.7,
+        "scale": 5,
+        "reviewCount": 117,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Dhakaya%20Restaurant%2039-44%2021st%20St%2C%20Queens%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Dhakaya%20Restaurant%2039-44%2021st%20St%2C%20Queens%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "fuskahouse-nyc-73-01-37th-ave",
+    "countryCodes": [
+      "BD"
+    ],
+    "name": "Fuskahouse_NYC",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Queens",
+    "neighborhood": "待核验",
+    "address": "73-01 37th Ave, Queens, NY",
+    "descriptionZh": "孟加拉国菜在纽约 Queens的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.5,
+        "scale": 5,
+        "reviewCount": 801,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Fuskahouse_NYC%2073-01%2037th%20Ave%2C%20Queens%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Fuskahouse_NYC%2073-01%2037th%20Ave%2C%20Queens%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "hello-bangladesh-restaurant-30-05-36th-ave",
+    "countryCodes": [
+      "BD"
+    ],
+    "name": "Hello Bangladesh Restaurant",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Queens",
+    "neighborhood": "待核验",
+    "address": "30-05 36th Ave, Queens, NY",
+    "descriptionZh": "孟加拉国菜在纽约 Queens的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.4,
+        "scale": 5,
+        "reviewCount": 961,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Hello%20Bangladesh%20Restaurant%2030-05%2036th%20Ave%2C%20Queens%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Hello%20Bangladesh%20Restaurant%2030-05%2036th%20Ave%2C%20Queens%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "the-weekender-41-46-54th-st",
+    "countryCodes": [
+      "BT"
+    ],
+    "name": "The Weekender",
+    "classification": "specialist",
+    "classificationNote": "Google Maps 类别较宽泛，但菜单与近期评论支持不丹菜判断。",
+    "status": "open",
+    "borough": "Queens",
+    "neighborhood": "待核验",
+    "address": "41-46 54th St, Queens, NY",
+    "descriptionZh": "不丹菜在纽约 Queens的专门店。Google Maps 类别较宽泛，但菜单与近期评论支持不丹菜判断。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.6,
+        "scale": 5,
+        "reviewCount": 182,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=The%20Weekender%2041-46%2054th%20St%2C%20Queens%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=The%20Weekender%2041-46%2054th%20St%2C%20Queens%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "bong-724-sterling-pl",
+    "countryCodes": [
+      "KH"
+    ],
+    "name": "Bong",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Brooklyn",
+    "neighborhood": "待核验",
+    "address": "724 Sterling Pl, Brooklyn, NY",
+    "descriptionZh": "柬埔寨菜在纽约 Brooklyn的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.5,
+        "scale": 5,
+        "reviewCount": 219,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Bong%20724%20Sterling%20Pl%2C%20Brooklyn%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Bong%20724%20Sterling%20Pl%2C%20Brooklyn%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "lula-mae-472-myrtle-ave",
+    "countryCodes": [
+      "KH"
+    ],
+    "name": "Lula Mae",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Brooklyn",
+    "neighborhood": "待核验",
+    "address": "472 Myrtle Ave, Brooklyn, NY",
+    "descriptionZh": "柬埔寨菜在纽约 Brooklyn的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.4,
+        "scale": 5,
+        "reviewCount": 283,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Lula%20Mae%20472%20Myrtle%20Ave%2C%20Brooklyn%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Lula%20Mae%20472%20Myrtle%20Ave%2C%20Brooklyn%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "the-best-sichuan-7-e-47th-st",
+    "countryCodes": [
+      "CN"
+    ],
+    "name": "The Best Sichuan",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "7 E 47th St, New York, NY",
+    "descriptionZh": "中国菜在纽约 Manhattan的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.8,
+        "scale": 5,
+        "reviewCount": 3145,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=The%20Best%20Sichuan%207%20E%2047th%20St%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=The%20Best%20Sichuan%207%20E%2047th%20St%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "jiang-nan-nyc-103-bowery",
+    "countryCodes": [
+      "CN"
+    ],
+    "name": "Jiang Nan NYC",
+    "classification": "regional",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "103 Bowery, New York, NY",
+    "descriptionZh": "中国菜在纽约 Manhattan的区域兼营店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.8,
+        "scale": 5,
+        "reviewCount": 2152,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Jiang%20Nan%20NYC%20103%20Bowery%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Jiang%20Nan%20NYC%20103%20Bowery%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "mountain-house-times-square-353-w-46th-st",
+    "countryCodes": [
+      "CN"
+    ],
+    "name": "Mountain House Times Square",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "353 W 46th St, New York, NY",
+    "descriptionZh": "中国菜在纽约 Manhattan的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.8,
+        "scale": 5,
+        "reviewCount": 1006,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Mountain%20House%20Times%20Square%20353%20W%2046th%20St%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Mountain%20House%20Times%20Square%20353%20W%2046th%20St%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "cloves-indian-cuisine-66-madison-ave-store-b",
+    "countryCodes": [
+      "IN"
+    ],
+    "name": "Cloves Indian Cuisine",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "66 Madison Ave Store B, New York, NY",
+    "descriptionZh": "印度菜在纽约 Manhattan的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.8,
+        "scale": 5,
+        "reviewCount": 2048,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Cloves%20Indian%20Cuisine%2066%20Madison%20Ave%20Store%20B%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Cloves%20Indian%20Cuisine%2066%20Madison%20Ave%20Store%20B%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "red-onion-royal-kitchen-to-table-277-e-10th-st",
+    "countryCodes": [
+      "IN"
+    ],
+    "name": "Red Onion Royal Kitchen To Table",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "277 E 10th St, New York, NY",
+    "descriptionZh": "印度菜在纽约 Manhattan的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.8,
+        "scale": 5,
+        "reviewCount": 1216,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Red%20Onion%20Royal%20Kitchen%20To%20Table%20277%20E%2010th%20St%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Red%20Onion%20Royal%20Kitchen%20To%20Table%20277%20E%2010th%20St%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "aangara-indian-cuisine-2-205-w-29th-st",
+    "countryCodes": [
+      "IN"
+    ],
+    "name": "AANGARA INDIAN CUISINE 2",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "205 W 29th St, New York, NY",
+    "descriptionZh": "印度菜在纽约 Manhattan的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.8,
+        "scale": 5,
+        "reviewCount": 334,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=AANGARA%20INDIAN%20CUISINE%202%20205%20W%2029th%20St%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=AANGARA%20INDIAN%20CUISINE%202%20205%20W%2029th%20St%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "sumatera-restaurant-nyc-86-20-whitney-ave",
+    "countryCodes": [
+      "ID"
+    ],
+    "name": "Sumatera Restaurant NYC",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Queens",
+    "neighborhood": "待核验",
+    "address": "86-20 Whitney Ave, Queens, NY",
+    "descriptionZh": "印度尼西亚菜在纽约 Queens的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.8,
+        "scale": 5,
+        "reviewCount": 891,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Sumatera%20Restaurant%20NYC%2086-20%20Whitney%20Ave%2C%20Queens%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Sumatera%20Restaurant%20NYC%2086-20%20Whitney%20Ave%2C%20Queens%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "indo-mix-466-grand-ave",
+    "countryCodes": [
+      "ID"
+    ],
+    "name": "Indo Mix",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Brooklyn",
+    "neighborhood": "待核验",
+    "address": "466 Grand Ave, Brooklyn, NY",
+    "descriptionZh": "印度尼西亚菜在纽约 Brooklyn的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.8,
+        "scale": 5,
+        "reviewCount": 171,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Indo%20Mix%20466%20Grand%20Ave%2C%20Brooklyn%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Indo%20Mix%20466%20Grand%20Ave%2C%20Brooklyn%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "jakarta-munch-at-hungry-pearl-70-water-st",
+    "countryCodes": [
+      "ID"
+    ],
+    "name": "Jakarta Munch at Hungry Pearl",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "70 Water St, New York, NY",
+    "descriptionZh": "印度尼西亚菜在纽约 Manhattan的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.8,
+        "scale": 5,
+        "reviewCount": 49,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Jakarta%20Munch%20at%20Hungry%20Pearl%2070%20Water%20St%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Jakarta%20Munch%20at%20Hungry%20Pearl%2070%20Water%20St%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "showa-era-izakaya-ramen-sushi-767-9th-ave",
+    "countryCodes": [
+      "JP"
+    ],
+    "name": "Showa era Izakaya Ramen Sushi",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "767 9th Ave, New York, NY",
+    "descriptionZh": "日本菜在纽约 Manhattan的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.9,
+        "scale": 5,
+        "reviewCount": 5194,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Showa%20era%20Izakaya%20Ramen%20Sushi%20767%209th%20Ave%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Showa%20era%20Izakaya%20Ramen%20Sushi%20767%209th%20Ave%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "sozai-japanese-restaurant-19-w-45th-st",
+    "countryCodes": [
+      "JP"
+    ],
+    "name": "Sozai Japanese Restaurant",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "19 W 45th St, New York, NY",
+    "descriptionZh": "日本菜在纽约 Manhattan的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.9,
+        "scale": 5,
+        "reviewCount": 4530,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Sozai%20Japanese%20Restaurant%2019%20W%2045th%20St%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Sozai%20Japanese%20Restaurant%2019%20W%2045th%20St%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "manhatto-783-9th-ave",
+    "countryCodes": [
+      "JP"
+    ],
+    "name": "Manhatto",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "783 9th Ave, New York, NY",
+    "descriptionZh": "日本菜在纽约 Manhattan的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.9,
+        "scale": 5,
+        "reviewCount": 1971,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Manhatto%20783%209th%20Ave%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Manhatto%20783%209th%20Ave%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "curry-house-9-pell-st",
+    "countryCodes": [
+      "MY"
+    ],
+    "name": "Curry House",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "9 Pell St, New York, NY",
+    "descriptionZh": "马来西亚菜在纽约 Manhattan的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.7,
+        "scale": 5,
+        "reviewCount": 547,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Curry%20House%209%20Pell%20St%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Curry%20House%209%20Pell%20St%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "kuih-cafe-46-eldridge-st",
+    "countryCodes": [
+      "MY"
+    ],
+    "name": "Kuih Cafe",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "46 Eldridge St, New York, NY",
+    "descriptionZh": "马来西亚菜在纽约 Manhattan的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.7,
+        "scale": 5,
+        "reviewCount": 237,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Kuih%20Cafe%2046%20Eldridge%20St%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Kuih%20Cafe%2046%20Eldridge%20St%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "west-new-malaysia-69-bayard-st",
+    "countryCodes": [
+      "MY"
+    ],
+    "name": "West New Malaysia",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "69 Bayard St, New York, NY",
+    "descriptionZh": "马来西亚菜在纽约 Manhattan的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.5,
+        "scale": 5,
+        "reviewCount": 625,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=West%20New%20Malaysia%2069%20Bayard%20St%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=West%20New%20Malaysia%2069%20Bayard%20St%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "mongolian-momo-king-327-e-12th-st",
+    "countryCodes": [
+      "MN"
+    ],
+    "name": "Mongolian Momo King",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "327 E 12th St, New York, NY",
+    "descriptionZh": "蒙古国菜在纽约 Manhattan的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.8,
+        "scale": 5,
+        "reviewCount": 129,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Mongolian%20Momo%20King%20327%20E%2012th%20St%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Mongolian%20Momo%20King%20327%20E%2012th%20St%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "little-myanmar-150-e-2nd-st-new-york-ny-10009",
+    "countryCodes": [
+      "MM"
+    ],
+    "name": "Little Myanmar",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "150 E 2nd St, New York, NY 10009",
+    "descriptionZh": "缅甸菜在纽约 Manhattan的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4,
+        "scale": 5,
+        "reviewCount": 332,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Little%20Myanmar%20150%20E%202nd%20St%2C%20New%20York%2C%20NY%2010009"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Little%20Myanmar%20150%20E%202nd%20St%2C%20New%20York%2C%20NY%2010009",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "darjeeling-kitchen-cafe-31-12-36th-ave",
+    "countryCodes": [
+      "NP"
+    ],
+    "name": "Darjeeling Kitchen & Café",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Queens",
+    "neighborhood": "待核验",
+    "address": "31-12 36th Ave, Queens, NY",
+    "descriptionZh": "尼泊尔菜在纽约 Queens的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.8,
+        "scale": 5,
+        "reviewCount": 444,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Darjeeling%20Kitchen%20%26%20Caf%C3%A9%2031-12%2036th%20Ave%2C%20Queens%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Darjeeling%20Kitchen%20%26%20Caf%C3%A9%2031-12%2036th%20Ave%2C%20Queens%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "timur-cafe-bar-39-04-64th-st",
+    "countryCodes": [
+      "NP"
+    ],
+    "name": "Timur Cafe & Bar",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Queens",
+    "neighborhood": "待核验",
+    "address": "39-04 64th St, Queens, NY",
+    "descriptionZh": "尼泊尔菜在纽约 Queens的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.8,
+        "scale": 5,
+        "reviewCount": 145,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Timur%20Cafe%20%26%20Bar%2039-04%2064th%20St%2C%20Queens%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Timur%20Cafe%20%26%20Bar%2039-04%2064th%20St%2C%20Queens%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "cafe-himalaya-78-e-1st-st",
+    "countryCodes": [
+      "NP"
+    ],
+    "name": "Cafe Himalaya",
+    "classification": "regional",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "78 E 1st St, New York, NY",
+    "descriptionZh": "尼泊尔菜在纽约 Manhattan的区域兼营店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.7,
+        "scale": 5,
+        "reviewCount": 959,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Cafe%20Himalaya%2078%20E%201st%20St%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Cafe%20Himalaya%2078%20E%201st%20St%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "bk-jani-at-dekalb-market-hall-445-albee-square-w",
+    "countryCodes": [
+      "PK"
+    ],
+    "name": "BK Jani at Dekalb Market Hall",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Brooklyn",
+    "neighborhood": "待核验",
+    "address": "445 Albee Square W, Brooklyn, NY",
+    "descriptionZh": "巴基斯坦菜在纽约 Brooklyn的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.6,
+        "scale": 5,
+        "reviewCount": 706,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=BK%20Jani%20at%20Dekalb%20Market%20Hall%20445%20Albee%20Square%20W%2C%20Brooklyn%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=BK%20Jani%20at%20Dekalb%20Market%20Hall%20445%20Albee%20Square%20W%2C%20Brooklyn%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "nishaan-160-1st-ave",
+    "countryCodes": [
+      "PK"
+    ],
+    "name": "Nishaan",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "160 1st Ave, New York, NY",
+    "descriptionZh": "巴基斯坦菜在纽约 Manhattan的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.6,
+        "scale": 5,
+        "reviewCount": 542,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Nishaan%20160%201st%20Ave%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Nishaan%20160%201st%20Ave%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "kolachi-130-1st-ave",
+    "countryCodes": [
+      "PK"
+    ],
+    "name": "Kolachi",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "130 1st Ave, New York, NY",
+    "descriptionZh": "巴基斯坦菜在纽约 Manhattan的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.6,
+        "scale": 5,
+        "reviewCount": 439,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Kolachi%20130%201st%20Ave%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Kolachi%20130%201st%20Ave%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "native-noodles-2129-amsterdam-ave",
+    "countryCodes": [
+      "SG"
+    ],
+    "name": "Native Noodles",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "2129 Amsterdam Ave, New York, NY",
+    "descriptionZh": "新加坡菜在纽约 Manhattan的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.6,
+        "scale": 5,
+        "reviewCount": 397,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Native%20Noodles%202129%20Amsterdam%20Ave%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Native%20Noodles%202129%20Amsterdam%20Ave%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "uncle-ray-s-chicken-rice-790-9th-ave",
+    "countryCodes": [
+      "SG"
+    ],
+    "name": "Uncle Ray’s Chicken Rice",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "790 9th Ave, New York, NY",
+    "descriptionZh": "新加坡菜在纽约 Manhattan的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.5,
+        "scale": 5,
+        "reviewCount": 210,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Uncle%20Ray%E2%80%99s%20Chicken%20Rice%20790%209th%20Ave%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Uncle%20Ray%E2%80%99s%20Chicken%20Rice%20790%209th%20Ave%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "singapore-social-15-avenue-a",
+    "countryCodes": [
+      "SG"
+    ],
+    "name": "Singapore Social",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "15 Avenue A, New York, NY",
+    "descriptionZh": "新加坡菜在纽约 Manhattan的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.4,
+        "scale": 5,
+        "reviewCount": 139,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Singapore%20Social%2015%20Avenue%20A%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Singapore%20Social%2015%20Avenue%20A%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "kjun-334-lexington-ave",
+    "countryCodes": [
+      "KR"
+    ],
+    "name": "KJUN",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "334 Lexington Ave, New York, NY",
+    "descriptionZh": "韩国菜在纽约 Manhattan的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.8,
+        "scale": 5,
+        "reviewCount": 2449,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=KJUN%20334%20Lexington%20Ave%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=KJUN%20334%20Lexington%20Ave%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "miss-korea-bbq-10-w-32nd-st",
+    "countryCodes": [
+      "KR"
+    ],
+    "name": "miss KOREA BBQ",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "10 W 32nd St, New York, NY",
+    "descriptionZh": "韩国菜在纽约 Manhattan的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.7,
+        "scale": 5,
+        "reviewCount": 19251,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=miss%20KOREA%20BBQ%2010%20W%2032nd%20St%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=miss%20KOREA%20BBQ%2010%20W%2032nd%20St%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "yori-and-sool-517-2nd-ave",
+    "countryCodes": [
+      "KR"
+    ],
+    "name": "Yori and Sool",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "517 2nd Ave, New York, NY",
+    "descriptionZh": "韩国菜在纽约 Manhattan的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.7,
+        "scale": 5,
+        "reviewCount": 521,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Yori%20and%20Sool%20517%202nd%20Ave%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Yori%20and%20Sool%20517%202nd%20Ave%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "aa-lankan-s-cafe-98-victory-blvd",
+    "countryCodes": [
+      "LK"
+    ],
+    "name": "AA Lankan’s Cafe",
+    "classification": "specialist",
+    "classificationNote": "严格按评分优先，因此评论样本很小的 5.0 门店排在首位。",
+    "status": "open",
+    "borough": "Staten Island",
+    "neighborhood": "待核验",
+    "address": "98 Victory Blvd, Staten Island, NY",
+    "descriptionZh": "斯里兰卡菜在纽约 Staten Island的专门店。严格按评分优先，因此评论样本很小的 5.0 门店排在首位。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 5,
+        "scale": 5,
+        "reviewCount": 12,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=AA%20Lankan%E2%80%99s%20Cafe%2098%20Victory%20Blvd%2C%20Staten%20Island%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=AA%20Lankan%E2%80%99s%20Cafe%2098%20Victory%20Blvd%2C%20Staten%20Island%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "spicy-lanka-117-03-hillside-ave",
+    "countryCodes": [
+      "LK"
+    ],
+    "name": "Spicy Lanka",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Queens",
+    "neighborhood": "待核验",
+    "address": "117-03 Hillside Ave, Queens, NY",
+    "descriptionZh": "斯里兰卡菜在纽约 Queens的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.8,
+        "scale": 5,
+        "reviewCount": 677,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Spicy%20Lanka%20117-03%20Hillside%20Ave%2C%20Queens%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Spicy%20Lanka%20117-03%20Hillside%20Ave%2C%20Queens%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "new-asha-sri-lanka-restaurant-322-victory-blvd",
+    "countryCodes": [
+      "LK"
+    ],
+    "name": "New Asha Sri Lanka Restaurant",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Staten Island",
+    "neighborhood": "待核验",
+    "address": "322 Victory Blvd, Staten Island, NY",
+    "descriptionZh": "斯里兰卡菜在纽约 Staten Island的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.7,
+        "scale": 5,
+        "reviewCount": 472,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=New%20Asha%20Sri%20Lanka%20Restaurant%20322%20Victory%20Blvd%2C%20Staten%20Island%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=New%20Asha%20Sri%20Lanka%20Restaurant%20322%20Victory%20Blvd%2C%20Staten%20Island%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "yumpling-midtown-16-e-52nd-st",
+    "countryCodes": [
+      "TW"
+    ],
+    "name": "Yumpling Midtown",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "16 E 52nd St, New York, NY",
+    "descriptionZh": "台湾菜在纽约 Manhattan的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.9,
+        "scale": 5,
+        "reviewCount": 372,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Yumpling%20Midtown%2016%20E%2052nd%20St%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Yumpling%20Midtown%2016%20E%2052nd%20St%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "gulp-56-e-41st-st",
+    "countryCodes": [
+      "TW"
+    ],
+    "name": "Gulp",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "56 E 41st St, New York, NY",
+    "descriptionZh": "台湾菜在纽约 Manhattan的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.8,
+        "scale": 5,
+        "reviewCount": 488,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Gulp%2056%20E%2041st%20St%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Gulp%2056%20E%2041st%20St%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "taiwan-bear-house-11-pell-st",
+    "countryCodes": [
+      "TW"
+    ],
+    "name": "Taiwan Bear House",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "11 Pell St, New York, NY",
+    "descriptionZh": "台湾菜在纽约 Manhattan的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.6,
+        "scale": 5,
+        "reviewCount": 481,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Taiwan%20Bear%20House%2011%20Pell%20St%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Taiwan%20Bear%20House%2011%20Pell%20St%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "mitr-thai-37-w-46th-st",
+    "countryCodes": [
+      "TH"
+    ],
+    "name": "Mitr Thai",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "37 W 46th St, New York, NY",
+    "descriptionZh": "泰国菜在纽约 Manhattan的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.9,
+        "scale": 5,
+        "reviewCount": 10230,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Mitr%20Thai%2037%20W%2046th%20St%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Mitr%20Thai%2037%20W%2046th%20St%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "thai-pavilion-nyc-24-w-56th-st",
+    "countryCodes": [
+      "TH"
+    ],
+    "name": "Thai Pavilion NYC",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "24 W 56th St, New York, NY",
+    "descriptionZh": "泰国菜在纽约 Manhattan的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.9,
+        "scale": 5,
+        "reviewCount": 970,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Thai%20Pavilion%20NYC%2024%20W%2056th%20St%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Thai%20Pavilion%20NYC%2024%20W%2056th%20St%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "wanglang-nyc-49-w-24th-st",
+    "countryCodes": [
+      "TH"
+    ],
+    "name": "Wanglang NYC",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "49 W 24th St, New York, NY",
+    "descriptionZh": "泰国菜在纽约 Manhattan的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.9,
+        "scale": 5,
+        "reviewCount": 360,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Wanglang%20NYC%2049%20W%2024th%20St%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Wanglang%20NYC%2049%20W%2024th%20St%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "la-dong-11-e-17th-st",
+    "countryCodes": [
+      "VN"
+    ],
+    "name": "La Dong",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "11 E 17th St, New York, NY",
+    "descriptionZh": "越南菜在纽约 Manhattan的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.9,
+        "scale": 5,
+        "reviewCount": 4087,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=La%20Dong%2011%20E%2017th%20St%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=La%20Dong%2011%20E%2017th%20St%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "ngon-vietnamese-kitchen-85-2nd-ave",
+    "countryCodes": [
+      "VN"
+    ],
+    "name": "Ngon Vietnamese Kitchen",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "85 2nd Ave, New York, NY",
+    "descriptionZh": "越南菜在纽约 Manhattan的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.9,
+        "scale": 5,
+        "reviewCount": 79,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Ngon%20Vietnamese%20Kitchen%2085%202nd%20Ave%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Ngon%20Vietnamese%20Kitchen%2085%202nd%20Ave%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "dunya-kabab-house-696-coney-island-ave",
+    "countryCodes": [
+      "AF"
+    ],
+    "name": "Dunya Kabab House",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Brooklyn",
+    "neighborhood": "待核验",
+    "address": "696 Coney Island Ave, Brooklyn, NY",
+    "descriptionZh": "阿富汗菜在纽约 Brooklyn 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.7,
+        "scale": 5,
+        "reviewCount": 555,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Dunya%20Kabab%20House%20696%20Coney%20Island%20Ave%2C%20Brooklyn%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Dunya%20Kabab%20House%20696%20Coney%20Island%20Ave%2C%20Brooklyn%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "kebab-express-halal-grill-bleecker-street-235-bleecker-st",
+    "countryCodes": [
+      "AF"
+    ],
+    "name": "Kebab Express | Halal Grill Bleecker Street",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "235 Bleecker St, New York, NY",
+    "descriptionZh": "阿富汗菜在纽约 Manhattan 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.6,
+        "scale": 5,
+        "reviewCount": 792,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Kebab%20Express%20%7C%20Halal%20Grill%20Bleecker%20Street%20235%20Bleecker%20St%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Kebab%20Express%20%7C%20Halal%20Grill%20Bleecker%20Street%20235%20Bleecker%20St%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "sami-s-kabab-house-35-57-crescent-st",
+    "countryCodes": [
+      "AF"
+    ],
+    "name": "Sami's Kabab House",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Queens",
+    "neighborhood": "待核验",
+    "address": "35-57 Crescent St, Queens, NY",
+    "descriptionZh": "阿富汗菜在纽约 Queens 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.4,
+        "scale": 5,
+        "reviewCount": 2214,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Sami's%20Kabab%20House%2035-57%20Crescent%20St%2C%20Queens%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Sami's%20Kabab%20House%2035-57%20Crescent%20St%2C%20Queens%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "shiraz-kitchen-wine-bar-111-w-17th-st",
+    "countryCodes": [
+      "IR"
+    ],
+    "name": "Shiraz Kitchen & Wine Bar",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "111 W 17th St, New York, NY",
+    "descriptionZh": "伊朗菜在纽约 Manhattan 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.6,
+        "scale": 5,
+        "reviewCount": 1102,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Shiraz%20Kitchen%20%26%20Wine%20Bar%20111%20W%2017th%20St%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Shiraz%20Kitchen%20%26%20Wine%20Bar%20111%20W%2017th%20St%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "eyval-25-bogart-st",
+    "countryCodes": [
+      "IR"
+    ],
+    "name": "Eyval",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Brooklyn",
+    "neighborhood": "待核验",
+    "address": "25 Bogart St, Brooklyn, NY",
+    "descriptionZh": "伊朗菜在纽约 Brooklyn 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.6,
+        "scale": 5,
+        "reviewCount": 1049,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Eyval%2025%20Bogart%20St%2C%20Brooklyn%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Eyval%2025%20Bogart%20St%2C%20Brooklyn%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "taftoon-persian-restaurant-nyc-388-3rd-ave",
+    "countryCodes": [
+      "IR"
+    ],
+    "name": "Taftoon Persian Restaurant NYC",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "388 3rd Ave, New York, NY",
+    "descriptionZh": "伊朗菜在纽约 Manhattan 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.5,
+        "scale": 5,
+        "reviewCount": 127,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Taftoon%20Persian%20Restaurant%20NYC%20388%203rd%20Ave%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Taftoon%20Persian%20Restaurant%20NYC%20388%203rd%20Ave%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "kubeh-464-6th-ave",
+    "countryCodes": [
+      "IQ",
+      "SY"
+    ],
+    "name": "Kubeh",
+    "classification": "regional",
+    "classificationNote": "菜单覆盖伊拉克、叙利亚及库尔德地区菜。",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "464 6th Ave, New York, NY",
+    "descriptionZh": "伊拉克菜在纽约 Manhattan 的区域兼营店。菜单覆盖伊拉克、叙利亚及库尔德地区菜。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.3,
+        "scale": 5,
+        "reviewCount": 977,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Kubeh%20464%206th%20Ave%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Kubeh%20464%206th%20Ave%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "pitabar-11-delancey-st",
+    "countryCodes": [
+      "IL"
+    ],
+    "name": "PitaBar",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "11 Delancey St, New York, NY",
+    "descriptionZh": "以色列菜在纽约 Manhattan 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.9,
+        "scale": 5,
+        "reviewCount": 1128,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=PitaBar%2011%20Delancey%20St%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=PitaBar%2011%20Delancey%20St%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "19-cleveland-19-cleveland-pl",
+    "countryCodes": [
+      "IL"
+    ],
+    "name": "19 Cleveland",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "19 Cleveland Pl, New York, NY",
+    "descriptionZh": "以色列菜在纽约 Manhattan 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.6,
+        "scale": 5,
+        "reviewCount": 1557,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=19%20Cleveland%2019%20Cleveland%20Pl%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=19%20Cleveland%2019%20Cleveland%20Pl%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "zizi-182-8th-ave",
+    "countryCodes": [
+      "IL"
+    ],
+    "name": "ZiZi",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "182 8th Ave, New York, NY",
+    "descriptionZh": "以色列菜在纽约 Manhattan 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.6,
+        "scale": 5,
+        "reviewCount": 986,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=ZiZi%20182%208th%20Ave%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=ZiZi%20182%208th%20Ave%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "farida-32-cedar-st",
+    "countryCodes": [
+      "KZ"
+    ],
+    "name": "Farida",
+    "classification": "regional",
+    "classificationNote": "中亚区域餐厅，Google Maps 在不同检索中显示哈萨克/乌兹别克菜标签。",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "32 Cedar St, New York, NY",
+    "descriptionZh": "哈萨克斯坦菜在纽约 Manhattan 的区域兼营店。中亚区域餐厅，Google Maps 在不同检索中显示哈萨克/乌兹别克菜标签。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.6,
+        "scale": 5,
+        "reviewCount": 2524,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Farida%2032%20Cedar%20St%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Farida%2032%20Cedar%20St%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "fattoush-221-1st-ave",
+    "countryCodes": [
+      "LB"
+    ],
+    "name": "Fattoush",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "221 1st Ave, New York, NY",
+    "descriptionZh": "黎巴嫩菜在纽约 Manhattan 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.9,
+        "scale": 5,
+        "reviewCount": 360,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Fattoush%20221%201st%20Ave%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Fattoush%20221%201st%20Ave%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "zesty-tabbouleh-82-2nd-ave",
+    "countryCodes": [
+      "LB"
+    ],
+    "name": "Zesty Tabbouleh",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "82 2nd Ave, New York, NY",
+    "descriptionZh": "黎巴嫩菜在纽约 Manhattan 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.9,
+        "scale": 5,
+        "reviewCount": 225,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Zesty%20Tabbouleh%2082%202nd%20Ave%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Zesty%20Tabbouleh%2082%202nd%20Ave%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "salma-351-e-12th-st",
+    "countryCodes": [
+      "LB"
+    ],
+    "name": "Salma",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "351 E 12th St, New York, NY",
+    "descriptionZh": "黎巴嫩菜在纽约 Manhattan 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.6,
+        "scale": 5,
+        "reviewCount": 1261,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Salma%20351%20E%2012th%20St%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Salma%20351%20E%2012th%20St%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "soul-of-palestine-nyc-7626-5th-ave",
+    "countryCodes": [
+      "PS"
+    ],
+    "name": "Soul of Palestine NYC",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Brooklyn",
+    "neighborhood": "待核验",
+    "address": "7626 5th Ave, Brooklyn, NY",
+    "descriptionZh": "巴勒斯坦菜在纽约 Brooklyn 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.8,
+        "scale": 5,
+        "reviewCount": 503,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Soul%20of%20Palestine%20NYC%207626%205th%20Ave%2C%20Brooklyn%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Soul%20of%20Palestine%20NYC%207626%205th%20Ave%2C%20Brooklyn%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "al-badawi-151-atlantic-ave",
+    "countryCodes": [
+      "PS"
+    ],
+    "name": "al Badawi",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Brooklyn",
+    "neighborhood": "待核验",
+    "address": "151 Atlantic Ave, Brooklyn, NY",
+    "descriptionZh": "巴勒斯坦菜在纽约 Brooklyn 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.7,
+        "scale": 5,
+        "reviewCount": 2523,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=al%20Badawi%20151%20Atlantic%20Ave%2C%20Brooklyn%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=al%20Badawi%20151%20Atlantic%20Ave%2C%20Brooklyn%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "ayat-hinds-hall-941-amsterdam-ave",
+    "countryCodes": [
+      "PS"
+    ],
+    "name": "Ayat Hinds Hall",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "941 Amsterdam Ave, New York, NY",
+    "descriptionZh": "巴勒斯坦菜在纽约 Manhattan 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.7,
+        "scale": 5,
+        "reviewCount": 268,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Ayat%20Hinds%20Hall%20941%20Amsterdam%20Ave%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Ayat%20Hinds%20Hall%20941%20Amsterdam%20Ave%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "syko-214a-prospect-park-w",
+    "countryCodes": [
+      "SY"
+    ],
+    "name": "SYKO",
+    "classification": "regional",
+    "classificationNote": "叙利亚与韩国菜的明确双菜系餐厅。",
+    "status": "open",
+    "borough": "Brooklyn",
+    "neighborhood": "待核验",
+    "address": "214a Prospect Park W, Brooklyn, NY",
+    "descriptionZh": "叙利亚菜在纽约 Brooklyn 的区域兼营店。叙利亚与韩国菜的明确双菜系餐厅。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.7,
+        "scale": 5,
+        "reviewCount": 642,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=SYKO%20214a%20Prospect%20Park%20W%2C%20Brooklyn%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=SYKO%20214a%20Prospect%20Park%20W%2C%20Brooklyn%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "karavan-kebab-llc-1311-avenue-u",
+    "countryCodes": [
+      "TJ"
+    ],
+    "name": "Karavan Kebab LLC",
+    "classification": "regional",
+    "classificationNote": "近期评论支持塔吉克菜判断，但 Google Maps 主类别仅为 Halal；保留为待进一步菜单核验的区域兼营候选。",
+    "status": "unverified",
+    "borough": "Brooklyn",
+    "neighborhood": "待核验",
+    "address": "1311 Avenue U, Brooklyn, NY",
+    "descriptionZh": "塔吉克斯坦菜在纽约 Brooklyn 的区域兼营店。近期评论支持塔吉克菜判断，但 Google Maps 主类别仅为 Halal；保留为待进一步菜单核验的区域兼营候选。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.4,
+        "scale": 5,
+        "reviewCount": 887,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Karavan%20Kebab%20LLC%201311%20Avenue%20U%2C%20Brooklyn%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Karavan%20Kebab%20LLC%201311%20Avenue%20U%2C%20Brooklyn%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "nar-34-e-20th-st-3",
+    "countryCodes": [
+      "TR"
+    ],
+    "name": "NAR",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "34 E 20th St #3, New York, NY",
+    "descriptionZh": "土耳其菜在纽约 Manhattan 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.7,
+        "scale": 5,
+        "reviewCount": 866,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=NAR%2034%20E%2020th%20St%20%233%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=NAR%2034%20E%2020th%20St%20%233%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "zara-terrace-862-2nd-ave",
+    "countryCodes": [
+      "TR"
+    ],
+    "name": "Zara Terrace",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "862 2nd Ave, New York, NY",
+    "descriptionZh": "土耳其菜在纽约 Manhattan 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.7,
+        "scale": 5,
+        "reviewCount": 246,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Zara%20Terrace%20862%202nd%20Ave%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Zara%20Terrace%20862%202nd%20Ave%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "sahara-s-turkish-cuisine-513-2nd-ave",
+    "countryCodes": [
+      "TR"
+    ],
+    "name": "Sahara’s Turkish Cuisine",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "待核验",
+    "address": "513 2nd Ave, New York, NY",
+    "descriptionZh": "土耳其菜在纽约 Manhattan 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.6,
+        "scale": 5,
+        "reviewCount": 1190,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Sahara%E2%80%99s%20Turkish%20Cuisine%20513%202nd%20Ave%2C%20New%20York%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Sahara%E2%80%99s%20Turkish%20Cuisine%20513%202nd%20Ave%2C%20New%20York%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "registan-kitchen-63-24-99th-st",
+    "countryCodes": [
+      "UZ"
+    ],
+    "name": "Registan Kitchen",
+    "classification": "specialist",
+    "classificationNote": "严格按评分优先，因此评论样本很小的 4.9 门店排在首位。",
+    "status": "open",
+    "borough": "Queens",
+    "neighborhood": "待核验",
+    "address": "63-24 99th St, Queens, NY",
+    "descriptionZh": "乌兹别克斯坦菜在纽约 Queens 的专门店。严格按评分优先，因此评论样本很小的 4.9 门店排在首位。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.9,
+        "scale": 5,
+        "reviewCount": 12,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Registan%20Kitchen%2063-24%2099th%20St%2C%20Queens%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Registan%20Kitchen%2063-24%2099th%20St%2C%20Queens%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "samarkand-nights-6001-strickland-ave",
+    "countryCodes": [
+      "UZ"
+    ],
+    "name": "Samarkand Nights",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Brooklyn",
+    "neighborhood": "待核验",
+    "address": "6001 Strickland Ave, Brooklyn, NY",
+    "descriptionZh": "乌兹别克斯坦菜在纽约 Brooklyn 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.7,
+        "scale": 5,
+        "reviewCount": 267,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Samarkand%20Nights%206001%20Strickland%20Ave%2C%20Brooklyn%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Samarkand%20Nights%206001%20Strickland%20Ave%2C%20Brooklyn%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "ansor-halal-uzbek-restaurant-94-03-63rd-dr",
+    "countryCodes": [
+      "UZ"
+    ],
+    "name": "Ansor Halal Uzbek Restaurant",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Queens",
+    "neighborhood": "待核验",
+    "address": "94-03 63rd Dr, Queens, NY",
+    "descriptionZh": "乌兹别克斯坦菜在纽约 Queens 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.7,
+        "scale": 5,
+        "reviewCount": 58,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Ansor%20Halal%20Uzbek%20Restaurant%2094-03%2063rd%20Dr%2C%20Queens%2C%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Ansor%20Halal%20Uzbek%20Restaurant%2094-03%2063rd%20Dr%2C%20Queens%2C%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "yemen-cafe-restaurant-staten-island-1816-hylan-blvd-staten-island-ny-10305",
+    "countryCodes": [
+      "YE"
+    ],
+    "name": "Yemen Cafe & Restaurant — Staten Island",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Staten Island",
+    "neighborhood": "待核验",
+    "address": "1816 Hylan Blvd, Staten Island, NY 10305",
+    "descriptionZh": "也门菜在纽约 Staten Island 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.6,
+        "scale": 5,
+        "reviewCount": 374,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Yemen%20Cafe%20%26%20Restaurant%20%E2%80%94%20Staten%20Island%201816%20Hylan%20Blvd%2C%20Staten%20Island%2C%20NY%2010305"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Yemen%20Cafe%20%26%20Restaurant%20%E2%80%94%20Staten%20Island%201816%20Hylan%20Blvd%2C%20Staten%20Island%2C%20NY%2010305",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "yemen-cafe-restaurant-atlantic-ave-176-atlantic-ave-brooklyn-ny-11201",
+    "countryCodes": [
+      "YE"
+    ],
+    "name": "Yemen Café & Restaurant — Atlantic Ave",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Brooklyn",
+    "neighborhood": "待核验",
+    "address": "176 Atlantic Ave, Brooklyn, NY 11201",
+    "descriptionZh": "也门菜在纽约 Brooklyn 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.5,
+        "scale": 5,
+        "reviewCount": 3658,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Yemen%20Caf%C3%A9%20%26%20Restaurant%20%E2%80%94%20Atlantic%20Ave%20176%20Atlantic%20Ave%2C%20Brooklyn%2C%20NY%2011201"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Yemen%20Caf%C3%A9%20%26%20Restaurant%20%E2%80%94%20Atlantic%20Ave%20176%20Atlantic%20Ave%2C%20Brooklyn%2C%20NY%2011201",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "yemen-cafe-restaurant-5th-ave-7317-5th-ave-brooklyn-ny-11209",
+    "countryCodes": [
+      "YE"
+    ],
+    "name": "Yemen Café & Restaurant — 5th Ave",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Brooklyn",
+    "neighborhood": "待核验",
+    "address": "7317 5th Ave, Brooklyn, NY 11209",
+    "descriptionZh": "也门菜在纽约 Brooklyn 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.5,
+        "scale": 5,
+        "reviewCount": 1787,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Yemen%20Caf%C3%A9%20%26%20Restaurant%20%E2%80%94%205th%20Ave%207317%205th%20Ave%2C%20Brooklyn%2C%20NY%2011209"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Yemen%20Caf%C3%A9%20%26%20Restaurant%20%E2%80%94%205th%20Ave%207317%205th%20Ave%2C%20Brooklyn%2C%20NY%2011209",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  }
+]

@@ -1,0 +1,124 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f6f1e7;
+  --foreground: #1b2a22;
+  --muted: #5b675f;
+  --primary: #1b4332;
+  --primary-soft: #2d6a4f;
+  --on-primary: #f8f4ea;
+  --accent: #d96c2c;
+  --accent-hover: #c45a1d;
+  --accent-soft: #f7e2d3;
+  --accent-ink: #7a3410;
+  --card: #fffdf8;
+  --panel: #fbf7ef;
+  --chip: #e7eee8;
+  --line: #d7d0c3;
+  --map-bg: #efe8d9;
+  --map-has: #2d6a4f;
+  --map-empty: #a3b18a;
+  --map-idle: #d9d2c5;
+  --map-selected: #1b4332;
+  --map-stroke: #f6f1e7;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-noto-sans);
+  --font-serif: var(--font-source-serif);
+}
+
+html {
+  font-size: 16px;
+  height: 100%;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-noto-sans), "Noto Sans SC", sans-serif;
+  min-height: 100dvh;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+a {
+  color: var(--primary);
+}
+
+button:disabled,
+a[aria-disabled="true"] {
+  cursor: not-allowed;
+  opacity: 0.55;
+}
+
+.map-country {
+  pointer-events: fill;
+  transform-box: fill-box;
+  transform-origin: center;
+  transition: filter 160ms ease;
+}
+
+.map-country.is-selected:not(:hover) {
+  filter: drop-shadow(0 7px 8px rgb(27 42 34 / 0.32));
+}
+
+.map-country:hover {
+  filter: drop-shadow(0 7px 8px rgb(27 42 34 / 0.32)) brightness(1.08);
+}
+
+.map-tooltip {
+  position: absolute;
+  z-index: 15;
+  pointer-events: none;
+  transform: translate(-50%, calc(-100% - 12px));
+  white-space: nowrap;
+  border-radius: 0.75rem;
+  background: color-mix(in srgb, var(--card) 94%, transparent);
+  padding: 0.4rem 0.7rem;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--foreground);
+  box-shadow: 0 8px 20px rgb(27 42 34 / 0.16), inset 0 0 0 1px var(--line);
+}
+
+.country-detail-enter {
+  animation: country-detail-in 280ms ease-out;
+}
+
+@keyframes country-detail-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+
+  .map-country,
+  .map-country.is-selected,
+  .map-country:hover {
+    transform: none;
+    filter: none;
+  }
+}

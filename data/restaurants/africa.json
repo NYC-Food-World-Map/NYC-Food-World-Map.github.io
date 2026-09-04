@@ -1,0 +1,886 @@
+[
+  {
+    "id": "merguez-and-frites-40-06-25th-ave-astoria-ny-11103",
+    "countryCodes": [
+      "DZ"
+    ],
+    "name": "Merguez and Frites",
+    "classification": "regional",
+    "status": "open",
+    "borough": "Queens",
+    "neighborhood": "Astoria",
+    "address": "40-06 25th Ave, Astoria, NY 11103",
+    "descriptionZh": "阿尔及利亚菜在纽约 Queens 的区域兼营店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.6,
+        "scale": 5,
+        "reviewCount": 349,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Merguez%20and%20Frites%20Astoria%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Merguez%20and%20Frites%20Astoria%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "simple-346-bedford-ave-brooklyn-ny-11249",
+    "countryCodes": [
+      "DZ"
+    ],
+    "name": "Simple",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Brooklyn",
+    "neighborhood": "Williamsburg",
+    "address": "346 Bedford Ave, Brooklyn, NY 11249",
+    "descriptionZh": "阿尔及利亚菜在纽约 Brooklyn 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.4,
+        "scale": 5,
+        "reviewCount": 508,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Simple%20Algerian%20Restaurant%20Brooklyn%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Simple%20Algerian%20Restaurant%20Brooklyn%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "new-ivoire-76-e-119th-st-new-york-ny-10035",
+    "countryCodes": [
+      "CI"
+    ],
+    "name": "New Ivoire",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "East Harlem",
+    "address": "76 E 119th St, New York, NY 10035",
+    "descriptionZh": "科特迪瓦菜在纽约 Manhattan 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.1,
+        "scale": 5,
+        "reviewCount": 408,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=New%20Ivoire%2076%20E%20119th%20St%20New%20York"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=New%20Ivoire%2076%20E%20119th%20St%20New%20York",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "akiila-35-01-30th-ave-astoria-ny-11103",
+    "countryCodes": [
+      "EG"
+    ],
+    "name": "Akiila",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Queens",
+    "neighborhood": "Astoria",
+    "address": "35-01 30th Ave, Astoria, NY 11103",
+    "descriptionZh": "埃及菜在纽约 Queens 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.9,
+        "scale": 5,
+        "reviewCount": 33,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Akiila%20Astoria%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Akiila%20Astoria%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "mum-feteer-25-48-steinway-st-astoria-ny-11103",
+    "countryCodes": [
+      "EG"
+    ],
+    "name": "Mum Feteer",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Queens",
+    "neighborhood": "Astoria",
+    "address": "25-48 Steinway St, Astoria, NY 11103",
+    "descriptionZh": "埃及菜在纽约 Queens 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.8,
+        "scale": 5,
+        "reviewCount": 3259,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Mum%20Feteer%20Astoria%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Mum%20Feteer%20Astoria%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "ashour-restaurant-31-51-steinway-st-astoria-ny-11103",
+    "countryCodes": [
+      "EG"
+    ],
+    "name": "Ashour Restaurant",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Queens",
+    "neighborhood": "Astoria",
+    "address": "31-51 Steinway St, Astoria, NY 11103",
+    "descriptionZh": "埃及菜在纽约 Queens 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.8,
+        "scale": 5,
+        "reviewCount": 44,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Ashour%20Restaurant%20Astoria%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Ashour%20Restaurant%20Astoria%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "cafe-massawa-3153-broadway-new-york-ny-10027",
+    "countryCodes": [
+      "ER"
+    ],
+    "name": "Cafe Massawa",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "Morningside Heights",
+    "address": "3153 Broadway, New York, NY 10027",
+    "descriptionZh": "厄立特里亚菜在纽约 Manhattan 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 5,
+        "scale": 5,
+        "reviewCount": 151,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Cafe%20Massawa%203153%20Broadway%20New%20York"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Cafe%20Massawa%203153%20Broadway%20New%20York",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "mc-to-go-45-14-48th-ave-sunnyside-ny-11104",
+    "countryCodes": [
+      "ER"
+    ],
+    "name": "MC TO-GO",
+    "classification": "regional",
+    "classificationNote": "兼做厄立特里亚与埃塞俄比亚菜。",
+    "status": "open",
+    "borough": "Queens",
+    "neighborhood": "Sunnyside",
+    "address": "45-14 48th Ave, Sunnyside, NY 11104",
+    "descriptionZh": "厄立特里亚菜在纽约 Queens 的区域兼营店。兼做厄立特里亚与埃塞俄比亚菜。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.6,
+        "scale": 5,
+        "reviewCount": 171,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=MC%20TO-GO%20Sunnyside%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=MC%20TO-GO%20Sunnyside%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "massawa-1239-amsterdam-ave-new-york-ny-10027",
+    "countryCodes": [
+      "ER"
+    ],
+    "name": "Massawa",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "Morningside Heights",
+    "address": "1239 Amsterdam Ave, New York, NY 10027",
+    "descriptionZh": "厄立特里亚菜在纽约 Manhattan 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.5,
+        "scale": 5,
+        "reviewCount": 778,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Massawa%201239%20Amsterdam%20Ave%20New%20York"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Massawa%201239%20Amsterdam%20Ave%20New%20York",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "addey-ababa-736-w-181st-st-new-york-ny-10033",
+    "countryCodes": [
+      "ET"
+    ],
+    "name": "Addey Ababa",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "Washington Heights",
+    "address": "736 W 181st St, New York, NY 10033",
+    "descriptionZh": "埃塞俄比亚菜在纽约 Manhattan 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.9,
+        "scale": 5,
+        "reviewCount": 293,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Addey%20Ababa%20736%20W%20181st%20St%20New%20York"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Addey%20Ababa%20736%20W%20181st%20St%20New%20York",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "bunna-cafe-1084-flushing-ave-brooklyn-ny-11237",
+    "countryCodes": [
+      "ET"
+    ],
+    "name": "Bunna Cafe",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Brooklyn",
+    "neighborhood": "Bushwick",
+    "address": "1084 Flushing Ave, Brooklyn, NY 11237",
+    "descriptionZh": "埃塞俄比亚菜在纽约 Brooklyn 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.7,
+        "scale": 5,
+        "reviewCount": 2006,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Bunna%20Cafe%20Brooklyn%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Bunna%20Cafe%20Brooklyn%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "awaze-2288-frederick-douglass-blvd-new-york-ny-10027",
+    "countryCodes": [
+      "ET"
+    ],
+    "name": "Awaze",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "Harlem",
+    "address": "2288 Frederick Douglass Blvd, New York, NY 10027",
+    "descriptionZh": "埃塞俄比亚菜在纽约 Manhattan 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.7,
+        "scale": 5,
+        "reviewCount": 162,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Awaze%20Ethiopian%20New%20York"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Awaze%20Ethiopian%20New%20York",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "accra-express-restaurant-63-e-125th-st-new-york-ny-10035",
+    "countryCodes": [
+      "GH"
+    ],
+    "name": "Accra Express Restaurant",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "East Harlem",
+    "address": "63 E 125th St, New York, NY 10035",
+    "descriptionZh": "加纳菜在纽约 Manhattan 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.4,
+        "scale": 5,
+        "reviewCount": 1344,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Accra%20Express%20Restaurant%20New%20York"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Accra%20Express%20Restaurant%20New%20York",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "akwaaba-restaurant-604-parkside-ave-brooklyn-ny-11226",
+    "countryCodes": [
+      "GH"
+    ],
+    "name": "Akwaaba Restaurant",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Brooklyn",
+    "neighborhood": "Prospect Lefferts Gardens",
+    "address": "604 Parkside Ave, Brooklyn, NY 11226",
+    "descriptionZh": "加纳菜在纽约 Brooklyn 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.3,
+        "scale": 5,
+        "reviewCount": 211,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Akwaaba%20Restaurant%20Brooklyn%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Akwaaba%20Restaurant%20Brooklyn%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "accra-2041-davidson-ave-bronx-ny-10453",
+    "countryCodes": [
+      "GH"
+    ],
+    "name": "Accra",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Bronx",
+    "neighborhood": "University Heights",
+    "address": "2041 Davidson Ave, Bronx, NY 10453",
+    "descriptionZh": "加纳菜在纽约 Bronx 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.1,
+        "scale": 5,
+        "reviewCount": 850,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Accra%202041%20Davidson%20Ave%20Bronx"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Accra%202041%20Davidson%20Ave%20Bronx",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "jalloh-3396-3rd-ave-bronx-ny-10456",
+    "countryCodes": [
+      "GN"
+    ],
+    "name": "Jalloh",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Bronx",
+    "neighborhood": "Morrisania",
+    "address": "3396 3rd Ave, Bronx, NY 10456",
+    "descriptionZh": "几内亚菜在纽约 Bronx 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.6,
+        "scale": 5,
+        "reviewCount": 67,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Jalloh%203396%203rd%20Ave%20Bronx"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Jalloh%203396%203rd%20Ave%20Bronx",
+        "checkedAt": "2026-09-03"
+      },
+      {
+        "type": "media",
+        "title": "Cuisine evidence",
+        "url": "https://www.sharedbowl.com/new-york/bronx/jalloh",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "moroccan-bites-by-siham-28-44-steinway-st-astoria-ny-11103",
+    "countryCodes": [
+      "MA"
+    ],
+    "name": "Moroccan Bites by Siham",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Queens",
+    "neighborhood": "Astoria",
+    "address": "28-44 Steinway St, Astoria, NY 11103",
+    "descriptionZh": "摩洛哥菜在纽约 Queens 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.9,
+        "scale": 5,
+        "reviewCount": 911,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Moroccan%20Bites%20by%20Siham%20Astoria"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Moroccan%20Bites%20by%20Siham%20Astoria",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "ayah-restaurant-77-w-houston-st-new-york-ny-10012",
+    "countryCodes": [
+      "MA"
+    ],
+    "name": "Ayah Restaurant",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "Greenwich Village",
+    "address": "77 W Houston St, New York, NY 10012",
+    "descriptionZh": "摩洛哥菜在纽约 Manhattan 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.7,
+        "scale": 5,
+        "reviewCount": 1224,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Ayah%20Restaurant%2077%20W%20Houston%20St%20New%20York"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Ayah%20Restaurant%2077%20W%20Houston%20St%20New%20York",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "dar-lbahja-47-12-30th-ave-astoria-ny-11103",
+    "countryCodes": [
+      "MA"
+    ],
+    "name": "Dar Lbahja",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Queens",
+    "neighborhood": "Astoria",
+    "address": "47-12 30th Ave, Astoria, NY 11103",
+    "descriptionZh": "摩洛哥菜在纽约 Queens 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.7,
+        "scale": 5,
+        "reviewCount": 330,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Dar%20Lbahja%20Astoria%20NY"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Dar%20Lbahja%20Astoria%20NY",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "kayode-restaurant-mirage-563-e-26th-st-brooklyn-ny-11210",
+    "countryCodes": [
+      "NG"
+    ],
+    "name": "Káyọ̀dé Restaurant Mirage",
+    "classification": "specialist",
+    "classificationNote": "当前以在线下单/自取为主，实体堂食状态待核验。",
+    "status": "unverified",
+    "borough": "Brooklyn",
+    "neighborhood": "Flatbush",
+    "address": "563 E 26th St, Brooklyn, NY 11210",
+    "descriptionZh": "尼日利亚菜在纽约 Brooklyn 的专门店。当前以在线下单/自取为主，实体堂食状态待核验。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.9,
+        "scale": 5,
+        "reviewCount": 214,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Kayode%20Restaurant%20Mirage%20Brooklyn"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Kayode%20Restaurant%20Mirage%20Brooklyn",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "dundu-140-e-41st-st-new-york-ny-10017",
+    "countryCodes": [
+      "NG"
+    ],
+    "name": "DÙNDÚ",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "Midtown East",
+    "address": "140 E 41st St, New York, NY 10017",
+    "descriptionZh": "尼日利亚菜在纽约 Manhattan 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.6,
+        "scale": 5,
+        "reviewCount": 453,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=DUNDU%20140%20E%2041st%20St%20New%20York"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=DUNDU%20140%20E%2041st%20St%20New%20York",
+        "checkedAt": "2026-09-03"
+      },
+      {
+        "type": "official",
+        "title": "Official site",
+        "url": "https://eatdundu.com/",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "brooklyn-suya-717-franklin-ave-brooklyn-ny-11238",
+    "countryCodes": [
+      "NG"
+    ],
+    "name": "Brooklyn Suya",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Brooklyn",
+    "neighborhood": "Crown Heights",
+    "address": "717 Franklin Ave, Brooklyn, NY 11238",
+    "descriptionZh": "尼日利亚菜在纽约 Brooklyn 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.5,
+        "scale": 5,
+        "reviewCount": 520,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Brooklyn%20Suya%20717%20Franklin%20Ave"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Brooklyn%20Suya%20717%20Franklin%20Ave",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "saint-louis-restaurant-keur-yayou-dara-381-lenox-ave-new-york-ny-10027",
+    "countryCodes": [
+      "SN"
+    ],
+    "name": "Saint Louis Restaurant Keur Yayou Dara",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "Harlem",
+    "address": "381 Lenox Ave, New York, NY 10027",
+    "descriptionZh": "塞内加尔菜在纽约 Manhattan 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.7,
+        "scale": 5,
+        "reviewCount": 122,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Saint%20Louis%20Restaurant%20Keur%20Yayou%20Dara%20Harlem"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Saint%20Louis%20Restaurant%20Keur%20Yayou%20Dara%20Harlem",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "teranga-midtown-601-lexington-ave-new-york-ny-10022",
+    "countryCodes": [
+      "SN"
+    ],
+    "name": "Teranga Midtown",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "Midtown East",
+    "address": "601 Lexington Ave, New York, NY 10022",
+    "descriptionZh": "塞内加尔菜在纽约 Manhattan 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.6,
+        "scale": 5,
+        "reviewCount": 203,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Teranga%20Midtown%20New%20York"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Teranga%20Midtown%20New%20York",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "joloff-1168-bedford-ave-brooklyn-ny-11216",
+    "countryCodes": [
+      "SN"
+    ],
+    "name": "Joloff",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Brooklyn",
+    "neighborhood": "Bedford-Stuyvesant",
+    "address": "1168 Bedford Ave, Brooklyn, NY 11216",
+    "descriptionZh": "塞内加尔菜在纽约 Brooklyn 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.5,
+        "scale": 5,
+        "reviewCount": 486,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Joloff%201168%20Bedford%20Ave%20Brooklyn"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Joloff%201168%20Bedford%20Ave%20Brooklyn",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "safari-55-st-nicholas-ave-new-york-ny-10026",
+    "countryCodes": [
+      "SO"
+    ],
+    "name": "Safari",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "Harlem",
+    "address": "55 St Nicholas Ave, New York, NY 10026",
+    "descriptionZh": "索马里菜在纽约 Manhattan 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.6,
+        "scale": 5,
+        "reviewCount": 462,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Safari%2055%20St%20Nicholas%20Ave%20New%20York"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Safari%2055%20St%20Nicholas%20Ave%20New%20York",
+        "checkedAt": "2026-09-03"
+      },
+      {
+        "type": "media",
+        "title": "Cuisine evidence",
+        "url": "https://www.nyctourism.com/restaurants/safari/",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  },
+  {
+    "id": "kaia-south-african-farmhouse-restaurant-1446-1st-ave-new-york-ny-10021",
+    "countryCodes": [
+      "ZA"
+    ],
+    "name": "Kaia South African Farmhouse Restaurant",
+    "classification": "specialist",
+    "status": "open",
+    "borough": "Manhattan",
+    "neighborhood": "Upper East Side",
+    "address": "1446 1st Ave, New York, NY 10021",
+    "descriptionZh": "南非菜在纽约 Manhattan 的专门店。",
+    "ratings": [
+      {
+        "source": "Google Maps",
+        "score": 4.5,
+        "scale": 5,
+        "reviewCount": 695,
+        "checkedAt": "2026-09-03",
+        "url": "https://www.google.com/maps/search/?api=1&query=Kaia%20South%20African%20Farmhouse%20Restaurant%20NYC"
+      }
+    ],
+    "sources": [
+      {
+        "type": "google_maps",
+        "title": "Google Maps listing",
+        "url": "https://www.google.com/maps/search/?api=1&query=Kaia%20South%20African%20Farmhouse%20Restaurant%20NYC",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "lastVerifiedAt": "2026-09-03"
+  }
+]

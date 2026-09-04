@@ -1,0 +1,796 @@
+{
+  "generatedAt": "2026-09-03",
+  "scope": {
+    "city": "New York City",
+    "boroughs": [
+      "Manhattan",
+      "Brooklyn",
+      "Queens",
+      "Bronx",
+      "Staten Island"
+    ],
+    "definition": "按联合国M49的广义北美洲范围列出23个主权国家，涵盖北部美洲、中美洲和加勒比；不单列属地。",
+    "rankingMethod": "在Google Maps当前可见且经菜系归属复核的候选中，先按评分降序，再在评分相同时按评论数降序；每国最多3家。",
+    "limitations": "Google Maps结果会随时间、位置和个性化变化；评分与评论数为核验日快照。未用泛加勒比、泛拉美或邻国菜系补足名额。"
+  },
+  "ratingSource": "Google Maps",
+  "countries": [
+    {
+      "code": "AG",
+      "nameZh": "安提瓜和巴布达",
+      "nameEn": "Antigua and Barbuda",
+      "restaurants": [
+        {
+          "name": "Wadadli",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Brooklyn",
+          "neighborhood": "Bedford-Stuyvesant",
+          "address": "419 Putnam Ave, Brooklyn, NY",
+          "googleMapsRating": 4.6,
+          "googleMapsReviewCount": 149,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/place/Wadadli/data=!4m7!3m6!1s0x89c25bf027b56619:0xd79555c3b11d9932!8m2!3d40.6847808!4d-73.9445443!16s%2Fg%2F11tfn_q95s!19sChIJGWa1J_BbwokRMpkdscNVldc?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1",
+          "cuisineEvidenceUrl": "https://wadadlijerk.com/"
+        }
+      ]
+    },
+    {
+      "code": "BS",
+      "nameZh": "巴哈马",
+      "nameEn": "The Bahamas",
+      "restaurants": [],
+      "note": "搜索结果为品牌名含Bahama或泛加勒比餐厅，未找到可核实的巴哈马专门餐厅。"
+    },
+    {
+      "code": "BB",
+      "nameZh": "巴巴多斯",
+      "nameEn": "Barbados",
+      "restaurants": [
+        {
+          "name": "Baje A Taste of The Caribbean",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Brooklyn",
+          "neighborhood": "Bushwick",
+          "address": "1405 Bushwick Ave, Brooklyn, NY",
+          "googleMapsRating": 3.9,
+          "googleMapsReviewCount": 24,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/place/Baje+A+Taste+of+The+Caribbean/data=!4m7!3m6!1s0x89c25dd485243f1f:0x4a2861a3b2a20f69!8m2!3d40.6849809!4d-73.9098218!16s%2Fg%2F11x33lhysf!19sChIJHz8khdRdwokRaQ-isqNhKEo?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1"
+        }
+      ],
+      "exclusions": [
+        "Culpeppers在Google Maps显示暂时关闭；泛加勒比餐厅未用于补足。"
+      ]
+    },
+    {
+      "code": "BZ",
+      "nameZh": "伯利兹",
+      "nameEn": "Belize",
+      "restaurants": [
+        {
+          "name": "Nikki's Cuisine LLC",
+          "classification": "specialist",
+          "status": "open",
+          "format": "caterer",
+          "borough": "Brooklyn",
+          "neighborhood": "East Flatbush",
+          "address": "1746 Schenectady Ave, Brooklyn, NY",
+          "googleMapsRating": 5,
+          "googleMapsReviewCount": 72,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/place/Nikki%27s+Cuisine+LLC/data=!4m7!3m6!1s0x89c25d1b2c21f5d1:0x5021ed888bec3465!8m2!3d40.6298075!4d-73.931183!16s%2Fg%2F11sm6vnvxl!19sChIJ0fUhLBtdwokRZTTsi4jtIVA?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1",
+          "note": "以餐饮承办和外带为主，不是标准堂食餐厅。"
+        },
+        {
+          "name": "Belize",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Bronx",
+          "neighborhood": "Belmont",
+          "address": "2368 Hoffman St K215, Bronx, NY",
+          "googleMapsRating": 4.4,
+          "googleMapsReviewCount": 7,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/place/Belize/data=!4m7!3m6!1s0x89c2f5048c516dbf:0xfe59be0ed0e6c52a!8m2!3d40.855085!4d-73.88884!16s%2Fg%2F11n4dzmyq4!19sChIJv21RjAT1wokRKsXm0A6-Wf4?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1"
+        },
+        {
+          "name": "Belize NYC (Harlem)",
+          "classification": "specialist",
+          "status": "unverified",
+          "format": "delivery_and_pickup",
+          "borough": "Manhattan",
+          "neighborhood": "East Harlem",
+          "address": "1580 Park Ave, New York, NY",
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/place/Belize+NYC+%28Harlem%29/data=!4m7!3m6!1s0x89c2f7193d0ebfed:0xa72c50b3443eecc9!8m2!3d40.7972968!4d-73.94527!16s%2Fg%2F11zgz6dbbb!19sChIJ7b8OPRn3wokRyew-RLNQLKc?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1",
+          "cuisineEvidenceUrl": "https://www.grubhub.com/restaurant/belize-nyc-1580-park-ave-new-york/14056136",
+          "note": "Google Maps暂无评分，且显示不提供堂食。"
+        }
+      ]
+    },
+    {
+      "code": "CA",
+      "nameZh": "加拿大",
+      "nameEn": "Canada",
+      "restaurants": [
+        {
+          "name": "The Canuck",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Manhattan",
+          "neighborhood": "Chelsea",
+          "address": "202 9th Ave, New York, NY",
+          "googleMapsRating": 4.6,
+          "googleMapsReviewCount": 461,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/place/The+Canuck/data=!4m7!3m6!1s0x89c259cc2553d2d9:0xdc339202b9781bde!8m2!3d40.7459659!4d-74.0014391!16s%2Fg%2F11pkj8v_x2!19sChIJ2dJTJcxZwokR3ht4uQKSM9w?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1"
+        },
+        {
+          "name": "The Canuck True North",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Manhattan",
+          "neighborhood": "Chelsea",
+          "address": "330 7th Ave, New York, NY",
+          "googleMapsRating": 4.5,
+          "googleMapsReviewCount": 44,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/place/The+Canuck+True+North/data=!4m7!3m6!1s0x89c25900505d92f9:0x249ac01e28d67d1!8m2!3d40.7477871!4d-73.993184!16s%2Fg%2F11zkvw6mp5!19sChIJ-ZJdUABZwokR0WeN4gGsSQI?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1"
+        },
+        {
+          "name": "Mile End Deli",
+          "classification": "regional",
+          "status": "open",
+          "borough": "Brooklyn",
+          "neighborhood": "Boerum Hill",
+          "address": "97 Hoyt St, Brooklyn, NY",
+          "googleMapsRating": 4.4,
+          "googleMapsReviewCount": 1440,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/place/Mile+End+Deli/data=!4m7!3m6!1s0x89c25a4d946fbf2d:0x347ae99c7b26852f!8m2!3d40.6874457!4d-73.9870445!16s%2Fg%2F11cm13vn0t!19sChIJLb9vlE1awokRL4Ume5zpejQ?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1",
+          "note": "以蒙特利尔烟熏肉和poutine等魁北克风味为主。"
+        }
+      ]
+    },
+    {
+      "code": "CR",
+      "nameZh": "哥斯达黎加",
+      "nameEn": "Costa Rica",
+      "restaurants": [],
+      "note": "较新的本地讨论与地图检索均指向新泽西州；纽约五大区内未找到仍可核实的哥斯达黎加专门餐厅。"
+    },
+    {
+      "code": "CU",
+      "nameZh": "古巴",
+      "nameEn": "Cuba",
+      "restaurants": [
+        {
+          "name": "Café Habana",
+          "classification": "regional",
+          "status": "open",
+          "borough": "Manhattan",
+          "neighborhood": "Nolita",
+          "address": "17 Prince St, New York, NY",
+          "googleMapsRating": 4.6,
+          "googleMapsReviewCount": 5209,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/place/Caf%C3%A9+Habana/data=!4m7!3m6!1s0x89c25985f1a1033d:0xe9b438926dac6513!8m2!3d40.7229278!4d-73.9941778!16s%2Fg%2F1tdwlf44!19sChIJPQOh8YVZwokRE2WsbZI4tOk?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1",
+          "note": "兼有墨西哥菜，列为regional。"
+        },
+        {
+          "name": "Guantanamera",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Manhattan",
+          "neighborhood": "Midtown West",
+          "address": "939 8th Ave, New York, NY",
+          "googleMapsRating": 4.5,
+          "googleMapsReviewCount": 3323,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/place/Guantanamera/data=!4m7!3m6!1s0x89c258580e27e405:0xf0ce7f097d8d2244!8m2!3d40.7658904!4d-73.9838214!16s%2Fg%2F1tflnbqm!19sChIJBeQnDlhYwokRRCKNfQl_zvA?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1"
+        },
+        {
+          "name": "Cantina Cubana",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Manhattan",
+          "neighborhood": "East Village",
+          "address": "17 Avenue B, New York, NY",
+          "googleMapsRating": 4.5,
+          "googleMapsReviewCount": 152,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/place/Cantina+Cubana/data=!4m7!3m6!1s0x89c2594df27a85fb:0x27783bce9d59425d!8m2!3d40.7220664!4d-73.983276!16s%2Fg%2F11vf2szf08!19sChIJ-4V68k1ZwokRXUJZnc47eCc?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1"
+        }
+      ],
+      "exclusions": [
+        "Son Cubano位于新泽西州West New York，未收录。"
+      ]
+    },
+    {
+      "code": "DM",
+      "nameZh": "多米尼克",
+      "nameEn": "Dominica",
+      "restaurants": [],
+      "note": "检索结果持续误匹配多米尼加共和国餐厅；未找到可核实的多米尼克专门餐厅。"
+    },
+    {
+      "code": "DO",
+      "nameZh": "多米尼加共和国",
+      "nameEn": "Dominican Republic",
+      "restaurants": [
+        {
+          "name": "Tipico56",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Manhattan",
+          "neighborhood": "Inwood",
+          "address": "177 Sherman Ave, New York, NY",
+          "googleMapsRating": 4.9,
+          "googleMapsReviewCount": 126,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/place/Tipico56/data=!4m7!3m6!1s0x89c2f5cf79b977ef:0xa3e78bab1d1526e!8m2!3d40.8648027!4d-73.9222781!16s%2Fg%2F11y6m3t1yb!19sChIJ73e5ec_1wokRblLRsbp4Pgo?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1"
+        },
+        {
+          "name": "DONplinada",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Manhattan",
+          "neighborhood": "Washington Heights",
+          "address": "645 W 184th St, New York, NY",
+          "googleMapsRating": 4.8,
+          "googleMapsReviewCount": 282,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/place/DONplinada/data=!4m7!3m6!1s0x89c2f50545d45881:0x8a54e29cbffdaaee!8m2!3d40.8518345!4d-73.9339396!16s%2Fg%2F11zkkp0nsr!19sChIJgVjURQX1wokR7qr9v5ziVIo?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1"
+        },
+        {
+          "name": "Que Rico Restaurant",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Manhattan",
+          "neighborhood": "Kips Bay",
+          "address": "221 E 23rd St, New York, NY",
+          "googleMapsRating": 4.8,
+          "googleMapsReviewCount": 147,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/place/Que+Rico+Restaurant/data=!4m7!3m6!1s0x89c25900011c63b5:0x2e3fbd1502c4a15e!8m2!3d40.7385795!4d-73.9819879!16s%2Fg%2F11lns8drpw!19sChIJtWMcAQBZwokRXqHEAhW9Py4?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1"
+        }
+      ]
+    },
+    {
+      "code": "SV",
+      "nameZh": "萨尔瓦多",
+      "nameEn": "El Salvador",
+      "restaurants": [
+        {
+          "name": "Ricas Pupusas & Mas",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Queens",
+          "neighborhood": "Sunnyside",
+          "address": "47-55 47th St, Queens, NY",
+          "googleMapsRating": 4.6,
+          "googleMapsReviewCount": 295,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/place/Ricas+Pupusas+%26+Mas/data=!4m7!3m6!1s0x89c25fc3cdee623f:0x3801d763171709db!8m2!3d40.7394437!4d-73.9183093!16s%2Fg%2F11f8l2vxf3!19sChIJP2LuzcNfwokR2wkXF2PXATg?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1"
+        },
+        {
+          "name": "Pupuseria Izalco",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Queens",
+          "neighborhood": "Woodside",
+          "address": "64-05 Roosevelt Ave, Queens, NY",
+          "googleMapsRating": 4.5,
+          "googleMapsReviewCount": 586,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/place/Pupuseria+Izalco/data=!4m7!3m6!1s0x89c25f032461d95f:0xb5c74cf11d885730!8m2!3d40.7461201!4d-73.8996972!16s%2Fg%2F1tc_m1ms!19sChIJX9lhJANfwokRMFeIHfFMx7U?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1"
+        },
+        {
+          "name": "Salvatoria Kitchen & Bar",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Queens",
+          "neighborhood": "Astoria",
+          "address": "31-18 Broadway, Queens, NY",
+          "googleMapsRating": 4.4,
+          "googleMapsReviewCount": 847,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/place/Salvatoria+Kitchen+%26+Bar/data=!4m7!3m6!1s0x89c25f30ad05d655:0xc552b4ade7cc0b55!8m2!3d40.7614139!4d-73.9248972!16s%2Fg%2F11bzx8f1xp!19sChIJVdYFrTBfwokRVQvM5620UsU?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1"
+        }
+      ],
+      "exclusions": [
+        "La Pupusa Loca搜索结果位于新泽西州，未收录。"
+      ]
+    },
+    {
+      "code": "GD",
+      "nameZh": "格林纳达",
+      "nameEn": "Grenada",
+      "restaurants": [
+        {
+          "name": "West Cuisine",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Brooklyn",
+          "neighborhood": "East Flatbush",
+          "address": "916 Clarkson Ave, Brooklyn, NY",
+          "googleMapsRating": 4.6,
+          "googleMapsReviewCount": 89,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/place/West+Cuisine/data=!4m7!3m6!1s0x89c25c9b1fb76011:0x84681f8c0470f14f!8m2!3d40.6566727!4d-73.9275347!16s%2Fg%2F1vfwdsd8!19sChIJEWC3H5tcwokRT_FwBIwfaIQ?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1"
+        },
+        {
+          "name": "de Islands",
+          "classification": "regional",
+          "status": "open",
+          "borough": "Brooklyn",
+          "neighborhood": "Canarsie",
+          "address": "8203 Flatlands Ave, Brooklyn, NY 11236",
+          "googleMapsRating": 4.1,
+          "googleMapsReviewCount": 795,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/place/de+Islands/data=!4m7!3m6!1s0x89c25cc7facfdf9d:0xdae05e5cf611384c!8m2!3d40.6366972!4d-73.9117917!16s%2Fg%2F1thxrkg8!19sChIJnd_P-sdcwokRTDgR9lxe4No?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1",
+          "cuisineEvidenceUrl": "https://www.nyctourism.com/restaurants/de-island/",
+          "note": "店主来自格林纳达，同时经营广义加勒比菜，列为regional。"
+        },
+        {
+          "name": "Ritz Cuisine",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Brooklyn",
+          "neighborhood": "East Flatbush",
+          "address": "926 Clarkson Ave, Brooklyn, NY",
+          "googleMapsRating": 4.1,
+          "googleMapsReviewCount": 42,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/place/Ritz+Cuisine/data=!4m7!3m6!1s0x89c25c9ae150096b:0x4895abc8a997d099!8m2!3d40.6566236!4d-73.9268781!16s%2Fg%2F1tgxvgm2!19sChIJawlQ4ZpcwokRmdCXqcirlUg?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1"
+        }
+      ]
+    },
+    {
+      "code": "GT",
+      "nameZh": "危地马拉",
+      "nameEn": "Guatemala",
+      "restaurants": [
+        {
+          "name": "Tikal Mayan Food",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Manhattan",
+          "neighborhood": "Upper East Side",
+          "address": "1393 2nd Ave, New York, NY",
+          "googleMapsRating": 4.9,
+          "googleMapsReviewCount": 191,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/place/Tikal+Mayan+Food/data=!4m7!3m6!1s0x89c25933a454e847:0x8923271bffc7afa9!8m2!3d40.7693069!4d-73.9583377!16s%2Fg%2F11wfjzfyrf!19sChIJR-hUpDNZwokRqa_H_xsnI4k?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1"
+        },
+        {
+          "name": "Ix Restaurant",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Brooklyn",
+          "neighborhood": "Prospect Lefferts Gardens",
+          "address": "43 Lincoln Rd, Brooklyn, NY",
+          "googleMapsRating": 4.7,
+          "googleMapsReviewCount": 1074,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/place/Ix+Restaurant/data=!4m7!3m6!1s0x89c25b12e476b925:0x9f9edc24faaa504d!8m2!3d40.6609578!4d-73.9613673!16s%2Fg%2F11c5hjvc1v!19sChIJJbl25BJbwokRTVCq-iTcnp8?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1"
+        },
+        {
+          "name": "Mi Chapincita Quetzal",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Bronx",
+          "neighborhood": "Longwood",
+          "address": "1093 Southern Blvd, Bronx, NY",
+          "googleMapsRating": 4.5,
+          "googleMapsReviewCount": 35,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/place/Mi+Chapincita+Quetzal/data=!4m7!3m6!1s0x89c2f562a2fce18b:0x97c6de7808225e91!8m2!3d40.825907!4d-73.8921883!16s%2Fg%2F11s36r5zjg!19sChIJi-H8omL1wokRkV4iCHjexpc?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1"
+        }
+      ],
+      "exclusions": [
+        "El Chapin与Mi Guatemala的可见结果位于新泽西州，未收录。"
+      ]
+    },
+    {
+      "code": "HT",
+      "nameZh": "海地",
+      "nameEn": "Haiti",
+      "restaurants": [
+        {
+          "name": "BunNan",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Brooklyn",
+          "neighborhood": "Flatbush",
+          "address": "1248 Flatbush Ave, Brooklyn, NY",
+          "googleMapsRating": 4.9,
+          "googleMapsReviewCount": 1074,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/place/BunNan/data=!4m7!3m6!1s0x89c25bc1e7ec5c95:0x43784920ec773163!8m2!3d40.6398084!4d-73.9552604!16s%2Fg%2F11xdvhjbvz!19sChIJlVzs58FbwokRYzF37CBJeEM?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1"
+        },
+        {
+          "name": "T-Ge Resto&Lounge",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Brooklyn",
+          "neighborhood": "Kensington",
+          "address": "709 Church Ave, Brooklyn, NY",
+          "googleMapsRating": 4.7,
+          "googleMapsReviewCount": 77,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/place/T-Ge+Resto%26Lounge/data=!4m7!3m6!1s0x89c25b858c6bfb83:0x72d0977d95494dd2!8m2!3d40.6457368!4d-73.972787!16s%2Fg%2F11yddsmv1h!19sChIJg_trjIVbwokR0k1JlX2X0HI?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1"
+        },
+        {
+          "name": "BunNan",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Brooklyn",
+          "neighborhood": "Flatbush",
+          "address": "2123 Caton Ave, Brooklyn, NY",
+          "googleMapsRating": 4.6,
+          "googleMapsReviewCount": 349,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/place/BunNan/data=!4m7!3m6!1s0x89c25b40868fe14d:0xbffb5ed361b25d1f!8m2!3d40.6530547!4d-73.9595439!16s%2Fg%2F11t31c5pxf!19sChIJTeGPhkBbwokRH12yYdNe-78?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1"
+        }
+      ]
+    },
+    {
+      "code": "HN",
+      "nameZh": "洪都拉斯",
+      "nameEn": "Honduras",
+      "restaurants": [
+        {
+          "name": "El Buen Sabor Hondureño Deli Restaurant",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Queens",
+          "neighborhood": "Jamaica",
+          "address": "92-06 173rd St, Queens, NY",
+          "googleMapsRating": 4.7,
+          "googleMapsReviewCount": 331,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/place/El+Buen+Sabor+Hondure%C3%B1o+Deli+Restaurant/data=!4m7!3m6!1s0x89c2617e5dab2d47:0x4c58d701eb76fc57!8m2!3d40.7077175!4d-73.7868516!16s%2Fg%2F11kc3_m2h2!19sChIJRy2rXX5hwokRV_x26wHXWEw?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1"
+        },
+        {
+          "name": "Los dos sabores",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Bronx",
+          "neighborhood": "Mott Haven",
+          "address": "553 E 137th St, Bronx, NY",
+          "googleMapsRating": 4.3,
+          "googleMapsReviewCount": 27,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/place/Los+dos+sabores/data=!4m7!3m6!1s0x89c2f5066f077473:0xf8dc2d1259568a40!8m2!3d40.8062848!4d-73.9180309!16s%2Fg%2F11wff000gv!19sChIJc3QHbwb1wokRQIpWWRIt3Pg?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1"
+        },
+        {
+          "name": "Seis Vecinos",
+          "classification": "regional",
+          "status": "open",
+          "borough": "Bronx",
+          "neighborhood": "Longwood",
+          "address": "640 Prospect Ave, Bronx, NY",
+          "googleMapsRating": 4.1,
+          "googleMapsReviewCount": 2401,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/place/Seis+Vecinos/data=!4m7!3m6!1s0x89c2f5ba1be3826f:0xe455ebb94e7807c8!8m2!3d40.8154018!4d-73.9029598!16s%2Fg%2F11dfr1sjnj!19sChIJb4LjG7r1wokRyAd4TrnrVeQ?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1",
+          "note": "以洪都拉斯菜为主，同时提供其他拉美菜式，列为regional。"
+        }
+      ]
+    },
+    {
+      "code": "JM",
+      "nameZh": "牙买加",
+      "nameEn": "Jamaica",
+      "restaurants": [
+        {
+          "name": "Jerk House Caribbean Restaurant",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Manhattan",
+          "neighborhood": "Hell's Kitchen",
+          "address": "503 W 57th St, New York, NY",
+          "googleMapsRating": 4.9,
+          "googleMapsReviewCount": 3118,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/place/Jerk+House+Caribbean+Restaurant/data=!4m7!3m6!1s0x89c2598aa340ae27:0xda2d7a230f4d56c1!8m2!3d40.7694782!4d-73.9888845!16s%2Fg%2F11lnwdzng9!19sChIJJ65Ao4pZwokRwVZNDyN6Ldo?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1"
+        },
+        {
+          "name": "Jerk House Caribbean Restaurant",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Manhattan",
+          "neighborhood": "Harlem",
+          "address": "2 W 125th St, New York, NY",
+          "googleMapsRating": 4.9,
+          "googleMapsReviewCount": 537,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/place/Jerk+House+Caribbean+Restaurant/data=!4m7!3m6!1s0x89c2f77a203d246f:0xb84ab56e665e4ce7!8m2!3d40.8063331!4d-73.942641!16s%2Fg%2F11zbs1xsns!19sChIJbyQ9IHr3wokR50xeZm61Srg?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1"
+        },
+        {
+          "name": "Jerk House",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Manhattan",
+          "neighborhood": "Midtown East",
+          "address": "132 E 56th St, New York, NY",
+          "googleMapsRating": 4.8,
+          "googleMapsReviewCount": 1713,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/place/Jerk+House/data=!4m7!3m6!1s0x89c259fa5fe03cff:0x1e1c9b7929a4ec58!8m2!3d40.7603114!4d-73.9700904!16s%2Fg%2F11txxvs8zs!19sChIJ_zzgX_pZwokRWOykKXmbHB4?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1"
+        }
+      ]
+    },
+    {
+      "code": "MX",
+      "nameZh": "墨西哥",
+      "nameEn": "Mexico",
+      "restaurants": [
+        {
+          "name": "LOS TACOS No.1",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Manhattan",
+          "neighborhood": "Flatiron",
+          "address": "27 E 23rd St, New York, NY",
+          "googleMapsRating": 4.9,
+          "googleMapsReviewCount": 104,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/place/LOS+TACOS+No.1/data=!4m7!3m6!1s0x89c259b00adf91f9:0xd2df4cdcf2032e72!8m2!3d40.7407563!4d-73.9873153!16s%2Fg%2F11z7bw32c5!19sChIJ-ZHfCrBZwokRci4D8txM39I?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1"
+        },
+        {
+          "name": "LOS TACOS No.1",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Manhattan",
+          "neighborhood": "Times Square",
+          "address": "229 W 43rd St, New York, NY",
+          "googleMapsRating": 4.8,
+          "googleMapsReviewCount": 16162,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/place/LOS+TACOS+No.1/data=!4m7!3m6!1s0x89c2585492286ae9:0x4dfa6d9f277ea7de!8m2!3d40.7573214!4d-73.987654!16s%2Fg%2F11d_8d0x2x!19sChIJ6WooklRYwokR3qd-J59t-k0?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1"
+        },
+        {
+          "name": "LOS TACOS No.1",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Manhattan",
+          "neighborhood": "Penn District",
+          "address": "201 W 33rd St, New York, NY",
+          "googleMapsRating": 4.8,
+          "googleMapsReviewCount": 2206,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/place/LOS+TACOS+No.1/data=!4m7!3m6!1s0x89c25999d8fc75d3:0x49568ef034f85779!8m2!3d40.7505489!4d-73.9913444!16s%2Fg%2F11vhsjw3wd!19sChIJ03X82JlZwokReVf4NPCOVkk?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1"
+        }
+      ]
+    },
+    {
+      "code": "NI",
+      "nameZh": "尼加拉瓜",
+      "nameEn": "Nicaragua",
+      "restaurants": [
+        {
+          "name": "Hilda Restaurant Sabor y Sazón Nica",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Staten Island",
+          "neighborhood": "Mariners Harbor",
+          "address": "83 Livingston St, Staten Island, NY",
+          "googleMapsRating": 4.2,
+          "googleMapsReviewCount": 185,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/place/Hilda+Restaurant+Sabor+y+Saz%C3%B3n+Nica/data=!4m7!3m6!1s0x89c24d3d5b24d7d7:0x990c0a49cd98097d!8m2!3d40.6482841!4d-74.1865586!16s%2Fg%2F11x2xp39_0!19sChIJ19ckWz1NwokRfQmYzUkKDJk?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1"
+        }
+      ],
+      "exclusions": [
+        "Rinconcito Nica和Tu Tienda Nica均在长岛、纽约市界外；旧Chicha线索已过时。"
+      ]
+    },
+    {
+      "code": "PA",
+      "nameZh": "巴拿马",
+      "nameEn": "Panama",
+      "restaurants": [
+        {
+          "name": "Pana's Kitchen",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Brooklyn",
+          "neighborhood": "East Flatbush",
+          "address": "3518 Church Ave, Brooklyn, NY",
+          "googleMapsRating": 4.3,
+          "googleMapsReviewCount": 123,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/place/Pana%27s+Kitchen/data=!4m7!3m6!1s0x89c25b8d2cbf7a8b:0xc31e5c184c49427f!8m2!3d40.6509959!4d-73.9441222!16s%2Fg%2F11qg0465gs!19sChIJi3q_LI1bwokRf0JJTBhcHsM?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1"
+        }
+      ],
+      "exclusions": [
+        "El Carnaval在Google Maps显示永久关闭。"
+      ]
+    },
+    {
+      "code": "KN",
+      "nameZh": "圣基茨和尼维斯",
+      "nameEn": "Saint Kitts and Nevis",
+      "restaurants": [],
+      "note": "地图搜索主要返回加勒比本地商家或泛加勒比餐厅；未找到纽约专门店。"
+    },
+    {
+      "code": "LC",
+      "nameZh": "圣卢西亚",
+      "nameEn": "Saint Lucia",
+      "restaurants": [
+        {
+          "name": "Bar Manje",
+          "classification": "regional",
+          "status": "open",
+          "borough": "Manhattan",
+          "neighborhood": "Upper West Side",
+          "address": "520 Columbus Ave, New York, NY",
+          "googleMapsRating": 4.9,
+          "googleMapsReviewCount": 126,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/place/Bar+Manje/data=!4m7!3m6!1s0x89c2590050751e73:0xf8bcc727c5e5e247!8m2!3d40.7859773!4d-73.9727452!16s%2Fg%2F11yx5bkmm_!19sChIJcx51UABZwokRR-LlxSfHvPg?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1",
+          "cuisineEvidenceUrl": "https://blog.resy.com/2026/06/bar-manje-nyc/",
+          "note": "由圣卢西亚厨师Kingsley John主理，菜单为更广义加勒比表达，故列为regional。"
+        }
+      ]
+    },
+    {
+      "code": "VC",
+      "nameZh": "圣文森特和格林纳丁斯",
+      "nameEn": "Saint Vincent and the Grenadines",
+      "restaurants": [
+        {
+          "name": "SVG Caribbean Bakery",
+          "classification": "specialist",
+          "status": "unverified",
+          "format": "bakery",
+          "borough": "Brooklyn",
+          "neighborhood": "Flatbush",
+          "address": "1621 Nostrand Ave, Brooklyn, NY 11226",
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://eatingtheworld.net/2016/10/24/st-vincent-ethlyns-caribbean-bakery/",
+          "note": "本地资料称原Ethlyn's已更名为SVG Caribbean Bakery；本轮未取得可用的Google Maps评分，营业状态待进一步现场或电话核验。"
+        }
+      ]
+    },
+    {
+      "code": "TT",
+      "nameZh": "特立尼达和多巴哥",
+      "nameEn": "Trinidad and Tobago",
+      "restaurants": [
+        {
+          "name": "Trinidad Golden Place",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Brooklyn",
+          "neighborhood": "Crown Heights",
+          "address": "788 Nostrand Ave, Brooklyn, NY",
+          "googleMapsRating": 4.6,
+          "googleMapsReviewCount": 1636,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/place/Trinidad+Golden+Place/data=!4m7!3m6!1s0x89c25b9d790c5119:0x2b6e3c70b78ba7e!8m2!3d40.6718295!4d-73.9505731!16s%2Fg%2F1xfspncj!19sChIJGVEMeZ1bwokRfrp4C8fjtgI?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1"
+        },
+        {
+          "name": "TriniJam Bk Roti Bar & Grill",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Brooklyn",
+          "neighborhood": "Canarsie",
+          "address": "9501 Flatlands Ave, Brooklyn, NY",
+          "googleMapsRating": 4.5,
+          "googleMapsReviewCount": 510,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/place/TriniJam+Bk+Roti+Bar+%26+Grill/data=!4m7!3m6!1s0x89c25d9c914abdd7:0xdce3365a5efcebdb!8m2!3d40.642839!4d-73.902429!16s%2Fg%2F11gw35kfg6!19sChIJ171KkZxdwokR2-v8Xlo249w?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1"
+        },
+        {
+          "name": "Trinciti Roti Shop & Restaurant",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Queens",
+          "neighborhood": "South Ozone Park",
+          "address": "111-03 Lefferts Blvd, Queens, NY",
+          "googleMapsRating": 4.4,
+          "googleMapsReviewCount": 5808,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/place/Trinciti+Roti+Shop+%26+Restaurant/data=!4m7!3m6!1s0x89c26747a958d095:0xa43ca4b0dba43966!8m2!3d40.680374!4d-73.821103!16s%2Fg%2F1tff3z58!19sChIJldBYqUdnwokRZjmk27CkPKQ?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1"
+        }
+      ]
+    },
+    {
+      "code": "US",
+      "nameZh": "美国",
+      "nameEn": "United States",
+      "restaurants": [
+        {
+          "name": "Diner 24 NYC",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Manhattan",
+          "neighborhood": "Gramercy",
+          "address": "283 3rd Ave, New York, NY",
+          "googleMapsRating": 4.8,
+          "googleMapsReviewCount": 9477,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/place/Diner+24+NYC/data=!4m7!3m6!1s0x89c259a5828af9e1:0x4786cc62fb0f1597!8m2!3d40.7381558!4d-73.98336!16s%2Fg%2F11y3r46tcg!19sChIJ4fmKgqVZwokRlxUP-2LMhkc?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1"
+        },
+        {
+          "name": "Au Cheval",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Manhattan",
+          "neighborhood": "Tribeca",
+          "address": "33 Cortlandt Alley, New York, NY",
+          "googleMapsRating": 4.7,
+          "googleMapsReviewCount": 6983,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/place/Au+Cheval/data=!4m7!3m6!1s0x89c25bb44ec0f1b7:0x4cfe753b3a1f111!8m2!3d40.7181205!4d-74.0017942!16s%2Fg%2F11gyc6jp6q!19sChIJt_HATrRbwokREfGhs1PnzwQ?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1"
+        },
+        {
+          "name": "Parker & Quinn",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Manhattan",
+          "neighborhood": "Midtown",
+          "address": "64 W 39th St, New York, NY",
+          "googleMapsRating": 4.6,
+          "googleMapsReviewCount": 3338,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/place/Parker+%26+Quinn/data=!4m7!3m6!1s0x89c259aa5a27970f:0x1de24deba8b21df2!8m2!3d40.7525862!4d-73.9850713!16s%2Fg%2F12ht_6j2p!19sChIJD5cnWqpZwokR8h2yqOtN4h0?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1",
+          "note": "美国菜范围很宽，本文件将传统diner与现代美式餐厅作为代表。"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "countries": 23,
+    "countriesWithResults": 19,
+    "restaurantsListed": 45,
+    "countriesWithoutReliableResults": [
+      "BS",
+      "CR",
+      "DM",
+      "KN"
+    ],
+    "countriesWithFewerThanThree": [
+      "AG",
+      "BB",
+      "NI",
+      "PA",
+      "LC",
+      "VC"
+    ]
+  },
+  "methodSources": [
+    {
+      "title": "United Nations M49 — North America",
+      "url": "https://unstats.un.org/unsd/methodology/m49/",
+      "checkedAt": "2026-09-03"
+    },
+    {
+      "title": "Eater NY — Caribbean restaurants around New York",
+      "url": "https://ny.eater.com/maps/best-caribbean-restaurants-food-nyc-nj",
+      "checkedAt": "2026-09-03"
+    },
+    {
+      "title": "Wadadli official website",
+      "url": "https://wadadlijerk.com/",
+      "checkedAt": "2026-09-03"
+    },
+    {
+      "title": "NYC Tourism — De Islands",
+      "url": "https://www.nyctourism.com/restaurants/de-island/",
+      "checkedAt": "2026-09-03"
+    },
+    {
+      "title": "Resy — Bar Manje",
+      "url": "https://blog.resy.com/2026/06/bar-manje-nyc/",
+      "checkedAt": "2026-09-03"
+    }
+  ]
+}

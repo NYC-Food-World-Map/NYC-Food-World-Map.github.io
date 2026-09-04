@@ -1,0 +1,76 @@
+{
+  "generatedAt": "2026-10-01",
+  "changes": [
+    {
+      "operation": "upsert",
+      "restaurant": {
+        "id": "example-new-specialty-astoria",
+        "countryCodes": ["AL"],
+        "name": "[示例] Tirana Oven",
+        "classification": "specialist",
+        "status": "open",
+        "borough": "Queens",
+        "neighborhood": "Astoria",
+        "address": "30-01 30th Ave, Astoria, NY 11102",
+        "descriptionZh": "示例新增记录：用于演示 ChatGPT 研究结果的 upsert。",
+        "sources": [
+          {
+            "type": "official",
+            "title": "Official website",
+            "url": "https://example.com/tirana-oven",
+            "checkedAt": "2026-10-01"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-01",
+        "isExample": true
+      }
+    },
+    {
+      "operation": "upsert",
+      "restaurant": {
+        "id": "example-kartuli-sunnyside",
+        "countryCodes": ["GE"],
+        "name": "[示例] Kartuli Table",
+        "classification": "specialist",
+        "classificationNote": "示例更新：补充说明字段后才会覆盖人工维护的 classificationNote。",
+        "status": "open",
+        "borough": "Queens",
+        "neighborhood": "Sunnyside",
+        "address": "41-20 Queens Blvd, Sunnyside, NY 11104",
+        "descriptionZh": "示例更新后的说明，演示字段级 diff。",
+        "ratings": [
+          {
+            "source": "Google Maps",
+            "score": 4.7,
+            "scale": 5,
+            "reviewCount": 140,
+            "checkedAt": "2026-10-01",
+            "url": "https://example.com/maps/example-kartuli-sunnyside"
+          }
+        ],
+        "sources": [
+          {
+            "type": "other",
+            "title": "示例占位来源（非真实核验）",
+            "url": "https://example.com/fixtures/kartuli-table",
+            "checkedAt": "2026-10-01"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-01",
+        "isExample": true
+      }
+    },
+    {
+      "operation": "mark_closed",
+      "restaurantId": "example-lagos-kitchen-bronx",
+      "evidence": [
+        {
+          "type": "official",
+          "title": "Closure notice",
+          "url": "https://example.com/closed/lagos-kitchen",
+          "checkedAt": "2026-10-01"
+        }
+      ]
+    }
+  ]
+}

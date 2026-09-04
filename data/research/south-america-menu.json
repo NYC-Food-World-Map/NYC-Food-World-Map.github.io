@@ -1,0 +1,508 @@
+{
+  "generatedAt": "2026-09-03",
+  "scope": {
+    "city": "New York City",
+    "boroughs": [
+      "Manhattan",
+      "Brooklyn",
+      "Queens",
+      "Bronx",
+      "Staten Island"
+    ],
+    "definition": "南美洲12个主权国家；法属圭亚那属于法国海外领地，不作为国家单列。",
+    "rankingMethod": "在Google Maps当前可见且经菜系归属复核的候选中，先按评分降序，再在评分相同时按评论数降序；每国最多3家。",
+    "limitations": "Google Maps结果会随时间、位置和个性化变化；评分和评论数为核验日快照。未将泛拉美或邻国餐厅用于补足名额。"
+  },
+  "ratingSource": "Google Maps",
+  "countries": [
+    {
+      "code": "AR",
+      "nameZh": "阿根廷",
+      "nameEn": "Argentina",
+      "restaurants": [
+        {
+          "name": "Palermo Argentinian Bistro - Gramercy",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Manhattan",
+          "neighborhood": "Gramercy",
+          "address": "53 Irving Pl, New York, NY",
+          "googleMapsRating": 4.9,
+          "googleMapsReviewCount": 2004,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/place/Palermo+Argentinian+Bistro+-+Gramercy/data=!4m7!3m6!1s0x89c2597c2c5c0b79:0xedad6de47922523b!8m2!3d40.7360984!4d-73.9874916!16s%2Fg%2F11x6ylmwnd!19sChIJeQtcLHxZwokRO1IieeRtre0?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1"
+        },
+        {
+          "name": "Chanta Casa de Empanadas - Hell's Kitchen",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Manhattan",
+          "neighborhood": "Hell's Kitchen",
+          "address": "888 8th Ave, New York, NY",
+          "googleMapsRating": 4.9,
+          "googleMapsReviewCount": 118,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/place/Chanta+Casa+de+Empanadas+-+Hells+Kitchen/data=!4m7!3m6!1s0x89c2596bc010b5ff:0xa8a745e2f08bb44b!8m2!3d40.7638388!4d-73.9848256!16s%2Fg%2F11ypct1bcc!19sChIJ_7UQwGtZwokRS7SL8OJFp6g?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1"
+        },
+        {
+          "name": "Baires Grill - New York",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Manhattan",
+          "neighborhood": "Hell's Kitchen",
+          "address": "350 W 50th St, New York, NY",
+          "googleMapsRating": 4.8,
+          "googleMapsReviewCount": 852,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/place/Baires+Grill+-+New+York/data=!4m7!3m6!1s0x89c259ec2bd78677:0xc030c82ee3838cb1!8m2!3d40.7628256!4d-73.9879129!16s%2Fg%2F11v0jj7tgt!19sChIJd4bXK-xZwokRsYyD4y7IMMA?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1"
+        }
+      ]
+    },
+    {
+      "code": "BO",
+      "nameZh": "玻利维亚",
+      "nameEn": "Bolivia",
+      "restaurants": [
+        {
+          "name": "Bolivian Llama Party",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Queens",
+          "neighborhood": "Sunnyside",
+          "address": "44-14 48th Ave, Sunnyside, NY",
+          "googleMapsRating": 4.8,
+          "googleMapsReviewCount": 1325,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/place/Bolivian+Llama+Party/data=!4m7!3m6!1s0x89c25ff3a23c3ee1:0x93e7f388121cc5cd!8m2!3d40.7393493!4d-73.9207462!16s%2Fg%2F11jgkksm4z!19sChIJ4T48ovNfwokRzcUcEojz55M?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1"
+        }
+      ],
+      "exclusions": [
+        "Bolivian Llama Party原Midtown店在Google Maps显示永久关闭；仅收录Sunnyside现址。"
+      ]
+    },
+    {
+      "code": "BR",
+      "nameZh": "巴西",
+      "nameEn": "Brazil",
+      "restaurants": [
+        {
+          "name": "Berimbau Brazilian Table - 36th Street",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Manhattan",
+          "neighborhood": "Midtown",
+          "address": "3 W 36th St, New York, NY",
+          "googleMapsRating": 4.7,
+          "googleMapsReviewCount": 750,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/place/Berimbau+Brazilian+Table+-+36th+Street/data=!4m7!3m6!1s0x89c259ea9a9ee8cb:0x9eebb34f1dea10ea!8m2!3d40.7501458!4d-73.9841391!16s%2Fg%2F11l3977k3q!19sChIJy-iemupZwokR6hDqHU-z654?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1"
+        },
+        {
+          "name": "Rio Bonito Grill",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Queens",
+          "neighborhood": "Astoria",
+          "address": "33-01 36th Ave, Queens, NY",
+          "googleMapsRating": 4.6,
+          "googleMapsReviewCount": 1769,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/place/Rio+Bonito+Grill/data=!4m7!3m6!1s0x89c25fac8ce087d3:0x1354c08c9fbb1426!8m2!3d40.755863!4d-73.9278801!16s%2Fg%2F11vzllnf_4!19sChIJ04fgjKxfwokRJhS7n4zAVBM?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1"
+        },
+        {
+          "name": "Berimbau Brazilian Table - West Village",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Manhattan",
+          "neighborhood": "West Village",
+          "address": "43 Carmine St, New York, NY",
+          "googleMapsRating": 4.6,
+          "googleMapsReviewCount": 1592,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/place/Berimbau+Brazilian+Table+-+West+Village/data=!4m7!3m6!1s0x89c25992f7b499a5:0x91869620d8f4ec19!8m2!3d40.7301198!4d-74.0036057!16s%2Fg%2F1tdk1htm!19sChIJpZm095JZwokRGez02CCWhpE?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1"
+        }
+      ]
+    },
+    {
+      "code": "CL",
+      "nameZh": "智利",
+      "nameEn": "Chile",
+      "restaurants": [
+        {
+          "name": "La Roja de Todos",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Queens",
+          "neighborhood": "College Point",
+          "address": "132-01 14th Ave, College Point, NY",
+          "googleMapsRating": 4.4,
+          "googleMapsReviewCount": 369,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/place/La+Roja+de+Todos/data=!4m7!3m6!1s0x89c25f20e4435fcf:0xbb30374b1e9b768d!8m2!3d40.786508!4d-73.836219!16s%2Fg%2F11q8sq6ybs!19sChIJz19D5CBfwokRjXabHks3MLs?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1"
+        }
+      ],
+      "exclusions": [
+        "Zapallar、Chilean Bakery和San Antonio等搜索结果位于新泽西州或纽约市界外，未收录。"
+      ]
+    },
+    {
+      "code": "CO",
+      "nameZh": "哥伦比亚",
+      "nameEn": "Colombia",
+      "restaurants": [
+        {
+          "name": "El Cocinerito Colombiano",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Queens",
+          "neighborhood": "Jackson Heights",
+          "address": "86-23 Roosevelt Ave, Queens, NY",
+          "googleMapsRating": 4.9,
+          "googleMapsReviewCount": 1109,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/place/EL+COCINERITO+COLOMBIANO/data=!4m7!3m6!1s0x89c25f38611ff909:0x3580e941f490d4aa!8m2!3d40.748234!4d-73.8794756!16s%2Fg%2F11ksmnykp0!19sChIJCfkfYThfwokRqtSQ9EHpgDU?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1"
+        },
+        {
+          "name": "Little Colombia",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Queens",
+          "neighborhood": "East Elmhurst",
+          "address": "32-23 Junction Blvd, Queens, NY",
+          "googleMapsRating": 4.8,
+          "googleMapsReviewCount": 12501,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/place/Little+Colombia/data=!4m7!3m6!1s0x89c25f280b21d4fb:0x8160b6523e8c14b8!8m2!3d40.7580178!4d-73.8741454!16s%2Fg%2F11s1695n3q!19sChIJ-9QhCyhfwokRuBSMPlK2YIE?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1"
+        },
+        {
+          "name": "La Parrillada Colombiana",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Queens",
+          "neighborhood": "Ridgewood",
+          "address": "52-35 Metropolitan Ave, Queens, NY",
+          "googleMapsRating": 4.8,
+          "googleMapsReviewCount": 1576,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/place/La+parrillada+colombiana+.+%F0%9F%87%A8%F0%9F%87%B4/data=!4m7!3m6!1s0x89c25fe1856bae07:0xa327834527a03a1d!8m2!3d40.7134834!4d-73.9131334!16s%2Fg%2F11vb12mnb8!19sChIJB65rheFfwokRHTqgJ0WDJ6M?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1"
+        }
+      ]
+    },
+    {
+      "code": "EC",
+      "nameZh": "厄瓜多尔",
+      "nameEn": "Ecuador",
+      "restaurants": [
+        {
+          "name": "Del Rocio",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Brooklyn",
+          "neighborhood": "Williamsburg",
+          "address": "108 Bedford Ave, Brooklyn, NY",
+          "googleMapsRating": 4.9,
+          "googleMapsReviewCount": 51,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/place/Del+Rocio/data=!4m7!3m6!1s0x89c259006ec4e345:0x920a4fb14ebb6ed8!8m2!3d40.7202952!4d-73.9554312!16s%2Fg%2F11y44p5dk6!19sChIJRePEbgBZwokR2G67TrFPCpI?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1"
+        },
+        {
+          "name": "Leticias Restaurant",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Queens",
+          "neighborhood": "Corona",
+          "address": "40-32 National St, Queens, NY",
+          "googleMapsRating": 4.8,
+          "googleMapsReviewCount": 2895,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/place/Leticias+Restaurant/data=!4m7!3m6!1s0x89c25fc7b163c1ff:0x43f5143d35375f05!8m2!3d40.748968!4d-73.8633132!16s%2Fg%2F11cry9vy43!19sChIJ_8FjscdfwokRBV83NT0U9UM?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1"
+        },
+        {
+          "name": "Dinastia Ecuadorian Food 2",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Brooklyn",
+          "neighborhood": "Williamsburg",
+          "address": "394 Bedford Ave, Brooklyn, NY",
+          "googleMapsRating": 4.8,
+          "googleMapsReviewCount": 121,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/place/Dinastia+Ecuadorian+Food+2/data=!4m7!3m6!1s0x89c25bfed06decd9:0xca72ab789b6ba3e5!8m2!3d40.7107569!4d-73.963876!16s%2Fg%2F11ww8plx5s!19sChIJ2ext0P5bwokR5aNrm3ircso?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1"
+        }
+      ]
+    },
+    {
+      "code": "GY",
+      "nameZh": "圭亚那",
+      "nameEn": "Guyana",
+      "restaurants": [
+        {
+          "name": "Island Express",
+          "classification": "regional",
+          "status": "open",
+          "borough": "Brooklyn",
+          "neighborhood": "Flatbush",
+          "address": "998 Flatbush Ave, Brooklyn, NY",
+          "googleMapsRating": 4.4,
+          "googleMapsReviewCount": 502,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/place/Island+Express/data=!4m7!3m6!1s0x89c25b4060505d23:0xb3aa9315bfa38fe7!8m2!3d40.647014!4d-73.958326!16s%2Fg%2F1wbryq2y!19sChIJI11QYEBbwokR54-jvxWTqrM?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1",
+          "note": "Google Maps归类为加勒比餐厅，商家介绍与评论明确支持圭亚那菜，故列为regional。"
+        },
+        {
+          "name": "Sybil's",
+          "classification": "regional",
+          "status": "open",
+          "borough": "Queens",
+          "neighborhood": "Richmond Hill",
+          "address": "132-17 Liberty Ave, Queens, NY",
+          "googleMapsRating": 4.3,
+          "googleMapsReviewCount": 3400,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/place/Sybil%27s/data=!4m7!3m6!1s0x89c26734b6bf50af:0x999292c57b56cf15!8m2!3d40.6910029!4d-73.8136887!16s%2Fg%2F1wh4gsfc!19sChIJr1C_tjRnwokRFc9We8WSkpk?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1",
+          "note": "兼做圭亚那与加勒比菜。"
+        },
+        {
+          "name": "Kaieteur Restaurant & Sports Bar",
+          "classification": "regional",
+          "status": "open",
+          "borough": "Queens",
+          "neighborhood": "Richmond Hill",
+          "address": "87-12 Lefferts Blvd, Queens, NY",
+          "googleMapsRating": 4.2,
+          "googleMapsReviewCount": 1369,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/place/Kaieteur+Restaurant+%26+Sports+Bar/data=!4m7!3m6!1s0x89c260ae1080f50d:0x37ac0159b56f46a7!8m2!3d40.6995812!4d-73.830993!16s%2Fg%2F1tgwbt_j!19sChIJDfWAEK5gwokRp0ZvtVkBrDc?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1",
+          "note": "以圭亚那与广义加勒比菜为主，列为regional。"
+        }
+      ]
+    },
+    {
+      "code": "PY",
+      "nameZh": "巴拉圭",
+      "nameEn": "Paraguay",
+      "restaurants": [
+        {
+          "name": "I Love Paraguay Restaurant",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Queens",
+          "neighborhood": "Sunnyside",
+          "address": "43-16 Greenpoint Ave, Sunnyside, NY 11104",
+          "googleMapsRating": 4.6,
+          "googleMapsReviewCount": 1528,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/place/I+Love+Paraguay+Restaurant/data=!4m7!3m6!1s0x89c25eda2b8088d9:0x45dc1bf6982e7334!8m2!3d40.7409452!4d-73.9214274!16s%2Fg%2F1td7z_ww!19sChIJ2YiAK9pewokRNHMumPYb3EU?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1",
+          "cuisineEvidenceUrl": "https://www.ilovepy.com/"
+        },
+        {
+          "name": "I Love Paraguay Bakery Cafe",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Queens",
+          "neighborhood": "College Point",
+          "address": "15-07 College Point Blvd, College Point, NY",
+          "googleMapsRating": 4.6,
+          "googleMapsReviewCount": 28,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/place/I+Love+Paraguay+Bakery+Cafe/data=!4m7!3m6!1s0x89c2f5000c07683f:0x55a6f832e54b1233!8m2!3d40.7839182!4d-73.845628!16s%2Fg%2F11yn1drt1v!19sChIJP2gHDAD1wokRMxJL5TL4plU?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1",
+          "note": "新开业的巴拉圭烘焙咖啡店，评论样本较小。"
+        },
+        {
+          "name": "Jakaru Bar & Restaurant",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Queens",
+          "neighborhood": "Corona",
+          "address": "108-59 Roosevelt Ave, Queens, NY",
+          "googleMapsRating": 3.9,
+          "googleMapsReviewCount": 96,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/place/Jakaru+Bar+%26+Restaurant/data=!4m7!3m6!1s0x89c25f11a5057e47:0xfce511fed6cbaef9!8m2!3d40.7515473!4d-73.8567235!16s%2Fg%2F11fw8nc8rh!19sChIJR34FpRFfwokR-a7L1v4R5fw?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1"
+        }
+      ],
+      "exclusions": [
+        "旧Sabor Guarani线索的现址已显示为哥伦比亚餐厅，未沿用过时资料。"
+      ]
+    },
+    {
+      "code": "PE",
+      "nameZh": "秘鲁",
+      "nameEn": "Peru",
+      "restaurants": [
+        {
+          "name": "Brasa Peruvian Kitchen",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Manhattan",
+          "neighborhood": "Midtown East",
+          "address": "685 3rd Ave, New York, NY",
+          "googleMapsRating": 4.9,
+          "googleMapsReviewCount": 74,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/place/Brasa+Peruvian+Kitchen/data=!4m7!3m6!1s0x89c2594083021615:0x3ee23adf07503382!8m2!3d40.7516601!4d-73.9736089!16s%2Fg%2F11yl7ysl94!19sChIJFRYCg0BZwokRgjNQB9864j4?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1"
+        },
+        {
+          "name": "Mission Ceviche Union Square",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Manhattan",
+          "neighborhood": "Union Square",
+          "address": "7 E 17th St, New York, NY",
+          "googleMapsRating": 4.7,
+          "googleMapsReviewCount": 2504,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/place/Mission+Ceviche+Union+Square/data=!4m7!3m6!1s0x89c259a25db9148b:0xdad44f5ad9c61ad6!8m2!3d40.7378555!4d-73.9913424!16s%2Fg%2F11ldx59_db!19sChIJixS5XaJZwokR1hrG2VpP1No?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1"
+        },
+        {
+          "name": "Tumi Peruvian Restaurant NYC",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Manhattan",
+          "neighborhood": "Hell's Kitchen",
+          "address": "689 9th Ave, New York, NY",
+          "googleMapsRating": 4.7,
+          "googleMapsReviewCount": 1538,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/place/Tumi+Peruvian+Restaurant+NYC/data=!4m7!3m6!1s0x89c2590ee116e1db:0xbbbceea4cf1d88a!8m2!3d40.7619901!4d-73.9903719!16s%2Fg%2F11y8vnggwg!19sChIJ2-EW4Q5ZwokRitjxTOrOuws?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1"
+        }
+      ]
+    },
+    {
+      "code": "SR",
+      "nameZh": "苏里南",
+      "nameEn": "Suriname",
+      "restaurants": [
+        {
+          "name": "PNK Surinamese Cuisine & Majnoon Cafe",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Queens",
+          "neighborhood": "Richmond Hill",
+          "address": "128-12 Liberty Ave, Queens, NY",
+          "googleMapsRating": 4.6,
+          "googleMapsReviewCount": 316,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/place/PNK+Surinamese+Cuisine+%26+Majnoon+Cafe/data=!4m7!3m6!1s0x89c267028ec9674d:0xdd847c2f9f92b580!8m2!3d40.6889642!4d-73.8165538!16s%2Fg%2F11g2302fpm!19sChIJTWfJjgJnwokRgLWSny98hN0?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1"
+        }
+      ],
+      "exclusions": [
+        "同址旧Carribean Suriname Restaurant条目显示永久关闭；现址以PNK名义营业。"
+      ]
+    },
+    {
+      "code": "UY",
+      "nameZh": "乌拉圭",
+      "nameEn": "Uruguay",
+      "restaurants": [
+        {
+          "name": "Tabare Williamsburg",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Brooklyn",
+          "neighborhood": "Williamsburg",
+          "address": "221 S 1st St, Brooklyn, NY",
+          "googleMapsRating": 4.6,
+          "googleMapsReviewCount": 1140,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/place/Tabare+Williamsburg/data=!4m7!3m6!1s0x89c2595fe4757bfd:0x7354ffccdd886b51!8m2!3d40.713031!4d-73.95901!16s%2Fg%2F1tcwmgsj!19sChIJ_Xt15F9ZwokRUWuI3cz_VHM?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1"
+        },
+        {
+          "name": "Tabaré Bushwick",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Brooklyn",
+          "neighborhood": "Bushwick",
+          "address": "1006 Flushing Ave, Brooklyn, NY",
+          "googleMapsRating": 4.6,
+          "googleMapsReviewCount": 587,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/place/Tabar%C3%A9+Bushwick/data=!4m7!3m6!1s0x89c25d44cc8e45f3:0x196703290192315e!8m2!3d40.7037805!4d-73.9306778!16s%2Fg%2F11fnw1nfrl!19sChIJ80WOzERdwokRXjGSASkDZxk?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1"
+        },
+        {
+          "name": "La Gran Uruguaya Restaurant",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Queens",
+          "neighborhood": "Jackson Heights",
+          "address": "85-02 37th Ave, Queens, NY",
+          "googleMapsRating": 4.4,
+          "googleMapsReviewCount": 2318,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/place/La+Gran+Uruguaya+Restaurant/data=!4m7!3m6!1s0x89c25f8432337059:0x418c509e01cc4501!8m2!3d40.7499244!4d-73.8813665!16s%2Fg%2F11h2bw_fs8!19sChIJWXAzMoRfwokRAUXMAZ5QjEE?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1"
+        }
+      ]
+    },
+    {
+      "code": "VE",
+      "nameZh": "委内瑞拉",
+      "nameEn": "Venezuela",
+      "restaurants": [
+        {
+          "name": "White Maize +",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Manhattan",
+          "neighborhood": "Chelsea",
+          "address": "228 W 18th St, New York, NY",
+          "googleMapsRating": 4.8,
+          "googleMapsReviewCount": 820,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/place/White+Maize+%2B/data=!4m7!3m6!1s0x89c25916f66ff543:0x7b493f73a53bde4d!8m2!3d40.7414977!4d-73.9993703!16s%2Fg%2F11tjlb7yjt!19sChIJQ_Vv9hZZwokRTd47pXM_SXs?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1"
+        },
+        {
+          "name": "Casa Colven",
+          "classification": "regional",
+          "status": "open",
+          "borough": "Manhattan",
+          "neighborhood": "Lower East Side",
+          "address": "79 Clinton St, New York, NY",
+          "googleMapsRating": 4.7,
+          "googleMapsReviewCount": 226,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/place/Casa+Colven/data=!4m7!3m6!1s0x89c259d9a898128f:0x2380c1272ce79f3f!8m2!3d40.7188876!4d-73.9853088!16s%2Fg%2F11xcypk0pv!19sChIJjxKYqNlZwokRP5_nLCfBgCM?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1",
+          "note": "店名与菜单体现哥伦比亚、委内瑞拉兼营，故列为regional。"
+        },
+        {
+          "name": "El Budare Café",
+          "classification": "specialist",
+          "status": "open",
+          "borough": "Queens",
+          "neighborhood": "Jackson Heights",
+          "address": "87-21 Roosevelt Ave, Queens, NY",
+          "googleMapsRating": 4.6,
+          "googleMapsReviewCount": 2042,
+          "checkedAt": "2026-09-03",
+          "sourceUrl": "https://www.google.com/maps/place/El+Budare+Caf%C3%A9+%F0%9F%87%BB%F0%9F%87%AA/data=!4m7!3m6!1s0x89c25fb259955753:0x4c82ec2e748edd3d!8m2!3d40.7483241!4d-73.8786556!16s%2Fg%2F11nxghp9wl!19sChIJU1eVWbJfwokRPd2OdC7sgkw?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "countries": 12,
+    "countriesWithResults": 12,
+    "restaurantsListed": 30,
+    "countriesWithFewerThanThree": [
+      "BO",
+      "CL",
+      "SR"
+    ]
+  },
+  "methodSources": [
+    {
+      "title": "United Nations M49 — South America",
+      "url": "https://unstats.un.org/unsd/methodology/m49/",
+      "checkedAt": "2026-09-03"
+    },
+    {
+      "title": "I Love Paraguay official website",
+      "url": "https://www.ilovepy.com/",
+      "checkedAt": "2026-09-03"
+    },
+    {
+      "title": "Gothamist — I Love Paraguay and New York's Paraguayan diaspora",
+      "url": "https://gothamist.com/arts-entertainment/the-cornerstone-of-new-yorks-paraguayan-diaspora-serves-delicious-food",
+      "checkedAt": "2026-09-03"
+    }
+  ]
+}
