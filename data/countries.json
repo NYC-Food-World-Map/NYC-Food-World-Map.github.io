@@ -5,7 +5,7 @@
     "nameEn": "Afghanistan",
     "flag": "🇦🇫",
     "region": "亚洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "AL",
@@ -21,7 +21,7 @@
     "nameEn": "Algeria",
     "flag": "🇩🇿",
     "region": "非洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "AD",
@@ -29,7 +29,7 @@
     "nameEn": "Andorra",
     "flag": "🇦🇩",
     "region": "欧洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "AO",
@@ -37,7 +37,7 @@
     "nameEn": "Angola",
     "flag": "🇦🇴",
     "region": "非洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "AG",
@@ -45,7 +45,7 @@
     "nameEn": "Antigua and Barbuda",
     "flag": "🇦🇬",
     "region": "加勒比 / 拉美",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "AR",
@@ -53,7 +53,7 @@
     "nameEn": "Argentina",
     "flag": "🇦🇷",
     "region": "加勒比 / 拉美",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "AM",
@@ -77,7 +77,7 @@
     "nameEn": "Austria",
     "flag": "🇦🇹",
     "region": "欧洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "AZ",
@@ -93,7 +93,7 @@
     "nameEn": "Bahamas",
     "flag": "🇧🇸",
     "region": "加勒比 / 拉美",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "BH",
@@ -101,7 +101,7 @@
     "nameEn": "Bahrain",
     "flag": "🇧🇭",
     "region": "亚洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "BD",
@@ -109,7 +109,7 @@
     "nameEn": "Bangladesh",
     "flag": "🇧🇩",
     "region": "亚洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "BB",
@@ -117,7 +117,7 @@
     "nameEn": "Barbados",
     "flag": "🇧🇧",
     "region": "加勒比 / 拉美",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "BY",
@@ -125,7 +125,7 @@
     "nameEn": "Belarus",
     "flag": "🇧🇾",
     "region": "欧洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "BE",
@@ -133,7 +133,7 @@
     "nameEn": "Belgium",
     "flag": "🇧🇪",
     "region": "欧洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "BZ",
@@ -141,7 +141,7 @@
     "nameEn": "Belize",
     "flag": "🇧🇿",
     "region": "加勒比 / 拉美",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "BJ",
@@ -149,7 +149,7 @@
     "nameEn": "Benin",
     "flag": "🇧🇯",
     "region": "非洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "BT",
@@ -181,7 +181,7 @@
     "nameEn": "Botswana",
     "flag": "🇧🇼",
     "region": "非洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "BR",
@@ -189,7 +189,7 @@
     "nameEn": "Brazil",
     "flag": "🇧🇷",
     "region": "加勒比 / 拉美",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "BN",
@@ -197,7 +197,7 @@
     "nameEn": "Brunei",
     "flag": "🇧🇳",
     "region": "亚洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "BG",
@@ -213,7 +213,7 @@
     "nameEn": "Burkina Faso",
     "flag": "🇧🇫",
     "region": "非洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "BI",
@@ -221,7 +221,7 @@
     "nameEn": "Burundi",
     "flag": "🇧🇮",
     "region": "非洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "CV",
@@ -229,7 +229,7 @@
     "nameEn": "Cabo Verde",
     "flag": "🇨🇻",
     "region": "非洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "KH",
@@ -261,7 +261,7 @@
     "nameEn": "Central African Republic",
     "flag": "🇨🇫",
     "region": "非洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "TD",
@@ -269,7 +269,7 @@
     "nameEn": "Chad",
     "flag": "🇹🇩",
     "region": "非洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "CL",
@@ -277,7 +277,7 @@
     "nameEn": "Chile",
     "flag": "🇨🇱",
     "region": "加勒比 / 拉美",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "CN",
@@ -301,7 +301,7 @@
     "nameEn": "Comoros",
     "flag": "🇰🇲",
     "region": "非洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "CG",
@@ -309,7 +309,7 @@
     "nameEn": "Congo",
     "flag": "🇨🇬",
     "region": "非洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "CD",
@@ -317,7 +317,7 @@
     "nameEn": "Democratic Republic of the Congo",
     "flag": "🇨🇩",
     "region": "非洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "CR",
@@ -325,7 +325,7 @@
     "nameEn": "Costa Rica",
     "flag": "🇨🇷",
     "region": "加勒比 / 拉美",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "CI",
@@ -349,7 +349,7 @@
     "nameEn": "Cuba",
     "flag": "🇨🇺",
     "region": "加勒比 / 拉美",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "CY",
@@ -357,7 +357,7 @@
     "nameEn": "Cyprus",
     "flag": "🇨🇾",
     "region": "欧洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "CZ",
@@ -365,7 +365,7 @@
     "nameEn": "Czechia",
     "flag": "🇨🇿",
     "region": "欧洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "DK",
@@ -373,7 +373,7 @@
     "nameEn": "Denmark",
     "flag": "🇩🇰",
     "region": "欧洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "DJ",
@@ -381,7 +381,7 @@
     "nameEn": "Djibouti",
     "flag": "🇩🇯",
     "region": "非洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "DM",
@@ -389,7 +389,7 @@
     "nameEn": "Dominica",
     "flag": "🇩🇲",
     "region": "加勒比 / 拉美",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "DO",
@@ -397,7 +397,7 @@
     "nameEn": "Dominican Republic",
     "flag": "🇩🇴",
     "region": "加勒比 / 拉美",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "EC",
@@ -413,7 +413,7 @@
     "nameEn": "Egypt",
     "flag": "🇪🇬",
     "region": "非洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "SV",
@@ -421,7 +421,7 @@
     "nameEn": "El Salvador",
     "flag": "🇸🇻",
     "region": "加勒比 / 拉美",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "GQ",
@@ -429,7 +429,7 @@
     "nameEn": "Equatorial Guinea",
     "flag": "🇬🇶",
     "region": "非洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "ER",
@@ -445,7 +445,7 @@
     "nameEn": "Estonia",
     "flag": "🇪🇪",
     "region": "欧洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "SZ",
@@ -453,7 +453,7 @@
     "nameEn": "Eswatini",
     "flag": "🇸🇿",
     "region": "非洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "ET",
@@ -461,7 +461,7 @@
     "nameEn": "Ethiopia",
     "flag": "🇪🇹",
     "region": "非洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "FJ",
@@ -469,7 +469,7 @@
     "nameEn": "Fiji",
     "flag": "🇫🇯",
     "region": "大洋洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "FI",
@@ -477,7 +477,7 @@
     "nameEn": "Finland",
     "flag": "🇫🇮",
     "region": "欧洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "FR",
@@ -493,7 +493,7 @@
     "nameEn": "Gabon",
     "flag": "🇬🇦",
     "region": "非洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "GM",
@@ -501,7 +501,7 @@
     "nameEn": "Gambia",
     "flag": "🇬🇲",
     "region": "非洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "GE",
@@ -533,7 +533,7 @@
     "nameEn": "Greece",
     "flag": "🇬🇷",
     "region": "欧洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "GD",
@@ -541,7 +541,7 @@
     "nameEn": "Grenada",
     "flag": "🇬🇩",
     "region": "加勒比 / 拉美",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "GT",
@@ -549,7 +549,7 @@
     "nameEn": "Guatemala",
     "flag": "🇬🇹",
     "region": "加勒比 / 拉美",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "GN",
@@ -557,7 +557,7 @@
     "nameEn": "Guinea",
     "flag": "🇬🇳",
     "region": "非洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "GW",
@@ -565,7 +565,7 @@
     "nameEn": "Guinea-Bissau",
     "flag": "🇬🇼",
     "region": "非洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "GY",
@@ -597,7 +597,7 @@
     "nameEn": "Hungary",
     "flag": "🇭🇺",
     "region": "欧洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "IS",
@@ -605,7 +605,7 @@
     "nameEn": "Iceland",
     "flag": "🇮🇸",
     "region": "欧洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "IN",
@@ -645,7 +645,7 @@
     "nameEn": "Ireland",
     "flag": "🇮🇪",
     "region": "欧洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "IL",
@@ -653,7 +653,7 @@
     "nameEn": "Israel",
     "flag": "🇮🇱",
     "region": "亚洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "IT",
@@ -669,7 +669,7 @@
     "nameEn": "Jamaica",
     "flag": "🇯🇲",
     "region": "加勒比 / 拉美",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "JP",
@@ -701,7 +701,7 @@
     "nameEn": "Kenya",
     "flag": "🇰🇪",
     "region": "非洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "KI",
@@ -709,7 +709,7 @@
     "nameEn": "Kiribati",
     "flag": "🇰🇮",
     "region": "大洋洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "KP",
@@ -717,7 +717,7 @@
     "nameEn": "North Korea",
     "flag": "🇰🇵",
     "region": "亚洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "KR",
@@ -733,7 +733,7 @@
     "nameEn": "Kuwait",
     "flag": "🇰🇼",
     "region": "亚洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "KG",
@@ -757,7 +757,7 @@
     "nameEn": "Latvia",
     "flag": "🇱🇻",
     "region": "欧洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "LB",
@@ -765,7 +765,7 @@
     "nameEn": "Lebanon",
     "flag": "🇱🇧",
     "region": "亚洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "LS",
@@ -773,7 +773,7 @@
     "nameEn": "Lesotho",
     "flag": "🇱🇸",
     "region": "非洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "LR",
@@ -781,7 +781,7 @@
     "nameEn": "Liberia",
     "flag": "🇱🇷",
     "region": "非洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "LY",
@@ -789,7 +789,7 @@
     "nameEn": "Libya",
     "flag": "🇱🇾",
     "region": "非洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "LI",
@@ -797,7 +797,7 @@
     "nameEn": "Liechtenstein",
     "flag": "🇱🇮",
     "region": "欧洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "LT",
@@ -805,7 +805,7 @@
     "nameEn": "Lithuania",
     "flag": "🇱🇹",
     "region": "欧洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "LU",
@@ -813,7 +813,7 @@
     "nameEn": "Luxembourg",
     "flag": "🇱🇺",
     "region": "欧洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "MG",
@@ -829,7 +829,7 @@
     "nameEn": "Malawi",
     "flag": "🇲🇼",
     "region": "非洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "MY",
@@ -845,7 +845,7 @@
     "nameEn": "Maldives",
     "flag": "🇲🇻",
     "region": "亚洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "ML",
@@ -853,7 +853,7 @@
     "nameEn": "Mali",
     "flag": "🇲🇱",
     "region": "非洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "MT",
@@ -861,7 +861,7 @@
     "nameEn": "Malta",
     "flag": "🇲🇹",
     "region": "欧洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "MH",
@@ -869,7 +869,7 @@
     "nameEn": "Marshall Islands",
     "flag": "🇲🇭",
     "region": "大洋洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "MR",
@@ -877,7 +877,7 @@
     "nameEn": "Mauritania",
     "flag": "🇲🇷",
     "region": "非洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "MU",
@@ -901,7 +901,7 @@
     "nameEn": "Micronesia",
     "flag": "🇫🇲",
     "region": "大洋洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "MD",
@@ -917,7 +917,7 @@
     "nameEn": "Monaco",
     "flag": "🇲🇨",
     "region": "欧洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "MN",
@@ -941,7 +941,7 @@
     "nameEn": "Morocco",
     "flag": "🇲🇦",
     "region": "非洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "MZ",
@@ -949,7 +949,7 @@
     "nameEn": "Mozambique",
     "flag": "🇲🇿",
     "region": "非洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "MM",
@@ -965,7 +965,7 @@
     "nameEn": "Namibia",
     "flag": "🇳🇦",
     "region": "非洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "NR",
@@ -973,7 +973,7 @@
     "nameEn": "Nauru",
     "flag": "🇳🇷",
     "region": "大洋洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "NP",
@@ -989,7 +989,7 @@
     "nameEn": "Netherlands",
     "flag": "🇳🇱",
     "region": "欧洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "NZ",
@@ -1013,7 +1013,7 @@
     "nameEn": "Niger",
     "flag": "🇳🇪",
     "region": "非洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "NG",
@@ -1037,7 +1037,7 @@
     "nameEn": "Norway",
     "flag": "🇳🇴",
     "region": "欧洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "OM",
@@ -1053,7 +1053,7 @@
     "nameEn": "Pakistan",
     "flag": "🇵🇰",
     "region": "亚洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "PW",
@@ -1061,7 +1061,7 @@
     "nameEn": "Palau",
     "flag": "🇵🇼",
     "region": "大洋洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "PS",
@@ -1069,7 +1069,7 @@
     "nameEn": "Palestine",
     "flag": "🇵🇸",
     "region": "亚洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "PA",
@@ -1077,7 +1077,7 @@
     "nameEn": "Panama",
     "flag": "🇵🇦",
     "region": "加勒比 / 拉美",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "PG",
@@ -1085,7 +1085,7 @@
     "nameEn": "Papua New Guinea",
     "flag": "🇵🇬",
     "region": "大洋洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "PY",
@@ -1101,7 +1101,7 @@
     "nameEn": "Peru",
     "flag": "🇵🇪",
     "region": "加勒比 / 拉美",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "PH",
@@ -1109,7 +1109,7 @@
     "nameEn": "Philippines",
     "flag": "🇵🇭",
     "region": "亚洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "PL",
@@ -1117,7 +1117,7 @@
     "nameEn": "Poland",
     "flag": "🇵🇱",
     "region": "欧洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "PT",
@@ -1125,7 +1125,7 @@
     "nameEn": "Portugal",
     "flag": "🇵🇹",
     "region": "欧洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "QA",
@@ -1133,7 +1133,7 @@
     "nameEn": "Qatar",
     "flag": "🇶🇦",
     "region": "亚洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "RO",
@@ -1149,7 +1149,7 @@
     "nameEn": "Russia",
     "flag": "🇷🇺",
     "region": "欧洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "RW",
@@ -1165,7 +1165,7 @@
     "nameEn": "Saint Kitts and Nevis",
     "flag": "🇰🇳",
     "region": "加勒比 / 拉美",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "LC",
@@ -1173,7 +1173,7 @@
     "nameEn": "Saint Lucia",
     "flag": "🇱🇨",
     "region": "加勒比 / 拉美",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "VC",
@@ -1181,7 +1181,7 @@
     "nameEn": "Saint Vincent and the Grenadines",
     "flag": "🇻🇨",
     "region": "加勒比 / 拉美",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "WS",
@@ -1189,7 +1189,7 @@
     "nameEn": "Samoa",
     "flag": "🇼🇸",
     "region": "大洋洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "SM",
@@ -1197,7 +1197,7 @@
     "nameEn": "San Marino",
     "flag": "🇸🇲",
     "region": "欧洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "ST",
@@ -1205,7 +1205,7 @@
     "nameEn": "Sao Tome and Principe",
     "flag": "🇸🇹",
     "region": "非洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "SA",
@@ -1213,7 +1213,7 @@
     "nameEn": "Saudi Arabia",
     "flag": "🇸🇦",
     "region": "亚洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "SN",
@@ -1237,7 +1237,7 @@
     "nameEn": "Seychelles",
     "flag": "🇸🇨",
     "region": "非洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "SL",
@@ -1245,7 +1245,7 @@
     "nameEn": "Sierra Leone",
     "flag": "🇸🇱",
     "region": "非洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "SG",
@@ -1261,7 +1261,7 @@
     "nameEn": "Slovakia",
     "flag": "🇸🇰",
     "region": "欧洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "SI",
@@ -1277,7 +1277,7 @@
     "nameEn": "Solomon Islands",
     "flag": "🇸🇧",
     "region": "大洋洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "SO",
@@ -1293,7 +1293,7 @@
     "nameEn": "South Africa",
     "flag": "🇿🇦",
     "region": "非洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "SS",
@@ -1301,7 +1301,7 @@
     "nameEn": "South Sudan",
     "flag": "🇸🇸",
     "region": "非洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "ES",
@@ -1341,7 +1341,7 @@
     "nameEn": "Sweden",
     "flag": "🇸🇪",
     "region": "欧洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "CH",
@@ -1349,7 +1349,7 @@
     "nameEn": "Switzerland",
     "flag": "🇨🇭",
     "region": "欧洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "SY",
@@ -1405,7 +1405,7 @@
     "nameEn": "Togo",
     "flag": "🇹🇬",
     "region": "非洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "TO",
@@ -1413,7 +1413,7 @@
     "nameEn": "Tonga",
     "flag": "🇹🇴",
     "region": "大洋洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "TT",
@@ -1429,7 +1429,7 @@
     "nameEn": "Tunisia",
     "flag": "🇹🇳",
     "region": "非洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "TR",
@@ -1437,7 +1437,7 @@
     "nameEn": "Turkey",
     "flag": "🇹🇷",
     "region": "亚洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "TM",
@@ -1453,7 +1453,7 @@
     "nameEn": "Tuvalu",
     "flag": "🇹🇻",
     "region": "大洋洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "UG",
@@ -1469,7 +1469,7 @@
     "nameEn": "Ukraine",
     "flag": "🇺🇦",
     "region": "欧洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "AE",
@@ -1477,7 +1477,7 @@
     "nameEn": "United Arab Emirates",
     "flag": "🇦🇪",
     "region": "亚洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "GB",
@@ -1501,7 +1501,7 @@
     "nameEn": "Uruguay",
     "flag": "🇺🇾",
     "region": "加勒比 / 拉美",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "UZ",
@@ -1517,7 +1517,7 @@
     "nameEn": "Vanuatu",
     "flag": "🇻🇺",
     "region": "大洋洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "VA",
@@ -1525,7 +1525,7 @@
     "nameEn": "Vatican City",
     "flag": "🇻🇦",
     "region": "欧洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "VE",
@@ -1533,7 +1533,7 @@
     "nameEn": "Venezuela",
     "flag": "🇻🇪",
     "region": "加勒比 / 拉美",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "VN",
@@ -1557,7 +1557,7 @@
     "nameEn": "Zambia",
     "flag": "🇿🇲",
     "region": "非洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "ZW",
@@ -1565,7 +1565,7 @@
     "nameEn": "Zimbabwe",
     "flag": "🇿🇼",
     "region": "非洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "XK",
@@ -1573,7 +1573,7 @@
     "nameEn": "Kosovo",
     "flag": "🇽🇰",
     "region": "欧洲",
-    "cuisineTier": "mainstream"
+    "cuisineTier": "niche"
   },
   {
     "code": "HK",

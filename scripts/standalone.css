@@ -188,6 +188,23 @@ h3 { font-size: 1.125rem; margin: 0; }
   font-weight: 500;
 }
 
+.chip-tip { cursor: help; }
+
+.chip-tooltip {
+  position: fixed;
+  z-index: 80;
+  max-width: 16.5rem;
+  padding: 0.45rem 0.6rem;
+  border-radius: 0.5rem;
+  background: var(--foreground);
+  color: var(--card);
+  font-size: 0.75rem;
+  line-height: 1.45;
+  font-weight: 400;
+  pointer-events: none;
+  box-shadow: 0 8px 20px rgb(27 42 34 / 0.22);
+}
+
 .empty-grid {
   display: grid;
   gap: 0.5rem;
@@ -273,16 +290,16 @@ h3 { font-size: 1.125rem; margin: 0; }
   outline: none;
 }
 
-.map-country.is-hovered,
-.map-country.is-selected {
+.map-country.is-clickable.is-hovered,
+.map-country.is-clickable.is-selected {
   transform: scale(1.09);
   filter: drop-shadow(0 8px 10px rgb(0 0 0 / 0.42));
 }
 
 @media (prefers-reduced-motion: reduce) {
   .map-country,
-  .map-country.is-hovered,
-  .map-country.is-selected {
+  .map-country.is-clickable.is-hovered,
+  .map-country.is-clickable.is-selected {
     transition: none;
     transform: none;
     filter: none;
@@ -393,6 +410,8 @@ h3 { font-size: 1.125rem; margin: 0; }
 
 .zoom-btns {
   display: flex;
+  width: fit-content;
+  align-self: flex-start;
   overflow: hidden;
   border-radius: 0.75rem;
   background: color-mix(in srgb, var(--card) 92%, transparent);
@@ -400,25 +419,23 @@ h3 { font-size: 1.125rem; margin: 0; }
 }
 
 .zoom-btns button {
+  flex: 0 0 2.75rem;
+  width: 2.75rem;
   min-height: 2.75rem;
   min-width: 2.75rem;
+  padding: 0;
   border: 0;
   background: transparent;
   color: var(--foreground);
   font: inherit;
   font-size: 1.15rem;
   font-weight: 600;
+  line-height: 1;
   cursor: pointer;
 }
 
 .zoom-btns button + button {
   border-left: 1px solid var(--line);
-}
-
-.zoom-btns button[data-zoom="reset"] {
-  min-width: 3.5rem;
-  font-size: 0.875rem;
-  font-weight: 500;
 }
 
 .legend.compact {
@@ -433,15 +450,15 @@ h3 { font-size: 1.125rem; margin: 0; }
 .map-overlay-panel {
   position: relative;
   z-index: 5;
-  margin: 0 0.75rem 0.75rem;
+  margin: 0;
   max-height: 36vh;
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  padding: 1rem;
-  border-radius: 1rem;
+  padding: 0.75rem 0.75rem 0.75rem;
+  border-radius: 0;
   background: color-mix(in srgb, var(--panel) 95%, transparent);
-  box-shadow: 0 12px 32px rgb(27 42 34 / 12%), inset 0 0 0 1px var(--line);
+  box-shadow: inset 1px 0 0 var(--line);
   backdrop-filter: blur(10px);
 }
 
@@ -451,8 +468,10 @@ h3 { font-size: 1.125rem; margin: 0; }
   }
 
   .map-overlay-panel {
-    margin: 0.75rem 0.75rem 0.75rem 0;
+    margin: 0;
     max-height: none;
+    height: 100%;
+    align-self: stretch;
     width: min(24rem, 34%);
     flex-shrink: 0;
   }

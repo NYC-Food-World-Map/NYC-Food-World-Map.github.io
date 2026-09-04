@@ -37,7 +37,7 @@ pnpm dev
 pnpm standalone
 ```
 
-生成文件：[`standalone/纽约世界美食地图.html`](standalone/纽约世界美食地图.html)。数据变更后重新运行上述命令即可更新。
+生成文件：[`纽约世界美食地图.html`](纽约世界美食地图.html)。数据变更后重新运行上述命令即可更新。
 
 主要页面：
 

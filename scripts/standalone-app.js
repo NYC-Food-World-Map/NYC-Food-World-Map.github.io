@@ -15,6 +15,10 @@
   ];
   const BOROUGHS = ["Manhattan", "Brooklyn", "Queens", "Bronx", "Staten Island"];
   const CLASSIFICATION_LABEL = { specialist: "专门菜系", regional: "区域兼营" };
+  const CLASSIFICATION_TIP = {
+    specialist: "该餐厅专门提供该国家的菜系。",
+    regional: "该餐厅提供该国家所在区域的菜系，其中部分菜品属于该国菜系。",
+  };
   const CUISINE_TIER_LABEL = { niche: "小众菜系", mainstream: "大众菜系" };
   const STATUS_LABEL = {
     open: "营业中",
@@ -156,7 +160,7 @@
         <div style="display:flex;flex-wrap:wrap;justify-content:space-between;gap:.5rem">
           <h3>${escapeHtml(restaurant.name)}</h3>
           <div class="chips">
-            <span class="chip">${CLASSIFICATION_LABEL[restaurant.classification]}</span>
+            <span class="chip chip-tip" tabindex="0" data-tip="${escapeHtml(CLASSIFICATION_TIP[restaurant.classification] || "")}">${CLASSIFICATION_LABEL[restaurant.classification]}</span>
             ${statusChip}
           </div>
         </div>
@@ -351,24 +355,34 @@
       );
     const path = d3.geoPath(projection);
     const included = new Map(countries.map((country) => [country.code, country]));
+    const visibleCodes = new Set(visible.map((country) => country.code));
+    const filterActive =
+      state.cuisineTier !== "all" ||
+      state.regions.length > 0 ||
+      state.countryCodes.length > 0;
     const t = state.mapTransform || baseTransform(w, h);
     const paths = collection.features
       .map((geo) => {
         const code = numericIdToAlpha2(geo.id);
         const country = code ? included.get(code) : undefined;
+        const inFilter = Boolean(country && visibleCodes.has(country.code));
         const count = country ? counts[country.code] || 0 : 0;
-        const selected = country?.code === selectedCode;
-        const fill = country
+        const selected = inFilter && country.code === selectedCode;
+        const fill = inFilter
           ? count > 0
             ? "var(--map-has)"
             : "var(--map-empty)"
-          : "var(--map-idle)";
-        const label = country
+          : filterActive
+            ? "var(--map-idle)"
+            : "var(--map-empty)";
+        const label = inFilter
           ? `${country.nameZh}，${count} 家推荐餐厅`
-          : geo.properties?.name || "未收录国家/地区";
+          : country
+            ? country.nameZh
+            : geo.properties?.name || "未收录国家/地区";
         const d = path(geo) || "";
-        const klass = `map-country${country ? " is-clickable" : ""}${selected ? " is-selected" : ""}`;
-        const attrs = country
+        const klass = `map-country${inFilter ? " is-clickable" : ""}${selected ? " is-selected" : ""}`;
+        const attrs = inFilter
           ? `role="button" tabindex="0" class="${klass}" data-code="${country.code}" aria-pressed="${selected ? "true" : "false"}" aria-label="${escapeHtml(label)}"`
           : `class="${klass}" tabindex="-1"`;
         return {
@@ -637,7 +651,6 @@
             <div class="zoom-btns">
               <button type="button" data-zoom="in" aria-label="放大地图">+</button>
               <button type="button" data-zoom="out" aria-label="缩小地图">−</button>
-              <button type="button" data-zoom="reset" aria-label="重置地图缩放">复位</button>
             </div>
             <p class="legend compact">
               <span><span class="swatch" style="background:var(--map-has)"></span>有推荐餐厅</span>
@@ -662,7 +675,29 @@
     return "map";
   }
 
+  function hideChipTooltip() {
+    const tip = document.getElementById("chip-tooltip");
+    if (tip) tip.hidden = true;
+  }
+
+  function showChipTooltip(chip) {
+    const tip = document.getElementById("chip-tooltip");
+    if (!tip) return;
+    tip.textContent = chip.getAttribute("data-tip") || "";
+    tip.hidden = false;
+    const rect = chip.getBoundingClientRect();
+    const width = tip.offsetWidth;
+    const height = tip.offsetHeight;
+    let left = rect.left + rect.width / 2 - width / 2;
+    left = Math.max(8, Math.min(left, window.innerWidth - width - 8));
+    let top = rect.bottom + 8;
+    if (top + height > window.innerHeight - 8) top = rect.top - height - 8;
+    tip.style.left = `${left}px`;
+    tip.style.top = `${top}px`;
+  }
+
   function render() {
+    hideChipTooltip();
     currentPage();
     state.page = "map";
     document.body.classList.add("map-mode");
@@ -673,7 +708,7 @@
 
   function peekCountry(code) {
     const country = countriesByCode[code];
-    if (!country) return;
+    if (!country || !countryInScope(country)) return;
     state.selectedCode = state.selectedCode === code ? "" : code;
     state.openMenu = null;
     state.menuQuery = "";
@@ -712,7 +747,7 @@
       tooltip.hidden = true;
       return;
     }
-    const pathEl = event.target.closest?.(".map-stage path.map-country");
+    const pathEl = event.target.closest?.(".map-stage path.map-country.is-clickable");
     if (!pathEl) {
       tooltip.hidden = true;
       return;
@@ -923,7 +958,7 @@
   document.addEventListener("pointerover", (event) => {
     if (state.page !== "map") return;
     if (mapPointers.size > 0 || mapDragMoved) return;
-    const pathEl = event.target.closest?.(".map-stage path.map-country");
+    const pathEl = event.target.closest?.(".map-stage path.map-country.is-clickable");
     if (!pathEl) return;
     document.querySelectorAll(".map-stage path.is-hovered").forEach((el) => {
       if (el !== pathEl) el.classList.remove("is-hovered");
@@ -999,13 +1034,7 @@
       cancelFly();
       const action = zoomBtn.getAttribute("data-zoom");
       const svg = document.querySelector(".map-stage svg");
-      if (action === "reset") {
-        const view = svg ? svg.viewBox.baseVal : viewSize(0, 0);
-        state.mapTransform = baseTransform(
-          view.width || view.w,
-          view.height || view.h,
-        );
-      } else if (svg) {
+      if (svg) {
         const view = svg.viewBox.baseVal;
         const factor = action === "in" ? ZOOM_STEP : 1 / ZOOM_STEP;
         state.mapTransform = zoomAt(
@@ -1042,6 +1071,32 @@
     event.preventDefault();
     peekCountry(pathEl.getAttribute("data-code"));
   });
+
+  document.addEventListener("pointerover", (event) => {
+    const chip = event.target.closest?.(".chip-tip");
+    if (chip) showChipTooltip(chip);
+  });
+
+  document.addEventListener("pointerout", (event) => {
+    const chip = event.target.closest?.(".chip-tip");
+    if (!chip) return;
+    const next = event.relatedTarget && event.relatedTarget.closest
+      ? event.relatedTarget.closest(".chip-tip")
+      : null;
+    if (next === chip) return;
+    hideChipTooltip();
+  });
+
+  document.addEventListener("focusin", (event) => {
+    const chip = event.target.closest?.(".chip-tip");
+    if (chip) showChipTooltip(chip);
+  });
+
+  document.addEventListener("focusout", (event) => {
+    if (event.target.closest?.(".chip-tip")) hideChipTooltip();
+  });
+
+  document.addEventListener("scroll", hideChipTooltip, true);
 
   window.addEventListener("hashchange", render);
   window.addEventListener("resize", () => {

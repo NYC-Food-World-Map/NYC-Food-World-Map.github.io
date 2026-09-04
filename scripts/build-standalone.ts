@@ -1,4 +1,4 @@
-import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { loadRestaurantsFromRegionFiles } from "../src/lib/dataset-io";
 import { CULINARY_CORRIDORS } from "../src/lib/corridors";
@@ -50,6 +50,7 @@ ${css}
     </div>
   </header>
   <main id="app"></main>
+  <div id="chip-tooltip" class="chip-tooltip" hidden role="tooltip"></div>
   <script>
 window.STANDALONE_DATA = ${payload};
   </script>
@@ -63,11 +64,8 @@ ${app}
 </html>
 `;
 
-  const outDir = path.join(root, "standalone");
-  await mkdir(outDir, { recursive: true });
-  const outFile = path.join(outDir, "纽约世界美食地图.html");
+  const outFile = path.join(root, "纽约世界美食地图.html");
   await writeFile(outFile, html, "utf8");
-  await writeFile(path.join(outDir, "index.html"), html, "utf8");
   const bytes = Buffer.byteLength(html);
   console.log(`已生成可双击打开的文件：${outFile}`);
   console.log(`大小：${(bytes / 1024).toFixed(0)} KB`);
