@@ -1,4 +1,6 @@
-# 纽约世界美食地图
+# 纽约 · 美食世界地图
+
+公开网站：[https://oooorangejuice.github.io/nyc-world-food-map/](https://oooorangejuice.github.io/nyc-world-food-map/)
 
 这是一个**网站**（Next.js App Router），用浏览器打开。本地命令只用于开发、测试和构建，不是桌面应用，也不在运行时抓取 Google / Yelp。
 
@@ -37,7 +39,7 @@ pnpm dev
 pnpm standalone
 ```
 
-生成文件：[`纽约世界美食地图.html`](纽约世界美食地图.html)。数据变更后重新运行上述命令即可更新。
+生成文件：[`纽约世界美食地图.html`](纽约世界美食地图.html)（本地双击）与 [`index.html`](index.html)（GitHub Pages 入口）。数据变更后重新运行上述命令即可更新。
 
 主要页面：
 

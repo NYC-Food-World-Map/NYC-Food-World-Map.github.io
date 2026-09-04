@@ -65,9 +65,12 @@ ${app}
 `;
 
   const outFile = path.join(root, "纽约世界美食地图.html");
+  const indexFile = path.join(root, "index.html");
   await writeFile(outFile, html, "utf8");
+  await writeFile(indexFile, html, "utf8");
   const bytes = Buffer.byteLength(html);
   console.log(`已生成可双击打开的文件：${outFile}`);
+  console.log(`已同步网站入口：${indexFile}`);
   console.log(`大小：${(bytes / 1024).toFixed(0)} KB`);
 }
 
