@@ -1,6 +1,8 @@
 # 纽约 · 美食世界地图
 
-公开网站：[https://oooorangejuice.github.io/nyc-food-world-map/](https://oooorangejuice.github.io/nyc-food-world-map/)
+公开网站：[https://nyc-food-world-map.github.io/](https://nyc-food-world-map.github.io/)
+
+仓库：[https://github.com/NYC-Food-World-Map/NYC-Food-World-Map.github.io](https://github.com/NYC-Food-World-Map/NYC-Food-World-Map.github.io)
 
 这是一个**网站**（Next.js App Router），用浏览器打开。本地命令只用于开发、测试和构建，不是桌面应用，也不在运行时抓取 Google / Yelp。
 
