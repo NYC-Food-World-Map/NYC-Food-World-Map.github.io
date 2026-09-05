@@ -92,6 +92,13 @@ header.app-header {
   font-weight: 400;
 }
 
+.brand-visits {
+  margin: 0;
+  font-size: 0.75rem;
+  color: var(--muted);
+  font-weight: 400;
+}
+
 .header-mail-btn {
   flex-shrink: 0;
   display: inline-flex;

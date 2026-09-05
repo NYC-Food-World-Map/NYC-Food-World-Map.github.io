@@ -8,6 +8,11 @@ import { readJsonFile } from "../src/lib/research-update";
 /** Public feedback inbox for the header mail dialog (mailto). */
 const CONTACT_EMAIL = "eatevero@gmail.com";
 
+/** GoatCounter site code → https://{code}.goatcounter.com */
+const GOATCOUNTER_CODE = "nycfoodworldmap";
+
+const SITE_ORIGIN = "https://nyc-food-world-map.github.io";
+
 async function main() {
   const root = process.cwd();
   const countries = await readJsonFile(path.join(root, "data/countries.json"));
@@ -33,7 +38,18 @@ async function main() {
     isoNumeric: ISO_NUMERIC_TO_ALPHA2,
     corridors: CULINARY_CORRIDORS,
     contactEmail: CONTACT_EMAIL,
+    goatcounterCode: GOATCOUNTER_CODE,
   });
+
+  const goatcounterSnippet = GOATCOUNTER_CODE
+    ? `
+  <link rel="canonical" href="${SITE_ORIGIN}/">
+  <script
+    data-goatcounter="https://${GOATCOUNTER_CODE}.goatcounter.com/count"
+    data-goatcounter-settings='{"path":"/","allow_local":false}'
+    async
+    src="https://gc.zgo.at/count.js"></script>`
+    : "";
 
   const mailCta = CONTACT_EMAIL
     ? `<p class="feedback-email">Email: <a href="mailto:${CONTACT_EMAIL}">${CONTACT_EMAIL}</a></p>`
@@ -47,7 +63,7 @@ async function main() {
   <title>纽约 · 美食世界地图</title>
   <style>
 ${css}
-  </style>
+  </style>${goatcounterSnippet}
 </head>
 <body class="map-mode">
   <a class="sr-only" href="#app">跳到主要内容</a>
@@ -56,6 +72,7 @@ ${css}
       <div class="header-brand">
         <p class="brand-title">纽约 · 美食世界地图</p>
         <p class="brand-verified" id="site-verified"></p>
+        <p class="brand-visits" id="site-visits" hidden></p>
       </div>
       <button type="button" class="header-mail-btn" data-open-feedback aria-haspopup="dialog" aria-controls="feedback-dialog" aria-label="留言反馈" title="留言反馈">
         <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false">

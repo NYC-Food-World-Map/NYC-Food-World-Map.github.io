@@ -61,6 +61,27 @@
     verifiedEl.textContent = `最后核验 ${latestVerified}`;
   }
 
+  function loadVisitCount() {
+    const code = data.goatcounterCode;
+    const visitsEl = document.getElementById("site-visits");
+    if (!code || !visitsEl) return;
+    fetch(`https://${code}.goatcounter.com/counter/TOTAL.json`)
+      .then((response) => {
+        if (!response.ok) throw new Error(String(response.status));
+        return response.json();
+      })
+      .then((payload) => {
+        const count = String(payload.count || "")
+          .replace(/\s/g, "")
+          .trim();
+        if (!count) return;
+        visitsEl.hidden = false;
+        visitsEl.textContent = `访问 ${count} 次`;
+      })
+      .catch(() => {});
+  }
+  loadVisitCount();
+
   function escapeHtml(value) {
     return String(value ?? "")
       .replace(/&/g, "&amp;")

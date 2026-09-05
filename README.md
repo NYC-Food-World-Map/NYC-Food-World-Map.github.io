@@ -4,6 +4,8 @@
 
 仓库：[https://github.com/NYC-Food-World-Map/NYC-Food-World-Map.github.io](https://github.com/NYC-Food-World-Map/NYC-Food-World-Map.github.io)
 
+访问统计使用 [GoatCounter](https://www.goatcounter.com/)（站点码 `nycfoodworldmap`）。在 GoatCounter 设置里需开启 **Allow adding visitor counts on your website**，页面才会显示累计访问。
+
 这是一个**网站**（Next.js App Router），用浏览器打开。本地命令只用于开发、测试和构建，不是桌面应用，也不在运行时抓取 Google / Yelp。
 
 当前第一版是静态 JSON 驱动：不需要数据库、登录或任何付费 API Key。
