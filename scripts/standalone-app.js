@@ -28,7 +28,9 @@
   };
 
   const ZOOM_STEP = 1.25;
-  const DEFAULT_ZOOM = 1;
+  // Captured from preferred view: k=1.25, focus ≈ (475.4, 272.6) on 937×652
+  const DEFAULT_ZOOM = 1.25;
+  const DEFAULT_FOCUS = { fx: 475.399375 / 937, fy: 272.6475 / 652 };
 
   const state = {
     page: "map",
@@ -406,7 +408,14 @@
   }
 
   function baseTransform(w, h) {
-    return zoomAt({ k: 1, x: 0, y: 0 }, w / 2, h / 2, DEFAULT_ZOOM);
+    const k = DEFAULT_ZOOM;
+    const cx = DEFAULT_FOCUS.fx * w;
+    const cy = DEFAULT_FOCUS.fy * h;
+    return {
+      k,
+      x: w / 2 - cx * k,
+      y: h / 2 - cy * k,
+    };
   }
 
   function paintMap() {
