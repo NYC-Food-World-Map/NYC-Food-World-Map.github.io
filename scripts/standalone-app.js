@@ -28,7 +28,7 @@
   };
 
   const ZOOM_STEP = 1.25;
-  const DEFAULT_ZOOM = ZOOM_STEP * ZOOM_STEP;
+  const DEFAULT_ZOOM = 1;
 
   const state = {
     page: "map",
