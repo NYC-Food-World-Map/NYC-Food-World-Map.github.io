@@ -79,8 +79,8 @@ ${css}
     <div class="feedback-backdrop" data-close-feedback></div>
     <div class="feedback-panel" role="dialog" aria-modal="true" aria-labelledby="feedback-title" tabindex="-1">
       <button type="button" class="feedback-close" data-close-feedback aria-label="关闭">×</button>
-      <h2 id="feedback-title">欢迎给我们留言</h2>
-      <p class="feedback-lede">如果你有强烈推荐的某国餐厅、愿意补充「暂无餐厅」国家的好店，或对地图有任何建议，都非常欢迎写信告诉我们。</p>
+      <h2 id="feedback-title">欢迎给我们留言！</h2>
+      <p class="feedback-lede">如果你有强烈推荐的某国餐厅、愿意补充「暂无餐厅」国家的好店，或对地图有任何建议，都非常欢迎写信告诉我们，我们一定认真听取，十分感谢！</p>
       ${mailCta}
     </div>
   </div>
