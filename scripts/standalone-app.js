@@ -1065,11 +1065,49 @@
   });
 
   document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") {
+      const dialog = document.getElementById("feedback-dialog");
+      if (dialog && !dialog.hidden) {
+        closeFeedbackDialog();
+        return;
+      }
+    }
     if (event.key !== "Enter" && event.key !== " ") return;
     const pathEl = event.target.closest?.("path[data-code]");
     if (!pathEl) return;
     event.preventDefault();
     peekCountry(pathEl.getAttribute("data-code"));
+  });
+
+  let feedbackLastFocus = null;
+
+  function openFeedbackDialog() {
+    const dialog = document.getElementById("feedback-dialog");
+    const panel = dialog?.querySelector(".feedback-panel");
+    if (!dialog || !panel) return;
+    feedbackLastFocus = document.activeElement;
+    dialog.hidden = false;
+    panel.focus();
+  }
+
+  function closeFeedbackDialog() {
+    const dialog = document.getElementById("feedback-dialog");
+    if (!dialog || dialog.hidden) return;
+    dialog.hidden = true;
+    if (feedbackLastFocus && typeof feedbackLastFocus.focus === "function") {
+      feedbackLastFocus.focus();
+    }
+    feedbackLastFocus = null;
+  }
+
+  document.addEventListener("click", (event) => {
+    if (event.target.closest?.("[data-open-feedback]")) {
+      openFeedbackDialog();
+      return;
+    }
+    if (event.target.closest?.("[data-close-feedback]")) {
+      closeFeedbackDialog();
+    }
   });
 
   document.addEventListener("pointerover", (event) => {
