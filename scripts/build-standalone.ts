@@ -35,17 +35,9 @@ async function main() {
     contactEmail: CONTACT_EMAIL,
   });
 
-  const mailSubject = encodeURIComponent("纽约 · 美食世界地图｜留言");
-  const mailBody = encodeURIComponent(
-    "你好，我想留言：\n\n（例如：强烈推荐某国餐厅 / 补充暂无餐厅国家的店 / 其他建议）\n\n",
-  );
-  const mailHref = CONTACT_EMAIL
-    ? `mailto:${CONTACT_EMAIL}?subject=${mailSubject}&body=${mailBody}`
-    : `mailto:?subject=${mailSubject}&body=${mailBody}`;
   const mailCta = CONTACT_EMAIL
-    ? `<a class="feedback-mail-btn" href="${mailHref}">发邮件给我们</a>
-        <p class="feedback-email muted">${CONTACT_EMAIL}</p>`
-    : `<a class="feedback-mail-btn" href="${mailHref}">打开邮件应用留言</a>`;
+    ? `<p class="feedback-email">Email: <a href="mailto:${CONTACT_EMAIL}">${CONTACT_EMAIL}</a></p>`
+    : "";
 
   const html = `<!DOCTYPE html>
 <html lang="zh-CN">
