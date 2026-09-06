@@ -14,18 +14,194 @@
     "大洋洲",
   ];
   const BOROUGHS = ["Manhattan", "Brooklyn", "Queens", "Bronx", "Staten Island"];
-  const CLASSIFICATION_LABEL = { specialist: "专门菜系", regional: "区域兼营" };
-  const CLASSIFICATION_TIP = {
-    specialist: "该餐厅专门提供该国家的菜系。",
-    regional: "该餐厅提供该国家所在区域的菜系，其中部分菜品属于该国菜系。",
+  const UNVERIFIED_NEIGHBORHOOD = "待核验";
+
+  const MESSAGES = {
+    zh: {
+      brandTitle: "纽约 · 美食世界地图",
+      skipLink: "跳到主要内容",
+      feedbackAria: "留言反馈",
+      feedbackClose: "关闭",
+      feedbackTitle: "欢迎给我们留言！",
+      feedbackLede:
+        "如果你有强烈推荐的某国餐厅、愿意补充「暂无餐厅」国家的好店，或对地图有任何建议，都非常欢迎写信告诉我们，我们一定认真听取，十分感谢！",
+      verified: "最后核验 {date}",
+      visits: "已有{n}名吃货到此一游",
+      langGroup: "语言",
+      classSpecialist: "专门菜系",
+      classRegional: "区域兼营",
+      tipSpecialist: "该餐厅专门提供该国家的菜系。",
+      tipRegional: "该餐厅提供该国家所在区域的菜系，其中部分菜品属于该国菜系。",
+      tierNiche: "小众菜系",
+      tierMainstream: "大众菜系",
+      tierShortNiche: "小众",
+      tierShortAll: "全部",
+      tierShortMainstream: "大众",
+      tierAria: "菜系筛选",
+      tierField: "小众 / 全部 / 大众",
+      statusOpen: "营业中",
+      statusUnverified: "待核验",
+      statusTempClosed: "暂时关闭",
+      statusClosed: "已关闭",
+      reviews: "，{n} 条评价",
+      noRatings: "暂无分平台评分。",
+      viewMaps: "在 Google 地图中查看",
+      emptyRestaurants: "暂无可确认的专门餐厅<br>没有用相邻国家/地区菜系补足。",
+      emptyRestaurantShort: "暂无可确认的专门餐厅",
+      all: "全部",
+      selectedN: "已选 {n} 项",
+      unfiltered: "未筛选",
+      clear: "清空",
+      search: "搜索",
+      noMatch: "无匹配结果",
+      countItems: "{n} 个",
+      countPlaces: "{n} 家",
+      region: "大洲",
+      allRegions: "全部大洲",
+      country: "国家/地区",
+      allCountries: "全部国家/地区",
+      searchCountries: "搜索国家/地区",
+      borough: "街区",
+      allBoroughs: "全部街区",
+      mapRecommend: "{name}，{n} 家推荐餐厅",
+      mapUnlisted: "未收录国家/地区",
+      mapAria: "世界地图，可缩放、拖动，点击国家/地区查看餐厅",
+      recommendCount: "{n} 家推荐",
+      placeCount: "{n} 家",
+      summarySelected: "已选",
+      summaryCurrent: "当前",
+      summaryLine: "{scope} {countries} 个国家/地区 · {places} 家餐厅",
+      summaryEmpty: " · {n} 个暂无餐厅",
+      noMatchCountries: "没有匹配的国家/地区",
+      relaxFilters: "试试放宽左上角的筛选条件。",
+      noConfirmed: "暂无已确认餐厅",
+      emptyCountriesMeta: "{n} 个国家/地区",
+      noBoroughMatches: "当前街区筛选下没有可推荐餐厅。",
+      collapse: "收起",
+      expand: "展开",
+      zoomIn: "放大地图",
+      zoomOut: "缩小地图",
+      legendHas: "有推荐餐厅",
+      legendEmpty: "暂无餐厅",
+      legendIdle: "未筛选",
+      regionEurope: "欧洲",
+      regionAfrica: "非洲",
+      regionLatam: "加勒比 / 拉美",
+      regionAsia: "亚洲",
+      regionNorthAmerica: "北美",
+      regionOceania: "大洋洲",
+      listJoin: "、",
+      ratingSep: "：",
+    },
+    en: {
+      brandTitle: "NYC · World Food Map",
+      skipLink: "Skip to main content",
+      feedbackAria: "Send feedback",
+      feedbackClose: "Close",
+      feedbackTitle: "We'd love to hear from you!",
+      feedbackLede:
+        "If you have a strongly recommended restaurant for a country, a great tip for a place still marked “no restaurants,” or any suggestions for the map, please write to us — we read every note carefully. Thank you!",
+      verified: "Last verified {date}",
+      visits: "{n} food lovers have stopped by",
+      langGroup: "Language",
+      classSpecialist: "Specialist",
+      classRegional: "Regional",
+      tipSpecialist: "This restaurant specializes in this country's cuisine.",
+      tipRegional:
+        "This restaurant serves cuisine from the country's region, including dishes from this country.",
+      tierNiche: "Niche cuisines",
+      tierMainstream: "Mainstream cuisines",
+      tierShortNiche: "Niche",
+      tierShortAll: "All",
+      tierShortMainstream: "Popular",
+      tierAria: "Cuisine filter",
+      tierField: "Niche / All / Popular",
+      statusOpen: "Open",
+      statusUnverified: "Unverified",
+      statusTempClosed: "Temporarily closed",
+      statusClosed: "Closed",
+      reviews: ", {n} reviews",
+      noRatings: "No platform ratings yet.",
+      viewMaps: "View on Google Maps",
+      emptyRestaurants:
+        "No confirmed specialist restaurants yet.<br>No neighboring-country cuisine fill-ins either.",
+      emptyRestaurantShort: "No confirmed specialist restaurants yet.",
+      all: "All",
+      selectedN: "{n} selected",
+      unfiltered: "No filter",
+      clear: "Clear",
+      search: "Search",
+      noMatch: "No matches",
+      countItems: "{n}",
+      countPlaces: "{n}",
+      region: "Continent",
+      allRegions: "All continents",
+      country: "Country / region",
+      allCountries: "All countries / regions",
+      searchCountries: "Search countries / regions",
+      borough: "Borough",
+      allBoroughs: "All boroughs",
+      mapRecommend: "{name}, {n} recommended restaurants",
+      mapUnlisted: "Unlisted country / region",
+      mapAria: "World map — zoom, pan, and click a country or region for restaurants",
+      recommendCount: "{n} recommended",
+      placeCount: "{n}",
+      summarySelected: "Selected",
+      summaryCurrent: "Showing",
+      summaryLine: "{scope} {countries} countries / regions · {places} restaurants",
+      summaryEmpty: " · {n} with none yet",
+      noMatchCountries: "No matching countries / regions",
+      relaxFilters: "Try loosening the filters in the top-left.",
+      noConfirmed: "No confirmed restaurants",
+      emptyCountriesMeta: "{n} countries / regions",
+      noBoroughMatches: "No recommendable restaurants under the current borough filter.",
+      collapse: "Collapse",
+      expand: "Expand",
+      zoomIn: "Zoom in",
+      zoomOut: "Zoom out",
+      legendHas: "Has recommendations",
+      legendEmpty: "None yet",
+      legendIdle: "Out of filter",
+      regionEurope: "Europe",
+      regionAfrica: "Africa",
+      regionLatam: "Caribbean / Latin America",
+      regionAsia: "Asia",
+      regionNorthAmerica: "North America",
+      regionOceania: "Oceania",
+      listJoin: ", ",
+      ratingSep: ": ",
+    },
   };
-  const CUISINE_TIER_LABEL = { niche: "小众菜系", mainstream: "大众菜系" };
-  const STATUS_LABEL = {
-    open: "营业中",
-    unverified: "待核验",
-    temporarily_closed: "暂时关闭",
-    closed: "已关闭",
+
+  const REGION_MSG = {
+    欧洲: "regionEurope",
+    非洲: "regionAfrica",
+    "加勒比 / 拉美": "regionLatam",
+    亚洲: "regionAsia",
+    北美: "regionNorthAmerica",
+    大洋洲: "regionOceania",
   };
+
+  const LANG_KEY = "nyc-food-map-lang-v2";
+
+  function persistLang(lang) {
+    if (lang !== "en" && lang !== "zh") return;
+    try {
+      localStorage.setItem(LANG_KEY, lang);
+    } catch (_) {}
+  }
+
+  function readLang() {
+    try {
+      localStorage.removeItem("nyc-food-map-lang");
+      const stored = localStorage.getItem(LANG_KEY);
+      if (stored === "en" || stored === "zh") return stored;
+    } catch (_) {}
+    const params = new URLSearchParams(location.search);
+    const query = params.get("lang");
+    if (query === "en" || query === "zh") return query;
+    return "en";
+  }
 
   const ZOOM_STEP = 1.25;
   // Captured from preferred view: k=1.25, focus ≈ (475.4, 272.6) on 937×652
@@ -33,6 +209,7 @@
   const DEFAULT_FOCUS = { fx: 475.399375 / 937, fy: 272.6475 / 652 };
 
   const state = {
+    lang: readLang(),
     page: "map",
     cuisineTier: "all",
     regions: [],
@@ -44,9 +221,14 @@
     menuQuery: "",
     panelExpanded: false,
   };
+  if (state.lang === "en") {
+    state.cuisineTier = "all";
+  }
+  persistLang(state.lang);
 
   let pendingFlyCode = null;
   let flyRaf = null;
+  let visitCount = "";
 
   const countriesByCode = Object.fromEntries(
     countries.map((country) => [country.code, country]),
@@ -56,9 +238,117 @@
     const value = restaurant.lastVerifiedAt || "";
     return value > latest ? value : latest;
   }, "");
-  const verifiedEl = document.getElementById("site-verified");
-  if (verifiedEl && latestVerified) {
-    verifiedEl.textContent = `最后核验 ${latestVerified}`;
+
+  function i18n(key, vars) {
+    const table = MESSAGES[state.lang] || MESSAGES.zh;
+    let text = table[key] ?? MESSAGES.zh[key] ?? key;
+    if (vars) {
+      for (const [name, value] of Object.entries(vars)) {
+        text = text.replaceAll(`{${name}}`, String(value));
+      }
+    }
+    return text;
+  }
+
+  function regionLabel(region) {
+    const key = REGION_MSG[region];
+    return key ? i18n(key) : region;
+  }
+
+  function countryPrimary(country) {
+    if (state.lang === "en") {
+      if (country.code === "CN") return "China Mainland";
+      return country.nameEn;
+    }
+    return country.nameZh;
+  }
+
+  function countrySecondary(country) {
+    return state.lang === "en" ? country.nameZh : country.nameEn;
+  }
+
+  function countrySortName(country) {
+    return countryPrimary(country);
+  }
+
+  function localeTag() {
+    return state.lang === "en" ? "en" : "zh";
+  }
+
+  function classificationLabel(key) {
+    return key === "regional" ? i18n("classRegional") : i18n("classSpecialist");
+  }
+
+  function classificationTip(key) {
+    return key === "regional" ? i18n("tipRegional") : i18n("tipSpecialist");
+  }
+
+  function cuisineTierLabel(key) {
+    return key === "mainstream" ? i18n("tierMainstream") : i18n("tierNiche");
+  }
+
+  function statusLabel(key) {
+    if (key === "open") return i18n("statusOpen");
+    if (key === "temporarily_closed") return i18n("statusTempClosed");
+    if (key === "closed") return i18n("statusClosed");
+    return i18n("statusUnverified");
+  }
+
+  function updateLangToggle() {
+    document.querySelectorAll("[data-set-lang]").forEach((button) => {
+      const active = button.getAttribute("data-set-lang") === state.lang;
+      button.classList.toggle("is-active", active);
+      button.setAttribute("aria-pressed", active ? "true" : "false");
+    });
+    const group = document.querySelector(".lang-toggle");
+    if (group) {
+      group.setAttribute("aria-label", i18n("langGroup"));
+      group.setAttribute("data-lang", state.lang);
+    }
+  }
+
+  function applyChrome() {
+    document.documentElement.lang = state.lang === "en" ? "en" : "zh-CN";
+    document.body.classList.toggle("lang-en", state.lang === "en");
+    document.body.classList.toggle("lang-zh", state.lang !== "en");
+    document.title = i18n("brandTitle");
+    const titleEl = document.getElementById("site-title");
+    if (titleEl) titleEl.textContent = i18n("brandTitle");
+    const skip = document.getElementById("skip-link");
+    if (skip) skip.textContent = i18n("skipLink");
+    const verifiedEl = document.getElementById("site-verified");
+    if (verifiedEl && latestVerified) {
+      verifiedEl.textContent = i18n("verified", { date: latestVerified });
+    }
+    const visitsEl = document.getElementById("site-visits");
+    if (visitsEl && visitCount) {
+      visitsEl.hidden = false;
+      visitsEl.textContent = i18n("visits", { n: visitCount });
+    }
+    const mailBtn = document.getElementById("feedback-open-btn");
+    if (mailBtn) {
+      mailBtn.setAttribute("aria-label", i18n("feedbackAria"));
+      mailBtn.setAttribute("title", i18n("feedbackAria"));
+    }
+    const closeBtn = document.getElementById("feedback-close-btn");
+    if (closeBtn) closeBtn.setAttribute("aria-label", i18n("feedbackClose"));
+    const feedbackTitle = document.getElementById("feedback-title");
+    if (feedbackTitle) feedbackTitle.textContent = i18n("feedbackTitle");
+    const feedbackLede = document.getElementById("feedback-lede");
+    if (feedbackLede) feedbackLede.textContent = i18n("feedbackLede");
+    updateLangToggle();
+  }
+
+  function setLang(lang) {
+    if (lang !== "en" && lang !== "zh") return;
+    if (state.lang === lang) return;
+    state.lang = lang;
+    if (lang === "en") {
+      state.cuisineTier = "all";
+    }
+    persistLang(lang);
+    applyChrome();
+    render();
   }
 
   function loadVisitCount() {
@@ -75,11 +365,14 @@
           .replace(/\s/g, "")
           .trim();
         if (!count) return;
+        visitCount = count;
         visitsEl.hidden = false;
-        visitsEl.textContent = `访问 ${count} 次`;
+        visitsEl.textContent = i18n("visits", { n: visitCount });
       })
       .catch(() => {});
   }
+
+  applyChrome();
   loadVisitCount();
 
   function escapeHtml(value) {
@@ -166,49 +459,49 @@
       ? `<p class="ratings">${restaurant.ratings
           .map(
             (rating) =>
-              `${escapeHtml(rating.source)}：${escapeHtml(rating.score)}/${escapeHtml(rating.scale)}${
+              `${escapeHtml(rating.source)}${i18n("ratingSep")}${escapeHtml(rating.score)}/${escapeHtml(rating.scale)}${
                 typeof rating.reviewCount === "number"
-                  ? `，${rating.reviewCount} 条评价`
+                  ? i18n("reviews", { n: rating.reviewCount })
                   : ""
               }`,
           )
           .join("<br>")}</p>`
-      : `<p class="muted">暂无分平台评分。</p>`;
+      : `<p class="muted">${i18n("noRatings")}</p>`;
     const statusChip =
       restaurant.status && restaurant.status !== "unverified"
-        ? `<span class="chip">${STATUS_LABEL[restaurant.status]}</span>`
+        ? `<span class="chip">${statusLabel(restaurant.status)}</span>`
         : "";
     return `
       <article class="card">
         <div style="display:flex;flex-wrap:wrap;justify-content:space-between;gap:.5rem">
           <h3>${escapeHtml(restaurant.name)}</h3>
           <div class="chips">
-            <span class="chip chip-tip" tabindex="0" data-tip="${escapeHtml(CLASSIFICATION_TIP[restaurant.classification] || "")}">${CLASSIFICATION_LABEL[restaurant.classification]}</span>
+            <span class="chip chip-tip" tabindex="0" data-tip="${escapeHtml(classificationTip(restaurant.classification) || "")}">${classificationLabel(restaurant.classification)}</span>
             ${statusChip}
           </div>
         </div>
         <p class="muted">${[restaurant.borough, restaurant.neighborhood, restaurant.address]
-          .filter((part) => part && part !== "待核验")
+          .filter((part) => part && part !== UNVERIFIED_NEIGHBORHOOD)
           .map(escapeHtml)
           .join(" · ")}</p>
         ${ratings}
-        <a class="maps-btn" href="${mapsUrl(restaurant)}" target="_blank" rel="noopener noreferrer">在 Google 地图中查看</a>
+        <a class="maps-btn" href="${mapsUrl(restaurant)}" target="_blank" rel="noopener noreferrer">${i18n("viewMaps")}</a>
       </article>
     `;
   }
 
   function emptyRestaurants() {
-    return `<p class="muted">暂无可确认的专门餐厅<br>没有用相邻国家/地区菜系补足。</p>`;
+    return `<p class="muted">${i18n("emptyRestaurants")}</p>`;
   }
 
   function tierToggle() {
     const options = [
-      { value: "niche", label: "小众" },
-      { value: "all", label: "全部" },
-      { value: "mainstream", label: "大众" },
+      { value: "niche", label: i18n("tierShortNiche") },
+      { value: "all", label: i18n("tierShortAll") },
+      { value: "mainstream", label: i18n("tierShortMainstream") },
     ];
     return `
-      <div class="tier-toggle" role="group" aria-label="菜系筛选">
+      <div class="tier-toggle" role="group" aria-label="${i18n("tierAria")}">
         ${options
           .map(
             (option) =>
@@ -225,10 +518,10 @@
     const open = state.openMenu === key;
     const chosen = options.filter((option) => selected.includes(option.value));
     const summary = !chosen.length
-      ? config.emptyLabel || "全部"
+      ? config.emptyLabel || i18n("all")
       : chosen.length <= 2
-        ? chosen.map((option) => option.short || option.label).join("、")
-        : `已选 ${chosen.length} 项`;
+        ? chosen.map((option) => option.short || option.label).join(i18n("listJoin"))
+        : i18n("selectedN", { n: chosen.length });
     const needle = open ? normalize(state.menuQuery) : "";
     const list = needle
       ? options.filter((option) =>
@@ -247,12 +540,12 @@
         <div class="ms-menu"${open ? "" : " hidden"}>
           ${
             config.searchable
-              ? `<input type="text" class="ms-search" data-ms-search value="${escapeHtml(state.menuQuery)}" placeholder="${escapeHtml(config.searchPlaceholder || "搜索")}">`
+              ? `<input type="text" class="ms-search" data-ms-search value="${escapeHtml(state.menuQuery)}" placeholder="${escapeHtml(config.searchPlaceholder || i18n("search"))}">`
               : ""
           }
           <div class="ms-actions">
-            <span class="ms-count">${chosen.length ? `已选 ${chosen.length} 项` : "未筛选"}</span>
-            <button type="button" data-ms-clear="${key}"${chosen.length ? "" : " disabled"}>清空</button>
+            <span class="ms-count">${chosen.length ? i18n("selectedN", { n: chosen.length }) : i18n("unfiltered")}</span>
+            <button type="button" data-ms-clear="${key}"${chosen.length ? "" : " disabled"}>${i18n("clear")}</button>
           </div>
           <ul class="ms-options">
             ${
@@ -267,7 +560,7 @@
                         }</label></li>`,
                     )
                     .join("")
-                : `<li class="ms-empty">无匹配结果</li>`
+                : `<li class="ms-empty">${i18n("noMatch")}</li>`
             }
           </ul>
         </div>
@@ -278,8 +571,10 @@
   function regionOptions() {
     return REGIONS.map((region) => ({
       value: region,
-      label: region,
-      meta: `${countries.filter((country) => country.region === region).length} 个`,
+      label: regionLabel(region),
+      meta: i18n("countItems", {
+        n: countries.filter((country) => country.region === region).length,
+      }),
     }));
   }
 
@@ -293,13 +588,15 @@
         state.cuisineTier === "all" ? true : country.cuisineTier === state.cuisineTier,
       )
       .slice()
-      .sort((a, b) => a.nameZh.localeCompare(b.nameZh, "zh"))
+      .sort((a, b) => countrySortName(a).localeCompare(countrySortName(b), localeTag()))
       .map((country) => ({
         value: country.code,
-        label: `${country.flag} ${country.nameZh}`,
-        short: country.nameZh,
-        keywords: `${country.nameEn} ${country.code}`,
-        meta: `${counts[country.code] || 0} 家`,
+        label: `${country.flag} ${countryPrimary(country)}`,
+        short: countryPrimary(country),
+        keywords: `${country.nameZh} ${country.nameEn} ${country.code}${
+          country.code === "CN" ? " China Mainland" : ""
+        }`,
+        meta: i18n("countPlaces", { n: counts[country.code] || 0 }),
       }));
   }
 
@@ -308,26 +605,32 @@
     return BOROUGHS.map((borough) => ({
       value: borough,
       label: borough,
-      meta: `${recommendable.filter((item) => item.borough === borough).length} 家`,
+      meta: i18n("countPlaces", {
+        n: recommendable.filter((item) => item.borough === borough).length,
+      }),
     }));
   }
 
   function mapFilterFields() {
     return `
-      <div class="filter-field">
-        <span class="ms-label">小众 / 全部 / 大众</span>
+      ${
+        state.lang === "en"
+          ? ""
+          : `<div class="filter-field">
+        <span class="ms-label">${i18n("tierField")}</span>
         ${tierToggle()}
-      </div>
+      </div>`
+      }
       <div class="filter-field">
-        ${multiselect("regions", "大洲", regionOptions(), state.regions, {
-          emptyLabel: "全部大洲",
+        ${multiselect("regions", i18n("region"), regionOptions(), state.regions, {
+          emptyLabel: i18n("allRegions"),
         })}
       </div>
       <div class="filter-field">
-        ${multiselect("countryCodes", "国家/地区", countryOptionList(), state.countryCodes, {
-          emptyLabel: "全部国家/地区",
+        ${multiselect("countryCodes", i18n("country"), countryOptionList(), state.countryCodes, {
+          emptyLabel: i18n("allCountries"),
           searchable: true,
-          searchPlaceholder: "搜索国家/地区",
+          searchPlaceholder: i18n("searchCountries"),
         })}
       </div>
     `;
@@ -336,8 +639,8 @@
   function boroughFilter() {
     return `
       <div class="filter-field">
-        ${multiselect("boroughs", "街区", boroughOptions(), state.boroughs, {
-          emptyLabel: "全部街区",
+        ${multiselect("boroughs", i18n("borough"), boroughOptions(), state.boroughs, {
+          emptyLabel: i18n("allBoroughs"),
         })}
       </div>
     `;
@@ -399,10 +702,10 @@
             ? "var(--map-idle)"
             : "var(--map-empty)";
         const label = inFilter
-          ? `${country.nameZh}，${count} 家推荐餐厅`
+          ? i18n("mapRecommend", { name: countryPrimary(country), n: count })
           : country
-            ? country.nameZh
-            : geo.properties?.name || "未收录国家/地区";
+            ? countryPrimary(country)
+            : geo.properties?.name || i18n("mapUnlisted");
         const d = path(geo) || "";
         const klass = `map-country${inFilter ? " is-clickable" : ""}${selected ? " is-selected" : ""}`;
         const attrs = inFilter
@@ -417,7 +720,7 @@
       .map((item) => item.html)
       .join("");
     return `
-        <svg viewBox="0 0 ${w} ${h}" width="${w}" height="${h}" role="img" aria-label="世界地图，可缩放、拖动，点击国家/地区查看餐厅">
+        <svg viewBox="0 0 ${w} ${h}" width="${w}" height="${h}" role="img" aria-label="${escapeHtml(i18n("mapAria"))}">
           <rect width="${w}" height="${h}" fill="var(--map-bg)" pointer-events="none"></rect>
           <g id="map-zoom" transform="translate(${t.x} ${t.y}) scale(${t.k})">${paths}</g>
         </svg>
@@ -556,8 +859,8 @@
       return `
         <section class="panel">
           <header class="list-country-head">
-            <h2>${country.flag} ${escapeHtml(country.nameZh)} <span class="muted">${escapeHtml(country.nameEn)}</span></h2>
-            <p class="muted">${CUISINE_TIER_LABEL[country.cuisineTier]} · ${escapeHtml(country.region)} · ${list.length} 家推荐</p>
+            <h2>${country.flag} ${escapeHtml(countryPrimary(country))} <span class="muted">${escapeHtml(countrySecondary(country))}</span></h2>
+            <p class="muted">${cuisineTierLabel(country.cuisineTier)} · ${escapeHtml(regionLabel(country.region))} · ${i18n("recommendCount", { n: list.length })}</p>
           </header>
           <div class="stack">${list.length ? list.map(restaurantCard).join("") : emptyRestaurants()}</div>
         </section>
@@ -566,8 +869,8 @@
     return `
       <section class="panel-country${country.code === state.selectedCode ? " is-selected" : ""}">
         <header class="panel-country-head">
-          <h2>${country.flag} ${escapeHtml(country.nameZh)}</h2>
-          <p class="muted">${escapeHtml(country.nameEn)} · ${CUISINE_TIER_LABEL[country.cuisineTier]} · ${escapeHtml(country.region)} · ${list.length} 家</p>
+          <h2>${country.flag} ${escapeHtml(countryPrimary(country))}</h2>
+          <p class="muted">${escapeHtml(countrySecondary(country))} · ${cuisineTierLabel(country.cuisineTier)} · ${escapeHtml(regionLabel(country.region))} · ${i18n("placeCount", { n: list.length })}</p>
         </header>
         <div class="stack">${list.length ? list.map(restaurantCard).join("") : emptyRestaurants()}</div>
       </section>
@@ -591,7 +894,7 @@
       const aCount = lists.get(a.code)?.length || 0;
       const bCount = lists.get(b.code)?.length || 0;
       if (aCount !== bCount) return bCount - aCount;
-      return a.nameZh.localeCompare(b.nameZh, "zh");
+      return countrySortName(a).localeCompare(countrySortName(b), localeTag());
     });
     return ordered.map((country) => ({
       country,
@@ -607,25 +910,27 @@
     const total = nonempty.reduce((sum, item) => sum + item.list.length, 0);
     const countryCount = items.length;
     const summary = countryCount
-      ? `<p class="panel-summary">${state.selectedCode && !expanded ? "已选" : "当前"} ${countryCount} 个国家/地区 · ${total} 家餐厅${
-          emptyCount ? ` · ${emptyCount} 个暂无餐厅` : ""
-        }</p>`
+      ? `<p class="panel-summary">${i18n("summaryLine", {
+          scope: state.selectedCode && !expanded ? i18n("summarySelected") : i18n("summaryCurrent"),
+          countries: countryCount,
+          places: total,
+        })}${emptyCount ? i18n("summaryEmpty", { n: emptyCount }) : ""}</p>`
       : "";
     const body = countryCount
       ? nonempty.length
         ? nonempty.map((item) => countryPanel(item.country, item.list, expanded)).join("")
         : emptyRestaurants()
-      : `<div class="panel-empty"><h2>没有匹配的国家/地区</h2><p class="muted">试试放宽左上角的筛选条件。</p></div>`;
+      : `<div class="panel-empty"><h2>${i18n("noMatchCountries")}</h2><p class="muted">${i18n("relaxFilters")}</p></div>`;
     const emptySection =
       expanded && emptyCount && countryCount <= 24
         ? `<section class="panel" style="margin-top:1.25rem">
-            <h2>暂无已确认餐厅 <span class="muted">${emptyCount} 个国家/地区</span></h2>
-            <p class="muted">当前街区筛选下没有可推荐餐厅。</p>
+            <h2>${i18n("noConfirmed")} <span class="muted">${i18n("emptyCountriesMeta", { n: emptyCount })}</span></h2>
+            <p class="muted">${i18n("noBoroughMatches")}</p>
             <ul class="empty-grid">${items
               .filter((item) => item.list.length === 0)
               .map(
                 (item) =>
-                  `<li class="card"><p><strong>${item.country.flag} ${escapeHtml(item.country.nameZh)}</strong> <span class="muted">${escapeHtml(item.country.nameEn)}</span></p><p class="muted">暂无可确认的专门餐厅</p></li>`,
+                  `<li class="card"><p><strong>${item.country.flag} ${escapeHtml(countryPrimary(item.country))}</strong> <span class="muted">${escapeHtml(countrySecondary(item.country))}</span></p><p class="muted">${i18n("emptyRestaurantShort")}</p></li>`,
               )
               .join("")}</ul>
           </section>`
@@ -633,7 +938,7 @@
     return `
       <div class="map-panel-inner${expanded ? " is-expanded-layout" : ""}">
         <div class="panel-toolbar">
-          <button type="button" class="panel-icon-btn" data-toggle-panel aria-label="${expanded ? "收起" : "展开"}" title="${expanded ? "收起" : "展开"}">
+          <button type="button" class="panel-icon-btn" data-toggle-panel aria-label="${expanded ? i18n("collapse") : i18n("expand")}" title="${expanded ? i18n("collapse") : i18n("expand")}">
             ${expanded ? collapseIcon() : expandIcon()}
           </button>
         </div>
@@ -662,30 +967,34 @@
             state.panelExpanded
               ? ""
               : `<div class="map-overlay-controls">
-            <div class="filter-row">
+            ${
+              state.lang === "en"
+                ? ""
+                : `<div class="filter-row">
               ${tierToggle()}
-            </div>
+            </div>`
+            }
             <div class="filter-row filter-row-split">
-              ${multiselect("regions", "大洲", regionOptions(), state.regions, {
-                emptyLabel: "全部大洲",
+              ${multiselect("regions", i18n("region"), regionOptions(), state.regions, {
+                emptyLabel: i18n("allRegions"),
               })}
-              ${multiselect("countryCodes", "国家/地区", countryOptionList(), state.countryCodes, {
-                emptyLabel: "全部国家/地区",
+              ${multiselect("countryCodes", i18n("country"), countryOptionList(), state.countryCodes, {
+                emptyLabel: i18n("allCountries"),
                 searchable: true,
-                searchPlaceholder: "搜索国家/地区",
+                searchPlaceholder: i18n("searchCountries"),
               })}
             </div>
           </div>`
           }
           <div class="map-overlay-zoom">
             <div class="zoom-btns">
-              <button type="button" data-zoom="in" aria-label="放大地图">+</button>
-              <button type="button" data-zoom="out" aria-label="缩小地图">−</button>
+              <button type="button" data-zoom="in" aria-label="${i18n("zoomIn")}">+</button>
+              <button type="button" data-zoom="out" aria-label="${i18n("zoomOut")}">−</button>
             </div>
             <p class="legend compact">
-              <span><span class="swatch" style="background:var(--map-has)"></span>有推荐餐厅</span>
-              <span><span class="swatch" style="background:var(--map-empty)"></span>暂无餐厅</span>
-              <span><span class="swatch" style="background:var(--map-idle);box-shadow:inset 0 0 0 1px var(--line)"></span>未筛选</span>
+              <span><span class="swatch" style="background:var(--map-has)"></span>${i18n("legendHas")}</span>
+              <span><span class="swatch" style="background:var(--map-empty)"></span>${i18n("legendEmpty")}</span>
+              <span><span class="swatch" style="background:var(--map-idle);box-shadow:inset 0 0 0 1px var(--line)"></span>${i18n("legendIdle")}</span>
             </p>
           </div>
         </div>
@@ -801,6 +1110,23 @@
     }
   }
 
+  let imeComposing = false;
+
+  document.addEventListener("compositionstart", (event) => {
+    if (!event.target?.hasAttribute?.("data-ms-search")) return;
+    imeComposing = true;
+  });
+
+  document.addEventListener("compositionend", (event) => {
+    if (!event.target?.hasAttribute?.("data-ms-search")) return;
+    imeComposing = false;
+    state.menuQuery = event.target.value;
+    const start = event.target.selectionStart;
+    const end = event.target.selectionEnd;
+    render();
+    restoreCaret("[data-ms-search]", start, end);
+  });
+
   document.addEventListener("input", (event) => {
     const target = event.target;
     if (!(target instanceof HTMLElement)) return;
@@ -808,7 +1134,10 @@
     const end = "selectionEnd" in target ? target.selectionEnd : null;
 
     if (target.hasAttribute("data-ms-search")) {
+      const composing =
+        imeComposing || event.isComposing || event.inputType === "insertCompositionText";
       state.menuQuery = target.value;
+      if (composing) return;
       render();
       restoreCaret("[data-ms-search]", start, end);
     }
@@ -1010,6 +1339,12 @@
   });
 
   document.addEventListener("click", (event) => {
+    const langBtn = event.target.closest?.("[data-set-lang]");
+    if (langBtn) {
+      setLang(langBtn.getAttribute("data-set-lang"));
+      return;
+    }
+
     const msToggle = event.target.closest?.("[data-ms-toggle]");
     if (msToggle) {
       const key = msToggle.getAttribute("data-ms-toggle");
