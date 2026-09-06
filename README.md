@@ -43,7 +43,7 @@ pnpm dev
 pnpm standalone
 ```
 
-生成文件：[`纽约世界美食地图.html`](纽约世界美食地图.html)（完整地图）。[`index.html`](index.html) 仅为 GitHub Pages 根路径跳转，不再重复整页内容。数据变更后重新运行上述命令即可更新。
+生成文件：[`index.html`](index.html)（自包含地图，GitHub Pages 根路径直接打开）。数据变更后重新运行上述命令即可更新。
 
 主要页面：
 
