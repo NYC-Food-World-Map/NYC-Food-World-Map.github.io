@@ -388,6 +388,34 @@ input, select {
   padding: 1rem;
 }
 
+.card-slim {
+  padding: 0.7rem 0.85rem;
+}
+
+.card-slim-link {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
+.card-slim-title {
+  margin: 0;
+  font-size: 0.95rem;
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+.card-slim-rating {
+  margin: 0.28rem 0 0;
+  color: var(--muted);
+  font-size: 0.8125rem;
+  line-height: 1.35;
+}
+
+.card-slim-link:hover .card-slim-title {
+  color: var(--primary);
+}
+
 h1, h2, h3 { font-family: "Iowan Old Style", "Palatino Linotype", Palatino, serif; }
 
 h1 { font-size: 1.875rem; margin: 0 0 0.5rem; }
@@ -529,7 +557,9 @@ h3 { font-size: 1.125rem; margin: 0; }
 }
 
 .map-overlay-controls,
-.map-overlay-zoom {
+.map-overlay-zoom,
+.map-overlay-bl,
+.map-overlay-br {
   position: absolute;
   z-index: 5;
 }
@@ -548,10 +578,139 @@ h3 { font-size: 1.125rem; margin: 0; }
   backdrop-filter: blur(8px);
 }
 
+.filter-toggle-btn {
+  display: none;
+  position: relative;
+  align-self: flex-start;
+  margin: 0;
+  border: 0;
+  border-radius: 999px;
+  padding: 0.55rem 0.95rem;
+  background: color-mix(in srgb, var(--card) 94%, transparent);
+  color: var(--foreground);
+  font: inherit;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  box-shadow: 0 8px 24px rgb(27 42 34 / 8%), inset 0 0 0 1px var(--line);
+  cursor: pointer;
+}
+
+.filter-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  min-height: 1.5rem;
+}
+
+.filter-clear-all {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  margin: 0 0 0 auto;
+  padding: 0;
+  border: 0;
+  border-radius: 0.4rem;
+  background: transparent;
+  color: #8a8a8a;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.filter-clear-all:hover {
+  color: #5c5c5c;
+  background: rgb(27 42 34 / 0.06);
+}
+
+.filter-clear-all svg {
+  width: 1.15rem;
+  height: 1.15rem;
+  display: block;
+}
+
+.filter-badge {
+  position: absolute;
+  top: -0.35rem;
+  right: -0.35rem;
+  min-width: 1.15rem;
+  height: 1.15rem;
+  padding: 0 0.28rem;
+  border-radius: 999px;
+  background: var(--accent);
+  color: var(--on-primary);
+  font-size: 0.68rem;
+  font-weight: 700;
+  line-height: 1.15rem;
+  text-align: center;
+}
+
+.filter-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+  min-width: 0;
+}
+
+@media (max-width: 767px) {
+  .map-overlay-controls {
+    right: auto;
+    width: auto;
+    max-width: calc(100% - 1.5rem);
+    padding: 0;
+    background: transparent;
+    box-shadow: none;
+    backdrop-filter: none;
+  }
+
+  .map-overlay-controls .filter-toggle-btn {
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .map-overlay-controls:not(.is-open) .filter-body {
+    display: none;
+  }
+
+  .map-overlay-controls.is-open {
+    padding: 0.7rem;
+    background: color-mix(in srgb, var(--card) 90%, transparent);
+    box-shadow: 0 8px 24px rgb(27 42 34 / 8%), inset 0 0 0 1px var(--line);
+    backdrop-filter: blur(8px);
+    width: min(24.5rem, calc(100% - 1.5rem));
+  }
+
+  .map-overlay-controls.is-open .filter-toggle-btn {
+    margin-bottom: 0;
+    padding: 0.15rem 0;
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
+    font-size: 0.875rem;
+  }
+}
+
 @media (min-width: 768px) {
   .map-overlay-controls {
     right: auto;
     width: min(24.5rem, calc(100% - 1.5rem));
+  }
+
+  .filter-toggle-btn,
+  .filter-header,
+  .filter-clear-all {
+    display: none !important;
+  }
+
+  .filter-body {
+    display: flex;
+  }
+}
+
+@media (max-width: 767px) {
+  .map-page:not(.is-expanded) .map-panel-inner.is-collapsed-layout {
+    cursor: pointer;
   }
 }
 
@@ -626,6 +785,23 @@ h3 { font-size: 1.125rem; margin: 0; }
   gap: 0.5rem;
 }
 
+.map-overlay-bl {
+  left: 0.75rem;
+  bottom: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: flex-start;
+}
+
+.map-overlay-br {
+  right: 0.75rem;
+  bottom: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
 .zoom-btns {
   display: flex;
   width: fit-content;
@@ -665,6 +841,26 @@ h3 { font-size: 1.125rem; margin: 0; }
   font-size: 0.75rem;
 }
 
+.legend-stack {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem 1rem;
+}
+
+.legend-stack > span {
+  display: inline-flex;
+  align-items: center;
+}
+
+@media (max-width: 767px) {
+  .legend-stack {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.35rem;
+  }
+}
+
 .map-overlay-panel {
   position: relative;
   z-index: 5;
@@ -678,6 +874,21 @@ h3 { font-size: 1.125rem; margin: 0; }
   background: color-mix(in srgb, var(--panel) 95%, transparent);
   box-shadow: inset 1px 0 0 var(--line);
   backdrop-filter: blur(10px);
+}
+
+@media (max-width: 767px) {
+  .map-page:not(.is-expanded) .map-overlay-panel {
+    max-height: none;
+    overflow: visible;
+  }
+
+  .map-page:not(.is-expanded) .map-panel-inner {
+    height: auto;
+  }
+
+  .map-page:not(.is-expanded) .panel-body {
+    display: none;
+  }
 }
 
 @media (min-width: 768px) {
@@ -697,6 +908,8 @@ h3 { font-size: 1.125rem; margin: 0; }
 
 .map-page.is-expanded .map-overlay-controls,
 .map-page.is-expanded .map-overlay-zoom,
+.map-page.is-expanded .map-overlay-bl,
+.map-page.is-expanded .map-overlay-br,
 .map-page.is-expanded .map-tooltip {
   visibility: hidden;
   pointer-events: none;
@@ -732,11 +945,67 @@ h3 { font-size: 1.125rem; margin: 0; }
   height: 100%;
 }
 
+.panel-summary-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  flex-shrink: 0;
+  min-width: 0;
+}
+
+.panel-summary-title {
+  flex: 1;
+  min-width: 0;
+  margin: 0;
+  font-family: "Iowan Old Style", "Palatino Linotype", Palatino, serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.3;
+  color: var(--foreground);
+}
+
+@media (max-width: 767px) {
+  .map-page:not(.is-expanded) .panel-summary-title {
+    min-height: calc(1.3em * 3);
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+  }
+
+  .map-page.is-expanded .panel-summary-title {
+    min-height: 0;
+  }
+
+  .panel-summary-row .panel-icon-btn {
+    margin-top: 0.15rem;
+  }
+}
+
 .panel-toolbar {
   display: flex;
   justify-content: flex-start;
   margin-bottom: 0.6rem;
   flex-shrink: 0;
+}
+
+.panel-toolbar-row {
+  align-items: center;
+  gap: 0.45rem;
+}
+
+.panel-toolbar-row .filter-field {
+  flex: 1;
+  min-width: 0;
+  margin: 0;
+}
+
+.panel-toolbar-row .filter-field.is-compact .multiselect {
+  gap: 0;
+}
+
+.panel-toolbar-row .ms-toggle {
+  min-height: 2rem;
 }
 
 .panel-icon-btn {
@@ -745,6 +1014,7 @@ h3 { font-size: 1.125rem; margin: 0; }
   justify-content: center;
   width: 2rem;
   height: 2rem;
+  flex-shrink: 0;
   padding: 0;
   border: 0;
   border-radius: 0.35rem;
@@ -768,7 +1038,14 @@ h3 { font-size: 1.125rem; margin: 0; }
   flex-shrink: 0;
   margin: 1.15rem 0 0.75rem;
   font-size: 0.8125rem;
+  line-height: 1.4;
   color: var(--muted);
+}
+
+@media (max-width: 767px) {
+  .panel-summary {
+    margin: 0.75rem 0 0.65rem;
+  }
 }
 
 .panel-body {
@@ -790,6 +1067,23 @@ h3 { font-size: 1.125rem; margin: 0; }
 .filters.expanded-filters {
   flex-shrink: 0;
   margin-bottom: 0;
+}
+
+@media (max-width: 767px) {
+  .filters.expanded-filters {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.55rem;
+    margin: 0.35rem 0 0;
+    padding: 0;
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
+  }
+
+  .filters.expanded-filters .filter-field-tier {
+    max-width: 18rem;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -1164,12 +1458,19 @@ window.STANDALONE_DATA = {"countries":[{"code":"AF","nameZh":"阿富汗","nameEn
       mapRecommend: "{name}，{n} 家推荐餐厅",
       mapUnlisted: "未收录国家/地区",
       mapAria: "世界地图，可缩放、拖动，点击国家/地区查看餐厅",
-      recommendCount: "{n} 家推荐",
-      placeCount: "{n} 家",
+      recommendCount: "{n} 家餐厅",
+      placeCount: "{n} 家餐厅",
+      countryMeta: "{region} · {n} 家餐厅",
+      countryMetaWithEn: "{en} · {region} · {n} 家餐厅",
       summarySelected: "已选",
       summaryCurrent: "当前",
       summaryLine: "{scope} {countries} 个国家/地区 · {places} 家餐厅",
       summaryEmpty: " · {n} 个暂无餐厅",
+      summaryOneRegion: "{name} · 共{n}家餐厅",
+      summaryOneCountry: "{name} · 共{n}家餐厅",
+      summaryMulti: "当前选中{countries}个国家{places}家餐厅",
+      summaryAll: "共{countries}个国家 · {places}家餐厅",
+      restaurantListTitle: "餐厅列表",
       noMatchCountries: "没有匹配的国家/地区",
       relaxFilters: "试试放宽左上角的筛选条件。",
       noConfirmed: "暂无已确认餐厅",
@@ -1182,6 +1483,10 @@ window.STANDALONE_DATA = {"countries":[{"code":"AF","nameZh":"阿富汗","nameEn
       legendHas: "有推荐餐厅",
       legendEmpty: "暂无餐厅",
       legendIdle: "未筛选",
+      filterButton: "筛选",
+      clearAllFilters: "清除全部筛选",
+      googleMapRating: "Google Map：{score}/{scale}（{n}）",
+      googleMapRatingNoCount: "Google Map：{score}/{scale}",
       regionEurope: "欧洲",
       regionAfrica: "非洲",
       regionLatam: "加勒比 / 拉美",
@@ -1242,12 +1547,19 @@ window.STANDALONE_DATA = {"countries":[{"code":"AF","nameZh":"阿富汗","nameEn
       mapRecommend: "{name}, {n} recommended restaurants",
       mapUnlisted: "Unlisted country / region",
       mapAria: "World map — zoom, pan, and click a country or region for restaurants",
-      recommendCount: "{n} recommended",
-      placeCount: "{n}",
+      recommendCount: "{n} Restaurants",
+      placeCount: "{n} Restaurants",
+      countryMeta: "{region} · {n} Restaurants",
+      countryMetaWithEn: "{en} · {region} · {n} Restaurants",
       summarySelected: "Selected",
       summaryCurrent: "Showing",
       summaryLine: "{scope} {countries} countries / regions · {places} restaurants",
       summaryEmpty: " · {n} with none yet",
+      summaryOneRegion: "{name} · {n} restaurants",
+      summaryOneCountry: "{name} · {n} restaurants",
+      summaryMulti: "{countries} countries · {places} restaurants",
+      summaryAll: "{countries} countries · {places} restaurants",
+      restaurantListTitle: "Restaurant List",
       noMatchCountries: "No matching countries / regions",
       relaxFilters: "Try loosening the filters in the top-left.",
       noConfirmed: "No confirmed restaurants",
@@ -1260,6 +1572,10 @@ window.STANDALONE_DATA = {"countries":[{"code":"AF","nameZh":"阿富汗","nameEn
       legendHas: "Has recommendations",
       legendEmpty: "None yet",
       legendIdle: "Out of filter",
+      filterButton: "Filter",
+      clearAllFilters: "Clear all filters",
+      googleMapRating: "Google Map: {score}/{scale} ({n})",
+      googleMapRatingNoCount: "Google Map: {score}/{scale}",
       regionEurope: "Europe",
       regionAfrica: "Africa",
       regionLatam: "Caribbean / Latin America",
@@ -1318,6 +1634,8 @@ window.STANDALONE_DATA = {"countries":[{"code":"AF","nameZh":"阿富汗","nameEn
     openMenu: null,
     menuQuery: "",
     panelExpanded: false,
+    filtersOpen: false,
+    mapPickCode: "",
   };
   if (state.lang === "en") {
     state.cuisineTier = "all";
@@ -1325,8 +1643,24 @@ window.STANDALONE_DATA = {"countries":[{"code":"AF","nameZh":"阿富汗","nameEn
   persistLang(state.lang);
 
   let pendingFlyCode = null;
+  let pendingZoomMinimum = false;
   let flyRaf = null;
   let visitCount = "";
+  let mapClickTimer = null;
+  const SELECT_ZOOM = 5;
+  const MAP_CLICK_DELAY_MS = 280;
+
+  function isMobileUi() {
+    return window.matchMedia("(max-width: 767px)").matches;
+  }
+
+  function activeFilterCount() {
+    let count = 0;
+    if (state.lang !== "en" && state.cuisineTier !== "all") count += 1;
+    count += state.regions.length;
+    count += state.countryCodes.length;
+    return count;
+  }
 
   const countriesByCode = Object.fromEntries(
     countries.map((country) => [country.code, country]),
@@ -1361,8 +1695,20 @@ window.STANDALONE_DATA = {"countries":[{"code":"AF","nameZh":"阿富汗","nameEn
     return country.nameZh;
   }
 
-  function countrySecondary(country) {
-    return state.lang === "en" ? country.nameZh : country.nameEn;
+  function countrySecondaryDisplay(country) {
+    return state.lang === "zh" ? country.nameEn : "";
+  }
+
+  function countryMetaLine(country, n) {
+    const region = regionLabel(country.region);
+    if (state.lang === "zh") {
+      return i18n("countryMetaWithEn", {
+        en: country.nameEn,
+        region,
+        n,
+      });
+    }
+    return i18n("countryMeta", { region, n });
   }
 
   function countrySortName(country) {
@@ -1552,7 +1898,34 @@ window.STANDALONE_DATA = {"countries":[{"code":"AF","nameZh":"阿富汗","nameEn
     return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`;
   }
 
-  function restaurantCard(restaurant) {
+  function restaurantCardSlim(restaurant) {
+    const rating =
+      (restaurant.ratings || []).find((item) => /google/i.test(item.source || "")) ||
+      (restaurant.ratings || [])[0];
+    const ratingLine = rating
+      ? typeof rating.reviewCount === "number"
+        ? i18n("googleMapRating", {
+            score: rating.score,
+            scale: rating.scale,
+            n: rating.reviewCount,
+          })
+        : i18n("googleMapRatingNoCount", {
+            score: rating.score,
+            scale: rating.scale,
+          })
+      : i18n("noRatings");
+    const place = [restaurant.name, restaurant.borough].filter(Boolean).join(" · ");
+    return `
+      <article class="card card-slim">
+        <a class="card-slim-link" href="${mapsUrl(restaurant)}" target="_blank" rel="noopener noreferrer">
+          <p class="card-slim-title">${escapeHtml(place)}</p>
+          <p class="card-slim-rating">${escapeHtml(ratingLine)}</p>
+        </a>
+      </article>
+    `;
+  }
+
+  function restaurantCardFull(restaurant) {
     const ratings = restaurant.ratings?.length
       ? `<p class="ratings">${restaurant.ratings
           .map(
@@ -1586,6 +1959,10 @@ window.STANDALONE_DATA = {"countries":[{"code":"AF","nameZh":"阿富汗","nameEn
         <a class="maps-btn" href="${mapsUrl(restaurant)}" target="_blank" rel="noopener noreferrer">${i18n("viewMaps")}</a>
       </article>
     `;
+  }
+
+  function restaurantCard(restaurant) {
+    return isMobileUi() ? restaurantCardSlim(restaurant) : restaurantCardFull(restaurant);
   }
 
   function emptyRestaurants() {
@@ -1629,9 +2006,9 @@ window.STANDALONE_DATA = {"countries":[{"code":"AF","nameZh":"阿富汗","nameEn
         )
       : options;
     return `
-      <div class="multiselect${open ? " is-open" : ""}" data-ms="${key}">
-        <span class="ms-label">${escapeHtml(label)}</span>
-        <button type="button" class="ms-toggle" data-ms-toggle="${key}" aria-expanded="${open}">
+      <div class="multiselect${open ? " is-open" : ""}${config.compact ? " is-compact" : ""}" data-ms="${key}">
+        ${config.hideLabel ? "" : `<span class="ms-label">${escapeHtml(label)}</span>`}
+        <button type="button" class="ms-toggle" data-ms-toggle="${key}" aria-expanded="${open}"${config.hideLabel ? ` aria-label="${escapeHtml(label)}"` : ""}>
           <span class="ms-summary${chosen.length ? " is-active" : ""}">${escapeHtml(summary)}</span>
           <span class="ms-caret" aria-hidden="true">▾</span>
         </button>
@@ -1709,36 +2086,67 @@ window.STANDALONE_DATA = {"countries":[{"code":"AF","nameZh":"阿富汗","nameEn
     }));
   }
 
-  function mapFilterFields() {
+  function mapFilterFields(options = {}) {
+    const hideLabels = options.hideLabels !== false;
+    const includeBorough = Boolean(options.includeBorough);
+    const boroughOnly = Boolean(options.boroughOnly);
+    if (boroughOnly) {
+      return `
+      <div class="filter-row">
+        <div class="filter-field">
+          ${multiselect("boroughs", i18n("borough"), boroughOptions(), state.boroughs, {
+            emptyLabel: i18n("allBoroughs"),
+            hideLabel: hideLabels,
+          })}
+        </div>
+      </div>`;
+    }
     return `
       ${
         state.lang === "en"
           ? ""
-          : `<div class="filter-field">
-        <span class="ms-label">${i18n("tierField")}</span>
+          : `<div class="filter-field filter-field-tier">
         ${tierToggle()}
       </div>`
       }
-      <div class="filter-field">
-        ${multiselect("regions", i18n("region"), regionOptions(), state.regions, {
-          emptyLabel: i18n("allRegions"),
-        })}
+      <div class="filter-row filter-row-split">
+        <div class="filter-field">
+          ${multiselect("regions", i18n("region"), regionOptions(), state.regions, {
+            emptyLabel: i18n("allRegions"),
+            hideLabel: hideLabels,
+          })}
+        </div>
+        <div class="filter-field">
+          ${multiselect("countryCodes", i18n("country"), countryOptionList(), state.countryCodes, {
+            emptyLabel: i18n("allCountries"),
+            searchable: true,
+            searchPlaceholder: i18n("searchCountries"),
+            hideLabel: hideLabels,
+          })}
+        </div>
       </div>
-      <div class="filter-field">
-        ${multiselect("countryCodes", i18n("country"), countryOptionList(), state.countryCodes, {
-          emptyLabel: i18n("allCountries"),
-          searchable: true,
-          searchPlaceholder: i18n("searchCountries"),
-        })}
-      </div>
+      ${
+        includeBorough
+          ? `<div class="filter-row">
+        <div class="filter-field">
+          ${multiselect("boroughs", i18n("borough"), boroughOptions(), state.boroughs, {
+            emptyLabel: i18n("allBoroughs"),
+            hideLabel: hideLabels,
+          })}
+        </div>
+      </div>`
+          : ""
+      }
     `;
   }
 
-  function boroughFilter() {
+  function boroughFilter(options = {}) {
     return `
-      <div class="filter-field">
+      <div class="filter-field${options.compact ? " is-compact" : ""}">
         ${multiselect("boroughs", i18n("borough"), boroughOptions(), state.boroughs, {
           emptyLabel: i18n("allBoroughs"),
+          hideLabel: Boolean(options.hideLabel),
+          compact: Boolean(options.compact),
         })}
       </div>
     `;
@@ -1753,6 +2161,13 @@ window.STANDALONE_DATA = {"countries":[{"code":"AF","nameZh":"阿富汗","nameEn
 
   function visibleCountries() {
     return filteredCountries();
+  }
+
+  function panelCountries() {
+    if (state.mapPickCode && countriesByCode[state.mapPickCode]) {
+      return [countriesByCode[state.mapPickCode]];
+    }
+    return visibleCountries();
   }
 
   function restaurantCounts() {
@@ -1805,8 +2220,9 @@ window.STANDALONE_DATA = {"countries":[{"code":"AF","nameZh":"阿富汗","nameEn
             ? countryPrimary(country)
             : geo.properties?.name || i18n("mapUnlisted");
         const d = path(geo) || "";
-        const klass = `map-country${inFilter ? " is-clickable" : ""}${selected ? " is-selected" : ""}`;
-        const attrs = inFilter
+        const clickable = Boolean(country && inFilter);
+        const klass = `map-country${clickable ? " is-clickable" : ""}${selected ? " is-selected" : ""}`;
+        const attrs = clickable
           ? `role="button" tabindex="0" class="${klass}" data-code="${country.code}" aria-pressed="${selected ? "true" : "false"}" aria-label="${escapeHtml(label)}"`
           : `class="${klass}" tabindex="-1"`;
         return {
@@ -1856,11 +2272,28 @@ window.STANDALONE_DATA = {"countries":[{"code":"AF","nameZh":"阿富汗","nameEn
       stage.clientWidth,
       stage.clientHeight,
     );
+    if (pendingZoomMinimum && isMobileUi()) {
+      pendingZoomMinimum = false;
+      pendingFlyCode = null;
+      const { w, h } = viewSize(stage.clientWidth, stage.clientHeight);
+      animateMapTransform(baseTransform(w, h));
+      return;
+    }
+    pendingZoomMinimum = false;
     if (pendingFlyCode) {
       const pathEl = stage.querySelector(`path[data-code="${pendingFlyCode}"]`);
       pendingFlyCode = null;
-      if (pathEl) flyToPath(pathEl);
+      if (pathEl) {
+        if (isMobileUi()) flyToCountryAtZoom(pathEl, SELECT_ZOOM);
+        else flyToPath(pathEl);
+      }
     }
+  }
+
+  function queueZoomToMinimum() {
+    if (!isMobileUi()) return;
+    pendingFlyCode = null;
+    pendingZoomMinimum = true;
   }
 
   function applyMapTransform() {
@@ -1925,6 +2358,27 @@ window.STANDALONE_DATA = {"countries":[{"code":"AF","nameZh":"阿富汗","nameEn
     });
   }
 
+  function flyToCountryAtZoom(pathEl, k = SELECT_ZOOM) {
+    const svg = pathEl.ownerSVGElement;
+    if (!svg) return;
+    const bbox = pathEl.getBBox();
+    const view = svg.viewBox.baseVal;
+    const cx = bbox.x + bbox.width / 2;
+    const cy = bbox.y + bbox.height / 2;
+    animateMapTransform({
+      k,
+      x: view.width / 2 - cx * k,
+      y: view.height / 2 - cy * k,
+    });
+  }
+
+  function zoomToMinimum() {
+    const stage = document.querySelector(".map-stage");
+    if (!stage) return;
+    const { w, h } = viewSize(stage.clientWidth, stage.clientHeight);
+    animateMapTransform(baseTransform(w, h));
+  }
+
   function clientToSvg(svg, clientX, clientY) {
     const rect = svg.getBoundingClientRect();
     const view = svg.viewBox.baseVal;
@@ -1945,20 +2399,34 @@ window.STANDALONE_DATA = {"countries":[{"code":"AF","nameZh":"阿富汗","nameEn
   }
 
   function expandIcon() {
+    if (isMobileUi()) {
+      return `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 14.5 12 8.5l6 6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+    }
     return `<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.75" y="5" width="16.5" height="14" rx="2.25" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M9.25 5v14" fill="none" stroke="currentColor" stroke-width="1.7"/></svg>`;
   }
 
   function collapseIcon() {
+    if (isMobileUi()) {
+      return `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9.5 12 15.5l6-6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+    }
     return `<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.75" y="5" width="16.5" height="14" rx="2.25" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M14.75 5v14" fill="none" stroke="currentColor" stroke-width="1.7"/></svg>`;
   }
 
   function countryPanel(country, list, expanded) {
     if (expanded) {
+      const secondary =
+        state.lang === "zh"
+          ? ` <span class="muted">${escapeHtml(country.nameEn)}</span>`
+          : "";
       return `
         <section class="panel">
           <header class="list-country-head">
-            <h2>${country.flag} ${escapeHtml(countryPrimary(country))} <span class="muted">${escapeHtml(countrySecondary(country))}</span></h2>
-            <p class="muted">${cuisineTierLabel(country.cuisineTier)} · ${escapeHtml(regionLabel(country.region))} · ${i18n("recommendCount", { n: list.length })}</p>
+            <h2>${country.flag} ${escapeHtml(countryPrimary(country))}${secondary}</h2>
+            ${
+              isMobileUi()
+                ? ""
+                : `<p class="muted">${escapeHtml(countryMetaLine(country, list.length))}</p>`
+            }
           </header>
           <div class="stack">${list.length ? list.map(restaurantCard).join("") : emptyRestaurants()}</div>
         </section>
@@ -1968,7 +2436,11 @@ window.STANDALONE_DATA = {"countries":[{"code":"AF","nameZh":"阿富汗","nameEn
       <section class="panel-country${country.code === state.selectedCode ? " is-selected" : ""}">
         <header class="panel-country-head">
           <h2>${country.flag} ${escapeHtml(countryPrimary(country))}</h2>
-          <p class="muted">${escapeHtml(countrySecondary(country))} · ${cuisineTierLabel(country.cuisineTier)} · ${escapeHtml(regionLabel(country.region))} · ${i18n("placeCount", { n: list.length })}</p>
+          ${
+            isMobileUi()
+              ? ""
+              : `<p class="muted">${escapeHtml(countryMetaLine(country, list.length))}</p>`
+          }
         </header>
         <div class="stack">${list.length ? list.map(restaurantCard).join("") : emptyRestaurants()}</div>
       </section>
@@ -1977,13 +2449,13 @@ window.STANDALONE_DATA = {"countries":[{"code":"AF","nameZh":"阿富汗","nameEn
 
   function panelItems(visible) {
     const source =
-      !state.panelExpanded && state.selectedCode
+      !isMobileUi() && !state.panelExpanded && state.selectedCode
         ? [countriesByCode[state.selectedCode]].filter(Boolean)
         : visible;
     const lists = new Map(
       source.map((country) => [
         country.code,
-        restaurantsForCountry(country.code, true),
+        restaurantsForCountry(country.code, !isMobileUi()),
       ]),
     );
     const ordered = source.slice().sort((a, b) => {
@@ -2000,7 +2472,124 @@ window.STANDALONE_DATA = {"countries":[{"code":"AF","nameZh":"阿富汗","nameEn
     }));
   }
 
-  function renderMapPanel(visible) {
+  function collapsedSummaryText(visible) {
+    const oneCountryCode =
+      state.selectedCode ||
+      (state.countryCodes.length === 1 ? state.countryCodes[0] : "");
+    if (oneCountryCode && countriesByCode[oneCountryCode]) {
+      const country = countriesByCode[oneCountryCode];
+      const n = restaurantsForCountry(oneCountryCode, false).length;
+      return `${country.flag} ${i18n("summaryOneCountry", {
+        name: countryPrimary(country),
+        n,
+      })}`;
+    }
+    if (state.regions.length === 1 && state.countryCodes.length === 0) {
+      const region = state.regions[0];
+      const regionCountries = visible.filter((country) => country.region === region);
+      const n = regionCountries.reduce(
+        (sum, country) => sum + restaurantsForCountry(country.code, false).length,
+        0,
+      );
+      return i18n("summaryOneRegion", { name: regionLabel(region), n });
+    }
+    const countryCount = visible.length;
+    const places = visible.reduce(
+      (sum, country) => sum + restaurantsForCountry(country.code, false).length,
+      0,
+    );
+    const filtered =
+      state.regions.length > 0 || state.countryCodes.length > 0;
+    return i18n(filtered ? "summaryMulti" : "summaryAll", {
+      countries: countryCount,
+      places,
+    });
+  }
+
+  function renderExpandedPanelBody(visible) {
+    const items = panelItems(visible);
+    const nonempty = items.filter((item) => item.list.length > 0);
+    const emptyCount = items.length - nonempty.length;
+    const countryCount = items.length;
+    if (!countryCount) {
+      return `<div class="panel-empty"><h2>${i18n("noMatchCountries")}</h2><p class="muted">${i18n("relaxFilters")}</p></div>`;
+    }
+    if (!nonempty.length) return emptyRestaurants();
+    const listHtml = nonempty
+      .map((item) => countryPanel(item.country, item.list, true))
+      .join("");
+    const emptySection =
+      emptyCount && countryCount <= 24
+        ? `<section class="panel" style="margin-top:1.25rem">
+            <h2>${i18n("noConfirmed")} <span class="muted">${i18n("emptyCountriesMeta", { n: emptyCount })}</span></h2>
+            <ul class="empty-grid">${items
+              .filter((item) => item.list.length === 0)
+              .map(
+                (item) =>
+                  `<li class="card"><p><strong>${item.country.flag} ${escapeHtml(countryPrimary(item.country))}</strong>${
+                    countrySecondaryDisplay(item.country)
+                      ? ` <span class="muted">${escapeHtml(countrySecondaryDisplay(item.country))}</span>`
+                      : ""
+                  }</p><p class="muted">${i18n("emptyRestaurantShort")}</p></li>`,
+              )
+              .join("")}</ul>
+          </section>`
+        : "";
+    return `${listHtml}${emptySection}`;
+  }
+
+  function clearAllFilters() {
+    state.cuisineTier = "all";
+    state.regions = [];
+    state.countryCodes = [];
+    state.boroughs = [];
+    state.selectedCode = "";
+    state.mapPickCode = "";
+    state.openMenu = null;
+    state.menuQuery = "";
+    queueZoomToMinimum();
+  }
+
+  function trashIcon() {
+    return `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 4.5h6M5.5 7h13m-1.2 0-.7 11.2a1.8 1.8 0 0 1-1.8 1.7H9.2a1.8 1.8 0 0 1-1.8-1.7L6.7 7m3.1 3.2.4 7.2m3.6-7.2-.4 7.2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+  }
+
+  function desktopMapFilterFields() {
+    return `
+      ${
+        state.lang === "en"
+          ? ""
+          : `<div class="filter-field">
+        <span class="ms-label">${i18n("tierField")}</span>
+        ${tierToggle()}
+      </div>`
+      }
+      <div class="filter-field">
+        ${multiselect("regions", i18n("region"), regionOptions(), state.regions, {
+          emptyLabel: i18n("allRegions"),
+        })}
+      </div>
+      <div class="filter-field">
+        ${multiselect("countryCodes", i18n("country"), countryOptionList(), state.countryCodes, {
+          emptyLabel: i18n("allCountries"),
+          searchable: true,
+          searchPlaceholder: i18n("searchCountries"),
+        })}
+      </div>
+    `;
+  }
+
+  function desktopBoroughFilter() {
+    return `
+      <div class="filter-field">
+        ${multiselect("boroughs", i18n("borough"), boroughOptions(), state.boroughs, {
+          emptyLabel: i18n("allBoroughs"),
+        })}
+      </div>
+    `;
+  }
+
+  function renderDesktopMapPanel(visible) {
     const expanded = state.panelExpanded;
     const items = panelItems(visible);
     const nonempty = items.filter((item) => item.list.length > 0);
@@ -2009,10 +2598,13 @@ window.STANDALONE_DATA = {"countries":[{"code":"AF","nameZh":"阿富汗","nameEn
     const countryCount = items.length;
     const summary = countryCount
       ? `<p class="panel-summary">${i18n("summaryLine", {
-          scope: state.selectedCode && !expanded ? i18n("summarySelected") : i18n("summaryCurrent"),
+          scope:
+            state.selectedCode && !expanded
+              ? i18n("summarySelected")
+              : i18n("summaryCurrent"),
           countries: countryCount,
           places: total,
-        })}${emptyCount ? i18n("summaryEmpty", { n: emptyCount }) : ""}</p>`
+        })}</p>`
       : "";
     const body = countryCount
       ? nonempty.length
@@ -2028,7 +2620,11 @@ window.STANDALONE_DATA = {"countries":[{"code":"AF","nameZh":"阿富汗","nameEn
               .filter((item) => item.list.length === 0)
               .map(
                 (item) =>
-                  `<li class="card"><p><strong>${item.country.flag} ${escapeHtml(countryPrimary(item.country))}</strong> <span class="muted">${escapeHtml(countrySecondary(item.country))}</span></p><p class="muted">${i18n("emptyRestaurantShort")}</p></li>`,
+                  `<li class="card"><p><strong>${item.country.flag} ${escapeHtml(countryPrimary(item.country))}</strong>${
+                    countrySecondaryDisplay(item.country)
+                      ? ` <span class="muted">${escapeHtml(countrySecondaryDisplay(item.country))}</span>`
+                      : ""
+                  }</p><p class="muted">${i18n("emptyRestaurantShort")}</p></li>`,
               )
               .join("")}</ul>
           </section>`
@@ -2042,8 +2638,8 @@ window.STANDALONE_DATA = {"countries":[{"code":"AF","nameZh":"阿富汗","nameEn
         </div>
         ${
           expanded
-            ? `<form class="filters expanded-filters" onsubmit="return false">${mapFilterFields()}${boroughFilter()}</form>`
-            : boroughFilter()
+            ? `<form class="filters expanded-filters" onsubmit="return false">${desktopMapFilterFields()}${desktopBoroughFilter()}</form>`
+            : desktopBoroughFilter()
         }
         ${summary}
         <div class="panel-body">
@@ -2054,7 +2650,67 @@ window.STANDALONE_DATA = {"countries":[{"code":"AF","nameZh":"阿富汗","nameEn
     `;
   }
 
-  function renderMap() {
+  function renderMobileMapPanel(visible) {
+    const expanded = state.panelExpanded;
+    const listCountries = panelCountries();
+    const summaryText = collapsedSummaryText(listCountries);
+    const titleText = expanded
+      ? i18n("restaurantListTitle")
+      : collapsedSummaryText(listCountries);
+    const mapPick = Boolean(state.mapPickCode);
+    return `
+      <div class="map-panel-inner${expanded ? " is-expanded-layout" : " is-collapsed-layout"}"${expanded ? "" : ` data-expand-panel role="button" tabindex="0" aria-label="${i18n("expand")}"`}>
+        <div class="panel-summary-row">
+          <p class="panel-summary-title">${escapeHtml(titleText)}</p>
+          <button type="button" class="panel-icon-btn" data-toggle-panel aria-label="${expanded ? i18n("collapse") : i18n("expand")}" title="${expanded ? i18n("collapse") : i18n("expand")}">
+            ${expanded ? collapseIcon() : expandIcon()}
+          </button>
+        </div>
+        ${
+          expanded
+            ? `<form class="filters expanded-filters" onsubmit="return false">${mapFilterFields({
+                hideLabels: true,
+                includeBorough: true,
+                boroughOnly: mapPick,
+              })}</form>
+        <p class="panel-summary">${escapeHtml(summaryText)}</p>
+        <div class="panel-body">
+          <div class="stack">${renderExpandedPanelBody(listCountries)}</div>
+        </div>`
+            : ""
+        }
+      </div>
+    `;
+  }
+
+  function renderMapPanel(visible) {
+    return isMobileUi() ? renderMobileMapPanel(visible) : renderDesktopMapPanel(visible);
+  }
+
+  function renderMapFilters() {
+    const count = activeFilterCount();
+    const open = state.filtersOpen;
+    return `
+      <div class="map-overlay-controls${open ? " is-open" : ""}">
+        <div class="filter-header">
+          <button type="button" class="filter-toggle-btn" data-toggle-filters aria-expanded="${open ? "true" : "false"}">
+            <span>${i18n("filterButton")}</span>
+            ${!open && count ? `<span class="filter-badge" aria-hidden="true">${count}</span>` : ""}
+          </button>
+          ${
+            open
+              ? `<button type="button" class="filter-clear-all" data-clear-all-filters aria-label="${i18n("clearAllFilters")}" title="${i18n("clearAllFilters")}">${trashIcon()}</button>`
+              : ""
+          }
+        </div>
+        <div class="filter-body">
+          ${mapFilterFields({ hideLabels: true, includeBorough: false })}
+        </div>
+      </div>
+    `;
+  }
+
+  function renderDesktopMap() {
     const visible = visibleCountries();
     return `
       <div class="map-page${state.panelExpanded ? " is-expanded" : ""}">
@@ -2103,6 +2759,44 @@ window.STANDALONE_DATA = {"countries":[{"code":"AF","nameZh":"阿富汗","nameEn
     `;
   }
 
+  function renderMobileMap() {
+    const visible = visibleCountries();
+    return `
+      <div class="map-page${state.panelExpanded ? " is-expanded" : ""}">
+        <div class="map-main">
+          <div class="map-stage" aria-hidden="false"></div>
+          <div id="map-tooltip" class="map-tooltip" hidden></div>
+          ${state.panelExpanded ? "" : renderMapFilters()}
+          <div class="map-overlay-bl">
+            <p class="legend compact legend-stack">
+              <span><span class="swatch" style="background:var(--map-has)"></span>${i18n("legendHas")}</span>
+              <span><span class="swatch" style="background:var(--map-empty)"></span>${i18n("legendEmpty")}</span>
+              <span><span class="swatch" style="background:var(--map-idle);box-shadow:inset 0 0 0 1px var(--line)"></span>${i18n("legendIdle")}</span>
+            </p>
+          </div>
+          <div class="map-overlay-br">
+            <div class="zoom-btns">
+              <button type="button" data-zoom="in" aria-label="${i18n("zoomIn")}">+</button>
+              <button type="button" data-zoom="out" aria-label="${i18n("zoomOut")}">−</button>
+            </div>
+          </div>
+        </div>
+        <aside class="map-overlay-panel">
+          ${renderMapPanel(visible)}
+        </aside>
+      </div>
+    `;
+  }
+
+  function renderMap() {
+    if (!isMobileUi()) {
+      state.mapPickCode = "";
+      state.filtersOpen = false;
+      return renderDesktopMap();
+    }
+    return renderMobileMap();
+  }
+
   function currentPage() {
     const hash = (location.hash || "#map").replace(/^#\/?/, "");
     if (hash.startsWith("list")) {
@@ -2146,15 +2840,35 @@ window.STANDALONE_DATA = {"countries":[{"code":"AF","nameZh":"阿富汗","nameEn
   function peekCountry(code) {
     const country = countriesByCode[code];
     if (!country || !countryInScope(country)) return;
-    state.selectedCode = state.selectedCode === code ? "" : code;
+    if (!isMobileUi()) {
+      state.selectedCode = state.selectedCode === code ? "" : code;
+      state.openMenu = null;
+      state.menuQuery = "";
+      state.mapPickCode = "";
+      render();
+      return;
+    }
+    const nextSelected = state.selectedCode === code ? "" : code;
+    state.selectedCode = nextSelected;
     state.openMenu = null;
     state.menuQuery = "";
+    state.filtersOpen = false;
+    if (nextSelected) {
+      state.mapPickCode = nextSelected;
+      const currentK = state.mapTransform?.k ?? DEFAULT_ZOOM;
+      if (currentK < SELECT_ZOOM) {
+        pendingFlyCode = nextSelected;
+      }
+    } else {
+      state.mapPickCode = "";
+    }
     render();
   }
 
   function clearPeek() {
-    if (!state.selectedCode) return;
+    if (!state.selectedCode && !state.mapPickCode) return;
     state.selectedCode = "";
+    state.mapPickCode = "";
     render();
   }
 
@@ -2168,10 +2882,20 @@ window.STANDALONE_DATA = {"countries":[{"code":"AF","nameZh":"阿富汗","nameEn
       state.regions = [];
     }
     state.countryCodes = [code];
-    state.selectedCode = "";
     state.openMenu = null;
     state.menuQuery = "";
-    pendingFlyCode = code;
+    if (!isMobileUi()) {
+      state.selectedCode = "";
+      state.mapPickCode = "";
+      pendingFlyCode = code;
+      render();
+      return;
+    }
+    state.selectedCode = code;
+    const currentK = state.mapTransform?.k ?? DEFAULT_ZOOM;
+    if (currentK < SELECT_ZOOM) {
+      pendingFlyCode = code;
+    }
     render();
   }
 
@@ -2252,6 +2976,7 @@ window.STANDALONE_DATA = {"countries":[{"code":"AF","nameZh":"阿富汗","nameEn
         : current.filter((value) => value !== target.value);
       if (msKey === "regions" || msKey === "countryCodes") {
         state.selectedCode = "";
+        state.mapPickCode = "";
       }
       if (msKey === "regions") {
         state.countryCodes = state.countryCodes.filter((code) =>
@@ -2260,10 +2985,13 @@ window.STANDALONE_DATA = {"countries":[{"code":"AF","nameZh":"阿富汗","nameEn
             : true,
         );
       }
-      if (msKey === "countryCodes") {
-        if (state.countryCodes.length === 1) {
-          pendingFlyCode = state.countryCodes[0];
-        }
+      if (
+        isMobileUi() &&
+        (msKey === "regions" || msKey === "countryCodes" || msKey === "boroughs")
+      ) {
+        queueZoomToMinimum();
+      } else if (!isMobileUi() && msKey === "countryCodes" && state.countryCodes.length === 1) {
+        pendingFlyCode = state.countryCodes[0];
       }
       render();
       return;
@@ -2403,13 +3131,39 @@ window.STANDALONE_DATA = {"countries":[{"code":"AF","nameZh":"阿富汗","nameEn
       mapPointers.size === 0 &&
       state.page === "map"
     ) {
-      if (start.code) peekCountry(start.code);
-      else clearPeek();
+      const code = start.code;
+      if (isMobileUi()) {
+        if (mapClickTimer) {
+          clearTimeout(mapClickTimer);
+          mapClickTimer = null;
+        }
+        mapClickTimer = setTimeout(() => {
+          mapClickTimer = null;
+          if (code) peekCountry(code);
+          else clearPeek();
+        }, MAP_CLICK_DELAY_MS);
+      } else if (code) {
+        peekCountry(code);
+      } else {
+        clearPeek();
+      }
     }
     if (mapPointers.size === 0) {
       mapPointerStart = null;
       mapDragMoved = false;
     }
+  });
+
+  document.addEventListener("dblclick", (event) => {
+    if (!isMobileUi()) return;
+    if (state.page !== "map") return;
+    if (!event.target.closest?.(".map-stage svg")) return;
+    event.preventDefault();
+    if (mapClickTimer) {
+      clearTimeout(mapClickTimer);
+      mapClickTimer = null;
+    }
+    zoomToMinimum();
   });
 
   document.addEventListener("pointerover", (event) => {
@@ -2456,7 +3210,29 @@ window.STANDALONE_DATA = {"countries":[{"code":"AF","nameZh":"阿富汗","nameEn
     if (msClear) {
       const key = msClear.getAttribute("data-ms-clear");
       state[key] = [];
-      if (key === "countryCodes") state.selectedCode = "";
+      if (key === "countryCodes") {
+        state.selectedCode = "";
+        state.mapPickCode = "";
+      }
+      if (key === "regions" || key === "countryCodes" || key === "boroughs") {
+        queueZoomToMinimum();
+      }
+      render();
+      return;
+    }
+
+    const toggleFilters = event.target.closest?.("[data-toggle-filters]");
+    if (toggleFilters) {
+      state.filtersOpen = !state.filtersOpen;
+      state.openMenu = null;
+      state.menuQuery = "";
+      render();
+      return;
+    }
+
+    const clearAll = event.target.closest?.("[data-clear-all-filters]");
+    if (clearAll) {
+      clearAllFilters();
       render();
       return;
     }
@@ -2466,6 +3242,17 @@ window.STANDALONE_DATA = {"countries":[{"code":"AF","nameZh":"阿富汗","nameEn
       state.panelExpanded = !state.panelExpanded;
       state.openMenu = null;
       state.menuQuery = "";
+      state.filtersOpen = false;
+      render();
+      return;
+    }
+
+    const expandPanel = event.target.closest?.("[data-expand-panel]");
+    if (expandPanel && isMobileUi() && !state.panelExpanded) {
+      state.panelExpanded = true;
+      state.openMenu = null;
+      state.menuQuery = "";
+      state.filtersOpen = false;
       render();
       return;
     }
@@ -2474,6 +3261,14 @@ window.STANDALONE_DATA = {"countries":[{"code":"AF","nameZh":"阿富汗","nameEn
     if (state.openMenu && !event.target.closest?.(".multiselect")) {
       state.openMenu = null;
       state.menuQuery = "";
+      needsRender = true;
+    }
+    if (
+      state.filtersOpen &&
+      isMobileUi() &&
+      !event.target.closest?.(".map-overlay-controls")
+    ) {
+      state.filtersOpen = false;
       needsRender = true;
     }
 
@@ -2488,6 +3283,7 @@ window.STANDALONE_DATA = {"countries":[{"code":"AF","nameZh":"阿富汗","nameEn
           (state.cuisineTier === "all" || country.cuisineTier === state.cuisineTier)
         );
       });
+      queueZoomToMinimum();
       render();
       return;
     }
@@ -2603,7 +3399,10 @@ window.STANDALONE_DATA = {"countries":[{"code":"AF","nameZh":"阿富汗","nameEn
   window.addEventListener("resize", () => {
     if (state.page !== "map") return;
     state.mapTransform = null;
-    paintMap();
+    if (!isMobileUi()) {
+      state.filtersOpen = false;
+    }
+    render();
   });
   render();
 })();

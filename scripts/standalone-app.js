@@ -66,12 +66,19 @@
       mapRecommend: "{name}，{n} 家推荐餐厅",
       mapUnlisted: "未收录国家/地区",
       mapAria: "世界地图，可缩放、拖动，点击国家/地区查看餐厅",
-      recommendCount: "{n} 家推荐",
-      placeCount: "{n} 家",
+      recommendCount: "{n} 家餐厅",
+      placeCount: "{n} 家餐厅",
+      countryMeta: "{region} · {n} 家餐厅",
+      countryMetaWithEn: "{en} · {region} · {n} 家餐厅",
       summarySelected: "已选",
       summaryCurrent: "当前",
       summaryLine: "{scope} {countries} 个国家/地区 · {places} 家餐厅",
       summaryEmpty: " · {n} 个暂无餐厅",
+      summaryOneRegion: "{name} · 共{n}家餐厅",
+      summaryOneCountry: "{name} · 共{n}家餐厅",
+      summaryMulti: "当前选中{countries}个国家{places}家餐厅",
+      summaryAll: "共{countries}个国家 · {places}家餐厅",
+      restaurantListTitle: "餐厅列表",
       noMatchCountries: "没有匹配的国家/地区",
       relaxFilters: "试试放宽左上角的筛选条件。",
       noConfirmed: "暂无已确认餐厅",
@@ -84,6 +91,10 @@
       legendHas: "有推荐餐厅",
       legendEmpty: "暂无餐厅",
       legendIdle: "未筛选",
+      filterButton: "筛选",
+      clearAllFilters: "清除全部筛选",
+      googleMapRating: "Google Map：{score}/{scale}（{n}）",
+      googleMapRatingNoCount: "Google Map：{score}/{scale}",
       regionEurope: "欧洲",
       regionAfrica: "非洲",
       regionLatam: "加勒比 / 拉美",
@@ -144,12 +155,19 @@
       mapRecommend: "{name}, {n} recommended restaurants",
       mapUnlisted: "Unlisted country / region",
       mapAria: "World map — zoom, pan, and click a country or region for restaurants",
-      recommendCount: "{n} recommended",
-      placeCount: "{n}",
+      recommendCount: "{n} Restaurants",
+      placeCount: "{n} Restaurants",
+      countryMeta: "{region} · {n} Restaurants",
+      countryMetaWithEn: "{en} · {region} · {n} Restaurants",
       summarySelected: "Selected",
       summaryCurrent: "Showing",
       summaryLine: "{scope} {countries} countries / regions · {places} restaurants",
       summaryEmpty: " · {n} with none yet",
+      summaryOneRegion: "{name} · {n} restaurants",
+      summaryOneCountry: "{name} · {n} restaurants",
+      summaryMulti: "{countries} countries · {places} restaurants",
+      summaryAll: "{countries} countries · {places} restaurants",
+      restaurantListTitle: "Restaurant List",
       noMatchCountries: "No matching countries / regions",
       relaxFilters: "Try loosening the filters in the top-left.",
       noConfirmed: "No confirmed restaurants",
@@ -162,6 +180,10 @@
       legendHas: "Has recommendations",
       legendEmpty: "None yet",
       legendIdle: "Out of filter",
+      filterButton: "Filter",
+      clearAllFilters: "Clear all filters",
+      googleMapRating: "Google Map: {score}/{scale} ({n})",
+      googleMapRatingNoCount: "Google Map: {score}/{scale}",
       regionEurope: "Europe",
       regionAfrica: "Africa",
       regionLatam: "Caribbean / Latin America",
@@ -220,6 +242,8 @@
     openMenu: null,
     menuQuery: "",
     panelExpanded: false,
+    filtersOpen: false,
+    mapPickCode: "",
   };
   if (state.lang === "en") {
     state.cuisineTier = "all";
@@ -227,8 +251,24 @@
   persistLang(state.lang);
 
   let pendingFlyCode = null;
+  let pendingZoomMinimum = false;
   let flyRaf = null;
   let visitCount = "";
+  let mapClickTimer = null;
+  const SELECT_ZOOM = 5;
+  const MAP_CLICK_DELAY_MS = 280;
+
+  function isMobileUi() {
+    return window.matchMedia("(max-width: 767px)").matches;
+  }
+
+  function activeFilterCount() {
+    let count = 0;
+    if (state.lang !== "en" && state.cuisineTier !== "all") count += 1;
+    count += state.regions.length;
+    count += state.countryCodes.length;
+    return count;
+  }
 
   const countriesByCode = Object.fromEntries(
     countries.map((country) => [country.code, country]),
@@ -263,8 +303,20 @@
     return country.nameZh;
   }
 
-  function countrySecondary(country) {
-    return state.lang === "en" ? country.nameZh : country.nameEn;
+  function countrySecondaryDisplay(country) {
+    return state.lang === "zh" ? country.nameEn : "";
+  }
+
+  function countryMetaLine(country, n) {
+    const region = regionLabel(country.region);
+    if (state.lang === "zh") {
+      return i18n("countryMetaWithEn", {
+        en: country.nameEn,
+        region,
+        n,
+      });
+    }
+    return i18n("countryMeta", { region, n });
   }
 
   function countrySortName(country) {
@@ -454,7 +506,34 @@
     return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`;
   }
 
-  function restaurantCard(restaurant) {
+  function restaurantCardSlim(restaurant) {
+    const rating =
+      (restaurant.ratings || []).find((item) => /google/i.test(item.source || "")) ||
+      (restaurant.ratings || [])[0];
+    const ratingLine = rating
+      ? typeof rating.reviewCount === "number"
+        ? i18n("googleMapRating", {
+            score: rating.score,
+            scale: rating.scale,
+            n: rating.reviewCount,
+          })
+        : i18n("googleMapRatingNoCount", {
+            score: rating.score,
+            scale: rating.scale,
+          })
+      : i18n("noRatings");
+    const place = [restaurant.name, restaurant.borough].filter(Boolean).join(" · ");
+    return `
+      <article class="card card-slim">
+        <a class="card-slim-link" href="${mapsUrl(restaurant)}" target="_blank" rel="noopener noreferrer">
+          <p class="card-slim-title">${escapeHtml(place)}</p>
+          <p class="card-slim-rating">${escapeHtml(ratingLine)}</p>
+        </a>
+      </article>
+    `;
+  }
+
+  function restaurantCardFull(restaurant) {
     const ratings = restaurant.ratings?.length
       ? `<p class="ratings">${restaurant.ratings
           .map(
@@ -488,6 +567,10 @@
         <a class="maps-btn" href="${mapsUrl(restaurant)}" target="_blank" rel="noopener noreferrer">${i18n("viewMaps")}</a>
       </article>
     `;
+  }
+
+  function restaurantCard(restaurant) {
+    return isMobileUi() ? restaurantCardSlim(restaurant) : restaurantCardFull(restaurant);
   }
 
   function emptyRestaurants() {
@@ -531,9 +614,9 @@
         )
       : options;
     return `
-      <div class="multiselect${open ? " is-open" : ""}" data-ms="${key}">
-        <span class="ms-label">${escapeHtml(label)}</span>
-        <button type="button" class="ms-toggle" data-ms-toggle="${key}" aria-expanded="${open}">
+      <div class="multiselect${open ? " is-open" : ""}${config.compact ? " is-compact" : ""}" data-ms="${key}">
+        ${config.hideLabel ? "" : `<span class="ms-label">${escapeHtml(label)}</span>`}
+        <button type="button" class="ms-toggle" data-ms-toggle="${key}" aria-expanded="${open}"${config.hideLabel ? ` aria-label="${escapeHtml(label)}"` : ""}>
           <span class="ms-summary${chosen.length ? " is-active" : ""}">${escapeHtml(summary)}</span>
           <span class="ms-caret" aria-hidden="true">▾</span>
         </button>
@@ -611,36 +694,67 @@
     }));
   }
 
-  function mapFilterFields() {
+  function mapFilterFields(options = {}) {
+    const hideLabels = options.hideLabels !== false;
+    const includeBorough = Boolean(options.includeBorough);
+    const boroughOnly = Boolean(options.boroughOnly);
+    if (boroughOnly) {
+      return `
+      <div class="filter-row">
+        <div class="filter-field">
+          ${multiselect("boroughs", i18n("borough"), boroughOptions(), state.boroughs, {
+            emptyLabel: i18n("allBoroughs"),
+            hideLabel: hideLabels,
+          })}
+        </div>
+      </div>`;
+    }
     return `
       ${
         state.lang === "en"
           ? ""
-          : `<div class="filter-field">
-        <span class="ms-label">${i18n("tierField")}</span>
+          : `<div class="filter-field filter-field-tier">
         ${tierToggle()}
       </div>`
       }
-      <div class="filter-field">
-        ${multiselect("regions", i18n("region"), regionOptions(), state.regions, {
-          emptyLabel: i18n("allRegions"),
-        })}
+      <div class="filter-row filter-row-split">
+        <div class="filter-field">
+          ${multiselect("regions", i18n("region"), regionOptions(), state.regions, {
+            emptyLabel: i18n("allRegions"),
+            hideLabel: hideLabels,
+          })}
+        </div>
+        <div class="filter-field">
+          ${multiselect("countryCodes", i18n("country"), countryOptionList(), state.countryCodes, {
+            emptyLabel: i18n("allCountries"),
+            searchable: true,
+            searchPlaceholder: i18n("searchCountries"),
+            hideLabel: hideLabels,
+          })}
+        </div>
       </div>
-      <div class="filter-field">
-        ${multiselect("countryCodes", i18n("country"), countryOptionList(), state.countryCodes, {
-          emptyLabel: i18n("allCountries"),
-          searchable: true,
-          searchPlaceholder: i18n("searchCountries"),
-        })}
-      </div>
+      ${
+        includeBorough
+          ? `<div class="filter-row">
+        <div class="filter-field">
+          ${multiselect("boroughs", i18n("borough"), boroughOptions(), state.boroughs, {
+            emptyLabel: i18n("allBoroughs"),
+            hideLabel: hideLabels,
+          })}
+        </div>
+      </div>`
+          : ""
+      }
     `;
   }
 
-  function boroughFilter() {
+  function boroughFilter(options = {}) {
     return `
-      <div class="filter-field">
+      <div class="filter-field${options.compact ? " is-compact" : ""}">
         ${multiselect("boroughs", i18n("borough"), boroughOptions(), state.boroughs, {
           emptyLabel: i18n("allBoroughs"),
+          hideLabel: Boolean(options.hideLabel),
+          compact: Boolean(options.compact),
         })}
       </div>
     `;
@@ -655,6 +769,13 @@
 
   function visibleCountries() {
     return filteredCountries();
+  }
+
+  function panelCountries() {
+    if (state.mapPickCode && countriesByCode[state.mapPickCode]) {
+      return [countriesByCode[state.mapPickCode]];
+    }
+    return visibleCountries();
   }
 
   function restaurantCounts() {
@@ -707,8 +828,9 @@
             ? countryPrimary(country)
             : geo.properties?.name || i18n("mapUnlisted");
         const d = path(geo) || "";
-        const klass = `map-country${inFilter ? " is-clickable" : ""}${selected ? " is-selected" : ""}`;
-        const attrs = inFilter
+        const clickable = Boolean(country && inFilter);
+        const klass = `map-country${clickable ? " is-clickable" : ""}${selected ? " is-selected" : ""}`;
+        const attrs = clickable
           ? `role="button" tabindex="0" class="${klass}" data-code="${country.code}" aria-pressed="${selected ? "true" : "false"}" aria-label="${escapeHtml(label)}"`
           : `class="${klass}" tabindex="-1"`;
         return {
@@ -758,11 +880,28 @@
       stage.clientWidth,
       stage.clientHeight,
     );
+    if (pendingZoomMinimum && isMobileUi()) {
+      pendingZoomMinimum = false;
+      pendingFlyCode = null;
+      const { w, h } = viewSize(stage.clientWidth, stage.clientHeight);
+      animateMapTransform(baseTransform(w, h));
+      return;
+    }
+    pendingZoomMinimum = false;
     if (pendingFlyCode) {
       const pathEl = stage.querySelector(`path[data-code="${pendingFlyCode}"]`);
       pendingFlyCode = null;
-      if (pathEl) flyToPath(pathEl);
+      if (pathEl) {
+        if (isMobileUi()) flyToCountryAtZoom(pathEl, SELECT_ZOOM);
+        else flyToPath(pathEl);
+      }
     }
+  }
+
+  function queueZoomToMinimum() {
+    if (!isMobileUi()) return;
+    pendingFlyCode = null;
+    pendingZoomMinimum = true;
   }
 
   function applyMapTransform() {
@@ -827,6 +966,27 @@
     });
   }
 
+  function flyToCountryAtZoom(pathEl, k = SELECT_ZOOM) {
+    const svg = pathEl.ownerSVGElement;
+    if (!svg) return;
+    const bbox = pathEl.getBBox();
+    const view = svg.viewBox.baseVal;
+    const cx = bbox.x + bbox.width / 2;
+    const cy = bbox.y + bbox.height / 2;
+    animateMapTransform({
+      k,
+      x: view.width / 2 - cx * k,
+      y: view.height / 2 - cy * k,
+    });
+  }
+
+  function zoomToMinimum() {
+    const stage = document.querySelector(".map-stage");
+    if (!stage) return;
+    const { w, h } = viewSize(stage.clientWidth, stage.clientHeight);
+    animateMapTransform(baseTransform(w, h));
+  }
+
   function clientToSvg(svg, clientX, clientY) {
     const rect = svg.getBoundingClientRect();
     const view = svg.viewBox.baseVal;
@@ -847,20 +1007,34 @@
   }
 
   function expandIcon() {
+    if (isMobileUi()) {
+      return `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 14.5 12 8.5l6 6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+    }
     return `<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.75" y="5" width="16.5" height="14" rx="2.25" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M9.25 5v14" fill="none" stroke="currentColor" stroke-width="1.7"/></svg>`;
   }
 
   function collapseIcon() {
+    if (isMobileUi()) {
+      return `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9.5 12 15.5l6-6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+    }
     return `<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.75" y="5" width="16.5" height="14" rx="2.25" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M14.75 5v14" fill="none" stroke="currentColor" stroke-width="1.7"/></svg>`;
   }
 
   function countryPanel(country, list, expanded) {
     if (expanded) {
+      const secondary =
+        state.lang === "zh"
+          ? ` <span class="muted">${escapeHtml(country.nameEn)}</span>`
+          : "";
       return `
         <section class="panel">
           <header class="list-country-head">
-            <h2>${country.flag} ${escapeHtml(countryPrimary(country))} <span class="muted">${escapeHtml(countrySecondary(country))}</span></h2>
-            <p class="muted">${cuisineTierLabel(country.cuisineTier)} · ${escapeHtml(regionLabel(country.region))} · ${i18n("recommendCount", { n: list.length })}</p>
+            <h2>${country.flag} ${escapeHtml(countryPrimary(country))}${secondary}</h2>
+            ${
+              isMobileUi()
+                ? ""
+                : `<p class="muted">${escapeHtml(countryMetaLine(country, list.length))}</p>`
+            }
           </header>
           <div class="stack">${list.length ? list.map(restaurantCard).join("") : emptyRestaurants()}</div>
         </section>
@@ -870,7 +1044,11 @@
       <section class="panel-country${country.code === state.selectedCode ? " is-selected" : ""}">
         <header class="panel-country-head">
           <h2>${country.flag} ${escapeHtml(countryPrimary(country))}</h2>
-          <p class="muted">${escapeHtml(countrySecondary(country))} · ${cuisineTierLabel(country.cuisineTier)} · ${escapeHtml(regionLabel(country.region))} · ${i18n("placeCount", { n: list.length })}</p>
+          ${
+            isMobileUi()
+              ? ""
+              : `<p class="muted">${escapeHtml(countryMetaLine(country, list.length))}</p>`
+          }
         </header>
         <div class="stack">${list.length ? list.map(restaurantCard).join("") : emptyRestaurants()}</div>
       </section>
@@ -879,13 +1057,13 @@
 
   function panelItems(visible) {
     const source =
-      !state.panelExpanded && state.selectedCode
+      !isMobileUi() && !state.panelExpanded && state.selectedCode
         ? [countriesByCode[state.selectedCode]].filter(Boolean)
         : visible;
     const lists = new Map(
       source.map((country) => [
         country.code,
-        restaurantsForCountry(country.code, true),
+        restaurantsForCountry(country.code, !isMobileUi()),
       ]),
     );
     const ordered = source.slice().sort((a, b) => {
@@ -902,7 +1080,124 @@
     }));
   }
 
-  function renderMapPanel(visible) {
+  function collapsedSummaryText(visible) {
+    const oneCountryCode =
+      state.selectedCode ||
+      (state.countryCodes.length === 1 ? state.countryCodes[0] : "");
+    if (oneCountryCode && countriesByCode[oneCountryCode]) {
+      const country = countriesByCode[oneCountryCode];
+      const n = restaurantsForCountry(oneCountryCode, false).length;
+      return `${country.flag} ${i18n("summaryOneCountry", {
+        name: countryPrimary(country),
+        n,
+      })}`;
+    }
+    if (state.regions.length === 1 && state.countryCodes.length === 0) {
+      const region = state.regions[0];
+      const regionCountries = visible.filter((country) => country.region === region);
+      const n = regionCountries.reduce(
+        (sum, country) => sum + restaurantsForCountry(country.code, false).length,
+        0,
+      );
+      return i18n("summaryOneRegion", { name: regionLabel(region), n });
+    }
+    const countryCount = visible.length;
+    const places = visible.reduce(
+      (sum, country) => sum + restaurantsForCountry(country.code, false).length,
+      0,
+    );
+    const filtered =
+      state.regions.length > 0 || state.countryCodes.length > 0;
+    return i18n(filtered ? "summaryMulti" : "summaryAll", {
+      countries: countryCount,
+      places,
+    });
+  }
+
+  function renderExpandedPanelBody(visible) {
+    const items = panelItems(visible);
+    const nonempty = items.filter((item) => item.list.length > 0);
+    const emptyCount = items.length - nonempty.length;
+    const countryCount = items.length;
+    if (!countryCount) {
+      return `<div class="panel-empty"><h2>${i18n("noMatchCountries")}</h2><p class="muted">${i18n("relaxFilters")}</p></div>`;
+    }
+    if (!nonempty.length) return emptyRestaurants();
+    const listHtml = nonempty
+      .map((item) => countryPanel(item.country, item.list, true))
+      .join("");
+    const emptySection =
+      emptyCount && countryCount <= 24
+        ? `<section class="panel" style="margin-top:1.25rem">
+            <h2>${i18n("noConfirmed")} <span class="muted">${i18n("emptyCountriesMeta", { n: emptyCount })}</span></h2>
+            <ul class="empty-grid">${items
+              .filter((item) => item.list.length === 0)
+              .map(
+                (item) =>
+                  `<li class="card"><p><strong>${item.country.flag} ${escapeHtml(countryPrimary(item.country))}</strong>${
+                    countrySecondaryDisplay(item.country)
+                      ? ` <span class="muted">${escapeHtml(countrySecondaryDisplay(item.country))}</span>`
+                      : ""
+                  }</p><p class="muted">${i18n("emptyRestaurantShort")}</p></li>`,
+              )
+              .join("")}</ul>
+          </section>`
+        : "";
+    return `${listHtml}${emptySection}`;
+  }
+
+  function clearAllFilters() {
+    state.cuisineTier = "all";
+    state.regions = [];
+    state.countryCodes = [];
+    state.boroughs = [];
+    state.selectedCode = "";
+    state.mapPickCode = "";
+    state.openMenu = null;
+    state.menuQuery = "";
+    queueZoomToMinimum();
+  }
+
+  function trashIcon() {
+    return `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 4.5h6M5.5 7h13m-1.2 0-.7 11.2a1.8 1.8 0 0 1-1.8 1.7H9.2a1.8 1.8 0 0 1-1.8-1.7L6.7 7m3.1 3.2.4 7.2m3.6-7.2-.4 7.2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+  }
+
+  function desktopMapFilterFields() {
+    return `
+      ${
+        state.lang === "en"
+          ? ""
+          : `<div class="filter-field">
+        <span class="ms-label">${i18n("tierField")}</span>
+        ${tierToggle()}
+      </div>`
+      }
+      <div class="filter-field">
+        ${multiselect("regions", i18n("region"), regionOptions(), state.regions, {
+          emptyLabel: i18n("allRegions"),
+        })}
+      </div>
+      <div class="filter-field">
+        ${multiselect("countryCodes", i18n("country"), countryOptionList(), state.countryCodes, {
+          emptyLabel: i18n("allCountries"),
+          searchable: true,
+          searchPlaceholder: i18n("searchCountries"),
+        })}
+      </div>
+    `;
+  }
+
+  function desktopBoroughFilter() {
+    return `
+      <div class="filter-field">
+        ${multiselect("boroughs", i18n("borough"), boroughOptions(), state.boroughs, {
+          emptyLabel: i18n("allBoroughs"),
+        })}
+      </div>
+    `;
+  }
+
+  function renderDesktopMapPanel(visible) {
     const expanded = state.panelExpanded;
     const items = panelItems(visible);
     const nonempty = items.filter((item) => item.list.length > 0);
@@ -911,10 +1206,13 @@
     const countryCount = items.length;
     const summary = countryCount
       ? `<p class="panel-summary">${i18n("summaryLine", {
-          scope: state.selectedCode && !expanded ? i18n("summarySelected") : i18n("summaryCurrent"),
+          scope:
+            state.selectedCode && !expanded
+              ? i18n("summarySelected")
+              : i18n("summaryCurrent"),
           countries: countryCount,
           places: total,
-        })}${emptyCount ? i18n("summaryEmpty", { n: emptyCount }) : ""}</p>`
+        })}</p>`
       : "";
     const body = countryCount
       ? nonempty.length
@@ -930,7 +1228,11 @@
               .filter((item) => item.list.length === 0)
               .map(
                 (item) =>
-                  `<li class="card"><p><strong>${item.country.flag} ${escapeHtml(countryPrimary(item.country))}</strong> <span class="muted">${escapeHtml(countrySecondary(item.country))}</span></p><p class="muted">${i18n("emptyRestaurantShort")}</p></li>`,
+                  `<li class="card"><p><strong>${item.country.flag} ${escapeHtml(countryPrimary(item.country))}</strong>${
+                    countrySecondaryDisplay(item.country)
+                      ? ` <span class="muted">${escapeHtml(countrySecondaryDisplay(item.country))}</span>`
+                      : ""
+                  }</p><p class="muted">${i18n("emptyRestaurantShort")}</p></li>`,
               )
               .join("")}</ul>
           </section>`
@@ -944,8 +1246,8 @@
         </div>
         ${
           expanded
-            ? `<form class="filters expanded-filters" onsubmit="return false">${mapFilterFields()}${boroughFilter()}</form>`
-            : boroughFilter()
+            ? `<form class="filters expanded-filters" onsubmit="return false">${desktopMapFilterFields()}${desktopBoroughFilter()}</form>`
+            : desktopBoroughFilter()
         }
         ${summary}
         <div class="panel-body">
@@ -956,7 +1258,67 @@
     `;
   }
 
-  function renderMap() {
+  function renderMobileMapPanel(visible) {
+    const expanded = state.panelExpanded;
+    const listCountries = panelCountries();
+    const summaryText = collapsedSummaryText(listCountries);
+    const titleText = expanded
+      ? i18n("restaurantListTitle")
+      : collapsedSummaryText(listCountries);
+    const mapPick = Boolean(state.mapPickCode);
+    return `
+      <div class="map-panel-inner${expanded ? " is-expanded-layout" : " is-collapsed-layout"}"${expanded ? "" : ` data-expand-panel role="button" tabindex="0" aria-label="${i18n("expand")}"`}>
+        <div class="panel-summary-row">
+          <p class="panel-summary-title">${escapeHtml(titleText)}</p>
+          <button type="button" class="panel-icon-btn" data-toggle-panel aria-label="${expanded ? i18n("collapse") : i18n("expand")}" title="${expanded ? i18n("collapse") : i18n("expand")}">
+            ${expanded ? collapseIcon() : expandIcon()}
+          </button>
+        </div>
+        ${
+          expanded
+            ? `<form class="filters expanded-filters" onsubmit="return false">${mapFilterFields({
+                hideLabels: true,
+                includeBorough: true,
+                boroughOnly: mapPick,
+              })}</form>
+        <p class="panel-summary">${escapeHtml(summaryText)}</p>
+        <div class="panel-body">
+          <div class="stack">${renderExpandedPanelBody(listCountries)}</div>
+        </div>`
+            : ""
+        }
+      </div>
+    `;
+  }
+
+  function renderMapPanel(visible) {
+    return isMobileUi() ? renderMobileMapPanel(visible) : renderDesktopMapPanel(visible);
+  }
+
+  function renderMapFilters() {
+    const count = activeFilterCount();
+    const open = state.filtersOpen;
+    return `
+      <div class="map-overlay-controls${open ? " is-open" : ""}">
+        <div class="filter-header">
+          <button type="button" class="filter-toggle-btn" data-toggle-filters aria-expanded="${open ? "true" : "false"}">
+            <span>${i18n("filterButton")}</span>
+            ${!open && count ? `<span class="filter-badge" aria-hidden="true">${count}</span>` : ""}
+          </button>
+          ${
+            open
+              ? `<button type="button" class="filter-clear-all" data-clear-all-filters aria-label="${i18n("clearAllFilters")}" title="${i18n("clearAllFilters")}">${trashIcon()}</button>`
+              : ""
+          }
+        </div>
+        <div class="filter-body">
+          ${mapFilterFields({ hideLabels: true, includeBorough: false })}
+        </div>
+      </div>
+    `;
+  }
+
+  function renderDesktopMap() {
     const visible = visibleCountries();
     return `
       <div class="map-page${state.panelExpanded ? " is-expanded" : ""}">
@@ -1005,6 +1367,44 @@
     `;
   }
 
+  function renderMobileMap() {
+    const visible = visibleCountries();
+    return `
+      <div class="map-page${state.panelExpanded ? " is-expanded" : ""}">
+        <div class="map-main">
+          <div class="map-stage" aria-hidden="false"></div>
+          <div id="map-tooltip" class="map-tooltip" hidden></div>
+          ${state.panelExpanded ? "" : renderMapFilters()}
+          <div class="map-overlay-bl">
+            <p class="legend compact legend-stack">
+              <span><span class="swatch" style="background:var(--map-has)"></span>${i18n("legendHas")}</span>
+              <span><span class="swatch" style="background:var(--map-empty)"></span>${i18n("legendEmpty")}</span>
+              <span><span class="swatch" style="background:var(--map-idle);box-shadow:inset 0 0 0 1px var(--line)"></span>${i18n("legendIdle")}</span>
+            </p>
+          </div>
+          <div class="map-overlay-br">
+            <div class="zoom-btns">
+              <button type="button" data-zoom="in" aria-label="${i18n("zoomIn")}">+</button>
+              <button type="button" data-zoom="out" aria-label="${i18n("zoomOut")}">−</button>
+            </div>
+          </div>
+        </div>
+        <aside class="map-overlay-panel">
+          ${renderMapPanel(visible)}
+        </aside>
+      </div>
+    `;
+  }
+
+  function renderMap() {
+    if (!isMobileUi()) {
+      state.mapPickCode = "";
+      state.filtersOpen = false;
+      return renderDesktopMap();
+    }
+    return renderMobileMap();
+  }
+
   function currentPage() {
     const hash = (location.hash || "#map").replace(/^#\/?/, "");
     if (hash.startsWith("list")) {
@@ -1048,15 +1448,35 @@
   function peekCountry(code) {
     const country = countriesByCode[code];
     if (!country || !countryInScope(country)) return;
-    state.selectedCode = state.selectedCode === code ? "" : code;
+    if (!isMobileUi()) {
+      state.selectedCode = state.selectedCode === code ? "" : code;
+      state.openMenu = null;
+      state.menuQuery = "";
+      state.mapPickCode = "";
+      render();
+      return;
+    }
+    const nextSelected = state.selectedCode === code ? "" : code;
+    state.selectedCode = nextSelected;
     state.openMenu = null;
     state.menuQuery = "";
+    state.filtersOpen = false;
+    if (nextSelected) {
+      state.mapPickCode = nextSelected;
+      const currentK = state.mapTransform?.k ?? DEFAULT_ZOOM;
+      if (currentK < SELECT_ZOOM) {
+        pendingFlyCode = nextSelected;
+      }
+    } else {
+      state.mapPickCode = "";
+    }
     render();
   }
 
   function clearPeek() {
-    if (!state.selectedCode) return;
+    if (!state.selectedCode && !state.mapPickCode) return;
     state.selectedCode = "";
+    state.mapPickCode = "";
     render();
   }
 
@@ -1070,10 +1490,20 @@
       state.regions = [];
     }
     state.countryCodes = [code];
-    state.selectedCode = "";
     state.openMenu = null;
     state.menuQuery = "";
-    pendingFlyCode = code;
+    if (!isMobileUi()) {
+      state.selectedCode = "";
+      state.mapPickCode = "";
+      pendingFlyCode = code;
+      render();
+      return;
+    }
+    state.selectedCode = code;
+    const currentK = state.mapTransform?.k ?? DEFAULT_ZOOM;
+    if (currentK < SELECT_ZOOM) {
+      pendingFlyCode = code;
+    }
     render();
   }
 
@@ -1154,6 +1584,7 @@
         : current.filter((value) => value !== target.value);
       if (msKey === "regions" || msKey === "countryCodes") {
         state.selectedCode = "";
+        state.mapPickCode = "";
       }
       if (msKey === "regions") {
         state.countryCodes = state.countryCodes.filter((code) =>
@@ -1162,10 +1593,13 @@
             : true,
         );
       }
-      if (msKey === "countryCodes") {
-        if (state.countryCodes.length === 1) {
-          pendingFlyCode = state.countryCodes[0];
-        }
+      if (
+        isMobileUi() &&
+        (msKey === "regions" || msKey === "countryCodes" || msKey === "boroughs")
+      ) {
+        queueZoomToMinimum();
+      } else if (!isMobileUi() && msKey === "countryCodes" && state.countryCodes.length === 1) {
+        pendingFlyCode = state.countryCodes[0];
       }
       render();
       return;
@@ -1305,13 +1739,39 @@
       mapPointers.size === 0 &&
       state.page === "map"
     ) {
-      if (start.code) peekCountry(start.code);
-      else clearPeek();
+      const code = start.code;
+      if (isMobileUi()) {
+        if (mapClickTimer) {
+          clearTimeout(mapClickTimer);
+          mapClickTimer = null;
+        }
+        mapClickTimer = setTimeout(() => {
+          mapClickTimer = null;
+          if (code) peekCountry(code);
+          else clearPeek();
+        }, MAP_CLICK_DELAY_MS);
+      } else if (code) {
+        peekCountry(code);
+      } else {
+        clearPeek();
+      }
     }
     if (mapPointers.size === 0) {
       mapPointerStart = null;
       mapDragMoved = false;
     }
+  });
+
+  document.addEventListener("dblclick", (event) => {
+    if (!isMobileUi()) return;
+    if (state.page !== "map") return;
+    if (!event.target.closest?.(".map-stage svg")) return;
+    event.preventDefault();
+    if (mapClickTimer) {
+      clearTimeout(mapClickTimer);
+      mapClickTimer = null;
+    }
+    zoomToMinimum();
   });
 
   document.addEventListener("pointerover", (event) => {
@@ -1358,7 +1818,29 @@
     if (msClear) {
       const key = msClear.getAttribute("data-ms-clear");
       state[key] = [];
-      if (key === "countryCodes") state.selectedCode = "";
+      if (key === "countryCodes") {
+        state.selectedCode = "";
+        state.mapPickCode = "";
+      }
+      if (key === "regions" || key === "countryCodes" || key === "boroughs") {
+        queueZoomToMinimum();
+      }
+      render();
+      return;
+    }
+
+    const toggleFilters = event.target.closest?.("[data-toggle-filters]");
+    if (toggleFilters) {
+      state.filtersOpen = !state.filtersOpen;
+      state.openMenu = null;
+      state.menuQuery = "";
+      render();
+      return;
+    }
+
+    const clearAll = event.target.closest?.("[data-clear-all-filters]");
+    if (clearAll) {
+      clearAllFilters();
       render();
       return;
     }
@@ -1368,6 +1850,17 @@
       state.panelExpanded = !state.panelExpanded;
       state.openMenu = null;
       state.menuQuery = "";
+      state.filtersOpen = false;
+      render();
+      return;
+    }
+
+    const expandPanel = event.target.closest?.("[data-expand-panel]");
+    if (expandPanel && isMobileUi() && !state.panelExpanded) {
+      state.panelExpanded = true;
+      state.openMenu = null;
+      state.menuQuery = "";
+      state.filtersOpen = false;
       render();
       return;
     }
@@ -1376,6 +1869,14 @@
     if (state.openMenu && !event.target.closest?.(".multiselect")) {
       state.openMenu = null;
       state.menuQuery = "";
+      needsRender = true;
+    }
+    if (
+      state.filtersOpen &&
+      isMobileUi() &&
+      !event.target.closest?.(".map-overlay-controls")
+    ) {
+      state.filtersOpen = false;
       needsRender = true;
     }
 
@@ -1390,6 +1891,7 @@
           (state.cuisineTier === "all" || country.cuisineTier === state.cuisineTier)
         );
       });
+      queueZoomToMinimum();
       render();
       return;
     }
@@ -1505,7 +2007,10 @@
   window.addEventListener("resize", () => {
     if (state.page !== "map") return;
     state.mapTransform = null;
-    paintMap();
+    if (!isMobileUi()) {
+      state.filtersOpen = false;
+    }
+    render();
   });
   render();
 })();
