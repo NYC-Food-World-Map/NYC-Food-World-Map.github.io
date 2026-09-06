@@ -1869,7 +1869,8 @@
     if (state.openMenu && !event.target.closest?.(".multiselect")) {
       state.openMenu = null;
       state.menuQuery = "";
-      needsRender = true;
+      render();
+      return;
     }
     if (
       state.filtersOpen &&

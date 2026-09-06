@@ -678,7 +678,7 @@ h3 { font-size: 1.125rem; margin: 0; }
     background: color-mix(in srgb, var(--card) 90%, transparent);
     box-shadow: 0 8px 24px rgb(27 42 34 / 8%), inset 0 0 0 1px var(--line);
     backdrop-filter: blur(8px);
-    width: min(24.5rem, calc(100% - 1.5rem));
+    width: min(14rem, calc(100% - 1.5rem));
   }
 
   .map-overlay-controls.is-open .filter-toggle-btn {
@@ -688,6 +688,27 @@ h3 { font-size: 1.125rem; margin: 0; }
     background: transparent;
     box-shadow: none;
     font-size: 0.875rem;
+  }
+
+  .map-overlay-controls.is-open .filter-row-split {
+    grid-template-columns: 1fr;
+  }
+
+  .map-overlay-controls.is-open .filter-body,
+  .map-overlay-controls.is-open .filter-field,
+  .map-overlay-controls.is-open .multiselect {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .map-overlay-controls.is-open .ms-toggle {
+    width: 100%;
+  }
+
+  .map-overlay-controls .ms-menu {
+    min-width: 0;
+    width: 100%;
+    box-sizing: border-box;
   }
 }
 
@@ -3261,7 +3282,8 @@ window.STANDALONE_DATA = {"countries":[{"code":"AF","nameZh":"阿富汗","nameEn
     if (state.openMenu && !event.target.closest?.(".multiselect")) {
       state.openMenu = null;
       state.menuQuery = "";
-      needsRender = true;
+      render();
+      return;
     }
     if (
       state.filtersOpen &&
